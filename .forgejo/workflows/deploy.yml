@@ -1,0 +1,33 @@
+name: Deploy on webserver
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Build site and deploy on success
+    runs-on: site-deploy
+    container:
+      volumes:
+        # for depositing the built site directly
+        - /home/www/srv:/www:rw
+    steps:
+      - name: Checkout
+        uses: https://hub.datalad.org/forgejo/datalad-clone-action@v1
+        with:
+          recursive: true
+          get_content: .
+
+      - name: Setup Hugo
+        uses: https://github.com/peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.146.0'
+          extended: true
+
+      - name: Generate site
+        run: hugo --minify
+
+      - name: Deploy
+        run: mv public /www/new_www-draft.psychoinformatics.de && mv /www/www-draft.psychoinformatics.de /www/old_www-draft.psychoinformatics.de; mv /www/new_www-draft.psychoinformatics.de /www/www-draft.psychoinformatics.de; rm -rf /www/old_www-draft.psychoinformatics.de/
