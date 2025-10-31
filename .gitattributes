@@ -1,2 +1,14 @@
 * annex.backend=MD5E
 **/.git* annex.largefiles=nothing
+*.md annex.largefiles=nothing
+*.toml annex.largefiles=nothing
+archetypes/** annex.largefiles=nothing
+layouts/** annex.largefiles=nothing
+config/** annex.largefiles=nothing
+assets/icons/*.svg annex.largefiles=nothing
+static/videos/* annex.largefiles=anything
+static/documents/* annex.largefiles=anything
+*.jpg annex.largefiles=anything
+*.jpeg annex.largefiles=anything
+*.webp annex.largefiles=anything
+*.png annex.largefiles=anything

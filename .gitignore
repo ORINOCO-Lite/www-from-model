@@ -1,0 +1,6 @@
+public
+.*.lock
+.*.swp
+resources
+.local
+.DS_Store
