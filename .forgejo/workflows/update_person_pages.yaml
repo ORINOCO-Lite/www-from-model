@@ -37,5 +37,5 @@ jobs:
         id: commit
         run: |
           git add content/persons
-          git commit -m "Auto-update person pages"
+          git commit -m "feat: auto-generate person pages"
           git push origin
