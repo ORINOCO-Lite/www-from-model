@@ -1,4 +1,4 @@
-name: Create person pages
+name: Update person pages
 
 # run daily (5:15 on weekdays) and on manual dispatch
 on:
@@ -37,5 +37,4 @@ jobs:
         id: commit
         run: |
           git add content/persons
-          git commit -m "feat: auto-generate person pages"
-          git push origin
+          git diff --quiet --cached && echo "Already up-to-date" || ( git commit -m "feat: auto-generate person pages" && git push origin )
