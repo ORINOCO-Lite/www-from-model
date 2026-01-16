@@ -11,3 +11,4 @@ Presently generated content are the pages linked from
 
 - [Persons]({{< ref "persons" >}})
 - [Projects]({{< ref "projects" >}})
+- [Topics]({{< ref "topics" >}})
