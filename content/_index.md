@@ -9,6 +9,7 @@ This is a tech demo right now.
 
 Presently generated content are the pages linked from
 
+- [Objectives]({{< ref "objectives" >}})
 - [Persons]({{< ref "persons" >}})
 - [Projects]({{< ref "projects" >}})
 - [Topics]({{< ref "topics" >}})

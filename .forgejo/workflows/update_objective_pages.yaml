@@ -1,0 +1,39 @@
+name: Update objective pages
+
+on:
+  schedule:
+    - cron: '54 5 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  create_pages:
+    runs-on: debian-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v4
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+      - name: Install qrg suite
+        run: uv tool install https://hub.psychoinformatics.de/datalink/query-rse-group.git --with-executables-from dump-things-pyclient
+      - name: Configure Git
+        run: |
+          git config --global user.name "Forgejo Actions"
+          git config --global user.email "forgejo-actions@hub.trr379.de"
+          git config --global credential.helper cache
+          git credential approve <<EOF
+          url=${{ forgejo.server_url }}
+          username=${{ forgejo.actor }}
+          password=${{ forgejo.token }}
+          EOF
+          echo OK
+      - name: Update pages
+        run: |
+          read-pages https://pool.psychoinformatics.de/api/public/records/p/XYZObjective \
+          | qrg inline-records -p part_of --api-url https://pool.psychoinformatics.de/api -c public \
+          | qrg inline-records -p depends_on --api-url https://pool.psychoinformatics.de/api -c public \
+          | qrg render-record page_templates/objective.md.j2 'content/{__pid_curie_reference}/_index.md'
+      - name: Commit and push updates
+        id: commit
+        run: |
+          git add content
+          git diff --quiet --cached && echo "Already up-to-date" || ( git commit -m "feat: auto-generate objective pages" && git push origin )

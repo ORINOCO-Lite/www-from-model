@@ -1,0 +1,10 @@
+---
+title: "{{ title }}"
+---
+
+Part of
+{% for item in part_of %}
+- [{{ item.title }}](/{{ item.pid.replace('xyzrsens:', '') }})
+{% endfor %}
+
+{{ description }}
