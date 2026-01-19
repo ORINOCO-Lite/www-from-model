@@ -5,6 +5,7 @@ title: {{ given_name }} {{ family_name }}
 {{ description }}
 
 {%- for identifier in identifiers if identifier.creator.name is defined -%}
+{%- if description is defined and loop.first %}{{ '\n\n' }}{% endif -%}
 {% if identifier.creator.name == "Debian" %}- [Debian: {{ identifier.notation }}](https://qa.debian.org/developer.php?login={{ identifier.notation }})
 {% elif identifier.creator.name == "GitHub" %}- [GitHub: {{ identifier.notation }}](https://github.com/{{ identifier.notation }})
 {% elif identifier.creator.name == "ORCID" %}- [ORCID: {{ identifier.notation }}](https://orcid.org/{{ identifier.notation }})
