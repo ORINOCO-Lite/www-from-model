@@ -3,3 +3,12 @@ title: {{ given_name }} {{ family_name }}
 ---
 
 {{ description }}
+
+{%- for identifier in identifiers if identifier.creator.name is defined -%}
+{% if identifier.creator.name == "Debian" %}- [Debian: {{ identifier.notation }}](https://qa.debian.org/developer.php?login={{ identifier.notation }})
+{% elif identifier.creator.name == "GitHub" %}- [GitHub: {{ identifier.notation }}](https://github.com/{{ identifier.notation }})
+{% elif identifier.creator.name == "ORCID" %}- [ORCID: {{ identifier.notation }}](https://orcid.org{{ identifier.notation }})
+{% elif identifier.creator.name == "ResearchGate" %}- [ResearchGate: {{ identifier.notation }}](https://www.researchgate.net/profile/{{ identifier.notation }})
+{% else %}- {{ identifier.creator.name }}: {{ identifier.notation }}
+{% endif %}
+{%- endfor -%}
