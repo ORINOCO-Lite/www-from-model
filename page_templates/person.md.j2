@@ -8,6 +8,7 @@ title: {{ given_name }} {{ family_name }}
 {%- if description is defined and loop.first %}{{ '\n\n' }}{% endif -%}
 {% if identifier.creator.name == "Debian" %}- [Debian: {{ identifier.notation }}](https://qa.debian.org/developer.php?login={{ identifier.notation }})
 {% elif identifier.creator.name == "GitHub" %}- [GitHub: {{ identifier.notation }}](https://github.com/{{ identifier.notation }})
+{% elif identifier.creator.name == "LinkedIn" %}- [LinkedIn: {{ identifier.notation }}](https://www.linkedin.com/in/{{ identifier.notation }})
 {% elif identifier.creator.name == "ORCID" %}- [ORCID: {{ identifier.notation }}](https://orcid.org/{{ identifier.notation }})
 {% elif identifier.creator.name == "ResearchGate" %}- [ResearchGate: {{ identifier.notation }}](https://www.researchgate.net/profile/{{ identifier.notation }})
 {% else %}- {{ identifier.creator.name }}: {{ identifier.notation }}
