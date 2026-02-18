@@ -9,13 +9,44 @@ on:
 jobs:
   create_pages:
     runs-on: debian-latest
+    if: ${{ forgejo.repository == 'www/www-from-model' }}
+    outputs:
+      committed: ${{ steps.commit.outputs.committed }}
+
     steps:
-      - name: Checkout project
-        uses: actions/checkout@v4
+      - name: Checkout this
+	id: websitecheckout
+        uses: https://hub.datalad.org/forgejo/datalad-clone-action@v1
+	with:
+	  ref: main
+	  get_file_content: false
+	  recursive: false
+
+      - name: Checkout code
+	id: codecheckout
+	uses: https://hub.datalad.org/forgejo/datalad-clone-action@v1
+	with:
+	  repository: https://hub.trr379.de/q02/pool-publication-page
+	  get_file_content: false
+	  path: code
+
+      - name: Download extra data
+	id: datacheckout
+	uses: https://hub.datalad.org/forgejo/datalad-clone-action@v1
+	with:
+	  repository: https://hub.trr379.de/q02/ror-data-copy
+	  path: /tmp/extradata
+	  get_content: v2.2-2026-01-29-ror-data.parquet
+
       - name: Install uv
-        uses: astral-sh/setup-uv@v6
-      - name: Install qrg suite
-        run: uv tool install https://hub.psychoinformatics.de/datalink/query-rse-group.git --with-executables-from dump-things-pyclient
+        run: curl -LsSf https://astral.sh/uv/install.sh | sh
+
+      - name: Install qrg & dtc suites, and git-annex
+        run: |
+	  uv tool install https://hub.psychoinformatics.de/datalink/query-rse-group.git
+	  uv tool install dump-things-pyclient
+	  uv tool install git-annex
+
       - name: Configure Git
         run: |
           git config --global user.name "Forgejo Actions"
@@ -27,14 +58,20 @@ jobs:
           password=${{ forgejo.token }}
           EOF
           echo OK
-      - name: Update pages
+
+      - name: Process metadata
         run: |
-          read-pages https://pool.psychoinformatics.de/api/public/records/p/XYZPerson \
+	  cd ${{ steps.codecheckout.outputs.path }}
+	  uv sync --locked
+          dtc read-pages https://pool.psychoinformatics.de/api/public/records/p/XYZPerson \
           | qrg filter-linked-pid --api-url https://pool.psychoinformatics.de/api public xyzrsens:projects/4b434ab4-929e-4d64-97e0-ff334c6a6ff2 associated_with \
           | qrg inline-records --api-url https://pool.psychoinformatics.de/api -c public -p delegated_by -p delegated_by::roles -p identifiers::creator \
-          | qrg render-record page_templates/person.md.j2 'content/{__pid_curie_reference}/_index.md'
+	  | uv run person.py - ${{ steps.websitecheckout.outputs.path }}/content/persons
+
       - name: Commit and push updates
         id: commit
         run: |
           git add content/persons
-          git diff --quiet --cached && echo "Already up-to-date" || ( git commit -m "feat: auto-generate person pages" && git push origin )
+	  git commit -m "auto-generate person pages" && result=t || result=nil
+	  git push origin
+	  echo "committed=${result}" >> $FORGEJO_OUTPUT
