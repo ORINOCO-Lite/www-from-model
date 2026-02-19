@@ -11,18 +11,18 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Docs"
-  pageRef = "docs"
+  name = "People"
+  pageRef = "persons"
   weight = 10
 
 [[main]]
-  name = "Samples"
-  pageRef = "samples"
+  name = "Objectives"
+  pageRef = "objectives"
   weight = 20
 
 [[main]]
-  name = "Users"
-  pageRef = "users"
+  name = "Projects"
+  pageRef = "projects"
   weight = 30
 
 [[main]]
