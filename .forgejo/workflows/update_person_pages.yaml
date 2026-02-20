@@ -30,14 +30,6 @@ jobs:
           get_file_content: false
           path: code
 
-      - name: Download extra data
-        id: datacheckout
-        uses: https://hub.datalad.org/forgejo/datalad-clone-action@v1
-        with:
-          repository: https://hub.trr379.de/q02/ror-data-copy
-          path: /tmp/extradata
-          get_content: v2.2-2026-01-29-ror-data.parquet
-
       - name: Install uv
         run: curl -LsSf https://astral.sh/uv/install.sh | sh
 
