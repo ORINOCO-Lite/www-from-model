@@ -56,9 +56,9 @@ jobs:
           cd ${{ steps.codecheckout.outputs.path }}
           uv sync --locked
           dtc read-pages https://pool.psychoinformatics.de/api/public/records/p/XYZPerson \
-          | qrg filter-linked-pid --api-url https://pool.psychoinformatics.de/api public xyzrsens:projects/4b434ab4-929e-4d64-97e0-ff334c6a6ff2 associated_with \
+          | qrg filter-linked-pid --api-url https://pool.psychoinformatics.de/api public  xyzrins:. associated_with  \
           | qrg inline-records --api-url https://pool.psychoinformatics.de/api -c public -p delegated_by -p delegated_by::roles -p identifiers::creator \
-          | uv run person.py - ${{ steps.websitecheckout.outputs.path }}/content/persons
+          | qrg render-record page_templates/person.md.j2 'content/{__pid_curie_reference}/_index.md'
 
       - name: Commit and push updates
         id: commit
