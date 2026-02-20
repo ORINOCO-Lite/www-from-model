@@ -22,13 +22,15 @@ jobs:
           get_file_content: false
           recursive: false
 
-      - name: Checkout code
-        id: codecheckout
-        uses: https://hub.datalad.org/forgejo/datalad-clone-action@v1
-        with:
-          repository: https://hub.trr379.de/q02/pool-publication-page
-          get_file_content: false
-          path: code
+      # this step clones code for additional record processing and filtering.
+      # TODO: that code needs to be generalized before being used here, maybe
+      # also come from a more central/generic repo than the trr resources
+      #- name: Checkout code
+      #  id: codecheckout
+      #  uses: https://hub.datalad.org/forgejo/datalad-clone-action@v1
+      #  with:
+      #    repository: https://hub.trr379.de/q02/pool-publication-page
+      #    get_file_content: false
 
       - name: Install uv
         run: curl -LsSf https://astral.sh/uv/install.sh | sh
@@ -53,7 +55,6 @@ jobs:
 
       - name: Process metadata
         run: |
-          cd ${{ steps.codecheckout.outputs.path }}
           uv sync --locked
           dtc read-pages https://pool.psychoinformatics.de/api/public/records/p/XYZPerson \
           | qrg filter-linked-pid --api-url https://pool.psychoinformatics.de/api public  xyzrins:. associated_with  \
