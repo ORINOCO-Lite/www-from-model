@@ -33,14 +33,11 @@ jobs:
       #    get_file_content: false
 
       - name: Install uv
-        run: curl -LsSf https://astral.sh/uv/install.sh | sh
-
-      - name: Install qrg & dtc suites, and git-annex
+        uses: astral-sh/setup-uv@v6
+      - name: Install qrg suite
         run: |
-          uv tool install https://hub.psychoinformatics.de/datalink/query-rse-group.git
-          uv tool install dump-things-pyclient
-          uv tool install git-annex
-
+           uv tool install https://hub.psychoinformatics.de/datalink/query-rse-group.git --with-executables-from dump-things-pyclient
+           uv tool install git-annex
       - name: Configure Git
         run: |
           git config --global user.name ${{ forgejo.actor }}
