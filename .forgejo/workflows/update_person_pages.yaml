@@ -55,7 +55,6 @@ jobs:
 
       - name: Process metadata
         run: |
-          uv sync --locked
           dtc read-pages https://pool.psychoinformatics.de/api/public/records/p/XYZPerson \
           | qrg filter-linked-pid --api-url https://pool.psychoinformatics.de/api public  xyzrins:. associated_with  \
           | qrg inline-records --api-url https://pool.psychoinformatics.de/api -c public -p delegated_by -p delegated_by::roles -p identifiers::creator \
