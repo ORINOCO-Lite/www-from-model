@@ -43,8 +43,8 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config --global user.name "Forgejo Actions"
-          git config --global user.email "forgejo-actions@hub.trr379.de"
+          git config --global user.name ${{ forgejo.actor }}
+          git config --global user.email ${{ forgejo.actor }}@${{ forgejo.server.url }}
           git config --global credential.helper cache
           git credential approve <<EOF
           url=${{ forgejo.server_url }}
