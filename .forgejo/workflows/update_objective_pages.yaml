@@ -14,12 +14,8 @@ jobs:
     steps:
       - name: Checkout project
         uses: actions/checkout@v4
-      - name: Install uv
-        uses: astral-sh/setup-uv@v6
-      - name: Install tools
-        run: .forgejo/tools/install_tools
-      - name: Prepare Git
-        run: .forgejo/tools/prep_git
+      - name: Prepare environment
+        uses: ./.forgejo/actions/prep-metadata-query
       - name: Update pages
         run: |
           dtc read-pages ${POOLAPI}/public/records/p/XYZObjective \
@@ -27,4 +23,4 @@ jobs:
           | qrg inline-records -p depends_on --api-url ${POOLAPI} -c public \
           | qrg render-record page_templates/objective.md.j2 'content/{__pid_curie_reference}/_index.md'
       - name: Deposit changes
-        run: .forgejo/tools/deposit_changes
+        uses: ./.forgejo/actions/deposit-changes

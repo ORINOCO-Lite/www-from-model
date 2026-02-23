@@ -1,0 +1,9 @@
+runs:
+  using: "composite"
+  steps:
+    - name: Deposit changes
+      run: |
+        git add content
+        git diff --quiet --cached \
+          && echo "Already up-to-date" \
+          || ( git commit -m "chore: auto-generate content from metadata" && git push origin )
