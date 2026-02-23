@@ -38,18 +38,8 @@ jobs:
         run: |
            uv tool install https://hub.psychoinformatics.de/datalink/query-rse-group.git --with-executables-from dump-things-pyclient
            uv tool install git-annex
-      - name: Configure Git
-        run: |
-          git config --global user.name ${{ forgejo.actor }}
-          git config --global user.email ${{ forgejo.actor }}@${{ forgejo.server.url }}
-          git config --global credential.helper cache
-          git credential approve <<EOF
-          url=${{ forgejo.server_url }}
-          username=${{ forgejo.actor }}
-          password=${{ forgejo.token }}
-          EOF
-          echo OK
-
+      - name: Prepare Git
+        run: .forgejo/tools/prep_git
       - name: Process metadata
         run: |
           dtc read-pages https://pool.psychoinformatics.de/api/public/records/p/XYZPerson \

@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -u -e
+
+git config --global user.name ${FORGEJO_ACTOR}
+git config --global user.email ${FORGEJO_ACTOR}@${FORGEJO_SERVER_URL#*://}
+git config --global credential.helper cache
+git credential approve <<EOF
+url=${FORGEJO_SERVER_URL}
+username=${FORGEJO_ACTOR}
+password=${FORGEJO_TOKEN}
+EOF
+echo OK

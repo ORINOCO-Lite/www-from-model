@@ -15,17 +15,8 @@ jobs:
         uses: astral-sh/setup-uv@v6
       - name: Install qrg suite
         run: uv tool install https://hub.psychoinformatics.de/datalink/query-rse-group.git --with-executables-from dump-things-pyclient
-      - name: Configure Git
-        run: |
-          git config --global user.name "Forgejo Actions"
-          git config --global user.email "forgejo-actions@hub.trr379.de"
-          git config --global credential.helper cache
-          git credential approve <<EOF
-          url=${{ forgejo.server_url }}
-          username=${{ forgejo.actor }}
-          password=${{ forgejo.token }}
-          EOF
-          echo OK
+      - name: Prepare Git
+        run: .forgejo/tools/prep_git
       - name: Update pages
         run: |
           read-pages https://pool.psychoinformatics.de/api/public/records/p/XYZObjective \
