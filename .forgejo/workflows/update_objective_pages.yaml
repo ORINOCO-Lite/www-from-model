@@ -19,7 +19,7 @@ jobs:
         run: .forgejo/tools/prep_git
       - name: Update pages
         run: |
-          read-pages https://pool.psychoinformatics.de/api/public/records/p/XYZObjective \
+          dtc read-pages https://pool.psychoinformatics.de/api/public/records/p/XYZObjective \
           | qrg inline-records -p part_of --api-url https://pool.psychoinformatics.de/api -c public \
           | qrg inline-records -p depends_on --api-url https://pool.psychoinformatics.de/api -c public \
           | qrg render-record page_templates/objective.md.j2 'content/{__pid_curie_reference}/_index.md'
