@@ -20,7 +20,7 @@ jobs:
       - name: Update pages
         run: |
           dtc read-pages https://pool.psychoinformatics.de/api/public/records/p/XYZTopic \
-          | grep 'xyzrsens:topics/' \
+          | grep 'xyzrins:topics/' \
           | qrg inline-records -p part_of --api-url https://pool.psychoinformatics.de/api -c public \
           | qrg render-record page_templates/topic.md.j2 'content/{__pid_curie_reference}/_index.md'
       - name: Deposit changes
