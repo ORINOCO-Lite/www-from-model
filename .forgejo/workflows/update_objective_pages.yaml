@@ -23,8 +23,5 @@ jobs:
           | qrg inline-records -p part_of --api-url https://pool.psychoinformatics.de/api -c public \
           | qrg inline-records -p depends_on --api-url https://pool.psychoinformatics.de/api -c public \
           | qrg render-record page_templates/objective.md.j2 'content/{__pid_curie_reference}/_index.md'
-      - name: Commit and push updates
-        id: commit
-        run: |
-          git add content
-          git diff --quiet --cached && echo "Already up-to-date" || ( git commit -m "feat: auto-generate objective pages" && git push origin )
+      - name: Deposit changes
+        run: .forgejo/tools/deposit_changes

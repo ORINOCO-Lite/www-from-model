@@ -44,11 +44,5 @@ jobs:
           | qrg filter-linked-pid --api-url https://pool.psychoinformatics.de/api public  xyzrins:. associated_with  \
           | qrg inline-records --api-url https://pool.psychoinformatics.de/api -c public -p delegated_by -p delegated_by::roles -p identifiers::creator \
           | qrg render-record page_templates/person.md.j2 'content/{__pid_curie_reference}/_index.md'
-
-      - name: Commit and push updates
-        id: commit
-        run: |
-          git add content/persons
-          git commit -m "auto-generate person pages" && result=t || result=nil
-          git push origin
-          echo "committed=${result}" >> $FORGEJO_OUTPUT
+      - name: Deposit changes
+        run: .forgejo/tools/deposit_changes
