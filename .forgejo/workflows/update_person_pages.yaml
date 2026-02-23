@@ -6,6 +6,9 @@ on:
     - cron: '15 5 * * 1-5'
   workflow_dispatch:
 
+env:
+  POOLAPI: https://pool.psychoinformatics.de/api
+
 jobs:
   create_pages:
     runs-on: debian-latest
@@ -40,9 +43,9 @@ jobs:
         run: .forgejo/tools/prep_git
       - name: Process metadata
         run: |
-          dtc read-pages https://pool.psychoinformatics.de/api/public/records/p/XYZPerson \
-          | qrg filter-linked-pid --api-url https://pool.psychoinformatics.de/api public  xyzrins:. associated_with  \
-          | qrg inline-records --api-url https://pool.psychoinformatics.de/api -c public -p delegated_by -p delegated_by::roles -p identifiers::creator \
+          dtc read-pages ${POOLAPI}/public/records/p/XYZPerson \
+          | qrg filter-linked-pid --api-url ${POOLAPI} public  xyzrins:. associated_with  \
+          | qrg inline-records --api-url ${POOLAPI} -c public -p delegated_by -p delegated_by::roles -p identifiers::creator \
           | qrg render-record page_templates/person.md.j2 'content/{__pid_curie_reference}/_index.md'
       - name: Deposit changes
         run: .forgejo/tools/deposit_changes
