@@ -7,6 +7,7 @@ layouts/** annex.largefiles=nothing
 config/** annex.largefiles=nothing
 page_templates/** annex.largefiles=nothing
 assets/icons/*.svg annex.largefiles=nothing
+assets/css/custom.css annex.largefiles=nothing
 static/videos/* annex.largefiles=anything
 static/documents/* annex.largefiles=anything
 *.jpg annex.largefiles=anything
