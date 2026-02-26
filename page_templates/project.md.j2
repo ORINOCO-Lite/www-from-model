@@ -8,7 +8,7 @@ persons:
 
 {{ description }}
 
-{% if part_of is defined %}This project is part of [{{ part_of.title }}](/{{ part_of.pid|replace('xyzrins:', '') }}){% endif %}
+{% if part_of %}This project is part of{% for p in part_of %} [{{ p.title }}](/{{ p.pid|replace('xyzrins:', '') }}){% endfor %}.{% endif %}
 
 ## People
 
