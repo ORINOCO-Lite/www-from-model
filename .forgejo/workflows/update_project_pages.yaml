@@ -1,9 +1,8 @@
 name: Update project pages
 
-# run daily (5:15 on weekdays) and on manual dispatch
 on:
   schedule:
-    - cron: '16 5 * * 1-5'
+    - cron: '0 4 * * 1-5'
   workflow_dispatch:
 
 env:
@@ -21,6 +20,7 @@ jobs:
         run: |
           dtc read-pages ${POOLAPI}/public/records/p/XYZProject \
           | qrg filter-links-pid --link part_of xyzrsens:projects/4b434ab4-929e-4d64-97e0-ff334c6a6ff2 --recursive --api-url ${POOLAPI} --collection public \
+          | qrg inline-records --api-url $POOLAPI -c public -p associated_with -p associated_with::roles -p identifiers::creator -p part_of \
           | qrg render-record page_templates/project.md.j2 'content/{__pid_curie_reference}/_index.md'
       - name: Deposit changes
         uses: ./.forgejo/actions/deposit-changes

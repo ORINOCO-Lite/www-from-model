@@ -2,7 +2,7 @@ name: Update objective pages
 
 on:
   schedule:
-    - cron: '54 5 * * 1-5'
+    - cron: '0 2 * * 1-5'
   workflow_dispatch:
 
 env:

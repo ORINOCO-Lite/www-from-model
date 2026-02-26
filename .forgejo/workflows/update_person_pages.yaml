@@ -1,9 +1,8 @@
 name: Update person pages
 
-# run daily (5:15 on weekdays) and on manual dispatch
 on:
   schedule:
-    - cron: '15 5 * * 1-5'
+    - cron: '0 3 * * 1-5'
   workflow_dispatch:
 
 env:
