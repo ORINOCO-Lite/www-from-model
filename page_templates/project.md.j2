@@ -1,5 +1,9 @@
 ---
 title: "{{ title }}"
+persons:
+{% for ass in associated_with if ass.object.schema_type == "xyzri:XYZPerson" -%}
+- {{ part_of.pid|replace('xyzrins:persons/', '') }}
+{% endfor -%}
 ---
 
 {{ description }}
