@@ -1,0 +1,26 @@
+name: Update frontpage
+
+# run daily (5:15 on weekdays) and on manual dispatch
+on:
+  schedule:
+    - cron: '0 1 * * 1-5'
+  workflow_dispatch:
+
+env:
+  POOLAPI: https://pool.psychoinformatics.de/api
+
+jobs:
+  create_pages:
+    runs-on: debian-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v4
+      - name: Prepare environment
+        uses: ./.forgejo/actions/prep-metadata-query
+      - name: Update pages
+        run: |
+          dtc get-records $POOLAPI public --pid xyzrins:. \
+          | qrg inline-records --api-url $POOLAPI -c public -p associated_with -p associated_with::roles -p identifiers::creator -p part_of \
+          | qrg render-record page_templates/project.md.j2 'content/{__pid_curie_reference}/_index.md'
+      - name: Deposit changes
+        uses: ./.forgejo/actions/deposit-changes
