@@ -1,8 +1,8 @@
 ---
 title: "{{ title }}"
 persons:
-{% for ass in associated_with if ass.object.schema_type == "xyzri:XYZPerson" -%}
-- {{ ass.object.pid|replace('xyzrins:persons/', '') }}
+{% for pid in associated_with|selectattr('object.schema_type', 'eq', 'xyzri:XYZPerson')|map(attribute='object.pid')|map('replace', 'xyzrins:persons/', '')|sort -%}
+- {{ pid }}
 {% endfor -%}
 ---
 
