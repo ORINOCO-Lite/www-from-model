@@ -15,3 +15,11 @@ persons:
 {% for ass in associated_with if ass.object.schema_type == "xyzri:XYZPerson" and not ass.ended -%}
 - {{ ass.object.given_name }}&nbsp;{{ ass.object.family_name }} ({% for role in ass.roles %}{{ ', ' if not loop.first }}{{ role.display_label|default(role.name) }}{% endfor -%})
 {% endfor -%}
+
+{% if generated|length -%}
+## Outputs
+
+{% for gen in generated -%}
+- [{{ gen.display_label|default(gen.name) }}]({{ gen.pid|replace('xyzrins:', '/') }})
+{% endfor -%}
+{% endif %}
