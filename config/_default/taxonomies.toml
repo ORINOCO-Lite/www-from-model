@@ -5,3 +5,4 @@ person = "persons"
 project = "projects"
 # topics related to the subject of a page
 topic = "topics"
+instrument = "instruments"

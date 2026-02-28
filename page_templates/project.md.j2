@@ -1,9 +1,16 @@
----
-title: "{{ title }}"
-persons:
-{% for pid in associated_with|selectattr('object.schema_type', 'eq', 'xyzri:XYZPerson')|map(attribute='object.pid')|map('replace', 'xyzrins:persons/', '')|sort -%}
+{% macro taxonomy_terms(taxonomy, type, objects, typeattr='object.schema_type', pidattr='object.pid') -%}
+{%- set matching = objects|selectattr(typeattr, 'eq', type)|map(attribute=pidattr)|map('replace', 'xyzrins:' ~ taxonomy ~ '/', '')|sort -%}
+{% if matching|length -%}
+{{ taxonomy }}:
+{% for pid in matching -%}
 - {{ pid }}
 {% endfor -%}
+{%- endif -%}
+{%- endmacro -%}
+---
+title: "{{ title }}"
+{{ taxonomy_terms('persons', 'xyzri:XYZPerson', associated_with) -}}
+{{ taxonomy_terms('instruments', 'xyzri:XYZInstrument', generated, typeattr='schema_type', pidattr='pid') -}}
 ---
 
 {{ description }}
