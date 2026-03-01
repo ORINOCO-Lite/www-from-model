@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  POOLAPI: https://pool.psychoinformatics.de/api
+  DUMPTHINGS_APIURL: https://pool.psychoinformatics.de/api
 
 jobs:
   create_pages:
@@ -19,8 +19,8 @@ jobs:
         uses: ./.forgejo/actions/prep-metadata-query
       - name: Update pages
         run: |
-          dtc get-records $POOLAPI public --pid xyzrins:. \
-          | qrg inline-records --api-url $POOLAPI -c public -p associated_with -p associated_with::roles -p identifiers::creator -p part_of \
+          dtc get-records $DUMPTHINGS_APIURL public --pid xyzrins:. \
+          | qrg inline-records -c public -p associated_with -p associated_with::roles -p identifiers::creator -p part_of \
           | qrg render-record page_templates/project.md.j2 'content/{__pid_curie_reference}/_index.md'
       - name: Deposit changes
         uses: ./.forgejo/actions/deposit-changes

@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  POOLAPI: https://pool.psychoinformatics.de/api
+  DUMPTHINGS_APIURL: https://pool.psychoinformatics.de/api
 
 jobs:
   create_pages:
@@ -23,10 +23,10 @@ jobs:
           jq --version
       - name: Update pages
         run: |
-          dtc get-records $POOLAPI public -C XYZProject \
-          | qrg filter-links-pid --link part_of xyzrins:. --recursive --api-url ${POOLAPI} --collection public \
-          | while read rec; do projpid="$(echo $rec | jq -r '.pid')"; echo "$rec" | jq -c ". + {generated: $(dtc get-records ${POOLAPI} public --matching "$projpid" | jq -c ". | select(.generated_by[]?.object == \"$projpid\")" | jq -c --slurp)}"; done \
-          | qrg inline-records --api-url $POOLAPI -c public -p associated_with -p associated_with::roles -p identifiers::creator -p part_of > stuff.json
+          dtc get-records $DUMPTHINGS_APIURL public -C XYZProject \
+          | qrg filter-links-pid --link part_of xyzrins:. --recursive --collection public \
+          | while read rec; do projpid="$(echo $rec | jq -r '.pid')"; echo "$rec" | jq -c ". + {generated: $(dtc get-records ${DUMPTHINGS_APIURL} public --matching "$projpid" | jq -c ". | select(.generated_by[]?.object == \"$projpid\")" | jq -c --slurp)}"; done \
+          | qrg inline-records -c public -p associated_with -p associated_with::roles -p identifiers::creator -p part_of > stuff.json
           qrg render-record page_templates/project.md.j2 'content/{__pid_curie_reference}/_index.md' < stuff.json
           jq < stuff.json
       - name: Deposit changes

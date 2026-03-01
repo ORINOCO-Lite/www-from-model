@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  POOLAPI: https://pool.psychoinformatics.de/api
+  DUMPTHINGS_APIURL: https://pool.psychoinformatics.de/api
 
 jobs:
   create_pages:
@@ -37,9 +37,9 @@ jobs:
 
       - name: Process metadata
         run: |
-          dtc read-pages ${POOLAPI}/public/records/p/XYZPerson \
-          | qrg filter-linked-pid --api-url ${POOLAPI} public  xyzrins:. associated_with  \
-          | qrg inline-records --api-url ${POOLAPI} -c public -p delegated_by -p delegated_by::roles -p identifiers::creator \
+          dtc read-pages ${DUMPTHINGS_APIURL}/public/records/p/XYZPerson \
+          | qrg filter-linked-pid public  xyzrins:. associated_with  \
+          | qrg inline-records -c public -p delegated_by -p delegated_by::roles -p identifiers::creator \
           | qrg render-record page_templates/person.md.j2 'content/{__pid_curie_reference}/_index.md'
       - name: Deposit changes
         uses: ./.forgejo/actions/deposit-changes
