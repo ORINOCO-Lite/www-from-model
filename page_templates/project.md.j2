@@ -28,6 +28,6 @@ title: "{{ title }}"
 ## Outputs
 
 {% for gen in generated -%}
-- [{{ gen.display_label|default(gen.name) }}]({{ gen.pid|replace('xyzrins:', '/') }})
+- [{{ gen.display_label|default(gen.title)|default(gen.name) }}]({{ gen.pid|replace('xyzrins:', '/') }})
 {% endfor -%}
 {% endif %}
