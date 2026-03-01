@@ -19,3 +19,8 @@ This project is part of [Psychoinformatics](/.).
 - [Falko&nbsp;Kaule](/persons/falko-kaule) (Author, Data contributor, Research team member)
 - [Ayan&nbsp;Sengupta](/persons/ayan-sengupta) (Author, Data contributor, Researcher)
 - [Alex&nbsp;Waite](/persons/alex-waite) (Designer)
+## Outputs
+
+- [](/publications/06688308-2c40-49a6-88e3-ba7bfca73a1e)
+- [](/publications/50f24bfa-4371-4f74-a57f-d62d71553ecb)
+- [](/publications/dc5d3f5f-0d0d-498c-84dd-cd4fba222bd4)
