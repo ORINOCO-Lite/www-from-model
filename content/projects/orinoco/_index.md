@@ -1,5 +1,7 @@
 ---
 title: "Organized Research Information: Ontology-mapping, Curation, Orchestration"
+projects:
+- crisp
 persons:
 - michael-hanke
 ---
