@@ -1,5 +1,9 @@
 ---
 title: "Psychoinformatics"
+projects:
+- datalad
+- orinoco
+- studyforrest
 persons:
 - alex-waite
 - christian-moench
@@ -9,6 +13,9 @@ persons:
 - michael-hanke
 - michal-szczepanik
 - stephan-heunis
+instruments:
+- datalad-next
+- datasalad
 ---
 
 This is the root object that ties all information in this knowledge pool.
@@ -24,3 +31,7 @@ This is the root object that ties all information in this knowledge pool.
 - Laura&nbsp;Waite (Research team member)
 - Alex&nbsp;Waite (Information technology project manager)
 - Stephan&nbsp;Heunis (Research team member)
+## Outputs
+
+- [datalad-next](/instruments/datalad-next)
+- [datasalad](/instruments/datasalad)
