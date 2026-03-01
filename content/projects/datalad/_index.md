@@ -14,7 +14,7 @@ This project is part of [Psychoinformatics](/.).
 
 ## People
 
-- Michael&nbsp;Hanke (Lead)
+- [Michael&nbsp;Hanke](/persons/michael-hanke) (Lead)
 ## Outputs
 
 - [DataLad](/instruments/datalad)

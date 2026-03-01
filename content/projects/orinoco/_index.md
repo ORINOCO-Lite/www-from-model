@@ -12,4 +12,4 @@ This project is part of [Psychoinformatics](/.).
 
 ## People
 
-- Michael&nbsp;Hanke (Creator)
+- [Michael&nbsp;Hanke](/persons/michael-hanke) (Creator)
