@@ -9,6 +9,7 @@
 {%- endmacro -%}
 ---
 title: "{{ title }}"
+{{ taxonomy_terms('projects', 'xyzri:XYZProject', parts, typeattr='schema_type', pidattr='pid') -}}
 {{ taxonomy_terms('persons', 'xyzri:XYZPerson', associated_with) -}}
 {{ taxonomy_terms('instruments', 'xyzri:XYZInstrument', generated, typeattr='schema_type', pidattr='pid') -}}
 ---
