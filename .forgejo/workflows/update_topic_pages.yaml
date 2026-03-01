@@ -18,7 +18,7 @@ jobs:
         uses: ./.forgejo/actions/prep-metadata-query
       - name: Update pages
         run: |
-          dtc read-pages ${DUMPTHINGS_APIURL}/public/records/p/XYZTopic \
+          dtc get-records ${DUMPTHINGS_APIURL} public -C XYZTopic \
           | grep 'xyzrins:topics/' \
           | qrg inline-records -p part_of -c public \
           | qrg render-record page_templates/topic.md.j2 'content/{__pid_curie_reference}/_index.md'

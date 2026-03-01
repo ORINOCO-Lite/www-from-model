@@ -37,7 +37,7 @@ jobs:
 
       - name: Process metadata
         run: |
-          dtc read-pages ${DUMPTHINGS_APIURL}/public/records/p/XYZPerson \
+          dtc get-records ${DUMPTHINGS_APIURL} public -C XYZPerson \
           | qrg filter-linked-pid public  xyzrins:. associated_with  \
           | qrg inline-records -c public -p delegated_by -p delegated_by::roles -p identifiers::creator \
           | qrg render-record page_templates/person.md.j2 'content/{__pid_curie_reference}/_index.md'
