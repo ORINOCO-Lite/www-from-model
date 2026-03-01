@@ -1,13 +1,13 @@
 ---
 title: "Psychoinformatics"
 persons:
-- michael-hanke
+- alex-waite
 - christian-moench
-- michal-szczepanik
+- falko-kaule
 - jenna-swarthout-goddard
 - laura-waite
-- falko-kaule
-- alex-waite
+- michael-hanke
+- michal-szczepanik
 - stephan-heunis
 ---
 
@@ -22,5 +22,5 @@ This is the root object that ties all information in this knowledge pool.
 - Michał&nbsp;Szczepanik (Research team member)
 - Jenna&nbsp;Swarthout Goddard (Research team member)
 - Laura&nbsp;Waite (Research team member)
-- Alex&nbsp;Waite ()
+- Alex&nbsp;Waite (Information technology project manager)
 - Stephan&nbsp;Heunis (Research team member)
