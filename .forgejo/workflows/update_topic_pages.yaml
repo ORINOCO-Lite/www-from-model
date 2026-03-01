@@ -20,7 +20,7 @@ jobs:
         run: |
           dtc get-records ${DUMPTHINGS_APIURL} public -C XYZTopic \
           | grep 'xyzrins:topics/' \
-          | qrg inline-records -p part_of -c public \
-          | qrg render-record page_templates/topic.md.j2 'content/{__pid_curie_reference}/_index.md'
+          | qri inline-records -p part_of -c public \
+          | qri render-record page_templates/topic.md.j2 'content/{__pid_curie_reference}/_index.md'
       - name: Deposit changes
         uses: ./.forgejo/actions/deposit-changes

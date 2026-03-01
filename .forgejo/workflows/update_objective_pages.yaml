@@ -19,8 +19,8 @@ jobs:
       - name: Update pages
         run: |
           dtc get-records ${DUMPTHINGS_APIURL} public -C XYZObjective \
-          | qrg inline-records -p part_of -c public \
-          | qrg inline-records -p depends_on -c public \
-          | qrg render-record page_templates/objective.md.j2 'content/{__pid_curie_reference}/_index.md'
+          | qri inline-records -p part_of -c public \
+          | qri inline-records -p depends_on -c public \
+          | qri render-record page_templates/objective.md.j2 'content/{__pid_curie_reference}/_index.md'
       - name: Deposit changes
         uses: ./.forgejo/actions/deposit-changes
