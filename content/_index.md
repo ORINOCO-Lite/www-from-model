@@ -24,13 +24,13 @@ This is the root object that ties all information in this knowledge pool.
 
 ## People
 
-- Michael&nbsp;Hanke (Lead)
-- Christian&nbsp;Mönch (Research team member)
-- Michał&nbsp;Szczepanik (Research team member)
-- Jenna&nbsp;Swarthout Goddard (Research team member)
-- Laura&nbsp;Waite (Research team member)
-- Alex&nbsp;Waite (Information technology project manager)
-- Stephan&nbsp;Heunis (Research team member)
+- [Michael&nbsp;Hanke](/persons/michael-hanke) (Lead)
+- [Christian&nbsp;Mönch](/persons/christian-moench) (Research team member)
+- [Michał&nbsp;Szczepanik](/persons/michal-szczepanik) (Research team member)
+- [Jenna&nbsp;Swarthout Goddard](/persons/jenna-swarthout-goddard) (Research team member)
+- [Laura&nbsp;Waite](/persons/laura-waite) (Research team member)
+- [Alex&nbsp;Waite](/persons/alex-waite) (Information technology project manager)
+- [Stephan&nbsp;Heunis](/persons/stephan-heunis) (Research team member)
 ## Outputs
 
 - [datalad-next](/instruments/datalad-next)
