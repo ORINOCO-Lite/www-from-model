@@ -30,14 +30,6 @@ jobs:
           jq --version
       - name: Register depiction files
         run: |
-          # Get all persons for which pages are generated:
-          # Get all depictions of type Portrait and inline distributions
-          # filter on whether the associated pid is of a person for which a page is generated
-          # operate on depictions that have distributions
-          # operate on distributions that have characterized_by, which in turn has: predicate == "dcat:downloadUrl"
-          # grab the associated object value;
-          # also grab extension and person pid reference
-          # feed [curie-ref, ext, url] into XARGS to call git annex addurl
           dtc read-pages ${POOLAPI}/public/records/p/XYZDepiction \
           | qri filter-links-pid \
               --link kind xyzrins:depiction-types/e9a34f7d-d05e-4591-bb45-f8a0c499e07b \
