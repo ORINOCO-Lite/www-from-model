@@ -23,7 +23,12 @@ jobs:
           get_content: .
       - name: Prepare environment
         uses: ./.forgejo/actions/prep-metadata-query
-      - name: Process metadata
+      - name: Install jq
+        run: |
+          curl -o ~/.local/bin/jq https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-amd64
+          chmod +x ~/.local/bin/jq
+          jq --version
+      - name: Register depiction files
         run: |
           # Get all persons for which pages are generated:
           # Get all depictions of type Portrait and inline distributions
