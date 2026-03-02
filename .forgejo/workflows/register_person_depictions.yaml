@@ -61,5 +61,6 @@ jobs:
           | while IFS=$'\t' read -r curie ext url; do
               git annex addurl --file="content/${curie}/portrait.${ext}" "$url"
             done
+          git annex push --no-content --cleanup
       - name: Deposit changes
         uses: ./.forgejo/actions/deposit-changes
