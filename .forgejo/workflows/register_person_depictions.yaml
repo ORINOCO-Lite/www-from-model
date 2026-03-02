@@ -1,0 +1,65 @@
+name: Register person depictions
+
+on:
+  schedule:
+    - cron: '0 3 * * 1-5'
+  workflow_dispatch:
+
+env:
+  POOLAPI: https://pool.psychoinformatics.de/api
+
+jobs:
+  register_depictions:
+    runs-on: debian-latest
+    if: ${{ forgejo.repository == 'www/www-from-model' }}
+    outputs:
+      committed: ${{ steps.commit.outputs.committed }}
+
+    steps:
+      - name: Checkout
+        uses: https://hub.datalad.org/forgejo/datalad-clone-action@v1
+        with:
+          recursive: true
+          get_content: .
+      - name: Prepare environment
+        uses: ./.forgejo/actions/prep-metadata-query
+      - name: Process metadata
+        run: |
+          # Get all persons for which pages are generated:
+          # Get all depictions of type Portrait and inline distributions
+          # filter on whether the associated pid is of a person for which a page is generated
+          # operate on depictions that have distributions
+          # operate on distributions that have characterized_by, which in turn has: predicate == "dcat:downloadUrl"
+          # grab the associated object value;
+          # also grab extension and person pid reference
+          # feed [curie-ref, ext, url] into XARGS to call git annex addurl
+          dtc read-pages ${POOLAPI}/public/records/p/XYZDepiction \
+          | qri filter-links-pid \
+              --link kind xyzrins:depiction-types/e9a34f7d-d05e-4591-bb45-f8a0c499e07b \
+              --api-url ${POOLAPI} --collection public \
+          | qri inline-records --api-url ${POOLAPI} -c public -p distributions \
+          | jq -r \
+              --slurpfile pids <(
+                dtc read-pages ${POOLAPI}/public/records/p/XYZPerson \
+                | qri filter-linked-pid --api-url ${POOLAPI} public xyzrins:. associated_with \
+                | jq '.pid'
+              ) '
+              ($pids | map({(.):1}) | add) as $pidmap
+              | select(any(.about[]?; $pidmap[.]))
+              | .about[] as $person
+              | select($pidmap[$person])
+              | .distributions[]?.characterized_by[]?
+              | select(.predicate=="dcat:downloadUrl")
+              | .object as $url
+              | [
+                  ($person|sub("^xyzrins:";"")),
+                  ($url|capture("\\.(?<e>[^./?]+)$").e),
+                  $url
+                ]
+              | @tsv
+            ' \
+          | while IFS=$'\t' read -r curie ext url; do
+              git annex addurl --file="content/${curie}/portrait.${ext}" "$url"
+            done
+      - name: Deposit changes
+        uses: ./.forgejo/actions/deposit-changes
