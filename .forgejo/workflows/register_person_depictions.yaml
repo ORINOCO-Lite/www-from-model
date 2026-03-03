@@ -30,6 +30,7 @@ jobs:
           jq --version
       - name: Register depiction files
         run: |
+          set -x
           dtc read-pages ${POOLAPI}/public/records/p/XYZDepiction \
           | qri filter-links-pid \
               --link kind xyzrins:depiction-types/e9a34f7d-d05e-4591-bb45-f8a0c499e07b \
