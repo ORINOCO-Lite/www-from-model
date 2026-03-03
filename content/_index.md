@@ -1,9 +1,12 @@
 ---
 title: "Psychoinformatics"
 projects:
+- abcd-j
 - datalad
 - orinoco
+- sfb1451
 - studyforrest
+- trr379_q02
 persons:
 - alex-waite
 - christian-moench
