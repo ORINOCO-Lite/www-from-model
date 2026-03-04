@@ -14,10 +14,10 @@ This project is part of [Psychoinformatics](/.).
 
 ## People
 
-- [Jenna&nbsp;Swarthout Goddard](/persons/jenna-swarthout-goddard) (Research team member)
-- [Michael&nbsp;Hanke](/persons/michael-hanke) (Principal investigator (PI))
 - [Stephan&nbsp;Heunis](/persons/stephan-heunis) (Research team member)
 - [Adina&nbsp;Wagner](/persons/adina-wagner) (Research team member)
+- [Michael&nbsp;Hanke](/persons/michael-hanke) (Principal investigator (PI))
+- [Jenna&nbsp;Swarthout Goddard](/persons/jenna-swarthout-goddard) (Research team member)
 - [Simon&nbsp;Eickhoff](/persons/simon-eickhoff) (Principal investigator (PI), Lead)
 ## Outputs
 

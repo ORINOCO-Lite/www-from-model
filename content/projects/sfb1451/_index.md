@@ -15,8 +15,8 @@ This project is part of [Psychoinformatics](/.).
 ## People
 
 - [Simon&nbsp;Eickhoff](/persons/simon-eickhoff) (Principal investigator (PI))
-- [Michał&nbsp;Szczepanik](/persons/michal-szczepanik) (Researcher)
 - [Michael&nbsp;Hanke](/persons/michael-hanke) (Principal investigator (PI))
+- [Michał&nbsp;Szczepanik](/persons/michal-szczepanik) (Researcher)
 ## Outputs
 
 - [SFB1451 logo](/depictions/logo_sfb1451)

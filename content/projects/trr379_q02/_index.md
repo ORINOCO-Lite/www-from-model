@@ -11,5 +11,5 @@ This project is part of [Psychoinformatics](/.) [Neuropsychobiology of Aggressio
 
 ## People
 
-- [Michael&nbsp;Hanke](/persons/michael-hanke) (Principal investigator (PI))
 - [Stephan&nbsp;Heunis](/persons/stephan-heunis) (Researcher)
+- [Michael&nbsp;Hanke](/persons/michael-hanke) (Principal investigator (PI))
