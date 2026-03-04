@@ -16,9 +16,6 @@ persons:
 - michael-hanke
 - michal-szczepanik
 - stephan-heunis
-instruments:
-- datalad-next
-- datasalad
 ---
 
 This is the root object that ties all information in this knowledge pool.
@@ -34,7 +31,3 @@ This is the root object that ties all information in this knowledge pool.
 - [Laura&nbsp;Waite](/persons/laura-waite) (Research team member)
 - [Alex&nbsp;Waite](/persons/alex-waite) (Information technology project manager)
 - [Stephan&nbsp;Heunis](/persons/stephan-heunis) (Research team member)
-## Outputs
-
-- [datalad-next](/instruments/datalad-next)
-- [datasalad](/instruments/datasalad)
