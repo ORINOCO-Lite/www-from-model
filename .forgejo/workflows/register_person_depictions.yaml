@@ -39,7 +39,8 @@ jobs:
               git annex addurl --file="content/${curie}/portrait.${ext}" "$url" || \
                 echo "addurl failed for $url, continuing..."
             done <<< "$jq_output"
-            git annex push --no-content --cleanup
+            git annex push --no-content
+            git annex push --cleanup
           fi
       - name: Deposit changes
         uses: ./.forgejo/actions/deposit-changes
