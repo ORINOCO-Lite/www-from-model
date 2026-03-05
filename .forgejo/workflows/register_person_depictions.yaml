@@ -16,13 +16,15 @@ jobs:
       committed: ${{ steps.commit.outputs.committed }}
 
     steps:
-      - name: Checkout
-        uses: https://hub.datalad.org/forgejo/datalad-clone-action@v1
-        with:
-          recursive: true
-          get_content: .
+      - name: Checkout project
+        uses: actions/checkout@v4
       - name: Prepare environment
         uses: ./.forgejo/actions/prep-metadata-query
+      - name: git-annex init
+        run: |
+          git fetch --depth 1 origin git-annex:git-annex
+          git config --add annex.private true
+          git annex init
       - name: Register depiction files
         run: |
           jq_output="$(
