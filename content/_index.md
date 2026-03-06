@@ -18,6 +18,13 @@ persons:
 - stephan-heunis
 ---
 
+{{< rawhtml >}}
+<script type="module" crossorigin src="graph.js"></script>
+<link rel="stylesheet" crossorigin href="graph.css">
+<div id="container" class="w-full h-[40vh] m-0 p-0 bg-neutral-100 dark:bg-neutral-600"></div>
+{{< /rawhtml >}}
+
+
 This is the root object that ties all information in this knowledge pool.
 
 
