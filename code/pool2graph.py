@@ -48,12 +48,12 @@ def get_node_url(rec: dict) -> str | None:
 
 
 def add_edge(src: str, target: str, kind: str) -> None:
-    edge_id = f'e{len(edges)}'
+    # use the edge properties as ID to get auto-deduplication
+    edge_id = (src, target)
     edges[edge_id] = {
         'id': edge_id,
         'source': src,
         'target': target,
-        'type': kind,
     }
 
 
@@ -64,6 +64,10 @@ for line in sys.stdin:
         continue
 
     pid = rec['pid']
+    if pid in nodes:
+        print(f'Ignoring duplicate node {pid}', file=sys.stderr)
+        continue
+
     for prop, edge_kind in wanted_edge_types.items():
         for rel in rec.get(prop, []):
             obj = rel['object'] if isinstance(rel, dict) else rel
@@ -79,7 +83,7 @@ for line in sys.stdin:
 
 kept_edges = []
 nodes_missing = set()
-for eid, edge in edges.items():
+for edge in edges.values():
     err = False
     for prop in ('source', 'target'):
         if edge[prop] not in nodes:
