@@ -15,6 +15,7 @@ wanted_node_types = {
 
 wanted_edge_types = {
     'associated_with': 'associated_with',
+    'attributed_to': 'attributed_to',
     'generated_by': 'generated_by',
     'delegated_by': 'delegated_by',
     'influenced_by': 'influenced_by',
