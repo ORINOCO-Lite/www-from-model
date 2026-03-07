@@ -21,7 +21,12 @@ persons:
 {{< rawhtml >}}
 <script type="module" crossorigin src="graph.js"></script>
 <link rel="stylesheet" crossorigin href="graph.css">
-<div id="container" class="w-full h-[40vh] m-0 p-0 bg-neutral-100 dark:bg-neutral-600"></div>
+<div class="relative">
+  <div id="sigma-node-type-controls" class="absolute z-10 left-2 top-2">
+    <div id="sigma-controls-list"></div>
+  </div>
+  <div id="sigma-container" class="w-full h-[40vh] m-0 p-0 bg-neutral-100 dark:bg-neutral-600"></div>
+</div>
 {{< /rawhtml >}}
 
 
