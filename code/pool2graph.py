@@ -28,12 +28,19 @@ wanted_edge_types = {
 
 def get_node_label(rec: dict) -> str | None:
     for src in (
+        'xyzrins:annotation-tags/graphviz-label',
         'short_name',
         'name',
         'title',
         'family_name',
+        'display_label',
     ):
-        label = rec.get(src)
+        # consider annotations, and then a direct property
+        label = rec.get('annotations', {}).get(src)
+        if isinstance(label, dict):
+            label = label.get('annotation_value')
+        if label is None:
+            label = rec.get(src)
         if label:
             if src == 'family_name':
                 return f'{rec["given_name"][0]}.{label}'
