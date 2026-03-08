@@ -11,6 +11,8 @@ wanted_node_types = {
     "xyzri:XYZPerson": 'person',
     "xyzri:XYZProject": 'project',
     "xyzri:XYZPublication": 'publication',
+    "xyzri:XYZTopic": 'topic',
+    "xyzri:XYZObjective": 'objective',
 }
 
 wanted_edge_types = {
@@ -20,6 +22,7 @@ wanted_edge_types = {
     'delegated_by': 'delegated_by',
     'influenced_by': 'influenced_by',
     'part_of': 'part_of',
+    'about': 'about',
 }
 
 
