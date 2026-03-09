@@ -1,5 +1,7 @@
 ---
 title: Jenna Swarthout Goddard
+params:
+  graphRootNodePID: xyzrins:persons/jenna-swarthout-goddard
 ---
 
 - [GitHub: jennaswa](https://github.com/jennaswa)

@@ -1,5 +1,7 @@
 ---
 title: Stephan Heunis
+params:
+  graphRootNodePID: xyzrins:persons/stephan-heunis
 ---
 
 A description of Stephan

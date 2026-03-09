@@ -1,5 +1,7 @@
 ---
 title: Venkatesh Hariharapura Shivashankar
+params:
+  graphRootNodePID: xyzrins:persons/venkatesh-hariharapura-shivashankar
 ---
 
 - [LinkedIn: venkatesh-hariharapura-shivashankar](https://www.linkedin.com/in/venkatesh-hariharapura-shivashankar)

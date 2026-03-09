@@ -1,5 +1,7 @@
 ---
 title: Michael Hanke
+params:
+  graphRootNodePID: xyzrins:persons/michael-hanke
 ---
 
 - [ORCID: 0000-0001-6398-6370](https://orcid.org/0000-0001-6398-6370)
