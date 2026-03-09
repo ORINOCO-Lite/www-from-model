@@ -1,4 +1,9 @@
 <article class="prose max-w-full dark:prose-invert">
+  {{ if .Param "graphRootNodePID" | default false }}
+  <script>
+  const limitGraphRootNodeId = '{{ .Param "graphRootNodePID" }}';
+  </script>
+  {{ end }}
 
   <script type="module" crossorigin src="graph.js"></script>
   <link rel="stylesheet" crossorigin href="graph.css">
