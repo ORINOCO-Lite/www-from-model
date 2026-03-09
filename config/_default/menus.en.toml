@@ -14,16 +14,25 @@
   name = "People"
   pageRef = "persons"
   weight = 10
+  [main.params]
+    icon = "account-group"
+    showName = false
 
 [[main]]
   name = "Objectives"
   pageRef = "objectives"
   weight = 20
+  [main.params]
+    icon = "bullseye-arrow"
+    showName = false
 
 [[main]]
   name = "Projects"
   pageRef = "projects"
   weight = 30
+  [main.params]
+    icon = "human-dolly"
+    showName = false
 
 [[main]]
   name = "Hub"
