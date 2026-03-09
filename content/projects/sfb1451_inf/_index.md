@@ -12,6 +12,6 @@ This project is part of [Key Mechanisms of Motor Control in Health and Disease](
 
 ## People
 
+- [Michał&nbsp;Szczepanik](/persons/michal-szczepanik) (Researcher)
 - [Michael&nbsp;Hanke](/persons/michael-hanke) (Principal investigator (PI))
 - [Simon&nbsp;Eickhoff](/persons/simon-eickhoff) (Expert)
-- [Michał&nbsp;Szczepanik](/persons/michal-szczepanik) (Researcher)

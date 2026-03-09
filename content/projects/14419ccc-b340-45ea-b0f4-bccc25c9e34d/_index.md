@@ -17,12 +17,12 @@ This project is part of [Study Forrest](/projects/studyforrest).
 
 ## People
 
+- [Michael&nbsp;Hanke](/persons/michael-hanke) (Creator, Lead)
 - [Asim&nbsp;Dar](/persons/10847cce-cba3-415e-aa84-e681e9727697) (Research assistant)
 - [Jörg&nbsp;Stadler](/persons/a7087531-9bed-4ad3-9a0a-f048510ade2e) (Contributor)
+- [Nico&nbsp;Adelhöfer](/persons/70e6d595-a8f6-42a4-bdf0-1698e9a63ec9) (Research assistant)
 - [Daniel&nbsp;Kottke](/persons/daniel-kottke) (Research assistant)
 - [Adina&nbsp;Wagner](/persons/adina-wagner) (Researcher)
-- [Nico&nbsp;Adelhöfer](/persons/70e6d595-a8f6-42a4-bdf0-1698e9a63ec9) (Research assistant)
-- [Michael&nbsp;Hanke](/persons/michael-hanke) (Lead, Creator)
 ## Outputs
 
 - [A studyforrest extension, simultaneous fMRI and eye gaze recordings during prolonged natural stimulation](/publications/06688308-2c40-49a6-88e3-ba7bfca73a1e)

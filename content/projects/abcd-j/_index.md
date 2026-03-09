@@ -16,9 +16,9 @@ This project is part of [Psychoinformatics](/.).
 
 - [Stephan&nbsp;Heunis](/persons/stephan-heunis) (Research team member)
 - [Adina&nbsp;Wagner](/persons/adina-wagner) (Research team member)
-- [Michael&nbsp;Hanke](/persons/michael-hanke) (Principal investigator (PI))
 - [Jenna&nbsp;Swarthout Goddard](/persons/jenna-swarthout-goddard) (Research team member)
-- [Simon&nbsp;Eickhoff](/persons/simon-eickhoff) (Principal investigator (PI), Lead)
+- [Simon&nbsp;Eickhoff](/persons/simon-eickhoff) (Lead, Principal investigator (PI))
+- [Michael&nbsp;Hanke](/persons/michael-hanke) (Principal investigator (PI))
 ## Outputs
 
 - [ABCD-J logo](/depictions/logo_abcd-j)

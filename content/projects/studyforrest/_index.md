@@ -17,10 +17,10 @@ This project is part of [Psychoinformatics](/.).
 
 ## People
 
-- [Ayan&nbsp;Sengupta](/persons/ayan-sengupta) (Researcher, Author, Data contributor)
-- [Michael&nbsp;Hanke](/persons/michael-hanke) (Creator)
 - [Falko&nbsp;Kaule](/persons/falko-kaule) (Author, Data contributor, Research team member)
 - [Alex&nbsp;Waite](/persons/alex-waite) (Designer)
+- [Ayan&nbsp;Sengupta](/persons/ayan-sengupta) (Author, Data contributor, Researcher)
+- [Michael&nbsp;Hanke](/persons/michael-hanke) (Creator)
 ## Outputs
 
 - [A studyforrest extension, simultaneous fMRI and eye gaze recordings during prolonged natural stimulation](/publications/06688308-2c40-49a6-88e3-ba7bfca73a1e)
