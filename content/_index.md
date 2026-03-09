@@ -22,6 +22,11 @@ persons:
 - stephan-heunis
 - tosca-heunis
 - venkatesh-hariharapura-shivashankar
+params:
+  graphDescription: >
+    A key focus of this project is the distributed representation of knowledge
+    — whether that is in the brain, or in research data management.
+    Explore how what we do links to our objectives:
 ---
 
 This is the root object that ties all information in this knowledge pool.
