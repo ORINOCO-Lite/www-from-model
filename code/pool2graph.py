@@ -61,7 +61,7 @@ def add_edge(src: str, target: str, kind: str) -> None:
     # use the edge properties as ID to get auto-deduplication
     edge_id = (src, target)
     edges[edge_id] = {
-        'id': edge_id,
+        'id': f'e{len(edges)}',
         'source': src,
         'target': target,
     }
