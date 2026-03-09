@@ -1,5 +1,7 @@
 ---
 title: "Integrate psychology with informatics"
+params:
+  graphRootNodePID: xyzrins:objectives/99a7e9fe-f8d8-46b8-aa97-44571b0eb3ba
 ---
 
 Part of

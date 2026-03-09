@@ -1,5 +1,7 @@
 ---
 title: "Probe brain function with naturalistic, high-dimensional studies"
+params:
+  graphRootNodePID: xyzrins:objectives/b6e7dfb2-3534-487e-bd8a-d2f58ec47e47
 ---
 
 Part of

@@ -1,5 +1,7 @@
 ---
 title: "Promote open science through shared data and collaboration"
+params:
+  graphRootNodePID: xyzrins:objectives/87be5fa3-80fb-4221-8406-2ddd40fb1fd1
 ---
 
 Part of
