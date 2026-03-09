@@ -4,6 +4,9 @@ import sys
 
 nodes = {}
 edges = {}
+# we need a separate counter, because some, once created, edges
+# can get removed, if their target node does not materialize
+edge_count = 0
 
 wanted_node_types = {
     "xyzri:XYZInstrument": 'instrument',
@@ -58,13 +61,15 @@ def get_node_url(rec: dict) -> str | None:
 
 
 def add_edge(src: str, target: str, kind: str) -> None:
+    global edge_count
     # use the edge properties as ID to get auto-deduplication
     edge_id = (src, target)
     edges[edge_id] = {
-        'id': f'e{len(edges)}',
+        'id': f'e{edge_count}',
         'source': src,
         'target': target,
     }
+    edge_count += 1
 
 
 for line in sys.stdin:
