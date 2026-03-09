@@ -36,22 +36,22 @@ fingerprintAlgorithm = "sha256"
   recentLimit = 5
 
 [article]
-  showDate = true
+  showDate = false
   showDateUpdated = false
-  showAuthor = true
+  showAuthor = false
   showBreadcrumbs = true
-  showDraftLabel = true
-  showEdit = true
-  #editURL = "https://github.com/jpanther/congo/tree/dev/exampleSite/content/"
-  editAppendPath = true
+  showDraftLabel = false
+  #showEdit = true
+  #editURL = "https://pool.psychoinformatics.de/ui/"
+  #editAppendPath = true
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
-  showReadingTime = true
-  showTableOfContents = true
+  showReadingTime = false
+  showTableOfContents = false
   showTaxonomies = false
-  showWordCount = false
-  showComments = false
+  #showWordCount = false
+  #showComments = false
   # sharingLinks = ["facebook", "x-twitter", "mastodon", "pinterest", "reddit", "linkedin", "email", "threads", "telegram", "line", "weibo", "xing", "bluesky"]
 
 [list]
@@ -63,7 +63,7 @@ fingerprintAlgorithm = "sha256"
   paginationWidth = 1
 
 [sitemap]
-  excludedKinds = ["taxonomy", "term"]
+  #excludedKinds = ["taxonomy", "term"]
 
 [taxonomy]
   showTermCount = true
