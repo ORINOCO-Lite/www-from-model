@@ -6,6 +6,8 @@ persons:
 instruments:
 - trr379_hub
 - trr379_pool
+params:
+  graphRootNodePID: xyzrins:projects/trr379_q02
 ---
 
 This project will develop a decentralized data platform to provide long-term multi-site data access in an open science framework.

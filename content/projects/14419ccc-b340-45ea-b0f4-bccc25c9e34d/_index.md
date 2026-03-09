@@ -7,6 +7,8 @@ persons:
 - adina-wagner
 - daniel-kottke
 - michael-hanke
+params:
+  graphRootNodePID: xyzrins:projects/14419ccc-b340-45ea-b0f4-bccc25c9e34d
 ---
 
 This project aims to advance understanding of how human gaze behavior organizes perception and guides cognition in complex, dynamic environments. The project focuses on developing principled methods to capture, characterize, and compare eye-movement patterns elicited by prolonged, naturalistic stimuli, with particular attention to robustly identifying meaningful events (saccades, fixations, pursuits) and quantifying temporal and spatial correspondences across observers and contexts. By prioritizing ecological validity, the work seeks to bridge laboratory paradigms and real-world visual behavior to reveal how attention and perceptual processing unfold over extended, natural stimulation.

@@ -7,6 +7,8 @@ persons:
 - ayan-sengupta
 - falko-kaule
 - michael-hanke
+params:
+  graphRootNodePID: xyzrins:projects/studyforrest
 ---
 
 StudyForrest is a long-term, open neuroscience project that provides richly annotated neuroimaging and behavioral data collected while participants experienced naturalistic stimuli—most famously the full-length film “Forrest Gump.” The project’s goal is to enable reproducible research on how the human brain processes complex, real-world sensory input (audio, visual, narrative) by offering multimodal datasets: functional MRI (including retinotopy and natural vision runs), structural MRI, physiological recordings, eye-tracking, and detailed stimulus annotations (timing of scenes, audio transcripts, visual feature labels). Data are organized and shared in standard formats to ease reuse and comparison across labs.
