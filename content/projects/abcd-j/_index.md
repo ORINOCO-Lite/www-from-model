@@ -6,6 +6,8 @@ persons:
 - michael-hanke
 - simon-eickhoff
 - stephan-heunis
+instruments:
+- case-e
 params:
   graphRootNodePID: xyzrins:projects/abcd-j
 ---
@@ -24,3 +26,4 @@ This project is part of [Psychoinformatics](/.).
 ## Outputs
 
 - [ABCD-J logo](/depictions/logo_abcd-j)
+- [Case-e](/instruments/case-e)
