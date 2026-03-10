@@ -40,6 +40,8 @@ jobs:
           dtc get-records ${DUMPTHINGS_APIURL} public -C XYZPerson \
           | qri filter-linked-pid public  xyzrins:. associated_with  \
           | qri inline-records -c public -p delegated_by -p delegated_by::roles -p identifiers::creator \
-          | qri render-record page_templates/person.md.j2 'content/{__pid_curie_reference}/_index.md'
+          | qri render-record page_templates/person.md.j2 \
+            'content/{annotations[xyzrins:annotation-tags/psyinf-ns-id]}/_index.md' \
+            'content/{__pid_curie_reference}/_index.md'
       - name: Deposit changes
         uses: ./.forgejo/actions/deposit-changes
