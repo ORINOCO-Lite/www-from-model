@@ -2,6 +2,7 @@
 title: "DataLad"
 projects:
 - 13347b71-134b-40c8-b6e6-1cbc43969080
+- 18b8a19e-5e7b-425d-be04-f16c0cc15b01
 persons:
 - michael-hanke
 - orcid:0000-0003-3456-2493
