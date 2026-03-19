@@ -22,7 +22,7 @@ jobs:
           | qri filter-links-pid --link part_of xyzrins:. --recursive --collection public \
           | qri inject-links-pid --link generated_by generated \
           | qri inject-links-pid --link part_of parts \
-          | qri inline-records -c public -p associated_with -p associated_with::roles -p identifiers::creator -p part_of \
+          | qri inline-records -c public -p associated_with -p associated_with::roles -p influenced_by -p influenced_by::roles -p identifiers::creator -p part_of \
           | qri render-record page_templates/project.md.j2 'content/{__pid_curie_reference}/_index.md'
       - name: Deposit changes
         uses: ./.forgejo/actions/deposit-changes
