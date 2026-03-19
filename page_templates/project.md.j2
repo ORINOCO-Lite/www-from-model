@@ -7,6 +7,9 @@
 {% endfor -%}
 {%- endif -%}
 {%- endmacro -%}
+{% macro assoc_period(ass, pre="") -%}
+{% if ass.started is defined and ass.started.at_time is defined and ass.ended is defined and ass.ended.at_time is defined %}{{ pre ~ ass.started.at_time }} -- {{ ass.ended.at_time }}{% elif ass.started is defined and ass.started.at_time is defined %}{{ pre ~ "since"}} {{ass.started.at_time }}{% elif ass.ended is defined and ass.ended.at_time is defined %}{{pre ~ "until"}} {{ ass.ended.at_time }}{% endif %}
+{%- endmacro -%}
 ---
 title: "{{ title }}"
 {{ taxonomy_terms('projects', 'xyzri:XYZProject', parts, typeattr='schema_type', pidattr='pid') -}}
@@ -22,9 +25,21 @@ params:
 
 ## People
 
+### Currently associated
+
 {% for ass in associated_with if ass.object.schema_type == "xyzri:XYZPerson" and not ass.ended -%}
 - [{{ ass.object.given_name }}&nbsp;{{ ass.object.family_name }}](/{{ ass.object.pid|replace('xyzrins:', '') }}) ({% for role in ass.roles %}{{ ', ' if not loop.first }}{{ role.display_label|default(role.name) }}{% endfor -%})
 {% endfor -%}
+
+{% with prev_associated = associated_with | selectattr("object.schema_type", "eq", "xyzri:XYZPerson") | selectattr("ended", "defined") -%}
+{% for ass in prev_associated | sort(attribute="ended.at_time", reverse=True) -%}
+{% if loop.first %}
+### Previously associated
+
+{% endif -%}
+- [{{ ass.object.given_name }}&nbsp;{{ ass.object.family_name }}](/{{ ass.object.pid|replace('xyzrins:', '') }}) ({% for role in ass.roles %}{{ ', ' if not loop.first }}{{ role.display_label|default(role.name) }}{% endfor -%} {{ assoc_period(ass, "; ") }})
+{% endfor -%}
+{% endwith -%}
 
 {% if generated|length -%}
 ## Outputs
