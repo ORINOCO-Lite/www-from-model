@@ -25,16 +25,6 @@ jobs:
           recursive: false
       - name: Prepare environment
         uses: ./.forgejo/actions/prep-metadata-query
-      # this step clones code for additional record processing and filtering.
-      # TODO: that code needs to be generalized before being used here, maybe
-      # also come from a more central/generic repo than the trr resources
-      #- name: Checkout code
-      #  id: codecheckout
-      #  uses: https://hub.datalad.org/forgejo/datalad-clone-action@v1
-      #  with:
-      #    repository: https://hub.trr379.de/q02/pool-publication-page
-      #    get_file_content: false
-
       - name: Process metadata
         run: |
           dtc get-records ${DUMPTHINGS_APIURL} public -C XYZPerson \
