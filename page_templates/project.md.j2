@@ -13,6 +13,7 @@
 ---
 title: "{{ title }}"
 {{ taxonomy_terms('projects', 'xyzri:XYZProject', parts, typeattr='schema_type', pidattr='pid') -}}
+{{ taxonomy_terms('objectives', 'xyzri:XYZObjective', influenced_by, typeattr='schema_type', pidattr='pid') -}}
 {{ taxonomy_terms('persons', 'xyzri:XYZPerson', associated_with) -}}
 {{ taxonomy_terms('instruments', 'xyzri:XYZInstrument', generated, typeattr='schema_type', pidattr='pid') -}}
 params:
@@ -22,6 +23,12 @@ params:
 {{ description }}
 
 {% if part_of %}This project is part of{% for p in part_of %} [{{ p.title }}](/{{ p.pid|replace('xyzrins:', '') }}){% endfor %}.{% endif %}
+
+## Objectives
+
+{% for inf in influenced_by if inf.object.schema_type == "xyzri:XYZObjective" and not inf.ended -%}
+- [{{ inf.object.title }}](/{{ inf.object.pid|replace('xyzrins:', '') }}) ({%for role in inf.roles %}{{ ', ' if not loop.first }}{{ role.display_label|default(role.name) }}{% endfor -%})
+{% endfor -%}
 
 ## People
 
