@@ -2,17 +2,12 @@
 title: {{ given_name }} {{ family_name }}
 params:
   graphRootNodePID: {{ pid }}
+{%- set fields = ["given_name", "family_name", "identifiers", "description"] %}
+{%- set p = {} %}
+{%- for f in fields %}
+  {%- if f in __rec and __rec[f] %}
+    {%- set _ = p.update({f: __rec[f]}) %}
+  {%- endif %}
+{%- endfor %}
+  {{ p | toyaml | indent(2) | trim }}
 ---
-
-{{ description }}
-
-{%- for identifier in identifiers if identifier.creator.name is defined -%}
-{%- if description is defined and loop.first %}{{ '\n\n' }}{% endif -%}
-{% if identifier.creator.name == "Debian" %}- [Debian: {{ identifier.notation }}](https://qa.debian.org/developer.php?login={{ identifier.notation }})
-{% elif identifier.creator.name == "GitHub" %}- [GitHub: {{ identifier.notation }}](https://github.com/{{ identifier.notation }})
-{% elif identifier.creator.name == "LinkedIn" %}- [LinkedIn: {{ identifier.notation }}](https://www.linkedin.com/in/{{ identifier.notation }})
-{% elif identifier.creator.name == "ORCID" %}- [ORCID: {{ identifier.notation }}](https://orcid.org/{{ identifier.notation }})
-{% elif identifier.creator.name == "ResearchGate" %}- [ResearchGate: {{ identifier.notation }}](https://www.researchgate.net/profile/{{ identifier.notation }})
-{% else %}- {{ identifier.creator.name }}: {{ identifier.notation }}
-{% endif %}
-{%- endfor -%}
