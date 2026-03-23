@@ -19,6 +19,8 @@ This project is part of [Study Forrest](/projects/studyforrest).
 
 ## People
 
+### Currently associated
+
 - [Michael&nbsp;Hanke](/persons/michael-hanke) (Creator, Lead)
 - [Asim&nbsp;Dar](/persons/10847cce-cba3-415e-aa84-e681e9727697) (Research assistant)
 - [Jörg&nbsp;Stadler](/persons/a7087531-9bed-4ad3-9a0a-f048510ade2e) (Contributor)

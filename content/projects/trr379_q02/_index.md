@@ -16,6 +16,8 @@ This project is part of [Neuropsychobiology of Aggression: A Transdiagnostic App
 
 ## People
 
+### Currently associated
+
 - [Stephan&nbsp;Heunis](/persons/stephan-heunis) (Researcher)
 - [Michael&nbsp;Hanke](/persons/michael-hanke) (Principal investigator (PI))
 ## Outputs

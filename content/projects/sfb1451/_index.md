@@ -16,6 +16,8 @@ This project is part of [Psychoinformatics](/.).
 
 ## People
 
+### Currently associated
+
 - [Simon&nbsp;Eickhoff](/persons/simon-eickhoff) (Principal investigator (PI))
 - [Michael&nbsp;Hanke](/persons/michael-hanke) (Principal investigator (PI))
 - [Michał&nbsp;Szczepanik](/persons/michal-szczepanik) (Researcher)

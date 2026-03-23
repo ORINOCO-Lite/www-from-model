@@ -1,5 +1,7 @@
 ---
 title: "DataLad v2"
+persons:
+- michael-hanke
 instruments:
 - datalad-next
 - datasalad
@@ -13,6 +15,9 @@ This project is part of [DataLad](/projects/datalad).
 
 ## People
 
+### Currently associated
+
+- [Michael&nbsp;Hanke](/persons/michael-hanke) (Lead)
 ## Outputs
 
 - [datalad-next](/instruments/datalad-next)

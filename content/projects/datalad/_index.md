@@ -26,6 +26,8 @@ This project is part of [Psychoinformatics](/.).
 
 ## People
 
+### Currently associated
+
 - [Yaroslav&nbsp;Halchenko](/orcid:0000-0003-3456-2493) (Creator)
 - [Michael&nbsp;Hanke](/persons/michael-hanke) (Lead)
 - [Adina&nbsp;Wagner](/persons/adina-wagner) (Research team member)

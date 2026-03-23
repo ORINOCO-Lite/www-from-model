@@ -19,6 +19,8 @@ This project is part of [DataLad](/projects/datalad).
 
 ## People
 
+### Currently associated
+
 - [Michael&nbsp;Hanke](/persons/michael-hanke) (Lead)
 - [Adina&nbsp;Wagner](/persons/adina-wagner) (Lead)
 - [Laura&nbsp;Waite](/persons/laura-waite) (Research team member)

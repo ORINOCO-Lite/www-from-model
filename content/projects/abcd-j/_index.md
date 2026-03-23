@@ -6,6 +6,7 @@ persons:
 - michael-hanke
 - simon-eickhoff
 - stephan-heunis
+- tosca-heunis
 instruments:
 - case-e
 params:
@@ -18,11 +19,14 @@ This project is part of [Psychoinformatics](/.).
 
 ## People
 
+### Currently associated
+
+- [Jenna&nbsp;Swarthout Goddard](/persons/jenna-swarthout-goddard) (Research team member)
 - [Stephan&nbsp;Heunis](/persons/stephan-heunis) (Research team member)
 - [Adina&nbsp;Wagner](/persons/adina-wagner) (Research team member)
-- [Jenna&nbsp;Swarthout Goddard](/persons/jenna-swarthout-goddard) (Research team member)
 - [Simon&nbsp;Eickhoff](/persons/simon-eickhoff) (Lead, Principal investigator (PI))
 - [Michael&nbsp;Hanke](/persons/michael-hanke) (Principal investigator (PI))
+- [Tosca&nbsp;Heunis](/persons/tosca-heunis) (Research team member)
 ## Outputs
 
 - [ABCD-J logo](/depictions/logo_abcd-j)

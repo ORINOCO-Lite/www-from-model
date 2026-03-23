@@ -18,6 +18,8 @@ This project is part of [Psychoinformatics](/.).
 
 ## People
 
+### Currently associated
+
 - [Michael&nbsp;Hanke](/persons/michael-hanke) (Creator)
 ## Outputs
 

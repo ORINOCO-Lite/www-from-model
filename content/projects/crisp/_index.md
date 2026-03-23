@@ -1,5 +1,11 @@
 ---
 title: "Connected Research Information through Semantic Provenance"
+persons:
+- 6e723d2e-fce7-46ec-b01f-3357839a2646
+- adina-wagner
+- christian-moench
+- michal-szczepanik
+- stephan-heunis
 params:
   graphRootNodePID: xyzrins:projects/crisp
 ---
@@ -10,3 +16,10 @@ This project is part of [Organized Research Information: Ontology-mapping, Curat
 
 ## People
 
+### Currently associated
+
+- [Stephan&nbsp;Heunis](/persons/stephan-heunis) (Principal investigator (PI))
+- [Anna&nbsp;Geiger](/persons/6e723d2e-fce7-46ec-b01f-3357839a2646) (Research team member)
+- [Christian&nbsp;Mönch](/persons/christian-moench) (Research team member)
+- [Adina&nbsp;Wagner](/persons/adina-wagner) (Research team member)
+- [Michał&nbsp;Szczepanik](/persons/michal-szczepanik) (Research team member)

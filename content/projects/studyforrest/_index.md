@@ -19,6 +19,8 @@ This project is part of [Psychoinformatics](/.).
 
 ## People
 
+### Currently associated
+
 - [Falko&nbsp;Kaule](/persons/falko-kaule) (Author, Data contributor, Research team member)
 - [Alex&nbsp;Waite](/persons/alex-waite) (Designer)
 - [Ayan&nbsp;Sengupta](/persons/ayan-sengupta) (Author, Data contributor, Researcher)
