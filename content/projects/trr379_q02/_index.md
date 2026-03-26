@@ -1,5 +1,10 @@
 ---
 title: "Data Management for Computational Modelling"
+objectives:
+- 87be5fa3-80fb-4221-8406-2ddd40fb1fd1
+- 97ded4aa-108d-4b84-8195-d6076dce63ce
+- 99a7e9fe-f8d8-46b8-aa97-44571b0eb3ba
+- self-hosted-it
 persons:
 - michael-hanke
 - stephan-heunis

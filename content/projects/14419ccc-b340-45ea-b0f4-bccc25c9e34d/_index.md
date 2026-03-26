@@ -1,5 +1,9 @@
 ---
 title: "Eye-movement during naturalistic stimulation"
+objectives:
+- 87be5fa3-80fb-4221-8406-2ddd40fb1fd1
+- 99a7e9fe-f8d8-46b8-aa97-44571b0eb3ba
+- b6e7dfb2-3534-487e-bd8a-d2f58ec47e47
 persons:
 - 10847cce-cba3-415e-aa84-e681e9727697
 - 70e6d595-a8f6-42a4-bdf0-1698e9a63ec9

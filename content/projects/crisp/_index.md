@@ -1,5 +1,8 @@
 ---
 title: "Connected Research Information through Semantic Provenance"
+objectives:
+- 97ded4aa-108d-4b84-8195-d6076dce63ce
+- self-hosted-it
 persons:
 - 6e723d2e-fce7-46ec-b01f-3357839a2646
 - adina-wagner
