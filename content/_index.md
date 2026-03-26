@@ -7,6 +7,12 @@ projects:
 - sfb1451
 - studyforrest
 - trr379_q02
+objectives:
+- 87be5fa3-80fb-4221-8406-2ddd40fb1fd1
+- 97ded4aa-108d-4b84-8195-d6076dce63ce
+- 99a7e9fe-f8d8-46b8-aa97-44571b0eb3ba
+- b6e7dfb2-3534-487e-bd8a-d2f58ec47e47
+- self-hosted-it
 persons:
 - adina-wagner
 - alex-waite
