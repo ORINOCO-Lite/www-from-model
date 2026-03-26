@@ -12,6 +12,10 @@ This project will provide expertise for access, description, and modelling of th
 
 This project is part of [Key Mechanisms of Motor Control in Health and Disease](/projects/sfb1451).
 
+## Objectives
+
+- [Promote open science through shared data and collaboration](/objectives/87be5fa3-80fb-4221-8406-2ddd40fb1fd1) (Long-term goal)
+- [Build tools for reproducible, shareable science](/objectives/97ded4aa-108d-4b84-8195-d6076dce63ce) (Long-term goal)
 ## People
 
 ### Currently associated

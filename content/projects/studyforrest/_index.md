@@ -17,6 +17,11 @@ Beyond the original movie-viewing dataset, StudyForrest expanded to include task
 
 This project is part of [Psychoinformatics](/.).
 
+## Objectives
+
+- [Integrate psychology with informatics](/objectives/99a7e9fe-f8d8-46b8-aa97-44571b0eb3ba) (Long-term goal)
+- [Probe brain function with naturalistic, high-dimensional studies](/objectives/b6e7dfb2-3534-487e-bd8a-d2f58ec47e47) (Deliverable)
+- [Promote open science through shared data and collaboration](/objectives/87be5fa3-80fb-4221-8406-2ddd40fb1fd1) (Deliverable)
 ## People
 
 ### Currently associated

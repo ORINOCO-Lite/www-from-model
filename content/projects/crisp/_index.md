@@ -14,6 +14,10 @@ This project will consolidate fragmented research-information workflows at INM-7
 
 This project is part of [Organized Research Information: Ontology-mapping, Curation, Orchestration](/projects/orinoco).
 
+## Objectives
+
+- [Build tools for reproducible, shareable science](/objectives/97ded4aa-108d-4b84-8195-d6076dce63ce) (Deliverable)
+- [Self-hosted research IT infrastructure](/objectives/self-hosted-it) (Deliverable)
 ## People
 
 ### Currently associated
