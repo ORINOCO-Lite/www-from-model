@@ -35,6 +35,14 @@
     showName = false
 
 [[main]]
+  name = "Publications"
+  pageRef = "publications"
+  weight = 35
+  [main.params]
+    icon = "list"
+    showName = false
+
+[[main]]
   name = "Hub"
   url = "https://hub.psychoinformatics.de"
   weight = 40
