@@ -1,0 +1,31 @@
+name: Update objective pages
+
+on:
+  schedule:
+    - cron: '0 2 * * 1-5'
+  workflow_dispatch:
+
+env:
+  DUMPTHINGS_APIURL: https://pool.psychoinformatics.de/api
+
+jobs:
+  create_pages:
+    runs-on: debian-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v4
+      - name: Prepare environment
+        uses: ./.forgejo/actions/prep-metadata-query
+      - name: Install jq
+        run: |
+          curl -o ~/.local/bin/jq https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-amd64
+          chmod +x ~/.local/bin/jq
+          jq --version
+      - name: Update pages
+        run: |
+          dtc get-records ${DUMPTHINGS_APIURL} public -C XYZPublication \
+          | qri inline-records -p about -p attributed_to -c public \
+          | jq -sc '{pid: "xyzri:this-is-not-important", publications: .}'
+          | qri render-record page_templates/publications.json.j2 'data/publications.json'
+      - name: Deposit changes
+        uses: ./.forgejo/actions/deposit-changes
