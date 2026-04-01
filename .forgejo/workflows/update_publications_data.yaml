@@ -1,4 +1,4 @@
-name: Update objective pages
+name: Update publication pages
 
 on:
   schedule:
