@@ -27,4 +27,8 @@ jobs:
           | jq -sc '{pid: "xyzri:this-is-not-important", publications: .}' \
           | qri render-record page_templates/publications.json.j2 'data/publications.json'
       - name: Deposit changes
-        uses: ./.forgejo/actions/deposit-changes
+        run: |
+          git add data
+          git diff --quiet --cached \
+            && echo "Already up-to-date" \
+            || ( git commit -m "chore: auto-generate content from metadata" && git push origin )
