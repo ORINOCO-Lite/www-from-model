@@ -4,9 +4,9 @@ params:
   graphRootNodePID: {{ pid }}
 ---
 
+{{ description }}
+
 Part of
 {% for item in part_of %}
 - [{{ item.title }}](/{{ item.pid.replace('xyzrsens:', '') }})
 {% endfor %}
-
-{{ description }}
