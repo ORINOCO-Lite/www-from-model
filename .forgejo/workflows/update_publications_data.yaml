@@ -18,9 +18,8 @@ jobs:
         uses: ./.forgejo/actions/prep-metadata-query
       - name: Install jq
         run: |
-          curl -o ~/.local/bin/jq https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-linux-amd64
-          chmod +x ~/.local/bin/jq
-          jq --version
+          apt-get update
+          apt-get install -y jq
       - name: Update pages
         run: |
           dtc get-records ${DUMPTHINGS_APIURL} public -C XYZPublication \
