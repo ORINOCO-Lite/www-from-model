@@ -22,7 +22,7 @@ jobs:
           apt-get install -y jq
       - name: Update pages
         run: |
-          dtc get-records ${DUMPTHINGS_APIURL} public -C XYZPublication \
+          dtc get-records ${{ env.DUMPTHINGS_APIURL }} public -C XYZPublication \
           | qri inline-records -p about -p attributed_to -c public \
           | jq -sc '{pid: "xyzri:this-is-not-important", publications: .}' \
           | qri render-record page_templates/publications.json.j2 'data/publications.json'
