@@ -1,6 +1,7 @@
 ---
 title: "Psychoinformatics"
 projects:
+- a605574d-ee49-4ad4-8348-599b632ed5eb
 - abcd-j
 - datalad
 - orinoco
