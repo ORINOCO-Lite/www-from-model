@@ -6,7 +6,8 @@ params:
 
 {{ description }}
 
-Part of
-{% for item in part_of %}
-- [{{ item.title }}](/{{ item.pid.replace('xyzrsens:', '') }})
+{% if part_of -%}Part of:
+{% for item in part_of -%}
+- [{{ item.title }}](/{{ item.pid.replace('xyzrins:', '') }})
 {% endfor %}
+{% endif -%}

@@ -2,10 +2,10 @@
 title: "{{ display_label }}"
 ---
 
-Part of
-{% for item in part_of %}
-- [{{ item.display_label }}](/{{ item.pid.replace('xyzrsens:', '') }})
-{% endfor %}
-
-
 {{ description }}
+
+{% if part_of -%}Part of:
+{% for item in part_of -%}
+- [{{ item.display_label }}](/{{ item.pid.replace('xyzrins:', '') }})
+{% endfor %}
+{% endif -%}

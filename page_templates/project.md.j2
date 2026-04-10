@@ -22,7 +22,11 @@ params:
 
 {{ description }}
 
-{% if part_of %}This project is part of{% for p in part_of %} [{{ p.title }}](/{{ p.pid|replace('xyzrins:', '') }}){% endfor %}.{% endif %}
+{% if part_of %}## Part of
+{% for item in part_of -%}
+- [{{ item.title }}](/{{ item.pid.replace('xyzrins:', '') }})
+{% endfor %}
+{% endif -%}
 
 ## Objectives
 
