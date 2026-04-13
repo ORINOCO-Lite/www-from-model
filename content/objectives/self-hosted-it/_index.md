@@ -4,6 +4,5 @@ params:
   graphRootNodePID: xyzrins:objectives/self-hosted-it
 ---
 
-Part of
 
 
