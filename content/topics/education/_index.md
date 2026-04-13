@@ -2,7 +2,5 @@
 title: "Education"
 ---
 
-Part of
-
 
 

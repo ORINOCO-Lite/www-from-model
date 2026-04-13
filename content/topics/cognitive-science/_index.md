@@ -2,9 +2,8 @@
 title: "Cognitive science"
 ---
 
-Part of
-
-- [Research](/xyzrins:topics/research)
 
 
+Part of:
+- [Research](/topics/research)
 

@@ -2,7 +2,5 @@
 title: "Neuroimaging"
 ---
 
-Part of
-
 
 

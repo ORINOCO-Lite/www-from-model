@@ -2,7 +2,5 @@
 title: "Provenance"
 ---
 
-Part of
-
 
 

@@ -2,7 +2,5 @@
 title: "Research"
 ---
 
-Part of
-
 
 

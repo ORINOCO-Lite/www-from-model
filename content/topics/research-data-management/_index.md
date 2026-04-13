@@ -2,11 +2,9 @@
 title: "Research data management (RDM)"
 ---
 
-Part of
-
-- [Research](/xyzrins:topics/research)
-
-- [Data management](/xyzrins:topics/data-management)
 
 
+Part of:
+- [Research](/topics/research)
+- [Data management](/topics/data-management)
 

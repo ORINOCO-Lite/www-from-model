@@ -2,11 +2,9 @@
 title: "Naturalistic neuroimaging"
 ---
 
-Part of
-
-- [Naturalistic stimulation](/xyzrins:topics/naturalistic-stimulation)
-
-- [Neuroimaging](/xyzrins:topics/neuroimaging)
 
 
+Part of:
+- [Naturalistic stimulation](/topics/naturalistic-stimulation)
+- [Neuroimaging](/topics/neuroimaging)
 

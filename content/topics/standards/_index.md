@@ -2,7 +2,5 @@
 title: "Standards"
 ---
 
-Part of
-
 
 

@@ -2,9 +2,8 @@
 title: "Research data"
 ---
 
-Part of
-
-- [Research](/xyzrins:topics/research)
 
 
+Part of:
+- [Research](/topics/research)
 
