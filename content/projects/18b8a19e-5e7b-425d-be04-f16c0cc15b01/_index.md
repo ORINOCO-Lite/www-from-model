@@ -18,7 +18,8 @@ params:
 
 A community-written resource on research data management with DataLad, publicly available at [handbook.datalad.org](https://handbook.datalad.org).
 
-This project is part of [DataLad](/projects/datalad).
+## Part of
+- [DataLad](/projects/datalad)
 
 ## Objectives
 

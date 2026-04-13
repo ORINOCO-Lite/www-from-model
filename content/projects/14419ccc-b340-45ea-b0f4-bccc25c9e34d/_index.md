@@ -19,7 +19,8 @@ This project aims to advance understanding of how human gaze behavior organizes 
 
 A central goal is to integrate gaze dynamics with concurrent neural and behavioral measures to elucidate the links between moment-to-moment eye movements and underlying brain activity and cognitive states. The project emphasizes reproducibility and methodological rigor: developing analysis approaches that tolerate noise and individual variability, establishing quantitative metrics for sequence similarity, and creating workflows that enable systematic benchmarking across datasets and experimental conditions. Ultimately, the research aims to provide scalable, comparable frameworks for investigating attention, perception, and individual differences in naturalistic settings.
 
-This project is part of [Study Forrest](/projects/studyforrest).
+## Part of
+- [Study Forrest](/projects/studyforrest)
 
 ## Objectives
 

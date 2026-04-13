@@ -25,7 +25,8 @@ params:
 
 
 
-This project is part of [Psychoinformatics](/.).
+## Part of
+- [Psychoinformatics](/.)
 
 ## Objectives
 

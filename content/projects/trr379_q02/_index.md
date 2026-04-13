@@ -17,7 +17,9 @@ params:
 
 This project will develop a decentralized data platform to provide long-term multi-site data access in an open science framework.
 
-This project is part of [Neuropsychobiology of Aggression: A Transdiagnostic Approach in Mental Disorders](/projects/trr379) [Psychoinformatics](/.).
+## Part of
+- [Neuropsychobiology of Aggression: A Transdiagnostic Approach in Mental Disorders](/projects/trr379)
+- [Psychoinformatics](/.)
 
 ## Objectives
 

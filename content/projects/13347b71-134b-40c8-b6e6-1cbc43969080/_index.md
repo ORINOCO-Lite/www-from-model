@@ -14,7 +14,8 @@ params:
 
 
 
-This project is part of [DataLad](/projects/datalad).
+## Part of
+- [DataLad](/projects/datalad)
 
 ## Objectives
 

@@ -23,7 +23,8 @@ params:
 
 Distribits is a community for enthusiasts of tools and workflows in the domain of distributed data. 
 
-This project is part of [Psychoinformatics](/.).
+## Part of
+- [Psychoinformatics](/.)
 
 ## Objectives
 

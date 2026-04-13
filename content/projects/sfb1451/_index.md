@@ -12,7 +12,8 @@ params:
 
 This project provides an integrated and comprehensive view of the neurobiological underpinnings of motor control and its disturbances. The primary objective is to investigate motor control at all critical levels from genes and molecules to large-scale networks and to infer general mechanisms of motor control, their changes over the life span and their disturbances beyond a single species or a specific pathology.
 
-This project is part of [Psychoinformatics](/.).
+## Part of
+- [Psychoinformatics](/.)
 
 ## Objectives
 

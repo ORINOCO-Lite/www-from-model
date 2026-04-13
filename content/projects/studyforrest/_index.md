@@ -19,7 +19,8 @@ StudyForrest is a long-term, open neuroscience project that provides richly anno
 
 Beyond the original movie-viewing dataset, StudyForrest expanded to include tasks probing face perception, voice and language processing, and individual differences, plus high-quality metadata and code for stimulus presentation and analysis. Its emphasis on naturalistic paradigms and open data has made it a valuable resource for studying temporal dynamics, cross-modal integration, and models of brain activity driven by rich, ecologically valid stimuli, supporting efforts in machine-learning-based encoding/decoding and reproducible neuroscience.
 
-This project is part of [Psychoinformatics](/.).
+## Part of
+- [Psychoinformatics](/.)
 
 ## Objectives
 
