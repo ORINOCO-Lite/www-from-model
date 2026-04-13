@@ -1,0 +1,24 @@
+---
+title: RDM for neuroimagers
+persons:
+- adina-wagner
+topics:
+- research-data-management
+- education
+params:
+  graphRootNodePID: xyzrins:publications/d64a3468-434b-4f95-953f-533bb0942974
+  pid: xyzrins:publications/d64a3468-434b-4f95-953f-533bb0942974
+  doi: 10.5281/zenodo.7419376
+  date: '2023-01-18'
+  title: RDM for neuroimagers
+  kind: fabio:Presentation
+  author:
+  - pid: xyzrins:persons/adina-wagner
+    given_name: Adina
+    family_name: Wagner
+  topic:
+  - pid: xyzrins:topics/research-data-management
+    display_label: Research data management (RDM)
+  - pid: xyzrins:topics/education
+    display_label: Education
+---

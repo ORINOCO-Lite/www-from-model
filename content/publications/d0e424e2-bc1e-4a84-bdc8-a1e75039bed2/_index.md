@@ -1,0 +1,33 @@
+---
+title: Data Management with DataLad
+persons:
+- alex-waite
+- laura-waite
+- adina-wagner
+- michael-hanke
+topics:
+- education
+params:
+  graphRootNodePID: xyzrins:publications/d0e424e2-bc1e-4a84-bdc8-a1e75039bed2
+  pid: xyzrins:publications/d0e424e2-bc1e-4a84-bdc8-a1e75039bed2
+  doi: null
+  date: '2025-09-29'
+  title: Data Management with DataLad
+  kind: bibo:Workshop
+  author:
+  - pid: xyzrins:persons/alex-waite
+    given_name: Alex
+    family_name: Waite
+  - pid: xyzrins:persons/laura-waite
+    given_name: Laura
+    family_name: Waite
+  - pid: xyzrins:persons/adina-wagner
+    given_name: Adina
+    family_name: Wagner
+  - pid: xyzrins:persons/michael-hanke
+    given_name: Michael
+    family_name: Hanke
+  topic:
+  - pid: xyzrins:topics/education
+    display_label: Education
+---

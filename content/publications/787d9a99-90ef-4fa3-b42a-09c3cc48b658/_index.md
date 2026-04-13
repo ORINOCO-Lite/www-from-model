@@ -1,0 +1,58 @@
+---
+title: The DataLad Handbook
+persons:
+- adina-wagner
+- michael-hanke
+- stephan-heunis
+- michal-szczepanik
+- laura-waite
+- alex-waite
+- malgorzata-wierzba
+- christian-moench
+topics:
+- data-management
+- education
+- free-and-open-culture
+- distributed-systems
+params:
+  graphRootNodePID: xyzrins:publications/787d9a99-90ef-4fa3-b42a-09c3cc48b658
+  pid: xyzrins:publications/787d9a99-90ef-4fa3-b42a-09c3cc48b658
+  doi: 10.5281/zenodo.3608611
+  date: '2023-02-14'
+  title: The DataLad Handbook
+  kind: bibo:Book
+  author:
+  - pid: xyzrins:persons/adina-wagner
+    given_name: Adina
+    family_name: Wagner
+  - pid: xyzrins:persons/michael-hanke
+    given_name: Michael
+    family_name: Hanke
+  - pid: xyzrins:persons/stephan-heunis
+    given_name: Stephan
+    family_name: Heunis
+  - pid: xyzrins:persons/michal-szczepanik
+    given_name: "Micha\u0142"
+    family_name: Szczepanik
+  - pid: xyzrins:persons/laura-waite
+    given_name: Laura
+    family_name: Waite
+  - pid: xyzrins:persons/alex-waite
+    given_name: Alex
+    family_name: Waite
+  - pid: xyzrins:persons/malgorzata-wierzba
+    given_name: "Ma\u0142gorzata"
+    family_name: Wierzba
+  - pid: xyzrins:persons/christian-moench
+    given_name: Christian
+    family_name: "M\xF6nch"
+  topic:
+  - pid: xyzrins:topics/data-management
+    display_label: Data management
+  - pid: xyzrins:topics/education
+    display_label: Education
+  - pid: xyzrins:topics/free-and-open-culture
+    display_label: Free and open culture
+  - pid: xyzrins:topics/distributed-systems
+    display_label: Distributed systems
+---
