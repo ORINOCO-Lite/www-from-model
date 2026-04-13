@@ -18,6 +18,12 @@
     max-height: calc(100vh - 4rem);
     overflow-y: auto;
     scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+}
+
+.clear-button {
+    margin-left: auto;
 }
 
 .results-panel {
@@ -49,4 +55,11 @@
     color: #292524;
     padding-left: 0.5em;
     border-radius: 3px;
+    margin-bottom: 1em;
+    border: 1px solid grey;
+}
+
+.topic-chip.active {
+  background-color: rgb(59 130 246 / 0.15);
+  color: rgb(59 130 246);
 }

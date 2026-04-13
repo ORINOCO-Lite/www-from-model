@@ -1,13 +1,5 @@
-// Load data
-const rawData = JSON.parse(document.getElementById("pub-data").textContent);
-
-// Normalize data
-const publications = rawData.map(p => ({
-    ...p,
-    year: p.date ? new Date(p.date).getFullYear() : 'unknown',
-    topics: (p.topic || []).map(t => t.display_label),
-    authors: (p.author || []).map(a => `${a.given_name} ${a.family_name}`)
-}));
+// Load data from all pre-rendered publication item divs
+const publications = Array.from(document.querySelectorAll(".pub"));
 
 // State
 let state = {
@@ -20,15 +12,13 @@ let state = {
 // Build filter options dynamically
 function getUniqueValues(field) {
     const values = new Set();
-
-    publications.forEach(p => {
-        if (Array.isArray(p[field])) {
-            p[field].forEach(v => values.add(v));
-        } else if (p[field]) {
-            values.add(p[field]);
+    publications.forEach(el => {
+        if (field === "topic") {
+            getTopics(el).forEach(v => values.add(v));
+        } else {
+            values.add(el.dataset[field]);
         }
     });
-
     return Array.from(values).sort();
 }
 
@@ -42,7 +32,6 @@ function formatValue(field, value) {
     return value
 }
 
-// Render checkboxes for filters
 function renderFilter(containerId, field, values) {
     const container = document.getElementById(containerId);
     values.forEach(value => {
@@ -52,6 +41,8 @@ function renderFilter(containerId, field, values) {
         const checkbox = document.createElement("input");
         checkbox.type = "checkbox";
         checkbox.value = value;
+        checkbox.dataset.field = field;
+        checkbox.id = id;
         checkbox.addEventListener("change", () => {
             if (checkbox.checked) {
                 state[field].add(value);
@@ -67,67 +58,118 @@ function renderFilter(containerId, field, values) {
 }
 
 // Filtering logic
-function matchesFilters(p) {
-    // Kind
-    if (state.kind.size && !state.kind.has(p.kind)) return false;
-    // Year
-    if (state.year.size && !state.year.has(String(p.year))) return false;
-    // Topic (multi-value)
+function matchesFilters(el) {
+    const kind = el.dataset.kind;
+    const year = el.dataset.year;
+    const topics = getTopics(el);
+
+    // kind filter
+    if (state.kind.size && !state.kind.has(kind)) {
+        return false;
+    }
+    // year filter
+    if (state.year.size && !state.year.has(year)) {
+        return false;
+    }
+    // topic filter (multi-match)
     if (state.topic.size) {
-        const match = p.topics.some(t => state.topic.has(t));
+        const match = topics.some(t => state.topic.has(t));
         if (!match) return false;
     }
     return true;
 }
 
-// Search
-function matchesSearch(p) {
+// Helper to get topics from an element
+function getTopics(el) {
+    try {
+        return JSON.parse(el.dataset.topics || "[]").map(t => t.display_label);
+    } catch {
+        return [];
+    }
+}
+
+// Search logic
+function matchesSearch(el) {
     if (!state.search) return true;
     const text = (
-        p.title +
-        " " +
-        p.kind +
-        " " +
-        p.topics.join(" ") +
-        " " +
-        p.authors.join(" ")
+        el.dataset.title + " " +
+        el.dataset.kind + " " +
+        el.dataset.year + " " +
+        el.dataset.topics + " " +
+        el.dataset.authors
     ).toLowerCase();
+
     return text.includes(state.search);
 }
 
-// Render results
+// Change display of divs based on filtering/searching
 function render() {
-    const container = document.getElementById("results");
-    container.innerHTML = "";
-    const filtered = publications.filter(p =>
-        matchesFilters(p) && matchesSearch(p)
-    );
-    if (filtered.length === 0) {
-        container.innerHTML = "<p>No results</p>";
-        return;
-    }
-    filtered.forEach(p => {
-        const div = document.createElement("div");
-        div.className = "pub";
-        div.innerHTML = `
-      <h3><em>${p.title} ${p.year ? ' ('+p.year+')' : ''}</em></h3>
-      <p><strong>Authors:</strong> ${p.authors.join(", ")}</p>
-      <p><strong>Kind:</strong> ${formatValue("kind", p.kind)}</p>
-      <p><strong>Topics:</strong> ${p.topics.join(", ")}</p>
-    `;
-        container.appendChild(div);
+    let count = 0;
+    publications.forEach(el => {
+        const visible =
+            matchesFilters(el) &&
+            matchesSearch(el);
+        if (visible) count+=1;
+        renderCount(count)
+        el.style.display = visible ? "" : "none";
     });
 }
 
+// Count of searched+filtered publications
+function renderCount(count) {
+    const countEl = document.getElementById('pub-count');
+    countEl.innerHTML = `${count}` ;
+}
+
+// Set checkbox if user clicks on topic pill
+function selectFilter(field, value) {
+    const checkbox = document.querySelector(
+        `input[type="checkbox"][data-field="${field}"][value="${CSS.escape(value)}"]`
+    );
+    if (!checkbox) return;
+    if (!checkbox.checked) {
+        checkbox.checked = true;
+        state[field].add(value);
+        render();
+    }
+}
+
+// Clear all
+function clearAllFilters() {
+    // Reset state
+    state.kind.clear();
+    state.topic.clear();
+    state.year.clear();
+    state.search = "";
+    // Uncheck all checkboxes
+    document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+        cb.checked = false;
+    });
+    // Clear search input
+    const searchInput = document.getElementById("search");
+    if (searchInput) {
+        searchInput.value = "";
+    }
+    // Re-render results
+    render();
+}
+
 // On startup:
-// Build filters
+// 1) Build filters
 renderFilter("filter-kind", "kind", getUniqueValues("kind"));
-renderFilter("filter-topic", "topic", getUniqueValues("topics"));
+renderFilter("filter-topic", "topic", getUniqueValues("topic"));
 renderFilter("filter-year", "year", getUniqueValues("year").map(String));
-// Search input
+// 2) Register search input
 document.getElementById("search").addEventListener("input", e => {
     state.search = e.target.value.toLowerCase();
     render();
 });
-// Initial render
+// 3) Add topic click handlers
+document.querySelectorAll(".topic-chip").forEach(el => {
+    el.addEventListener("click", () => {
+        const topic = el.dataset.topic;
+        selectFilter("topic", topic);
+    });
+});
+// 4) Initial render
 render();

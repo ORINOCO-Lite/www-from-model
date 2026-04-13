@@ -16,19 +16,11 @@ jobs:
         uses: actions/checkout@v4
       - name: Prepare environment
         uses: ./.forgejo/actions/prep-metadata-query
-      - name: Install jq
-        run: |
-          apt-get update
-          apt-get install -y jq
-      - name: Update pages
+      - name: Update publication pages
         run: |
           dtc get-records ${{ env.DUMPTHINGS_APIURL }} public -C XYZPublication \
           | qri inline-records -p about -p attributed_to -c public \
-          | jq -sc '{pid: "xyzri:this-is-not-important", publications: .}' \
-          | qri render-record page_templates/publications.json.j2 'data/publications.json'
+          | qri render-record page_templates/publication.md.j2 \
+            'content/{__pid_curie_reference}/_index.md'
       - name: Deposit changes
-        run: |
-          git add data
-          git diff --quiet --cached \
-            && echo "Already up-to-date" \
-            || ( git commit -m "chore: auto-generate content from metadata" && git push origin )
+        uses: ./.forgejo/actions/deposit-changes

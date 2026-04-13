@@ -9,6 +9,9 @@
     <div class="pub-layout">
         <!-- Sidebar -->
         <aside class="filters-panel">
+            <button onclick="clearAllFilters()" class="clear-button mt-2 text-sm text-primary-600 hover:underline">
+              Clear all
+            </button>
             <div class="filter-block">
                 <strong>Kind</strong>
                 <div id="filter-kind" class="filter-group"></div>
@@ -26,14 +29,17 @@
         </aside>
         <!-- Main rendered content -->
         <div class="results-panel">
-            <input type="text" id="search" placeholder="Search publications..." class="search-bar" />
-            <div id="results"></div>
+            <input type="text" id="search" placeholder="Search publications..." class="search-bar" /> <span id="pub-count"></span>
+            <!-- Data -->
+            {{ $pubPages := where .Site.Pages "Section" "publications" }}
+            {{ $pubPagesTerms := where $pubPages "Kind" "term" }}
+            <div id="results">
+              {{ range $i, $p := $pubPagesTerms }}
+                {{ partial "publication-item.html" $p }}
+              {{ end }}
+            </div>
         </div>
     </div>
-    <!-- Data -->
-    <script id="pub-data" type="application/json">
-    {{ site.Data.publications }}
-    </script>
     <!-- JS + CSS -->
     <script src="/publications.js"></script>
     <link rel="stylesheet" href="/publications.css">
