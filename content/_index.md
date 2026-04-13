@@ -50,8 +50,6 @@ We develop open, reproducible tools and datasets to advance computational neuros
 
 Our goal is to make complex neuroimaging and behavioral data easier to discover, access, reproduce, and reuse across labs by integrating data, code, and workflows. Through tool development, open data releases, and methodological research, we aim to improve replicability in cognitive and brain sciences and to lower the technical barriers for collaborative, large-scale computational studies.
 
-
-
 ## Objectives
 
 - [Probe brain function with naturalistic, high-dimensional studies](/objectives/b6e7dfb2-3534-487e-bd8a-d2f58ec47e47) (Long-term goal)
