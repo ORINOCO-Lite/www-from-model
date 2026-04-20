@@ -9,8 +9,8 @@ copyright = "&copy; 2025 Psychoinformatics group"
 [params]
   dateFormat = "2 January 2006"
 
-  mainSections = ["samples"]
-  description = "A powerful, lightweight theme for Hugo built with Tailwind CSS."
+  mainSections = ["posts", "projects"]
+  description = "Research in this lab focuses on the interface of computer and information sciences, neuroscience, and psychology."
 
 [params.author]
   name = "Congo"
