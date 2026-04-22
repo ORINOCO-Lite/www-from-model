@@ -45,6 +45,7 @@
   "doi": doi.notation | default(none) if doi else none,
   "date": generation.at_time | default(none) if generation else none,
   "title": __rec.title | default(none),
+  "description": __rec.description | default(none),
   "kind": __rec.kind | default(none),
   "author": authors | default(none),
   "topic": topics | default(none)
