@@ -1,0 +1,127 @@
+{{ define "main" }}
+  <header>
+    {{ if .Params.showBreadcrumbs | default (.Site.Params.list.showBreadcrumbs | default false) }}
+      {{ partial "breadcrumbs.html" . }}
+    {{ end }}
+    <h1 class="mt-0 mb-2 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}
+      {{ if .Params.date }}
+        {{ $year := substr .Params.date 0 4 }}
+        <span class="text-2xl">
+          ({{ $year }})
+        </span>
+      {{ end }}
+      {{ with .Params.doi }}
+        <span class="mt-3 text-xl" style="border-left: 1px solid grey; padding-left: 0.5em; margin-left: 0.5em;">
+          <a
+            href="https://doi.org/{{ . }}"
+            target="_blank"
+            class="text-primary-600"
+            style="text-decoration: unset;"
+          >
+            DOI: {{ . }}
+          </a>
+        </span>
+      {{ end }}
+      {{ with .Params.kind }}
+        <span class="mt-3 text-xl" style="font-style: italic; border-left: 1px solid grey; padding-left: 0.5em; margin-left: 0.5em;">
+          {{ . | replaceRE "^.*:" "" }}
+        </span>
+      {{ end }}
+    </h1>
+  </header>
+  <article class="prose max-w-full dark:prose-invert">
+  <!-- Authors -->
+  {{ with .GetTerms "persons" }}
+    <div class="mb-2 flex flex-wrap gap-2">
+      <span class="ms-1 border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+        <em>Authors:</em>
+      </span>
+      {{ range . }}
+        <span class="ms-1 rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+          <a style="text-decoration: none;" href="{{ .Permalink }}">{{ .Title }}</a>
+        </span>
+      {{ end }}
+    </div>
+  {{ end }}
+  <!-- Topics -->
+  {{ with .GetTerms "topics" }}
+    <div class="mb-2 flex flex-wrap gap-2">
+      <span class="ms-1 border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+        <em>Topics:</em>
+      </span>
+      {{ range . }}
+        <span class="ms-1 rounded-md border border-secondary-400 px-1 py-[1px] text-xs font-normal text-secondary-700 dark:border-secondary-600 dark:text-secondary-400">
+          <a style="text-decoration: none;" href="{{ .Permalink }}">{{ .Title }}</a>
+        </span>
+      {{ end }}
+    </div>
+  {{ end }}
+
+
+  <!-- Depiction and Graph -->
+  {{ $depictions := .Resources.Match "depiction.*" }}
+  {{ $hasDepiction := gt (len $depictions) 0 }}
+  <table class="not-prose w-full">
+    <tr>
+      {{ if $hasDepiction }}
+      <td width="40%" class="align-middle text-center">
+        {{ with index $depictions 0 }}
+            <img src="{{ .RelPermalink }}" alt="depiction of publication">
+        {{ end }}
+      </td>
+      {{ end }}
+      <td class="align-middle text-center">
+        {{ if .Param "graphRootNodePID" | default false }}
+        <div class="prose max-w-full dark:prose-invert">
+          <script>
+          const limitGraphRootNodeId = '{{ .Param "graphRootNodePID" }}';
+          </script>
+          <script type="module" crossorigin src="/graph.js"></script>
+          <div class="relative">
+            {{ if .Param "graphDescription" | default false }}
+            <p>{{ .Param "graphDescription" }}</p>
+            {{ end }}
+            <div id="sigma-node-type-controls" class="absolute z-10 left-2 bottom-2" >
+              <div id="sigma-controls-list" ></div>
+            </div>
+            <div id="sigma-container" class="w-full h-[40vh] m-0 p-0 bg-neutral-100 dark:bg-neutral-600" ></div>
+          </div>
+        </div>
+        {{ end }}
+      </td>
+    </tr>
+  </table>
+  <!-- Abstract -->
+  {{ with .Params.description }}
+    <p>{{ . }}</p>
+  {{ end }}
+  </article>
+
+  {{ if .Data.Pages }}
+  <br>
+    <section>
+      {{ if $.Params.groupByYear | default ($.Site.Params.list.groupByYear | default true) }}
+        {{ range (.Paginate (.Pages.GroupByDate "2006")).PageGroups }}
+          <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+            {{ .Key }}
+          </h2>
+          <hr class="w-36 border-dotted border-neutral-400" />
+          {{ range .Pages }}
+            {{ partial "article-link.html" . }}
+          {{ end }}
+        {{ end }}
+      {{ else }}
+        {{ range (.Paginate .Pages).Pages }}
+          {{ partial "article-link.html" . }}
+        {{ end }}
+      {{ end }}
+    </section>
+    {{ partial "pagination.html" . }}
+  {{ else }}
+    <section class="prose mt-10 dark:prose-invert">
+      <p class="border-t py-8">
+        <em>{{ i18n "list.no_articles" | emojify }}</em>
+      </p>
+    </section>
+  {{ end }}
+{{ end }}
