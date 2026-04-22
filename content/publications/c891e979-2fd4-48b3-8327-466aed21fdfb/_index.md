@@ -15,6 +15,7 @@ params:
   date: null
   title: 'Debian Med: Integrated software environment for all medical purposes based
     on Debian GNU/Linux'
+  description: null
   kind: bibo:Proceedings
   author:
   - pid: xyzrins:persons/michael-hanke

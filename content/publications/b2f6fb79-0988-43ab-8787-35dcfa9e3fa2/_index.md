@@ -13,6 +13,7 @@ params:
   doi: 10.1186/s13742-015-0072-7
   date: '2015-07-18'
   title: Four aspects to make science open "by design" and not as an after-thought
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michael-hanke

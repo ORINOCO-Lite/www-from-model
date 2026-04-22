@@ -10,6 +10,7 @@ params:
   doi: null
   date: '2004'
   title: 'Wie die Bilder laufen lernten: Kognitive Prozesse bei der Bewegungswahrnehmung'
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michael-hanke

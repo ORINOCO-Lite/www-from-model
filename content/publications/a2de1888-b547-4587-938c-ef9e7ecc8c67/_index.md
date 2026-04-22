@@ -22,6 +22,20 @@ params:
   date: '2022-03-11'
   title: 'FAIRly big: A framework for computationally reproducible processing of large-scale
     data'
+  description: "Large-scale datasets present unique opportunities to perform scientific\
+    \ investigations with unprecedented breadth. However, they also pose considerable\
+    \ challenges for the findability, accessibility, interoperability, and reusability\
+    \ (FAIR) of research outcomes due to infrastructure limitations, data usage constraints,\
+    \ or software license restrictions. Here we introduce a DataLad-based, domain-agnostic\
+    \ framework suitable for reproducible data processing in compliance with open science\
+    \ mandates. The framework attempts to minimize platform idiosyncrasies and performance-related\
+    \ complexities. It affords the capture of machine-actionable computational provenance\
+    \ records that can be used to retrace and verify the origins of research outcomes,\
+    \ as well as be re-executed independent of the original computing infrastructure.\
+    \ We demonstrate the framework\u2019s performance using two showcases: one highlighting\
+    \ data sharing and transparency (using the studyforrest.org dataset) and another\
+    \ highlighting scalability (using the largest public brain imaging dataset available:\
+    \ the UK Biobank dataset)."
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/malgorzata-wierzba

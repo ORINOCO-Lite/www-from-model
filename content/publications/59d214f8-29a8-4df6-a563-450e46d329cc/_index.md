@@ -21,6 +21,7 @@ params:
   date: '2021-07-01'
   title: 'DataLad: distributed system for joint management of code, data, and their
     relationship'
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/adina-wagner

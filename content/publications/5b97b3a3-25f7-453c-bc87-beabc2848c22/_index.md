@@ -11,6 +11,9 @@ params:
   doi: 10.5281/zenodo.7155598
   date: '2022-10-07'
   title: 'Wissenschaft Online: Thema Forschungsdatenmanagement'
+  description: "Deutscher Foliensatz f\xFCr einen 15-min\xFCtigen popul\xE4rwissenschaftlichen\
+    \ Vortrag zum Thema Forschungsdatenmanagement, im \xF6ffentlichen \"Wissenschaft\
+    \ Online\" Format des Forschungszentrums J\xFClich."
   kind: fabio:Presentation
   author:
   - pid: xyzrins:persons/adina-wagner

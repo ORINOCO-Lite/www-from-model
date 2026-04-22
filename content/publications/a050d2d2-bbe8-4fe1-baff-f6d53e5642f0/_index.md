@@ -15,6 +15,7 @@ params:
   doi: 10.3389/neuro.01.007.2010
   date: '2010'
   title: 'Statistical learning analysis in neuroscience: aiming for transparency'
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: orcid:0000-0001-5840-5658

@@ -11,6 +11,7 @@ params:
   doi: 10.3758/s13415-019-00733-z
   date: '2019-06-17'
   title: Neural signatures underlying deliberation in human foraging decisions
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michael-hanke

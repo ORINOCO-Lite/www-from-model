@@ -14,6 +14,7 @@ params:
   date: 2017-08
   title: Ultra high-field multi-resolution fMRI data for orientation decoding in visual
     cortex
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michael-hanke

@@ -12,6 +12,7 @@ params:
   doi: 10.1093/cercor/bhx328
   date: '2018-01-20'
   title: Encoding of auditory temporal Gestalt in the human brain.
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michael-notter

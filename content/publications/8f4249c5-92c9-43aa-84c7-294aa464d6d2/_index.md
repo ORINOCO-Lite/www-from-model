@@ -13,6 +13,7 @@ params:
   date: null
   title: Advancing Neuroimaging Research with Predictive Multivariate Pattern Analysis
     (MVPA)
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: orcid:0000-0003-3456-2493

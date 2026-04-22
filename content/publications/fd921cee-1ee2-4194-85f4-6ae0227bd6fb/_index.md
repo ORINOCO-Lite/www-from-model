@@ -14,6 +14,7 @@ params:
   date: '2018-02-02'
   title: Spatial band-pass filtering aids decoding musical genres from auditory cortex
     7T fMRI.
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michael-hanke

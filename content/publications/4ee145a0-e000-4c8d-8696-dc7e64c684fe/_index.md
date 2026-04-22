@@ -12,6 +12,7 @@ params:
   doi: 10.21105/joss.01525
   date: '2019-08-16'
   title: 'multimatch_gaze: The MultiMatch algorithm for gaze comparison in Python'
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/adina-wagner

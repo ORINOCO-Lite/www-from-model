@@ -10,6 +10,7 @@ params:
   doi: null
   date: null
   title: Portrayed emotions in the movie "Forrest Gump"
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michael-hanke

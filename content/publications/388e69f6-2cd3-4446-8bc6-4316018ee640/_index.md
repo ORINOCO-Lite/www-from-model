@@ -12,6 +12,7 @@ params:
   doi: 10.1038/nn.4550
   date: 2017-06
   title: Towards standard practices for sharing computer code and programs in neuroscience
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michael-hanke

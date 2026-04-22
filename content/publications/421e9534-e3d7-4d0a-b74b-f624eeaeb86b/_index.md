@@ -13,6 +13,7 @@ params:
   date: 2011-07
   title: Investigation of melodic contour processing in the brain using multivariate
     pattern-based fMRI
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michael-hanke

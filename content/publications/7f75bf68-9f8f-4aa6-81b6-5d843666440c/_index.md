@@ -10,6 +10,10 @@ params:
   doi: 10.5281/zenodo.10556596
   date: '2024-01-23'
   title: 'DataLad: Decentralized management of digital objects for open science'
+  description: 'Lecture on DataLad and how it connects to Git and git-annex, held in
+    a course on Git at the University Hamburg Jan. 26th 2024.
+
+    '
   kind: fabio:Presentation
   author:
   - pid: xyzrins:persons/adina-wagner

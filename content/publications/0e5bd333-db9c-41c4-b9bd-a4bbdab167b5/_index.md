@@ -14,6 +14,7 @@ params:
   doi: 10.1093/cercor/bhw068
   date: '2016-03-14'
   title: A Model of Representational Spaces in Human Cortex
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: orcid:0000-0002-6558-3118

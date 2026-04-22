@@ -13,6 +13,7 @@ params:
   doi: 10.1523/JNEUROSCI.5547-11.2012
   date: '2012-02-22'
   title: Representation of Biological Classes in the Human Brain
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: orcid:0000-0003-3456-2493

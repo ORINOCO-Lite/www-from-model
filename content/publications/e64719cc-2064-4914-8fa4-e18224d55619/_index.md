@@ -11,6 +11,7 @@ params:
   doi: 10.3389/fninf.2011.00008
   date: '2011'
   title: Neuroscience runs on GNU/Linux
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: orcid:0000-0003-3456-2493

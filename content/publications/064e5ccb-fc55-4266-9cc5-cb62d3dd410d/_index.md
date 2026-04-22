@@ -12,6 +12,7 @@ params:
   date: '2008'
   title: Retinotopic activation in response to subjective contours in primary visual
     cortex
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michael-hanke

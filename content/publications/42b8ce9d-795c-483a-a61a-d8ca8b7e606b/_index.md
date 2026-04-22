@@ -11,6 +11,7 @@ params:
   doi: null
   date: '2009-06-25'
   title: Advancing the understanding of brain function with multivariate pattern analysis
+  description: null
   kind: bibo:Thesis
   author:
   - pid: xyzrins:persons/michael-hanke

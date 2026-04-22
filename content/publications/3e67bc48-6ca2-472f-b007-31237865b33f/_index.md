@@ -14,6 +14,7 @@ params:
   date: null
   title: A practical guide to functional magnetic resonance imaging with simultaneous
     eye tracking for cognitive neuroimaging research
+  description: null
   kind: bibo:Chapter
   author:
   - pid: xyzrins:persons/adina-wagner

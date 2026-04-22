@@ -10,6 +10,7 @@ params:
   doi: 10.18420/inf2024_178
   date: '2024'
   title: An analysis of Computer Science in OJAs with a dual-lingual ontology approach
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/abe084af-730c-4619-8c82-4fd72fda2655

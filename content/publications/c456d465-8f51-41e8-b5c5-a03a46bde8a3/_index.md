@@ -15,6 +15,21 @@ params:
   date: '2022-04-01'
   title: Processing of visual and non-visual naturalistic spatial information in the
     "parahippocampal place area"
+  description: "The \u201Cparahippocampal place area\u201D (PPA) in the human ventral\
+    \ visual stream exhibits increased hemodynamic activity correlated with the perception\
+    \ of landscape photos compared to faces or objects. Here, we investigate the perception\
+    \ of scene-related, spatial information embedded in two naturalistic stimuli. The\
+    \ same 14 participants were watching a Hollywood movie and listening to its audio-description\
+    \ as part of the open-data resource studyforrest.org. We model hemodynamic activity\
+    \ based on annotations of selected stimulus features, and compare results to a block-design\
+    \ visual localizer. On a group level, increased activation correlating with visual\
+    \ spatial information occurring in the movie is overlapping with a traditionally\
+    \ localized PPA. Activation correlating with semantic spatial information occurring\
+    \ in the audio-description is more restricted to the anterior PPA. On an individual\
+    \ level, we find significant bilateral activity in the PPA of nine individuals and\
+    \ unilateral activity in one individual. Results suggest that activation in the\
+    \ PPA generalizes to spatial information embedded in a movie and an auditory narrative,\
+    \ and may call for considering a functional subdivision of the PPA."
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/simon-eickhoff

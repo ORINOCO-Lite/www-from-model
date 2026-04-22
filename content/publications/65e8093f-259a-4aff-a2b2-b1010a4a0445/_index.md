@@ -10,6 +10,9 @@ params:
   doi: null
   date: '2020-11-18'
   title: Data Management Workshop with DataLad
+  description: A full-day workshop on DataLad on Nov 18th 2020, conducted virtually
+    for the Max Planck Institute for Human Development Berlin. Part of a ReproNim fellowship
+    training.
   kind: bibo:Workshop
   author:
   - pid: xyzrins:persons/adina-wagner

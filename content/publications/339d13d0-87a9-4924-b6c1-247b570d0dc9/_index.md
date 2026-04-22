@@ -12,6 +12,7 @@ params:
   doi: 10.1016/j.neuroimage.2012.12.002
   date: 2013-03
   title: Evidence for feature binding in the superior parietal lobule
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: orcid:0000-0001-5840-5658

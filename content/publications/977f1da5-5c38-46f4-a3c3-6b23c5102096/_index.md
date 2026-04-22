@@ -11,6 +11,9 @@ params:
   doi: 10.5281/zenodo.6364570
   date: '2022-03-21'
   title: Version control and RDM with DataLad
+  description: A two-hour workshop on using DataLad (datalad.org) for version controlling
+    data and research data management, held at the two-day ReproNim Germany workshop
+    for the DGPA.
   kind: bibo:Workshop
   author:
   - pid: xyzrins:persons/adina-wagner

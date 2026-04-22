@@ -15,6 +15,7 @@ params:
   doi: 10.1007/s12021-008-9041-y
   date: '2009-01-28'
   title: 'PyMVPA: A Python toolbox for multivariate pattern analysis of fMRI data'
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: orcid:0000-0003-3456-2493

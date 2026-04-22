@@ -14,6 +14,7 @@ params:
   date: '2012'
   title: "Open is not enough. Let\u2019s take the next step: An integrated, community-driven\
     \ computing platform for neuroscience"
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michael-hanke

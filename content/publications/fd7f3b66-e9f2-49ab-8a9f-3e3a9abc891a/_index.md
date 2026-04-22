@@ -6,6 +6,10 @@ params:
   doi: null
   date: null
   title: Main Website of the TRR379
+  description: The main website of the TRR379 is the public facing presentation of the
+    consortium. It is specifically built to be the core component of the metadata concept
+    of TRR379. It provides a collection of canonical definitions of entities essential
+    for the function of TRR379.
   kind: bibo:Website
   author: []
   topic: []

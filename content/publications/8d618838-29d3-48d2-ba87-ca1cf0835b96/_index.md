@@ -15,6 +15,19 @@ params:
   date: '2019-12-04'
   title: Individual face and house-related eye movement patterns distinctively activate
     FFA and PPA in the absence of faces and houses.
+  description: "We investigated if the fusiform face area (FFA) and the parahippocampal\
+    \ place area (PPA) contain a representation of fixation sequences that are typically\
+    \ used when looking at faces or houses. Here, we instructed observers to follow\
+    \ a dot presented on a uniform background. The dot\u2019s movements represented\
+    \ gaze paths acquired separately from observers looking at face or house pictures.\
+    \ Even when gaze dispersion differences were controlled, face- and house-associated\
+    \ gaze patterns could be discriminated by fMRI multivariate pattern analysis in\
+    \ FFA and PPA, more so for the current observer\u2019s own gazes than for another\
+    \ observer\u2019s gaze. The discrimination of the observer\u2019s own gaze patterns\
+    \ was not observed in early visual areas (V1 \u2013 V4) or superior parietal lobule\
+    \ and frontal eye fields. These findings indicate a link between perception and\
+    \ action\u2014the complex gaze patterns that are used to explore faces and houses\u2014\
+    in the FFA and PPA."
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michael-hanke

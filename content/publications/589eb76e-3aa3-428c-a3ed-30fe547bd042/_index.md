@@ -10,6 +10,12 @@ params:
   doi: 10.5281/zenodo.4541322
   date: '2021-03-28'
   title: Educating and Training for a FAIR future
+  description: "Talk given at the virtual meeting of the German Neuroscientific Society\
+    \ 2021, entitled \"Educating and Training for a FAIR future\" by Adina S. Wagner.\
+    \ The html sources of the talk are publicly available at https://github.com/datalad-handbook/course.\n\
+    \n \n\nThe submission was awared the \"Young Investigator Orals\" award and became\
+    \ a part of the symposium \"S28 \"FAIR data management and data sharing in neuroscience\"\
+    .\"\n\n"
   kind: fabio:Presentation
   author:
   - pid: xyzrins:persons/adina-wagner

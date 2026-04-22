@@ -17,6 +17,20 @@ params:
   date: '2024-05-07'
   title: 'Teaching research data management with DataLad: a multi-year, multi-domain
     effort'
+  description: Research data management has become an indispensable skill in modern
+    neuroscience. Researchers can benefit from following good practices as well as from
+    having proficiency in using particular software solutions. But as these domain-agnostic
+    skills are commonly not included in domain-specific graduate education, community
+    efforts increasingly provide early career scientists with opportunities for organised
+    training and materials for self-study. Investing effort in user documentation and
+    interacting with the user base can, in turn, help developers improve quality of
+    their software. In this work, we detail and evaluate our multi-modal teaching approach
+    to research data management in the DataLad ecosystem, both in general and with concrete
+    software use. Spanning an online and printed handbook, a modular course suitable
+    for in-person and virtual teaching, and a flexible collection of research data management
+    tips in a knowledge base, our free and open source collection of training material
+    has made research data management and software training available to various different
+    stakeholders over the past five years.
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/adina-wagner

@@ -15,6 +15,7 @@ params:
   date: 2017-03
   title: The effect of acquisition resolution on orientation decoding from V1 BOLD fMRI
     at 7 Tesla
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/ayan-sengupta

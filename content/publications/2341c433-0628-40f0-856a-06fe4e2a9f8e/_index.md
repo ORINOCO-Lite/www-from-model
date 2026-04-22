@@ -10,6 +10,19 @@ params:
   doi: 10.5281/zenodo.10118793
   date: '2023-11-16'
   title: Data and Reproducibility Management with DataLad
+  description: 'Slides for a two-hour workshop "Data and reproducibility management
+    with DataLad", part of the "Helmholtz Reproducibility" Workshop in the International
+    at the GFZ Potsdam, November 16th 2023.
+
+
+    https://events.hifis.net/event/998
+
+
+    The slide sources can be found at github.com/datalad-handbook/datalad-course, and
+    a rendering of the slides is at files.inm7.de/adina/talks/html/helmholtz-reproducibility.
+
+
+    '
   kind: bibo:Workshop
   author:
   - pid: xyzrins:persons/adina-wagner

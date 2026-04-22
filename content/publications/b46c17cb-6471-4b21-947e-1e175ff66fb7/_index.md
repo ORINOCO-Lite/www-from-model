@@ -15,6 +15,7 @@ params:
   date: 2013-09
   title: Pattern classification precedes region-average hemodynamic response in early
     visual cortex
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: orcid:0000-0002-6558-3118

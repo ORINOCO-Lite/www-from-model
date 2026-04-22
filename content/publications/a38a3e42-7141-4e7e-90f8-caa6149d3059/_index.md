@@ -13,6 +13,7 @@ params:
   doi: 10.3389/fninf.2012.00009
   date: '2012'
   title: Data sharing in neuroimaging research
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michael-hanke

@@ -14,6 +14,7 @@ params:
   doi: 10.21105/joss.01294
   date: '2019-08-12'
   title: 'PyBIDS: Python tools for BIDS datasets'
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: orcid:0000-0003-3456-2493

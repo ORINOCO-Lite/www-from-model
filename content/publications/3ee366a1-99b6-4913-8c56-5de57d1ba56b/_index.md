@@ -12,6 +12,7 @@ params:
   date: 2021-09
   title: The effects of multi-echo fMRI combination and rapid T2*-mapping on offline
     and real-time BOLD sensitivity
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/stephan-heunis

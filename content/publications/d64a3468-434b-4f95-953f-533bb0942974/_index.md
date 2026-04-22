@@ -11,6 +11,13 @@ params:
   doi: 10.5281/zenodo.7419376
   date: '2023-01-18'
   title: RDM for neuroimagers
+  description: 'A 20-minute talk on research data management for neuroimagers, presented
+    virtually at the Oxford WIN Center on January 18th 2023. Sources can be found at
+    https://github.com/datalad-handbook/datalad-course. A live rendering of the slides
+    can be found at https://files.inm7.de/adina/talks/html/rdm_win_2023.html.
+
+
+    '
   kind: fabio:Presentation
   author:
   - pid: xyzrins:persons/adina-wagner

@@ -13,6 +13,8 @@ params:
   doi: null
   date: '2025-06-30'
   title: 'DataLad: Our Introduction, Your Usecases'
+  description: A three-day DataLad workshop Jun 30 - Jul 2 2025 in Aachen, co-organized
+    by WiNoDa, NFDI4Objects, NFDI4Ing, and DKZ.2R.
   kind: bibo:Workshop
   author:
   - pid: xyzrins:persons/michael-hanke

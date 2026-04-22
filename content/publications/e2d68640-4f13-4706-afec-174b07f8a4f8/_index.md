@@ -12,6 +12,7 @@ params:
   date: 2022-11
   title: 'Learning about threat from friends and strangers is equally effective: An
     fMRI study on observational fear conditioning.'
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michal-szczepanik

@@ -14,6 +14,7 @@ params:
   date: 2022-11
   title: Cross-cohort replicability and generalizability of connectivity-based psychometric
     prediction patterns
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michael-hanke

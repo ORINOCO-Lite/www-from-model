@@ -15,6 +15,8 @@ params:
   doi: null
   date: null
   title: Documentation of the TRR379
+  description: "The Documentation of the TRR379 provides all general information, \u201C\
+    How To\u201D guidelines, and pointers to relevant services and contact points."
   kind: bibo:Website
   author:
   - pid: xyzrins:persons/michael-hanke

@@ -17,6 +17,7 @@ params:
   date: 2011-10
   title: A common, high-dimensional model of the representational space in human ventral
     temporal cortex
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michael-hanke

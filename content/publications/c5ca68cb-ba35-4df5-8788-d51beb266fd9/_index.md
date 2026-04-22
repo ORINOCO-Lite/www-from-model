@@ -11,6 +11,9 @@ params:
   doi: null
   date: '2022-04-21'
   title: Data Management for reproducible science
+  description: A two-half-day workshop on DataLad, April 21st and April 22nd 2022. Conducted
+    virtually for the Institute of Systems Neuroscience at the University Clinic Hamburg
+    (UKE).
   kind: bibo:Workshop
   author:
   - pid: xyzrins:persons/adina-wagner

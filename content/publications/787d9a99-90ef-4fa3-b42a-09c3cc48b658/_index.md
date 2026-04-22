@@ -20,6 +20,11 @@ params:
   doi: 10.5281/zenodo.3608611
   date: '2023-02-14'
   title: The DataLad Handbook
+  description: 'The DataLad Handbook is a comprehensive educational resource for data
+    management with DataLad.
+
+
+    '
   kind: bibo:Book
   author:
   - pid: xyzrins:persons/adina-wagner

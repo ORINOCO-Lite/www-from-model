@@ -11,6 +11,9 @@ params:
   doi: 10.5281/zenodo.5702022
   date: '2021-11-15'
   title: 'DataLad: Data Management for Open & Reproducible Science'
+  description: "Slides of a 20-minute presentation on the data management tool DataLad,\
+    \ held at the \"Tag des Forschungsdatenmanagements\" (research data management day)\
+    \ of the University D\xFCsseldorf, Germany. https://www.fdm.hhu.de"
   kind: fabio:Presentation
   author:
   - pid: xyzrins:persons/adina-wagner

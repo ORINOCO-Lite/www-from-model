@@ -15,6 +15,7 @@ params:
   doi: 10.3389/neuro.11.003.2009
   date: '2009'
   title: 'PyMVPA: a unifying approach to the analysis of neuroscientific data'
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michael-hanke

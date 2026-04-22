@@ -11,6 +11,19 @@ params:
   doi: 10.5281/zenodo.7627722
   date: '2023-02-14'
   title: Data and reproducibility management with DataLad
+  description: 'A two-hour workshop "Data and reproducibility management with DataLad",
+    part of the "Love your Data? Make it reproducible?" Helmholtz Community Workshop
+    in the International Love Data Week on February 14th, 2023.
+
+
+    www.helmholtz-hida.de/en/events/love-your-data-make-it-reproducible/
+
+
+    The slide sources can be found at github.com/datalad-handbook/datalad-course, and
+    a rendering of the slides is at files.inm7.de/adina/talks/html/love-your-data-2023.
+
+
+    '
   kind: bibo:Workshop
   author:
   - pid: xyzrins:persons/adina-wagner

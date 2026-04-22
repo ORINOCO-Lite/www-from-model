@@ -13,6 +13,7 @@ params:
   date: 2020-08
   title: 'Nature abhors a paywall: How open science can realize the potential of naturalistic
     stimuli'
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michael-hanke

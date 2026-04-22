@@ -14,6 +14,7 @@ params:
   date: null
   title: An annotation of cuts, depicted locations, and temporal progression in the
     motion picture "Forrest Gump"
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michael-hanke

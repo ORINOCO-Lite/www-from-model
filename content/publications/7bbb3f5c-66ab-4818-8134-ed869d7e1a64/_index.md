@@ -13,6 +13,7 @@ params:
   date: null
   title: "Lies, irony, and contradiction \u2014 an annotation of semantic conflict in\
     \ the movie \"Forrest Gump\""
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michael-hanke

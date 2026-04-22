@@ -14,6 +14,7 @@ params:
   date: 2018-11
   title: No evidence for enhanced distractor template representation in early visual
     cortex
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michael-hanke

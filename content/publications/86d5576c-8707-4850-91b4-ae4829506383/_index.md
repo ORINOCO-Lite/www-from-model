@@ -12,6 +12,8 @@ params:
   date: '2023-11-14'
   title: "Forschungsdatenmanagement in den systemischen Neurowissenschaften: Herausforderungen\
     \ und Praxisl\xF6sungen"
+  description: "Lightning talk on RDM challenges in systems neuroscience at the research\
+    \ data management day 2023 at the HHU D\xFCsseldorf.\n\nhttps://www.fdm.hhu.de/veranstaltungen/tag-der-forschungsdaten-in-nrw-2023"
   kind: fabio:Presentation
   author:
   - pid: xyzrins:persons/adina-wagner

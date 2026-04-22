@@ -14,6 +14,8 @@ params:
   date: '2019-07-18'
   title: A Python-based Algorithm for Robust Event Detection for Eye Movements During
     Natural Viewing
+  description: A poster presented at the Human Brain Projects "Supercomputing for Neuroscience"
+    Workshop in July 2020. The submission won an abstract merit award.
   kind: fabio:ConferencePoster
   author:
   - pid: xyzrins:persons/adina-wagner

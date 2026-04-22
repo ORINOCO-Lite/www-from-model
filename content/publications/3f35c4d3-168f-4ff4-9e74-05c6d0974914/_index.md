@@ -12,6 +12,12 @@ params:
   date: '2022-07-20'
   title: Research Data Management with DataLad - Workshop for the Max Planck School
     of Cognition
+  description: 'Slides and general materials for a two-half-day Workshop "Research Data
+    Management with DataLad" for the Max Planck School of Cognition, held by Adina Wagner
+    and Michael Hanke.
+
+
+    The sources can be found at https://github.com/datalad-handbook/datalad-course.'
   kind: bibo:Workshop
   author:
   - pid: xyzrins:persons/michael-hanke

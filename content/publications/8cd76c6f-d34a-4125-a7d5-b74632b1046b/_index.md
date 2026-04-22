@@ -13,6 +13,7 @@ params:
   date: null
   title: A communication hub for a decentralized collaboration on studying real-life
     cognition
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: orcid:0000-0003-3456-2493

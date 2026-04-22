@@ -18,6 +18,22 @@ params:
   date: '2016-10-25'
   title: A studyforrest extension, simultaneous fMRI and eye gaze recordings during
     prolonged natural stimulation
+  description: "\n                    Here we present an update of the\n           \
+    \         studyforrest\n                    (\n                    <http://studyforrest.org>\n\
+    \                    ) dataset that complements the previously released functional\
+    \ magnetic resonance imaging (fMRI) data for natural language processing with a\
+    \ new two-hour 3 Tesla fMRI acquisition while 15 of the original participants were\
+    \ shown an\n                    audio-visual\n                    version of the\
+    \ stimulus motion picture. We demonstrate with two validation analyses that these\
+    \ new data support modeling specific properties of the complex natural stimulus,\
+    \ as well as a substantial within-subject BOLD response congruency in brain areas\
+    \ related to the processing of auditory inputs, speech, and narrative when compared\
+    \ to the existing fMRI data for audio-only stimulation. In addition, we provide\
+    \ participants' eye gaze location as recorded simultaneously with fMRI, and an additional\
+    \ sample of 15 control participants whose eye gaze trajectories for the entire movie\
+    \ were recorded in a lab setting\u2014to enable studies on attentional processes\
+    \ and comparative investigations on the potential impact of the stimulation setting\
+    \ on these processes."
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/alex-waite

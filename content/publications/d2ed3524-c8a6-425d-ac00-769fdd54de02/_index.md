@@ -14,6 +14,7 @@ params:
   doi: 10.3389/fninf.2019.00001
   date: '2019-02-07'
   title: 'Everything Matters: The ReproNim Perspective on Reproducible Neuroimaging'
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: orcid:0000-0003-3456-2493

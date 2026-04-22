@@ -13,6 +13,7 @@ params:
   doi: 10.21105/joss.05839
   date: '2024-07-03'
   title: "HeuDiConv \u2014 flexible DICOM conversion into structured directory layouts"
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: orcid:0000-0003-3456-2493

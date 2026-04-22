@@ -9,6 +9,7 @@ params:
   doi: null
   date: null
   title: "Datalad \u2014 An Introduction to Research Data Management"
+  description: null
   kind: bibo:Book
   author: []
   topic:

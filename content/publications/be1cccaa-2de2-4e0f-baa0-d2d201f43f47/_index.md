@@ -14,6 +14,7 @@ params:
   date: '2020-03-16'
   title: Macroscopic information-based taste representations in insular cortex are shaped
     by stimulus concentration
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/emanuele-porcu

@@ -13,6 +13,7 @@ params:
   doi: 10.48550/arXiv.1307.2150
   date: '2013'
   title: Transmodal Analysis of Neural Signals
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: orcid:0000-0003-3456-2493

@@ -14,6 +14,7 @@ params:
   date: null
   title: Standards for Best Practices in Data Analysis and Sharing in Neuroimaging using
     MRI
+  description: null
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/michael-hanke

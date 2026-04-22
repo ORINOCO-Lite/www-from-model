@@ -18,6 +18,7 @@ params:
   doi: 10.52294/001c.92760
   date: '2024-03-18'
   title: Proceedings of the OHBM Brainhack 2022
+  description: ''
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/christian-moench

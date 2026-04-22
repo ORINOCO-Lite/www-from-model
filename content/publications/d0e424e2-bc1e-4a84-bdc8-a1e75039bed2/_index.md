@@ -13,6 +13,8 @@ params:
   doi: null
   date: '2025-09-29'
   title: Data Management with DataLad
+  description: Two-half-day course on DataLad at the Umweltforschungszentrum Leipzig
+    (UFZ)
   kind: bibo:Workshop
   author:
   - pid: xyzrins:persons/alex-waite

@@ -11,6 +11,8 @@ params:
   doi: null
   date: '2025-10-27'
   title: 'DataLad: An Introduction'
+  description: A 1.5 hour hybrid DataLad workshop at the BigBrainWorkshop in Berlin,
+    Germany, October 27th 2025
   kind: bibo:Workshop
   author:
   - pid: xyzrins:persons/adina-wagner
