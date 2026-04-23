@@ -5,13 +5,8 @@ params:
   given_name: Stephan
   family_name: Heunis
   identifiers:
-  - creator:
-      schema_type: xyzri:XYZOrganization
-      pid: rrid:SCR_002630
-      name: GitHub
-    notation: jsheunis
-    schema_type: dlthings:Identifier
-  - creator:
+  - schema_type: xyzri:ORCID
+    creator:
       annotations:
         obo:NCIT_C54269: m.szczepanik@fz-juelich.de
         sio:SIO_001083: '2026-01-19T17:44:59.765383'
@@ -25,6 +20,13 @@ params:
       name: ORCID
       at_location: geodata:4348599
     notation: 0000-0003-3503-9872
-    schema_type: xyzri:ORCID
-  description: A description of Stephan
+  - schema_type: dlthings:Identifier
+    creator:
+      schema_type: xyzri:XYZOrganization
+      pid: rrid:SCR_002630
+      name: GitHub
+    notation: jsheunis
+  description: Previously peeking into brains with real-time fMRI, now building tools
+    to share brain images with everyone. Passionate about coding, open source/science,
+    educational tools, and inclusive communities.
 ---
