@@ -5,19 +5,20 @@ params:
   given_name: Venkatesh
   family_name: Hariharapura Shivashankar
   identifiers:
-  - creator:
-      schema_type: xyzri:XYZOrganization
-      pid: ror:02fyxhe35
-      name: LinkedIn
-    notation: venkatesh-hariharapura-shivashankar
-    schema_type: dlthings:Identifier
-  - creator:
+  - schema_type: dlthings:Identifier
+    creator:
       schema_type: xyzri:XYZOrganization
       pid: rrid:SCR_002630
       name: GitHub
     notation: venkateshhs
-    schema_type: dlthings:Identifier
-  - creator:
+  - schema_type: dlthings:Identifier
+    creator:
+      schema_type: xyzri:XYZOrganization
+      pid: ror:02fyxhe35
+      name: LinkedIn
+    notation: venkatesh-hariharapura-shivashankar
+  - schema_type: xyzri:ORCID
+    creator:
       annotations:
         obo:NCIT_C54269: m.szczepanik@fz-juelich.de
         sio:SIO_001083: '2026-01-19T17:44:59.765383'
@@ -31,5 +32,4 @@ params:
       name: ORCID
       at_location: geodata:4348599
     notation: 0009-0005-7032-921X
-    schema_type: xyzri:ORCID
 ---
