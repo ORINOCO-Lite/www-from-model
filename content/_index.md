@@ -1,6 +1,7 @@
 ---
 title: "Psychoinformatics"
 projects:
+- 587d32df-6b26-40c8-bc16-3db364622874
 - a605574d-ee49-4ad4-8348-599b632ed5eb
 - abcd-j
 - datalad
