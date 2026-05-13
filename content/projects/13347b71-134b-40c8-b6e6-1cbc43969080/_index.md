@@ -1,5 +1,5 @@
 ---
-slug: datalad-v2
+url: projects/datalad-v2
 title: "DataLad v2"
 objectives:
 - 87be5fa3-80fb-4221-8406-2ddd40fb1fd1
