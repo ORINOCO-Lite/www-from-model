@@ -31,3 +31,4 @@ This project will provide expertise for access, description, and modelling of th
 
 - [Teaching research data management with DataLad: a multi-year, multi-domain effort](/publications/212e3bce-22fa-4cf6-bd1d-fedd33428d65)
 - [How to establish and maintain a multimodal animal research dataset using DataLad](/publications/9103ab93-a2ae-45c2-b2b0-e922bbb4e94a)
+

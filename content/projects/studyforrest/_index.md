@@ -41,3 +41,4 @@ Beyond the original movie-viewing dataset, StudyForrest expanded to include task
 - [A studyforrest extension, retinotopic mapping and localization of higher visual areas](/publications/50f24bfa-4371-4f74-a57f-d62d71553ecb)
 - [High-resolution 7-Tesla fMRI data on the perception of musical genres – an extension to the studyforrest dataset](/publications/dc5d3f5f-0d0d-498c-84dd-cd4fba222bd4)
 - [A high-resolution 7-Tesla fMRI dataset from complex natural stimulation with an audio movie](/publications/f9a11f66-f71c-4dcb-964e-8a2954cef094)
+

@@ -27,3 +27,4 @@ This project provides an integrated and comprehensive view of the neurobiologica
 ## Outputs
 
 - [SFB1451 logo](/depictions/logo_sfb1451)
+

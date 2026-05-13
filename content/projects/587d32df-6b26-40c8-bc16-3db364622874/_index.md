@@ -1,4 +1,5 @@
 ---
+url: projects/lab-in-a-box
 title: "Lab-in-a-box"
 objectives:
 - self-hosted-it
@@ -17,4 +18,5 @@ params:
 ## People
 
 ### Currently associated
+
 

@@ -31,3 +31,4 @@ This project will consolidate fragmented research-information workflows at INM-7
 - [Christian&nbsp;Mönch](/persons/christian-moench) (Research team member)
 - [Adina&nbsp;Wagner](/persons/adina-wagner) (Research team member)
 - [Michał&nbsp;Szczepanik](/persons/michal-szczepanik) (Research team member)
+

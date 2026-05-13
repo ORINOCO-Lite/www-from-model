@@ -43,3 +43,4 @@ A central goal is to integrate gaze dynamics with concurrent neural and behavior
 - [A practical guide to functional magnetic resonance imaging with simultaneous eye tracking for cognitive neuroimaging research](/publications/3e67bc48-6ca2-472f-b007-31237865b33f)
 - [REMoDNaV: Robust Eye-Movement Classification for Dynamic Stimulation](/publications/4ea5c19f-d116-470f-a31c-dff14912c7b2)
 - [multimatch_gaze: The MultiMatch algorithm for gaze comparison in Python](/publications/4ee145a0-e000-4c8d-8696-dc7e64c684fe)
+

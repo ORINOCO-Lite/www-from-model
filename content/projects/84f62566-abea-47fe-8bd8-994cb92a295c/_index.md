@@ -30,3 +30,4 @@ This first distribits meeting took place in 2024 in Düsseldorf (Germany) at Hau
 - [Christian&nbsp;Mönch](/persons/christian-moench) (Organizer)
 - [Laura&nbsp;Waite](/persons/laura-waite) (Organizer)
 - [Alex&nbsp;Waite](/persons/alex-waite) (Organizer)
+

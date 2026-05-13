@@ -37,3 +37,4 @@ A community-written resource on research data management with DataLad, publicly 
 - [Michał&nbsp;Szczepanik](/persons/michal-szczepanik) (Contributor)
 - [Christian&nbsp;Mönch](/persons/christian-moench) (Contributor)
 - [Alex&nbsp;Waite](/persons/alex-waite) (Contributor)
+

@@ -34,3 +34,4 @@ The distribits 2025 meeting was the second of its kind. It, again, took place in
 - [Stephan&nbsp;Heunis](/persons/stephan-heunis) (Organizer)
 - [Alex&nbsp;Waite](/persons/alex-waite) (Organizer)
 - [Laura&nbsp;Waite](/persons/laura-waite) (Organizer)
+

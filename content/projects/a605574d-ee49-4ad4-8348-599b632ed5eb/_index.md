@@ -44,3 +44,4 @@ Distribits is a community for enthusiasts of tools and workflows in the domain o
 - [Michał&nbsp;Szczepanik](/persons/michal-szczepanik) (Organizer)
 - [Jenna&nbsp;Swarthout Goddard](/persons/jenna-swarthout-goddard) (Organizer)
 - [Yaroslav&nbsp;Halchenko](/orcid:0000-0003-3456-2493) (Organizer)
+
