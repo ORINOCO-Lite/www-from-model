@@ -19,4 +19,6 @@ params:
   topic:
   - pid: xyzrins:topics/cognitive-science
     display_label: Cognitive science
+
 ---
+

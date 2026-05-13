@@ -24,4 +24,6 @@ params:
     display_label: Naturalistic neuroimaging
   - pid: xyzrins:topics/naturalistic-stimulation
     display_label: Naturalistic stimulation
+
 ---
+

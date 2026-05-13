@@ -19,4 +19,6 @@ params:
   topic:
   - pid: xyzrins:topics/naturalistic-neuroimaging
     display_label: Naturalistic neuroimaging
+
 ---
+
