@@ -1,4 +1,5 @@
-{% macro taxonomy_terms(taxonomy, terms_list) -%}
+{% extends "page.md.j2" %}
+{% macro pub_taxonomy_terms(taxonomy, terms_list) -%}
 {% if terms_list -%}
 {{ taxonomy }}:
 {% for el in terms_list -%}
@@ -50,11 +51,14 @@
   "author": authors | default(none),
   "topic": topics | default(none)
 } -%}
----
+
+
+{% block frontmatter -%}
 title: {{ publication.title | toyaml | replace('...\n','') | trim }}
-{{ taxonomy_terms('persons', authors) -}}
-{{ taxonomy_terms('topics', topics) -}}
-params:
-  graphRootNodePID: {{ pid }}
+{{ pub_taxonomy_terms('persons', authors) -}}
+{{ pub_taxonomy_terms('topics', topics) -}}
+{% endblock -%}
+
+{% block frontmatter_params %}
   {{ publication | toyaml | indent(2) | trim }}
----
+{% endblock -%}

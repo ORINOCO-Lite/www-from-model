@@ -1,9 +1,9 @@
----
+{% extends "page.md.j2" %}
+{% block frontmatter -%}
 title: "{{ title }}"
-params:
-  graphRootNodePID: {{ pid }}
----
+{% endblock -%}
 
+{% block content -%}
 {{ description }}
 
 {% if part_of -%}Part of:
@@ -11,3 +11,4 @@ params:
 - [{{ item.title }}](/{{ item.pid.replace('xyzrins:', '') }})
 {% endfor %}
 {% endif -%}
+{% endblock %}

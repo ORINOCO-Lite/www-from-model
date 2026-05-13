@@ -1,34 +1,13 @@
-{% macro taxonomy_terms(taxonomy, type, objects, typeattr='object.schema_type', pidattr='object.pid') -%}
-{%- set matching = objects|selectattr(typeattr, 'eq', type)|map(attribute=pidattr)|map('replace', 'xyzrins:' ~ taxonomy ~ '/', '')|sort -%}
-{% if matching|length -%}
-{{ taxonomy }}:
-{% for pid in matching -%}
-- {{ pid }}
-{% endfor -%}
-{%- endif -%}
-{%- endmacro -%}
-{% macro assoc_period(ass, pre="") -%}
-{% if ass.started is defined and ass.started.at_time is defined and ass.ended is defined and ass.ended.at_time is defined %}{{ pre ~ ass.started.at_time }} -- {{ ass.ended.at_time }}{% elif ass.started is defined and ass.started.at_time is defined %}{{ pre ~ "since"}} {{ass.started.at_time }}{% elif ass.ended is defined and ass.ended.at_time is defined %}{{pre ~ "until"}} {{ ass.ended.at_time }}{% endif %}
-{%- endmacro -%}
-{% macro url_overrides(tags) -%}
-{% if annotations["xyzrins:annotation-tags/psyinf-ns-id"] is defined -%}
-url: {{ annotations["xyzrins:annotation-tags/psyinf-ns-id"] }}
-{% endif -%}
-{% if annotations["xyzrins:annotation-tags/psyinf-ns-name"] is defined -%}
-slug: {{ annotations["xyzrins:annotation-tags/psyinf-ns-name"] }}
-{% endif -%}
-{%- endmacro -%}
----
+{% extends "page.md.j2" %}
+{% block frontmatter -%}
 title: "{{ title }}"
 {{ taxonomy_terms('projects', 'xyzri:XYZProject', parts, typeattr='schema_type', pidattr='pid') -}}
 {{ taxonomy_terms('objectives', 'xyzri:XYZObjective', influenced_by) -}}
 {{ taxonomy_terms('persons', 'xyzri:XYZPerson', associated_with) -}}
 {{ taxonomy_terms('instruments', 'xyzri:XYZInstrument', generated, typeattr='schema_type', pidattr='pid') -}}
-{{ url_overrides() -}}
-params:
-  graphRootNodePID: {{ pid }}
----
+{% endblock -%}
 
+{% block content -%}
 {{ description }}
 
 {% if part_of %}## Part of
@@ -68,3 +47,4 @@ params:
 - [{{ gen.display_label|default(gen.title)|default(gen.name) }}]({{ gen.pid|replace('xyzrins:', '/') }})
 {% endfor -%}
 {% endif %}
+{% endblock %}
