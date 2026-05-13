@@ -29,4 +29,6 @@ params:
   description: Previously peeking into brains with real-time fMRI, now building tools
     to share brain images with everyone. Passionate about coding, open source/science,
     educational tools, and inclusive communities.
+
 ---
+

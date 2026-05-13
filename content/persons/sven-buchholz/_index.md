@@ -5,4 +5,6 @@ params:
   given_name: Sven
   family_name: Buchholz
   description: Became a professor at TH Brandenburg
+
 ---
+
