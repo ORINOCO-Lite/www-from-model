@@ -1,5 +1,7 @@
 ---
 title: "Cognitive science"
+params:
+  graphRootNodePID: xyzrins:topics/cognitive-science
 ---
 
 

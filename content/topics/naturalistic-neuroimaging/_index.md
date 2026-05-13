@@ -1,5 +1,7 @@
 ---
 title: "Naturalistic neuroimaging"
+params:
+  graphRootNodePID: xyzrins:topics/naturalistic-neuroimaging
 ---
 
 

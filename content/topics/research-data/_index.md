@@ -1,5 +1,7 @@
 ---
 title: "Research data"
+params:
+  graphRootNodePID: xyzrins:topics/research-data
 ---
 
 

@@ -1,5 +1,7 @@
 ---
 title: "Research methods"
+params:
+  graphRootNodePID: xyzrins:topics/research-methods
 ---
 
 

@@ -1,5 +1,7 @@
 ---
 title: "Research software engineering (RSE)"
+params:
+  graphRootNodePID: xyzrins:topics/research-software-engineering
 ---
 
 
