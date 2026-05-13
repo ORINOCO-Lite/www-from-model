@@ -63,13 +63,6 @@ def get_node_url(rec: dict) -> str | None:
     if not url.startswith(www_root_prefix):
         return None
     url = f'/{url[len(www_root_prefix):]}'
-    slug_override = rec.get('annotations', {}).get('xyzrins:annotation-tags/psyinf-ns-name')
-    if slug_override:
-        if isinstance(slug_override, dict):
-            slug_override = slug_override['annotation_value']
-        parts = url.split('/')
-        parts[-1] = slug_override
-        url = '/'.join(parts)
     return url
 
 

@@ -15,9 +15,6 @@
 {% if annotations["xyzrins:annotation-tags/psyinf-ns-id"] is defined -%}
 url: {{ annotations["xyzrins:annotation-tags/psyinf-ns-id"] }}
 {% endif -%}
-{% if annotations["xyzrins:annotation-tags/psyinf-ns-name"] is defined -%}
-slug: {{ annotations["xyzrins:annotation-tags/psyinf-ns-name"] }}
-{% endif -%}
 {% endif -%}
 {%- endmacro -%}
 ---
