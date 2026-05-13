@@ -53,11 +53,24 @@ def get_node_label(rec: dict) -> str | None:
 
 
 def get_node_url(rec: dict) -> str | None:
-    pid = rec['pid']
+    url_override = rec.get('annotations', {}).get('xyzrins:annotation-tags/psyinf-ns-id')
+    if url_override:
+        if isinstance(url_override, dict):
+            url_override = url_override['annotation_value']
+        return f'/{url_override}'
+    url = rec['pid']
     www_root_prefix = 'xyzrins:'
-    if pid.startswith(www_root_prefix):
-        return f'/{pid[len(www_root_prefix):]}'
-    return None
+    if not url.startswith(www_root_prefix):
+        return None
+    url = f'/{url[len(www_root_prefix):]}'
+    slug_override = rec.get('annotations', {}).get('xyzrins:annotation-tags/psyinf-ns-name')
+    if slug_override:
+        if isinstance(slug_override, dict):
+            slug_override = slug_override['annotation_value']
+        parts = url.split('/')
+        parts[-1] = slug_override
+        url = '/'.join(parts)
+    return url
 
 
 def add_edge(src: str, target: str, kind: str) -> None:
