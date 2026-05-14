@@ -3,6 +3,8 @@ url: projects/lab-in-a-box
 title: "Lab-in-a-box"
 objectives:
 - self-hosted-it
+instruments:
+- ff94c3f9-ce37-43f0-b87c-5ee0f776d845
 params:
   graphRootNodePID: xyzrins:projects/587d32df-6b26-40c8-bc16-3db364622874
 ---
@@ -25,4 +27,7 @@ In this project, we explore free and open-source software solutions regarding th
 
 ### Currently associated
 
+## Outputs
+
+- [Lab-in-a-box deployments](/instruments/ff94c3f9-ce37-43f0-b87c-5ee0f776d845)
 
