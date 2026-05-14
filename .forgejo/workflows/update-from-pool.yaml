@@ -1,0 +1,90 @@
+name: Update website sources from knowledge pool
+
+# run daily (5:15 on weekdays) and on manual dispatch
+on:
+  schedule:
+    - cron: '0 1 * * 1-5'
+  workflow_dispatch:
+
+env:
+  DUMPTHINGS_APIURL: https://pool.psychoinformatics.de/api
+  QRI_RECORD_CACHE: /tmp/qri-cache
+
+jobs:
+  create_pages:
+    runs-on: debian-latest
+    if: ${{ forgejo.repository == 'www/www-from-model' }}
+
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v4
+      - name: Prepare environment
+        uses: ./.forgejo/actions/prep-metadata-query
+      - name: git-annex init
+        run: |
+          git fetch --depth 1 origin git-annex:git-annex
+          git config --add annex.private true
+          git annex init
+      - name: Update navigation graph
+        run: |
+          set -x
+          git config --global credential.helper cache
+          git credential approve <<EOF
+          protocol=https
+          host=hub.psychoinformatics.de
+          username=${{ forgejo.actor }}
+          password=${{ forgejo.token }}
+          EOF
+          echo OK
+          git credential fill <<EOF
+          protocol=https
+          host=hub.psychoinformatics.de
+          EOF
+          dtc get-records ${DUMPTHINGS_APIURL} public \
+          | qri cache \
+          | python3 code/pool2graph.py > static/graph.json_new \
+          && mv static/graph.json_new static/graph.json \
+          && git annex add static
+          git annex push
+          git annex push --cleanup
+      - name: Update objectives
+        run: |
+          qri list --class XYZObjective \
+          | qri inline-records -p part_of -c public \
+          | qri inline-records -p depends_on -c public \
+          | qri render-record page_templates/objective.md.j2 'content/{__pid_curie_reference}/_index.md'
+      - name: Update topics
+        run: |
+          qri list --class XYZTopic \
+          | qri inline-records -p part_of -c public \
+          | qri render-record page_templates/topic.md.j2 'content/{__pid_curie_reference}/_index.md'
+      - name: Update persons
+        run: |
+          qri list --class XYZPerson \
+          | qri filter-linked-pid public  xyzrins:. associated_with  \
+          | qri inline-records -c public -p delegated_by -p delegated_by::roles -p identifiers::creator \
+          | qri render-record page_templates/person.md.j2 \
+            'content/{__pid_curie_reference}/_index.md'
+      - name: Update projects
+        run: |
+          qri list --class XYZProject \
+          | qri filter-links-pid --link part_of xyzrins:. --recursive --collection public \
+          | qri inject-links-pid --link generated_by generated \
+          | qri inject-links-pid --link part_of parts \
+          | qri inline-records -c public -p associated_with -p associated_with::roles -p influenced_by -p influenced_by::roles -p identifiers::creator -p part_of \
+          | qri render-record page_templates/project.md.j2 'content/{__pid_curie_reference}/_index.md'
+      - name: Update publications
+        run: |
+          qri list --class XYZPublication \
+          | qri inline-records -p about -p attributed_to -c public \
+          | qri render-record page_templates/publication.md.j2 \
+            'content/{__pid_curie_reference}/_index.md'
+      - name: Update frontpage
+        run: |
+          qri list --pid xyzrins:. \
+          | qri inject-links-pid --link generated_by generated \
+          | qri inject-links-pid --link part_of parts \
+          | qri inline-records -c public -p associated_with -p associated_with::roles -p influenced_by -p influenced_by::roles -p identifiers::creator -p part_of \
+          | qri render-record page_templates/project.md.j2 'content/{__pid_curie_reference}/_index.md'
+      - name: Deposit changes
+        uses: ./.forgejo/actions/deposit-changes
