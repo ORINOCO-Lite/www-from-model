@@ -93,3 +93,4 @@ Our goal is to make complex neuroimaging and behavioral data easier to discover,
 - [Falko&nbsp;Kaule](/persons/falko-kaule) (Research team member; 2014-07-01 -- 2017-12-31)
 - [Moritz&nbsp;Boos](/persons/moritz-boos) (Student; 2015-05-01 -- 2015-07-30)
 - [Sven&nbsp;Buchholz](/persons/sven-buchholz) (Research team member; 2013-11-01 -- 2014-07-31)
+
