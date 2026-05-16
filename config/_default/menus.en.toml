@@ -43,7 +43,7 @@
     showName = false
 
 [[main]]
-  name = "Hub"
+  title = "Collaboration hub"
   url = "https://hub.psychoinformatics.de"
   weight = 40
   [main.params]
