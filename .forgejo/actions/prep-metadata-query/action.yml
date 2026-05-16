@@ -22,4 +22,4 @@ runs:
         username=${{ forgejo.actor }}
         password=${{ forgejo.token }}
         EOF
-        echo OK
+        echo "Set credential for ${{ forgejo.server_url }}: OK"

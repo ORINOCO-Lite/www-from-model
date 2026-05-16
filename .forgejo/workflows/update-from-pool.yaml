@@ -20,6 +20,14 @@ jobs:
         uses: actions/checkout@v4
       - name: Prepare environment
         uses: ./.forgejo/actions/prep-metadata-query
+      - name: Debug
+        run: |
+          cat << EOT > /usr/local/bin/git-credential-echo
+          #!/usr/bin/env bash
+          exec cat >&2
+          EOT
+          chmod +x /usr/local/bin/git-credential-echo
+          git config --global --add credential.helper echo
       - name: git-annex init
         run: |
           git fetch --depth 1 origin git-annex:git-annex
@@ -27,26 +35,11 @@ jobs:
           git annex init
       - name: Update navigation graph
         run: |
-          set -x
-          git config --global credential.helper cache
-          git credential approve <<EOF
-          protocol=https
-          host=hub.psychoinformatics.de
-          username=${{ forgejo.actor }}
-          password=${{ forgejo.token }}
-          EOF
-          echo OK
-          git credential fill <<EOF
-          protocol=https
-          host=hub.psychoinformatics.de
-          EOF
           dtc get-records ${DUMPTHINGS_APIURL} public \
           | qri cache \
           | python3 code/pool2graph.py > static/graph.json_new \
           && mv static/graph.json_new static/graph.json \
           && git annex add static
-          git annex push
-          git annex push --cleanup
       - name: Update objectives
         run: |
           qri list --class XYZObjective \
@@ -88,3 +81,13 @@ jobs:
           | qri render-record page_templates/project.md.j2 'content/{__pid_curie_reference}/_index.md'
       - name: Deposit changes
         uses: ./.forgejo/actions/deposit-changes
+      - name: Deposit annex keys
+        run: |
+          set -x
+          git credential fill <<EOF
+          protocol=https
+          host=hub.psychoinformatics.de
+          EOF
+          git annex --debug copy -t origin .
+          #git annex --debug push
+          #git annex push --cleanup
