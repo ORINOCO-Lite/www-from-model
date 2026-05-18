@@ -2,8 +2,8 @@
   class="pub mb-6 border border-neutral-200 dark:border-neutral-700"
   data-kind="{{ .Params.kind }}"
   data-year="{{ if .Params.date }}{{ substr .Params.date 0 4 }}{{ else }}unknown{{ end }}"
-  data-topics='{{ .Params.topic | jsonify }}'
-  data-authors='{{ .Params.author | jsonify }}'
+  data-topic='{{ .Params.topic | jsonify }}'
+  data-author='{{ .Params.author | jsonify }}'
   data-title="{{ .Title | lower }}"
   style="border-radius: 5px; padding: 1em;"
 >

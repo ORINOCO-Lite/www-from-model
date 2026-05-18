@@ -1,9 +1,9 @@
 <article
   class="instrument mb-6 border border-neutral-200 dark:border-neutral-700"
-  data-kind="{{ .Params.kind }}"
-  data-year="{{ if .Params.date }}{{ substr .Params.date 0 4 }}{{ else }}unknown{{ end }}"
-  data-topics='{{ .Params.topic | jsonify }}'
-  data-authors='{{ .Params.author | jsonify }}'
+  data-kind='{{ if .Params.kind}}{{ .Params.kind }}{{ else }}unknown{{ end }}'
+  data-year="{{ if .Params.date_created }}{{ substr .Params.date_created 0 4 }}{{ else }}unknown{{ end }}"
+  data-topic='{{ if .Params.topic}}{{ .Params.topic | jsonify }}{{ else }}unknown{{ end }}'
+  data-author='{{ .Params.author | jsonify }}'
   data-title="{{ .Title | lower }}"
   style="border-radius: 5px; padding: 1em;"
 >
@@ -13,8 +13,8 @@
     <a href="{{ .RelPermalink }}" style="text-decoration: unset;">
       {{ .Title }}
     </a>
-    {{ if .Params.date }}
-      {{ $year := substr .Params.date 0 4 }}
+    {{ if .Params.date_created }}
+      {{ $year := substr .Params.date_created 0 4 }}
       <span class="text-neutral-500 text-base font-normal">
         ({{ $year }})
       </span>
@@ -61,19 +61,22 @@
 
 
   <!-- Topics -->
-  {{ with .GetTerms "topics" }}
+  {{ with .Params.topic }}
     <div class="mb-2 flex flex-wrap gap-2">
       <span class="ms-1 border-primary-400 px-1 py-[1px] text-xs font-normal dark:border-primary-600">
         <em>Topics:</em>
       </span>
       {{ range . }}
-        <span class="ms-1 rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-secondary-700 dark:border-primary-600 dark:text-secondary-400">
-          <a style="text-decoration: none;" href="{{ .Permalink }}">{{ .Title }}</a>
+        <span
+          class="topic-chip ms-1 rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-secondary-700 dark:border-primary-600 dark:text-secondary-400"
+          style="cursor: pointer;"
+          data-topic="{{ .display_label }}"
+        >
+          {{ .display_label }}
         </span>
       {{ end }}
     </div>
   {{ end }}
-
   
   <!-- Licenses -->
   {{ with .Params.license }}

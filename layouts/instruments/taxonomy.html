@@ -6,10 +6,10 @@
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">{{ .Title }}</h1>
   </header>
   <article class="prose max-w-full dark:prose-invert">
-    <div class="pub-layout">
+    <div class="list-layout">
         <!-- Sidebar -->
-        <!-- <aside class="filters-panel">
-            <button onclick="clearAllFilters()" class="clear-button mt-2 text-sm text-primary-600 hover:underline">
+        <aside class="filters-panel">
+            <button onclick="listApp.clearAllFilters()" class="clear-button mt-2 text-sm text-primary-600 hover:underline">
               Clear all
             </button>
             <div class="filter-block">
@@ -21,10 +21,10 @@
                 <strong>Topic</strong>
                 <div id="filter-topic" class="filter-group"></div>
             </div>
-        </aside> -->
+        </aside>
         <!-- Main rendered content -->
         <div class="results-panel">
-            <!-- <input type="text" id="search" placeholder="Search instruments..." class="search-bar" /> <span id="pub-count"></span> -->
+            <input type="text" id="search" placeholder="Search instruments..." class="search-bar" /> <span id="instrument-count"></span>
             <!-- Data -->
             {{ $instrumentPages := where .Site.Pages "Section" "instruments" }}
             {{ $instrumentPagesTerms := where $instrumentPages "Kind" "term" }}
@@ -36,6 +36,25 @@
         </div>
     </div>
     <!-- JS + CSS -->
-    <link rel="stylesheet" href="/publications.css">
+     <script src="/filter-list.js"></script>
+    <script>
+      const listApp = new FilterableList({
+        itemSelector: '.instrument',
+        searchInputId: "search",
+        countId: "instrument-count",   
+        filters: [
+            'kind',
+            'topic',
+        ],
+        searchFields: [
+            "title",
+            "kind",
+            "year",
+            "topic",
+            "author"
+        ],
+      })
+    </script>
+    <link rel="stylesheet" href="/filter-list.css">
   </article>
 {{ end }}
