@@ -1,10 +1,13 @@
-{% macro taxonomy_terms(taxonomy, type, objects, typeattr='object.schema_type', pidattr='object.pid') -%}
+{% macro taxonomy_terms(taxonomy, type, objects, typeattr='object.schema_type', pidattr='object.pid', addterm=none) -%}
 {%- set matching = objects|selectattr(typeattr, 'eq', type)|map(attribute=pidattr)|map('replace', 'xyzrins:' ~ taxonomy ~ '/', '')|sort -%}
-{% if matching|length -%}
+{% if matching|length or addterm -%}
 {{ taxonomy }}:
 {% for pid in matching -%}
 - {{ pid }}
 {% endfor -%}
+{% if addterm -%}
+- {{ addterm }}
+{% endif -%}
 {%- endif -%}
 {%- endmacro -%}
 {% macro assoc_period(ass, pre="") -%}
