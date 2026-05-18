@@ -1,0 +1,21 @@
+    <section>
+      {{ range (.Pages.GroupBy "Type") }}
+        <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+          {{ .Key | title }}
+        </h2>
+        <hr class="w-36 border-dotted border-neutral-400 mb-2" />
+        <ul class="text-base list-disc list-outside">
+        {{ $linkpartial := printf "related-%s-list-item.html" .Key }}
+        {{ $linktmpl := printf "_partials/%s" $linkpartial }}
+        {{ range .Pages.ByParam "sortkey" }}
+          <li>
+            {{ if templates.Exists $linktmpl }}
+              {{ partial $linkpartial . }}
+            {{ else }}
+              {{ partial "related-list-item.html" . }}
+            {{ end }}
+          </li>
+        {{end}}
+        </ul>
+      {{ end }}
+    </section>
