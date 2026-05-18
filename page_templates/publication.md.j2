@@ -60,5 +60,6 @@ title: {{ publication.title | toyaml | replace('...\n','') | trim }}
 {% endblock -%}
 
 {% block frontmatter_params %}
+  sortkey: "{{ publication.date | default('')}}{{ publication.title | default('')}}"
   {{ publication | toyaml | indent(2) | trim }}
 {% endblock -%}
