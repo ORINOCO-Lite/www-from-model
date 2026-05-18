@@ -43,6 +43,14 @@
     showName = false
 
 [[main]]
+  name = "Instruments"
+  pageRef = "instruments"
+  weight = 37
+  [main.params]
+    icon = "mdi-microscope"
+    showName = false
+
+[[main]]
   title = "Collaboration hub"
   url = "https://hub.psychoinformatics.de"
   weight = 40
