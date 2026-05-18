@@ -42,5 +42,10 @@ jobs:
       - name: Generate site
         run: hugo --minify
 
-      - name: Deploy
+      - name: Deploy official site
+        if: ${{ github.ref_name == 'published' }}
+        run: mv public /www/new_www.psychoinformatics.de && mv /www/www.psychoinformatics.de /www/old_www.psychoinformatics.de; mv /www/new_www.psychoinformatics.de /www/www.psychoinformatics.de; rm -rf /www/old_www.psychoinformatics.de/
+
+      - name: Deploy draft site
+        if: ${{ github.ref_name == 'main' }}
         run: mv public /www/new_www-draft.psychoinformatics.de && mv /www/www-draft.psychoinformatics.de /www/old_www-draft.psychoinformatics.de; mv /www/new_www-draft.psychoinformatics.de /www/www-draft.psychoinformatics.de; rm -rf /www/old_www-draft.psychoinformatics.de/
