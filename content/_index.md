@@ -50,8 +50,3 @@ Our goal is to make complex neuroimaging and behavioral data easier to discover,
 - [Vittorio&nbsp;Iacovella](/persons/vittorio-iacovella) (Student; until 2015-06)
 - [Richard&nbsp;Dinga](/persons/richard-dinga) (Student; until 2015)
 - [Sven&nbsp;Buchholz](/persons/sven-buchholz) (Research team member; 2013-11-01 -- 2014-07-31)
-## Outputs
-
-- [REMODNAV](/instruments/03300e25-6c5f-40bd-9ed8-a12d8ec22817)
-- [FAIRly big processing workflow](/instruments/50fd4fb2-2e98-4beb-aa48-41dd26781fd9)
-
