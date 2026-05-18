@@ -10,8 +10,10 @@ persons:
 - michael-hanke
 - stephan-heunis
 instruments:
+- 35ca6b36-38a4-4caf-98bf-e696d4c7a319
 - 54be0232-d05e-4941-bfba-70716cfd6b05
 - b8dc8b0a-4408-46f4-9f47-c1d3ae747fac
+- b99d514b-b86a-4e4a-933a-1724132bf486
 - dump-things
 params:
   graphRootNodePID: xyzrins:projects/orinoco
@@ -35,7 +37,9 @@ params:
 - [Stephan&nbsp;Heunis](/persons/stephan-heunis) (Contributor)
 ## Outputs
 
+- [dump-things-pyclient](/instruments/35ca6b36-38a4-4caf-98bf-e696d4c7a319)
 - [Funding calendar scraping script](/instruments/54be0232-d05e-4941-bfba-70716cfd6b05)
 - [shacl-vue](/instruments/b8dc8b0a-4408-46f4-9f47-c1d3ae747fac)
+- [shacl-tulip](/instruments/b99d514b-b86a-4e4a-933a-1724132bf486)
 - [Dump Things Service](/instruments/dump-things)
 

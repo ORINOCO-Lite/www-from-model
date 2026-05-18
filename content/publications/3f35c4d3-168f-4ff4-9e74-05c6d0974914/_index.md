@@ -7,6 +7,7 @@ topics:
 - education
 params:
   graphRootNodePID: xyzrins:publications/3f35c4d3-168f-4ff4-9e74-05c6d0974914
+  sortkey: "2022-07-20Research Data Management with DataLad - Workshop for the Max Planck School of Cognition"
   pid: xyzrins:publications/3f35c4d3-168f-4ff4-9e74-05c6d0974914
   doi: 10.5281/zenodo.6827085
   date: '2022-07-20'

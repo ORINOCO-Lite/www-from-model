@@ -10,6 +10,7 @@ topics:
 - representational-brain-spaces
 params:
   graphRootNodePID: xyzrins:publications/0e5bd333-db9c-41c4-b9bd-a4bbdab167b5
+  sortkey: "2016-03-14A Model of Representational Spaces in Human Cortex"
   pid: xyzrins:publications/0e5bd333-db9c-41c4-b9bd-a4bbdab167b5
   doi: 10.1093/cercor/bhw068
   date: '2016-03-14'

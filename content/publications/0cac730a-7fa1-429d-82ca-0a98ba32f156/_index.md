@@ -9,6 +9,7 @@ topics:
 - representational-brain-spaces
 params:
   graphRootNodePID: xyzrins:publications/0cac730a-7fa1-429d-82ca-0a98ba32f156
+  sortkey: "2021-01-28A studyforrest extension, an annotation of spoken language in the German dubbed movie “Forrest Gump” and its audio-description"
   pid: xyzrins:publications/0cac730a-7fa1-429d-82ca-0a98ba32f156
   doi: 10.12688/f1000research.27621.1
   date: '2021-01-28'

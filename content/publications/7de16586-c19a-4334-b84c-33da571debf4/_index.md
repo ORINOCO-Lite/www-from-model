@@ -10,6 +10,7 @@ topics:
 - predictive-data-analysis
 params:
   graphRootNodePID: xyzrins:publications/7de16586-c19a-4334-b84c-33da571debf4
+  sortkey: "2018-04-22The effect of acquisition resolution on orientation decoding from V1: comparison of 3T and 7T"
   pid: xyzrins:publications/7de16586-c19a-4334-b84c-33da571debf4
   doi: 10.1101/305417
   date: '2018-04-22'

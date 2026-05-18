@@ -8,6 +8,7 @@ topics:
 - research-software-engineering
 params:
   graphRootNodePID: xyzrins:publications/4ee145a0-e000-4c8d-8696-dc7e64c684fe
+  sortkey: "2019-08-16multimatch_gaze: The MultiMatch algorithm for gaze comparison in Python"
   pid: xyzrins:publications/4ee145a0-e000-4c8d-8696-dc7e64c684fe
   doi: 10.21105/joss.01525
   date: '2019-08-16'

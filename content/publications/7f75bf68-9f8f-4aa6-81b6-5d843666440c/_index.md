@@ -6,6 +6,7 @@ topics:
 - education
 params:
   graphRootNodePID: xyzrins:publications/7f75bf68-9f8f-4aa6-81b6-5d843666440c
+  sortkey: "2024-01-23DataLad: Decentralized management of digital objects for open science"
   pid: xyzrins:publications/7f75bf68-9f8f-4aa6-81b6-5d843666440c
   doi: 10.5281/zenodo.10556596
   date: '2024-01-23'

@@ -7,6 +7,7 @@ topics:
 - standards
 params:
   graphRootNodePID: xyzrins:publications/2d7aabae-01e5-4268-a28d-79cd8804be9d
+  sortkey: "2021-01-12NFDI-Neuro: Building a community for neuroscience research data management in Germany"
   pid: xyzrins:publications/2d7aabae-01e5-4268-a28d-79cd8804be9d
   doi: 10.1515/nf-2020-0036
   date: '2021-01-12'

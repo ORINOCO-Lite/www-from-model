@@ -7,6 +7,7 @@ topics:
 - research-methods
 params:
   graphRootNodePID: xyzrins:publications/e6b31cf9-30e9-455e-b28d-f08af8617014
+  sortkey: "2020-11-23Talk: Reproducibility management in Neuroscience"
   pid: xyzrins:publications/e6b31cf9-30e9-455e-b28d-f08af8617014
   doi: 10.5281/zenodo.4285926
   date: '2020-11-23'

@@ -10,6 +10,7 @@ topics:
 - predictive-data-analysis
 params:
   graphRootNodePID: xyzrins:publications/8d618838-29d3-48d2-ba87-ca1cf0835b96
+  sortkey: "2019-12-04Individual face and house-related eye movement patterns distinctively activate FFA and PPA in the absence of faces and houses."
   pid: xyzrins:publications/8d618838-29d3-48d2-ba87-ca1cf0835b96
   doi: 10.1038/s41467-019-13541-3
   date: '2019-12-04'

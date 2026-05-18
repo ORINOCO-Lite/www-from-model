@@ -10,9 +10,10 @@ topics:
 - standards
 params:
   graphRootNodePID: xyzrins:publications/c891e979-2fd4-48b3-8327-466aed21fdfb
+  sortkey: "2010-01-01Debian Med: Integrated software environment for all medical purposes based on Debian GNU/Linux"
   pid: xyzrins:publications/c891e979-2fd4-48b3-8327-466aed21fdfb
   doi: null
-  date: null
+  date: '2010-01-01'
   title: 'Debian Med: Integrated software environment for all medical purposes based
     on Debian GNU/Linux'
   description: null

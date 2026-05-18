@@ -8,6 +8,7 @@ topics:
 - predictive-data-analysis
 params:
   graphRootNodePID: xyzrins:publications/6c58f6e3-1443-4e37-92db-f87a6f9830d8
+  sortkey: "2014-11The right temporo-parietal junction contributes to visual feature binding"
   pid: xyzrins:publications/6c58f6e3-1443-4e37-92db-f87a6f9830d8
   doi: 10.1016/j.neuroimage.2014.07.021
   date: 2014-11

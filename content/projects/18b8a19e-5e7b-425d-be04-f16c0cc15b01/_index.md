@@ -12,6 +12,8 @@ persons:
 - michael-hanke
 - michal-szczepanik
 - stephan-heunis
+instruments:
+- 7b23e72f-3fa5-4aad-b421-a3c1eaea9718
 params:
   graphRootNodePID: xyzrins:projects/18b8a19e-5e7b-425d-be04-f16c0cc15b01
 ---
@@ -37,4 +39,7 @@ A community-written resource on research data management with DataLad, publicly 
 - [Michał&nbsp;Szczepanik](/persons/michal-szczepanik) (Contributor)
 - [Christian&nbsp;Mönch](/persons/christian-moench) (Contributor)
 - [Alex&nbsp;Waite](/persons/alex-waite) (Contributor)
+## Outputs
+
+- [DataLad Handbook](/instruments/7b23e72f-3fa5-4aad-b421-a3c1eaea9718)
 

@@ -10,6 +10,7 @@ topics:
 - predictive-data-analysis
 params:
   graphRootNodePID: xyzrins:publications/4a42292a-ab19-447a-9ac8-57e5daf5614f
+  sortkey: "2017-03The effect of acquisition resolution on orientation decoding from V1 BOLD fMRI at 7 Tesla"
   pid: xyzrins:publications/4a42292a-ab19-447a-9ac8-57e5daf5614f
   doi: 10.1016/j.neuroimage.2016.12.040
   date: 2017-03

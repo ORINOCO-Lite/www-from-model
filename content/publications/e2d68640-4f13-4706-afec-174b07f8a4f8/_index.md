@@ -7,6 +7,7 @@ topics:
 - neuroimaging
 params:
   graphRootNodePID: xyzrins:publications/e2d68640-4f13-4706-afec-174b07f8a4f8
+  sortkey: "2022-11Learning about threat from friends and strangers is equally effective: An fMRI study on observational fear conditioning."
   pid: xyzrins:publications/e2d68640-4f13-4706-afec-174b07f8a4f8
   doi: 10.1016/j.neuroimage.2022.119648
   date: 2022-11

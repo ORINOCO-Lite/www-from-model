@@ -7,6 +7,7 @@ topics:
 - neuroimaging
 params:
   graphRootNodePID: xyzrins:publications/064e5ccb-fc55-4266-9cc5-cb62d3dd410d
+  sortkey: "2008Retinotopic activation in response to subjective contours in primary visual cortex"
   pid: xyzrins:publications/064e5ccb-fc55-4266-9cc5-cb62d3dd410d
   doi: 10.3389/neuro.09.002.2008
   date: '2008'

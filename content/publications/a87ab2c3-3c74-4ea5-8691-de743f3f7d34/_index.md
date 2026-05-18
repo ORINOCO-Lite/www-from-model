@@ -6,6 +6,7 @@ topics:
 - distributed-systems
 params:
   graphRootNodePID: xyzrins:publications/a87ab2c3-3c74-4ea5-8691-de743f3f7d34
+  sortkey: "2025-02-26Open Research Software Infrastructure in Neuro-Medicine"
   pid: xyzrins:publications/a87ab2c3-3c74-4ea5-8691-de743f3f7d34
   doi: 10.5281/zenodo.14976706
   date: '2025-02-26'

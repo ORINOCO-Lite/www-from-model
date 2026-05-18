@@ -10,6 +10,7 @@ topics:
 - distributed-systems
 params:
   graphRootNodePID: xyzrins:publications/e62958e2-a3ce-4a67-8059-97075812f712
+  sortkey: "2021-07-31ESMRMB annual meeting roundtable discussion: “Challenges and solutions in data sharing—an MRI perspective”"
   pid: xyzrins:publications/e62958e2-a3ce-4a67-8059-97075812f712
   doi: 10.1007/s10334-021-00942-z
   date: '2021-07-31'

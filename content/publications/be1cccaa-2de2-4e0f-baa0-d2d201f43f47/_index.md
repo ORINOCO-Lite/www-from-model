@@ -9,6 +9,7 @@ topics:
 - predictive-data-analysis
 params:
   graphRootNodePID: xyzrins:publications/be1cccaa-2de2-4e0f-baa0-d2d201f43f47
+  sortkey: "2020-03-16Macroscopic information-based taste representations in insular cortex are shaped by stimulus concentration"
   pid: xyzrins:publications/be1cccaa-2de2-4e0f-baa0-d2d201f43f47
   doi: 10.1073/pnas.1916329117
   date: '2020-03-16'

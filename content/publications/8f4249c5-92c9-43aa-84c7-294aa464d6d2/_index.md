@@ -8,9 +8,10 @@ topics:
 - predictive-data-analysis
 params:
   graphRootNodePID: xyzrins:publications/8f4249c5-92c9-43aa-84c7-294aa464d6d2
+  sortkey: "2010-01-01Advancing Neuroimaging Research with Predictive Multivariate Pattern Analysis (MVPA)"
   pid: xyzrins:publications/8f4249c5-92c9-43aa-84c7-294aa464d6d2
   doi: null
-  date: null
+  date: '2010-01-01'
   title: Advancing Neuroimaging Research with Predictive Multivariate Pattern Analysis
     (MVPA)
   description: null

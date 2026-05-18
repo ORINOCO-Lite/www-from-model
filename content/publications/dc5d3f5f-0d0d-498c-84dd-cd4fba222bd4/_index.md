@@ -11,6 +11,7 @@ topics:
 - naturalistic-neuroimaging
 params:
   graphRootNodePID: xyzrins:publications/dc5d3f5f-0d0d-498c-84dd-cd4fba222bd4
+  sortkey: "2014-05-27High-resolution 7-Tesla fMRI data on the perception of musical genres – an extension to the studyforrest dataset"
   pid: xyzrins:publications/dc5d3f5f-0d0d-498c-84dd-cd4fba222bd4
   doi: 10.1038/sdata.2014.3
   date: '2014-05-27'

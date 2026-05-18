@@ -8,6 +8,7 @@ topics:
 - research-data-management
 params:
   graphRootNodePID: xyzrins:publications/c96801de-5f95-46be-98d4-98a5a9b8c609
+  sortkey: "2023-02Research Data Management and Data Sharing for Reproducible Research—Results of a Community Survey of the German National Research Data Infrastructure Initiative Neuroscience"
   pid: xyzrins:publications/c96801de-5f95-46be-98d4-98a5a9b8c609
   doi: 10.1523/ENEURO.0215-22.2023
   date: 2023-02

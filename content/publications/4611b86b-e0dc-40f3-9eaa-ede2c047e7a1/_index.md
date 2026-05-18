@@ -10,6 +10,7 @@ topics:
 - predictive-data-analysis
 params:
   graphRootNodePID: xyzrins:publications/4611b86b-e0dc-40f3-9eaa-ede2c047e7a1
+  sortkey: "2017-07-03Task relevance modulates the representation of features and feature dimensions in the target template"
   pid: xyzrins:publications/4611b86b-e0dc-40f3-9eaa-ede2c047e7a1
   doi: 10.1038/s41598-017-04123-8
   date: '2017-07-03'

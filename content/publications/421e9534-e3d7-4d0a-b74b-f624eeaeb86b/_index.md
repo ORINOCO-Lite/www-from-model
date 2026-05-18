@@ -8,6 +8,7 @@ topics:
 - predictive-data-analysis
 params:
   graphRootNodePID: xyzrins:publications/421e9534-e3d7-4d0a-b74b-f624eeaeb86b
+  sortkey: "2011-07Investigation of melodic contour processing in the brain using multivariate pattern-based fMRI"
   pid: xyzrins:publications/421e9534-e3d7-4d0a-b74b-f624eeaeb86b
   doi: 10.1016/j.neuroimage.2011.02.006
   date: 2011-07

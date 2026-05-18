@@ -13,6 +13,7 @@ topics:
 - naturalistic-neuroimaging
 params:
   graphRootNodePID: xyzrins:publications/06688308-2c40-49a6-88e3-ba7bfca73a1e
+  sortkey: "2016-10-25A studyforrest extension, simultaneous fMRI and eye gaze recordings during prolonged natural stimulation"
   pid: xyzrins:publications/06688308-2c40-49a6-88e3-ba7bfca73a1e
   doi: 10.1038/sdata.2016.92
   date: '2016-10-25'

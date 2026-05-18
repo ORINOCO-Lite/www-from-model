@@ -9,6 +9,7 @@ topics:
 - predictive-data-analysis
 params:
   graphRootNodePID: xyzrins:publications/4dee8e5d-b124-4e60-90e3-748ff8090c2b
+  sortkey: "2022-11Cross-cohort replicability and generalizability of connectivity-based psychometric prediction patterns"
   pid: xyzrins:publications/4dee8e5d-b124-4e60-90e3-748ff8090c2b
   doi: 10.1016/j.neuroimage.2022.119569
   date: 2022-11

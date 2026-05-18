@@ -6,6 +6,7 @@ persons:
 - venkatesh-hariharapura-shivashankar
 params:
   graphRootNodePID: xyzrins:publications/e7274698-f460-4a7b-8b07-01a5d54374bc
+  sortkey: "2024An analysis of Computer Science in OJAs with a dual-lingual ontology approach"
   pid: xyzrins:publications/e7274698-f460-4a7b-8b07-01a5d54374bc
   doi: 10.18420/inf2024_178
   date: '2024'

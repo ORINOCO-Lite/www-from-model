@@ -14,6 +14,7 @@ topics:
 - free-and-open-culture
 params:
   graphRootNodePID: xyzrins:publications/15a94498-814e-4314-9ff7-b032a94d1f8c
+  sortkey: "2024-03-18Proceedings of the OHBM Brainhack 2022"
   pid: xyzrins:publications/15a94498-814e-4314-9ff7-b032a94d1f8c
   doi: 10.52294/001c.92760
   date: '2024-03-18'

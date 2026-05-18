@@ -7,6 +7,7 @@ topics:
 - data-management
 params:
   graphRootNodePID: xyzrins:publications/5b97b3a3-25f7-453c-bc87-beabc2848c22
+  sortkey: "2022-10-07Wissenschaft Online: Thema Forschungsdatenmanagement"
   pid: xyzrins:publications/5b97b3a3-25f7-453c-bc87-beabc2848c22
   doi: 10.5281/zenodo.7155598
   date: '2022-10-07'

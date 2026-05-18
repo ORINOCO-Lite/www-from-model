@@ -13,6 +13,7 @@ topics:
 - high-throughput-computing
 params:
   graphRootNodePID: xyzrins:publications/a2c0e912-ae8e-48b4-aac5-d023afb4a048
+  sortkey: "2024-01A reproducible and generalizable software workflow for analysis of large-scale neuroimaging data collections using BIDS Apps"
   pid: xyzrins:publications/a2c0e912-ae8e-48b4-aac5-d023afb4a048
   doi: 10.1162/imag_a_00074
   date: 2024-01

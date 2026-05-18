@@ -8,6 +8,7 @@ topics:
 - standards
 params:
   graphRootNodePID: xyzrins:publications/388e69f6-2cd3-4446-8bc6-4316018ee640
+  sortkey: "2017-06Towards standard practices for sharing computer code and programs in neuroscience"
   pid: xyzrins:publications/388e69f6-2cd3-4446-8bc6-4316018ee640
   doi: 10.1038/nn.4550
   date: 2017-06

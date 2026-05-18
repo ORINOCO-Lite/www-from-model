@@ -6,6 +6,7 @@ topics:
 - education
 params:
   graphRootNodePID: xyzrins:publications/589eb76e-3aa3-428c-a3ed-30fe547bd042
+  sortkey: "2021-03-28Educating and Training for a FAIR future"
   pid: xyzrins:publications/589eb76e-3aa3-428c-a3ed-30fe547bd042
   doi: 10.5281/zenodo.4541322
   date: '2021-03-28'

@@ -9,6 +9,7 @@ topics:
 - research-data-management
 params:
   graphRootNodePID: xyzrins:publications/c650d00f-816d-4b12-af63-9ce812c2c09c
+  sortkey: "2024-07-03HeuDiConv — flexible DICOM conversion into structured directory layouts"
   pid: xyzrins:publications/c650d00f-816d-4b12-af63-9ce812c2c09c
   doi: 10.21105/joss.05839
   date: '2024-07-03'

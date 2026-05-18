@@ -8,6 +8,7 @@ topics:
 - free-and-open-culture
 params:
   graphRootNodePID: xyzrins:publications/f5f330bb-f99c-4f82-adee-5713f093f7ee
+  sortkey: "2021-08Centering inclusivity in the design of online conferences—An OHBM–Open Science perspective"
   pid: xyzrins:publications/f5f330bb-f99c-4f82-adee-5713f093f7ee
   doi: 10.1093/gigascience/giab051
   date: 2021-08

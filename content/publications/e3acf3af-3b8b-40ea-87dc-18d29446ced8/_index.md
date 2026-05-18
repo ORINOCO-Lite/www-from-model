@@ -3,13 +3,14 @@ title: Brains on beats
 persons:
 - michael-hanke
 topics:
-- predictive-data-analysis
 - naturalistic-neuroimaging
+- predictive-data-analysis
 params:
   graphRootNodePID: xyzrins:publications/e3acf3af-3b8b-40ea-87dc-18d29446ced8
+  sortkey: "2016-01-01Brains on beats"
   pid: xyzrins:publications/e3acf3af-3b8b-40ea-87dc-18d29446ced8
   doi: null
-  date: null
+  date: '2016-01-01'
   title: Brains on beats
   description: We developed task-optimized deep neural networks (DNNs) that achieved
     state-of-the-art performance in different evaluation scenarios for automatic music
@@ -25,10 +26,10 @@ params:
     given_name: Michael
     family_name: Hanke
   topic:
-  - pid: xyzrins:topics/predictive-data-analysis
-    display_label: Predictive data analysis
   - pid: xyzrins:topics/naturalistic-neuroimaging
     display_label: Naturalistic neuroimaging
+  - pid: xyzrins:topics/predictive-data-analysis
+    display_label: Predictive data analysis
 
 ---
 

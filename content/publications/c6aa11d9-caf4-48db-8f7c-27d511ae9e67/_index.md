@@ -7,6 +7,7 @@ topics:
 - education
 params:
   graphRootNodePID: xyzrins:publications/c6aa11d9-caf4-48db-8f7c-27d511ae9e67
+  sortkey: "2025-10-02Software Competence, Self-Sufficiency, and Sovereignty through Open Science"
   pid: xyzrins:publications/c6aa11d9-caf4-48db-8f7c-27d511ae9e67
   doi: 10.5281/zenodo.17249651
   date: '2025-10-02'

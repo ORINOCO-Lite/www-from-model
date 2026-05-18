@@ -16,6 +16,7 @@ topics:
 - distributed-systems
 params:
   graphRootNodePID: xyzrins:publications/787d9a99-90ef-4fa3-b42a-09c3cc48b658
+  sortkey: "2023-02-14The DataLad Handbook"
   pid: xyzrins:publications/787d9a99-90ef-4fa3-b42a-09c3cc48b658
   doi: 10.5281/zenodo.3608611
   date: '2023-02-14'

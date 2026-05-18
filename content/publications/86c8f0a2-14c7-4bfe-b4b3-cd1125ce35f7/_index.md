@@ -9,6 +9,7 @@ topics:
 - predictive-data-analysis
 params:
   graphRootNodePID: xyzrins:publications/86c8f0a2-14c7-4bfe-b4b3-cd1125ce35f7
+  sortkey: "2013Transmodal Analysis of Neural Signals"
   pid: xyzrins:publications/86c8f0a2-14c7-4bfe-b4b3-cd1125ce35f7
   doi: 10.48550/arXiv.1307.2150
   date: '2013'

@@ -9,6 +9,7 @@ topics:
 - education
 params:
   graphRootNodePID: xyzrins:publications/4d692cf1-2a19-406c-9066-e0c85de46e4a
+  sortkey: "2023-12-01Datalad — An Introduction to Research Data Management"
   pid: xyzrins:publications/4d692cf1-2a19-406c-9066-e0c85de46e4a
   doi: null
   date: '2023-12-01'

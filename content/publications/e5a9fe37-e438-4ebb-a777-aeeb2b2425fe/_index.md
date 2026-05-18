@@ -8,6 +8,7 @@ topics:
 - research-data-management
 params:
   graphRootNodePID: xyzrins:publications/e5a9fe37-e438-4ebb-a777-aeeb2b2425fe
+  sortkey: "2025-11-04DataLad Overview at Cogbases 2025 Paris"
   pid: xyzrins:publications/e5a9fe37-e438-4ebb-a777-aeeb2b2425fe
   doi: null
   date: '2025-11-04'

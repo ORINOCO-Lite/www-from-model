@@ -10,6 +10,7 @@ topics:
 - naturalistic-neuroimaging
 params:
   graphRootNodePID: xyzrins:publications/c456d465-8f51-41e8-b5c5-a03a46bde8a3
+  sortkey: "2022-04-01Processing of visual and non-visual naturalistic spatial information in the &#34;parahippocampal place area&#34;"
   pid: xyzrins:publications/c456d465-8f51-41e8-b5c5-a03a46bde8a3
   doi: 10.1038/s41597-022-01250-4
   date: '2022-04-01'

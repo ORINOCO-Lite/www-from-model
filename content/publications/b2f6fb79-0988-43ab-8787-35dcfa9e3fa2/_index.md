@@ -9,6 +9,7 @@ topics:
 - standards
 params:
   graphRootNodePID: xyzrins:publications/b2f6fb79-0988-43ab-8787-35dcfa9e3fa2
+  sortkey: "2015-07-18Four aspects to make science open &#34;by design&#34; and not as an after-thought"
   pid: xyzrins:publications/b2f6fb79-0988-43ab-8787-35dcfa9e3fa2
   doi: 10.1186/s13742-015-0072-7
   date: '2015-07-18'

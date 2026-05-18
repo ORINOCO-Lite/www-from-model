@@ -7,6 +7,7 @@ topics:
 - education
 params:
   graphRootNodePID: xyzrins:publications/bde8a483-e87d-4425-b517-369322d049e7
+  sortkey: "2026-05-06Reproducibility in science - what it is and why to care, with examples from the DataLad world"
   pid: xyzrins:publications/bde8a483-e87d-4425-b517-369322d049e7
   doi: 10.5281/zenodo.19692938
   date: '2026-05-06'

@@ -9,6 +9,7 @@ topics:
 - standards
 params:
   graphRootNodePID: xyzrins:publications/a38a3e42-7141-4e7e-90f8-caa6149d3059
+  sortkey: "2012Data sharing in neuroimaging research"
   pid: xyzrins:publications/a38a3e42-7141-4e7e-90f8-caa6149d3059
   doi: 10.3389/fninf.2012.00009
   date: '2012'

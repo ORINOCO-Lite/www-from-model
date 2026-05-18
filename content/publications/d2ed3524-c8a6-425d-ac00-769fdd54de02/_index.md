@@ -10,6 +10,7 @@ topics:
 - standards
 params:
   graphRootNodePID: xyzrins:publications/d2ed3524-c8a6-425d-ac00-769fdd54de02
+  sortkey: "2019-02-07Everything Matters: The ReproNim Perspective on Reproducible Neuroimaging"
   pid: xyzrins:publications/d2ed3524-c8a6-425d-ac00-769fdd54de02
   doi: 10.3389/fninf.2019.00001
   date: '2019-02-07'

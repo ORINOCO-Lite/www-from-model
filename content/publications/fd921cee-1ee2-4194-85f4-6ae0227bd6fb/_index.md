@@ -9,6 +9,7 @@ topics:
 - predictive-data-analysis
 params:
   graphRootNodePID: xyzrins:publications/fd921cee-1ee2-4194-85f4-6ae0227bd6fb
+  sortkey: "2018-02-02Spatial band-pass filtering aids decoding musical genres from auditory cortex 7T fMRI."
   pid: xyzrins:publications/fd921cee-1ee2-4194-85f4-6ae0227bd6fb
   doi: 10.12688/f1000research.13689.1
   date: '2018-02-02'

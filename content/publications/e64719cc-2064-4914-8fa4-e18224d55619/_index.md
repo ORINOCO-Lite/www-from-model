@@ -7,6 +7,7 @@ topics:
 - research-software-engineering
 params:
   graphRootNodePID: xyzrins:publications/e64719cc-2064-4914-8fa4-e18224d55619
+  sortkey: "2011Neuroscience runs on GNU/Linux"
   pid: xyzrins:publications/e64719cc-2064-4914-8fa4-e18224d55619
   doi: 10.3389/fninf.2011.00008
   date: '2011'

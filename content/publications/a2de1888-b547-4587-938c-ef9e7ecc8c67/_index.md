@@ -17,6 +17,7 @@ topics:
 - high-throughput-computing
 params:
   graphRootNodePID: xyzrins:publications/a2de1888-b547-4587-938c-ef9e7ecc8c67
+  sortkey: "2022-03-11FAIRly big: A framework for computationally reproducible processing of large-scale data"
   pid: xyzrins:publications/a2de1888-b547-4587-938c-ef9e7ecc8c67
   doi: 10.1038/s41597-022-01163-2
   date: '2022-03-11'

@@ -6,6 +6,7 @@ topics:
 - education
 params:
   graphRootNodePID: xyzrins:publications/dc355ca9-3375-486c-801e-b478f7ac013d
+  sortkey: "2024-09-26Introduction to DataLad for andani"
   pid: xyzrins:publications/dc355ca9-3375-486c-801e-b478f7ac013d
   doi: 10.5281/zenodo.13806403
   date: '2024-09-26'

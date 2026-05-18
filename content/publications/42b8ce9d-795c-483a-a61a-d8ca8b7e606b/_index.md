@@ -7,6 +7,7 @@ topics:
 - predictive-data-analysis
 params:
   graphRootNodePID: xyzrins:publications/42b8ce9d-795c-483a-a61a-d8ca8b7e606b
+  sortkey: "2009-06-25Advancing the understanding of brain function with multivariate pattern analysis"
   pid: xyzrins:publications/42b8ce9d-795c-483a-a61a-d8ca8b7e606b
   doi: null
   date: '2009-06-25'

@@ -10,6 +10,7 @@ topics:
 - predictive-data-analysis
 params:
   graphRootNodePID: xyzrins:publications/b46c17cb-6471-4b21-947e-1e175ff66fb7
+  sortkey: "2013-09Pattern classification precedes region-average hemodynamic response in early visual cortex"
   pid: xyzrins:publications/b46c17cb-6471-4b21-947e-1e175ff66fb7
   doi: 10.1016/j.neuroimage.2013.04.019
   date: 2013-09

@@ -6,6 +6,7 @@ topics:
 - free-and-open-culture
 params:
   graphRootNodePID: xyzrins:publications/4538da47-6995-4a52-a399-e20e36c440bb
+  sortkey: "2025-07-09Was RDM von RSE lernen kann"
   pid: xyzrins:publications/4538da47-6995-4a52-a399-e20e36c440bb
   doi: 10.5281/zenodo.15845761
   date: '2025-07-09'

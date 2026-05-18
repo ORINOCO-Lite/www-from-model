@@ -12,6 +12,7 @@ topics:
 - education
 params:
   graphRootNodePID: xyzrins:publications/212e3bce-22fa-4cf6-bd1d-fedd33428d65
+  sortkey: "2024-05-07Teaching research data management with DataLad: a multi-year, multi-domain effort"
   pid: xyzrins:publications/212e3bce-22fa-4cf6-bd1d-fedd33428d65
   doi: 10.1007/s12021-024-09665-7
   date: '2024-05-07'

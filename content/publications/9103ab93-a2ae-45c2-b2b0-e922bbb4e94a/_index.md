@@ -11,6 +11,7 @@ topics:
 - education
 params:
   graphRootNodePID: xyzrins:publications/9103ab93-a2ae-45c2-b2b0-e922bbb4e94a
+  sortkey: "2023-06-05How to establish and maintain a multimodal animal research dataset using DataLad"
   pid: xyzrins:publications/9103ab93-a2ae-45c2-b2b0-e922bbb4e94a
   doi: 10.1038/s41597-023-02242-8
   date: '2023-06-05'

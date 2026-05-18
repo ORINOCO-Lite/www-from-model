@@ -6,6 +6,7 @@ topics:
 - research-data-management
 params:
   graphRootNodePID: xyzrins:publications/bfc4c1b2-f2ed-475f-9bce-e3a5cc101421
+  sortkey: "2023-12-06Talk: RDM with DataLad @ MRI Together"
   pid: xyzrins:publications/bfc4c1b2-f2ed-475f-9bce-e3a5cc101421
   doi: null
   date: '2023-12-06'

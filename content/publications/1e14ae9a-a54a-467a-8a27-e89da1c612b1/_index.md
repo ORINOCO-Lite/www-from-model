@@ -11,6 +11,7 @@ topics:
 - education
 params:
   graphRootNodePID: xyzrins:publications/1e14ae9a-a54a-467a-8a27-e89da1c612b1
+  sortkey: "NoneDocumentation of the TRR379"
   pid: xyzrins:publications/1e14ae9a-a54a-467a-8a27-e89da1c612b1
   doi: null
   date: null

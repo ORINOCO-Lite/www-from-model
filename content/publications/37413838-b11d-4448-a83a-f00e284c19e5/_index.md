@@ -7,6 +7,7 @@ topics:
 - education
 params:
   graphRootNodePID: xyzrins:publications/37413838-b11d-4448-a83a-f00e284c19e5
+  sortkey: "2023-02-14Data and reproducibility management with DataLad"
   pid: xyzrins:publications/37413838-b11d-4448-a83a-f00e284c19e5
   doi: 10.5281/zenodo.7627722
   date: '2023-02-14'

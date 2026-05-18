@@ -6,6 +6,7 @@ topics:
 - education
 params:
   graphRootNodePID: xyzrins:publications/65e8093f-259a-4aff-a2b2-b1010a4a0445
+  sortkey: "2020-11-18Data Management Workshop with DataLad"
   pid: xyzrins:publications/65e8093f-259a-4aff-a2b2-b1010a4a0445
   doi: null
   date: '2020-11-18'

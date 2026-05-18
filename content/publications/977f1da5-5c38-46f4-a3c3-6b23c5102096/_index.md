@@ -7,6 +7,7 @@ topics:
 - education
 params:
   graphRootNodePID: xyzrins:publications/977f1da5-5c38-46f4-a3c3-6b23c5102096
+  sortkey: "2022-03-21Version control and RDM with DataLad"
   pid: xyzrins:publications/977f1da5-5c38-46f4-a3c3-6b23c5102096
   doi: 10.5281/zenodo.6364570
   date: '2022-03-21'

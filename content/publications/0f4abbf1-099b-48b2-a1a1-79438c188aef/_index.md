@@ -8,6 +8,7 @@ topics:
 - predictive-data-analysis
 params:
   graphRootNodePID: xyzrins:publications/0f4abbf1-099b-48b2-a1a1-79438c188aef
+  sortkey: "2017-09-01Distractor-resistant short-term memory is supported by transient changes in neural stimulus representations"
   pid: xyzrins:publications/0f4abbf1-099b-48b2-a1a1-79438c188aef
   doi: 10.1162/jocn_a_01141
   date: '2017-09-01'

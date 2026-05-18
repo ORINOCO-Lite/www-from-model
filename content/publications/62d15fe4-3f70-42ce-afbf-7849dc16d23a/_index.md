@@ -8,6 +8,7 @@ topics:
 - research-software-engineering
 params:
   graphRootNodePID: xyzrins:publications/62d15fe4-3f70-42ce-afbf-7849dc16d23a
+  sortkey: "2024-06-03DataLad workshop for IMPRS-MMFD in Tübingen 2024"
   pid: xyzrins:publications/62d15fe4-3f70-42ce-afbf-7849dc16d23a
   doi: null
   date: '2024-06-03'

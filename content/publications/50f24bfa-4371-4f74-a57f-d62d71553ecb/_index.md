@@ -9,6 +9,7 @@ topics:
 - naturalistic-neuroimaging
 params:
   graphRootNodePID: xyzrins:publications/50f24bfa-4371-4f74-a57f-d62d71553ecb
+  sortkey: "2016-10-25A studyforrest extension, retinotopic mapping and localization of higher visual areas"
   pid: xyzrins:publications/50f24bfa-4371-4f74-a57f-d62d71553ecb
   doi: 10.1038/sdata.2016.93
   date: '2016-10-25'

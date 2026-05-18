@@ -2,6 +2,7 @@
 title: Main Website of the TRR379
 params:
   graphRootNodePID: xyzrins:publications/fd7f3b66-e9f2-49ab-8a9f-3e3a9abc891a
+  sortkey: "NoneMain Website of the TRR379"
   pid: xyzrins:publications/fd7f3b66-e9f2-49ab-8a9f-3e3a9abc891a
   doi: null
   date: null

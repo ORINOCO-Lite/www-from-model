@@ -9,6 +9,7 @@ topics:
 - predictive-data-analysis
 params:
   graphRootNodePID: xyzrins:publications/046a581f-9715-4b00-880a-5027b37f0f6b
+  sortkey: "2017-08Ultra high-field multi-resolution fMRI data for orientation decoding in visual cortex"
   pid: xyzrins:publications/046a581f-9715-4b00-880a-5027b37f0f6b
   doi: 10.1016/j.dib.2017.05.014
   date: 2017-08

@@ -11,6 +11,7 @@ topics:
 - predictive-data-analysis
 params:
   graphRootNodePID: xyzrins:publications/f15570ef-4b82-4fc7-9780-715b99cfa388
+  sortkey: "2009PyMVPA: a unifying approach to the analysis of neuroscientific data"
   pid: xyzrins:publications/f15570ef-4b82-4fc7-9780-715b99cfa388
   doi: 10.3389/neuro.11.003.2009
   date: '2009'

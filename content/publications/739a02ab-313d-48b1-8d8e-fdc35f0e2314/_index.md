@@ -6,6 +6,7 @@ topics:
 - education
 params:
   graphRootNodePID: xyzrins:publications/739a02ab-313d-48b1-8d8e-fdc35f0e2314
+  sortkey: "2022-07-22Data Management for Neuroimaging with DataLad"
   pid: xyzrins:publications/739a02ab-313d-48b1-8d8e-fdc35f0e2314
   doi: 10.5281/zenodo.6880615
   date: '2022-07-22'

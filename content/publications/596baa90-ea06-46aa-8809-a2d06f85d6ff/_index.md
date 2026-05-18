@@ -9,6 +9,7 @@ topics:
 - predictive-data-analysis
 params:
   graphRootNodePID: xyzrins:publications/596baa90-ea06-46aa-8809-a2d06f85d6ff
+  sortkey: "2018-11No evidence for enhanced distractor template representation in early visual cortex"
   pid: xyzrins:publications/596baa90-ea06-46aa-8809-a2d06f85d6ff
   doi: 10.1016/j.cortex.2018.08.005
   date: 2018-11

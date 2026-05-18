@@ -7,6 +7,7 @@ topics:
 - education
 params:
   graphRootNodePID: xyzrins:publications/d64a3468-434b-4f95-953f-533bb0942974
+  sortkey: "2023-01-18RDM for neuroimagers"
   pid: xyzrins:publications/d64a3468-434b-4f95-953f-533bb0942974
   doi: 10.5281/zenodo.7419376
   date: '2023-01-18'

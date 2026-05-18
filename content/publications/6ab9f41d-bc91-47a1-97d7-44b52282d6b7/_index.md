@@ -11,6 +11,7 @@ topics:
 - predictive-data-analysis
 params:
   graphRootNodePID: xyzrins:publications/6ab9f41d-bc91-47a1-97d7-44b52282d6b7
+  sortkey: "2009-01-28PyMVPA: A Python toolbox for multivariate pattern analysis of fMRI data"
   pid: xyzrins:publications/6ab9f41d-bc91-47a1-97d7-44b52282d6b7
   doi: 10.1007/s12021-008-9041-y
   date: '2009-01-28'

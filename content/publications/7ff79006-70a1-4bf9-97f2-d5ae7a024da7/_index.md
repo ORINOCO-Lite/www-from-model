@@ -9,6 +9,7 @@ topics:
 - standards
 params:
   graphRootNodePID: xyzrins:publications/7ff79006-70a1-4bf9-97f2-d5ae7a024da7
+  sortkey: "2012Open is not enough. Let’s take the next step: An integrated, community-driven computing platform for neuroscience"
   pid: xyzrins:publications/7ff79006-70a1-4bf9-97f2-d5ae7a024da7
   doi: 10.3389/fninf.2012.00022
   date: '2012'

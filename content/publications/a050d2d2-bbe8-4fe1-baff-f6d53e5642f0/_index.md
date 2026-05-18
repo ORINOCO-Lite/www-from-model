@@ -11,6 +11,7 @@ topics:
 - research-software-engineering
 params:
   graphRootNodePID: xyzrins:publications/a050d2d2-bbe8-4fe1-baff-f6d53e5642f0
+  sortkey: "2010Statistical learning analysis in neuroscience: aiming for transparency"
   pid: xyzrins:publications/a050d2d2-bbe8-4fe1-baff-f6d53e5642f0
   doi: 10.3389/neuro.01.007.2010
   date: '2010'

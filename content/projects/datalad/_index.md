@@ -16,6 +16,8 @@ persons:
 - orcid:0000-0003-3456-2493
 - stephan-heunis
 instruments:
+- 51b93f1f-b7aa-4422-8b36-1ec499bdde14
+- 64c502e7-d63e-4403-8cb9-b4c60f122b0d
 - 794b80ba-cae1-4fc1-b6d2-8b56c0ff4644
 - bb72fbdb-8d22-4756-a55f-313a7a6a9626
 - datalad
@@ -46,6 +48,8 @@ params:
 - [Alex&nbsp;Waite](/persons/alex-waite) (Research team member)
 ## Outputs
 
+- [datalad-remake](/instruments/51b93f1f-b7aa-4422-8b36-1ec499bdde14)
+- [datalad-catalog](/instruments/64c502e7-d63e-4403-8cb9-b4c60f122b0d)
 - [datalad-xnat](/instruments/794b80ba-cae1-4fc1-b6d2-8b56c0ff4644)
 - [datalad-container](/instruments/bb72fbdb-8d22-4756-a55f-313a7a6a9626)
 - [DataLad](/instruments/datalad)

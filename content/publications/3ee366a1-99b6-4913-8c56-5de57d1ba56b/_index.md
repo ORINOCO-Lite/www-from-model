@@ -7,6 +7,7 @@ topics:
 - neuroimaging
 params:
   graphRootNodePID: xyzrins:publications/3ee366a1-99b6-4913-8c56-5de57d1ba56b
+  sortkey: "2021-09The effects of multi-echo fMRI combination and rapid T2*-mapping on offline and real-time BOLD sensitivity"
   pid: xyzrins:publications/3ee366a1-99b6-4913-8c56-5de57d1ba56b
   doi: 10.1016/j.neuroimage.2021.118244
   date: 2021-09

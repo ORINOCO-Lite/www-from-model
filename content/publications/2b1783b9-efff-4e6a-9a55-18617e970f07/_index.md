@@ -6,6 +6,7 @@ topics:
 - education
 params:
   graphRootNodePID: xyzrins:publications/2b1783b9-efff-4e6a-9a55-18617e970f07
+  sortkey: "2023-10-18Manage your data with DataLad: From local version control to data publication"
   pid: xyzrins:publications/2b1783b9-efff-4e6a-9a55-18617e970f07
   doi: 10.5281/zenodo.8431163
   date: '2023-10-18'

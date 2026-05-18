@@ -7,6 +7,7 @@ topics:
 - provenance
 params:
   graphRootNodePID: xyzrins:publications/56d2708c-f5a4-42e8-b25b-bac91f0e1a95
+  sortkey: "2021-09-15Data + Code + Software = PDF How to write a reproducible research article"
   pid: xyzrins:publications/56d2708c-f5a4-42e8-b25b-bac91f0e1a95
   doi: 10.5281/zenodo.5508796
   date: '2021-09-15'

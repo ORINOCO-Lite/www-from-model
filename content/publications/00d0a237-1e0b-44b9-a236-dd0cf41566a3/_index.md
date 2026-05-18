@@ -10,6 +10,7 @@ topics:
 - standards
 params:
   graphRootNodePID: xyzrins:publications/00d0a237-1e0b-44b9-a236-dd0cf41566a3
+  sortkey: "2015-12-16The Brain Imaging Data Structure: a protocol for standardizing and describing outputs of neuroimaging experiments"
   pid: xyzrins:publications/00d0a237-1e0b-44b9-a236-dd0cf41566a3
   doi: 10.1101/034561
   date: '2015-12-16'

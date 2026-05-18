@@ -7,6 +7,7 @@ topics:
 - education
 params:
   graphRootNodePID: xyzrins:publications/c5ca68cb-ba35-4df5-8788-d51beb266fd9
+  sortkey: "2022-04-21Data Management for reproducible science"
   pid: xyzrins:publications/c5ca68cb-ba35-4df5-8788-d51beb266fd9
   doi: null
   date: '2022-04-21'

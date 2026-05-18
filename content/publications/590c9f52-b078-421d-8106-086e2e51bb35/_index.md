@@ -9,6 +9,7 @@ topics:
 - naturalistic-stimulation
 params:
   graphRootNodePID: xyzrins:publications/590c9f52-b078-421d-8106-086e2e51bb35
+  sortkey: "2019-07-18A Python-based Algorithm for Robust Event Detection for Eye Movements During Natural Viewing"
   pid: xyzrins:publications/590c9f52-b078-421d-8106-086e2e51bb35
   doi: 10.5281/zenodo.7906796
   date: '2019-07-18'

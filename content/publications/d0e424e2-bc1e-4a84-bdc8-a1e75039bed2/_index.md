@@ -9,6 +9,7 @@ topics:
 - education
 params:
   graphRootNodePID: xyzrins:publications/d0e424e2-bc1e-4a84-bdc8-a1e75039bed2
+  sortkey: "2025-09-29Data Management with DataLad"
   pid: xyzrins:publications/d0e424e2-bc1e-4a84-bdc8-a1e75039bed2
   doi: null
   date: '2025-09-29'

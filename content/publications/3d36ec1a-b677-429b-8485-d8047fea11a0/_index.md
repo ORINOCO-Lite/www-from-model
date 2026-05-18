@@ -8,6 +8,7 @@ topics:
 - naturalistic-stimulation
 params:
   graphRootNodePID: xyzrins:publications/3d36ec1a-b677-429b-8485-d8047fea11a0
+  sortkey: "2020-08Nature abhors a paywall: How open science can realize the potential of naturalistic stimuli"
   pid: xyzrins:publications/3d36ec1a-b677-429b-8485-d8047fea11a0
   doi: 10.1016/j.neuroimage.2019.116330
   date: 2020-08

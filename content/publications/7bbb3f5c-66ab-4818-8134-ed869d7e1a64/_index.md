@@ -8,6 +8,7 @@ topics:
 - naturalistic-neuroimaging
 params:
   graphRootNodePID: xyzrins:publications/7bbb3f5c-66ab-4818-8134-ed869d7e1a64
+  sortkey: "NoneLies, irony, and contradiction — an annotation of semantic conflict in the movie &#34;Forrest Gump&#34;"
   pid: xyzrins:publications/7bbb3f5c-66ab-4818-8134-ed869d7e1a64
   doi: null
   date: null

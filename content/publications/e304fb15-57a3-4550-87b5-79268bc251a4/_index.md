@@ -10,6 +10,7 @@ topics:
 - research-data-management
 params:
   graphRootNodePID: xyzrins:publications/e304fb15-57a3-4550-87b5-79268bc251a4
+  sortkey: "2019-08-12PyBIDS: Python tools for BIDS datasets"
   pid: xyzrins:publications/e304fb15-57a3-4550-87b5-79268bc251a4
   doi: 10.21105/joss.01294
   date: '2019-08-12'

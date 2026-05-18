@@ -7,6 +7,7 @@ topics:
 - research-data-management
 params:
   graphRootNodePID: xyzrins:publications/86d5576c-8707-4850-91b4-ae4829506383
+  sortkey: "2023-11-14Forschungsdatenmanagement in den systemischen Neurowissenschaften: Herausforderungen und Praxislösungen"
   pid: xyzrins:publications/86d5576c-8707-4850-91b4-ae4829506383
   doi: 10.5281/zenodo.10122802
   date: '2023-11-14'

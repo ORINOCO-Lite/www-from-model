@@ -12,6 +12,7 @@ topics:
 - research
 params:
   graphRootNodePID: xyzrins:publications/9e81065c-28e2-4218-ac0c-24b01c106179
+  sortkey: "2011-10A common, high-dimensional model of the representational space in human ventral temporal cortex"
   pid: xyzrins:publications/9e81065c-28e2-4218-ac0c-24b01c106179
   doi: 10.1016/j.neuron.2011.08.026
   date: 2011-10

@@ -9,6 +9,7 @@ topics:
 - education
 params:
   graphRootNodePID: xyzrins:publications/8194b25f-d731-4083-911d-c23b25be9504
+  sortkey: "2025-06-30DataLad: Our Introduction, Your Usecases"
   pid: xyzrins:publications/8194b25f-d731-4083-911d-c23b25be9504
   doi: null
   date: '2025-06-30'

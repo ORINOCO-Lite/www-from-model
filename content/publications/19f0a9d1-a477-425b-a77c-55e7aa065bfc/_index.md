@@ -10,6 +10,7 @@ topics:
 - distributed-systems
 params:
   graphRootNodePID: xyzrins:publications/19f0a9d1-a477-425b-a77c-55e7aa065bfc
+  sortkey: "2021-01-11In defense of decentralized research data management"
   pid: xyzrins:publications/19f0a9d1-a477-425b-a77c-55e7aa065bfc
   doi: 10.1515/nf-2020-0037
   date: '2021-01-11'

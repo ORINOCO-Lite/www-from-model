@@ -6,6 +6,7 @@ topics:
 - research-data-management
 params:
   graphRootNodePID: xyzrins:publications/ce6400c7-51eb-4656-82ff-836ebef0c445
+  sortkey: "2022-03-11Version control for data and beyond"
   pid: xyzrins:publications/ce6400c7-51eb-4656-82ff-836ebef0c445
   doi: 10.5281/zenodo.6346848
   date: '2022-03-11'

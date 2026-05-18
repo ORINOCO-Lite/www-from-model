@@ -9,6 +9,7 @@ topics:
 - predictive-data-analysis
 params:
   graphRootNodePID: xyzrins:publications/81dfd027-e1e2-4af0-841f-5ccb6bcbeb9b
+  sortkey: "2012-02-22Representation of Biological Classes in the Human Brain"
   pid: xyzrins:publications/81dfd027-e1e2-4af0-841f-5ccb6bcbeb9b
   doi: 10.1523/JNEUROSCI.5547-11.2012
   date: '2012-02-22'

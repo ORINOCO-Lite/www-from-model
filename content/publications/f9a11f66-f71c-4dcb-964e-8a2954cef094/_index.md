@@ -11,6 +11,7 @@ topics:
 - naturalistic-neuroimaging
 params:
   graphRootNodePID: xyzrins:publications/f9a11f66-f71c-4dcb-964e-8a2954cef094
+  sortkey: "2014-05-27A high-resolution 7-Tesla fMRI dataset from complex natural stimulation with an audio movie"
   pid: xyzrins:publications/f9a11f66-f71c-4dcb-964e-8a2954cef094
   doi: 10.1038/sdata.2014.3
   date: '2014-05-27'

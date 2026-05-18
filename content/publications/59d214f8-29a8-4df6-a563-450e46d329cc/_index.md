@@ -16,6 +16,7 @@ topics:
 - distributed-systems
 params:
   graphRootNodePID: xyzrins:publications/59d214f8-29a8-4df6-a563-450e46d329cc
+  sortkey: "2021-07-01DataLad: distributed system for joint management of code, data, and their relationship"
   pid: xyzrins:publications/59d214f8-29a8-4df6-a563-450e46d329cc
   doi: 10.21105/joss.03262
   date: '2021-07-01'

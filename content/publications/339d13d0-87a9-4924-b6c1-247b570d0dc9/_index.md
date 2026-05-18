@@ -8,6 +8,7 @@ topics:
 - predictive-data-analysis
 params:
   graphRootNodePID: xyzrins:publications/339d13d0-87a9-4924-b6c1-247b570d0dc9
+  sortkey: "2013-03Evidence for feature binding in the superior parietal lobule"
   pid: xyzrins:publications/339d13d0-87a9-4924-b6c1-247b570d0dc9
   doi: 10.1016/j.neuroimage.2012.12.002
   date: 2013-03

@@ -7,6 +7,7 @@ topics:
 - education
 params:
   graphRootNodePID: xyzrins:publications/9fa8db8b-d278-45bf-a449-2a7d56a9d47e
+  sortkey: "2025-10-27DataLad: An Introduction"
   pid: xyzrins:publications/9fa8db8b-d278-45bf-a449-2a7d56a9d47e
   doi: null
   date: '2025-10-27'
