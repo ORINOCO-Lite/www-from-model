@@ -1,5 +1,7 @@
 ---
 title: "Distribits 2024"
+projects:
+- 84f62566-abea-47fe-8bd8-994cb92a295c
 persons:
 - adina-wagner
 - alex-waite

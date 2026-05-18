@@ -1,6 +1,8 @@
 ---
 url: projects/lab-in-a-box
 title: "Lab-in-a-box"
+projects:
+- 587d32df-6b26-40c8-bc16-3db364622874
 objectives:
 - self-hosted-it
 instruments:

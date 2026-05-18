@@ -1,5 +1,7 @@
 ---
 title: Sven Buchholz
+persons:
+- sven-buchholz
 params:
   graphRootNodePID: xyzrins:persons/sven-buchholz
   given_name: Sven

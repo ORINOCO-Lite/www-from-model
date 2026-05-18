@@ -2,6 +2,7 @@
 title: "Key Mechanisms of Motor Control in Health and Disease"
 projects:
 - sfb1451_inf
+- sfb1451
 persons:
 - michael-hanke
 - michal-szczepanik

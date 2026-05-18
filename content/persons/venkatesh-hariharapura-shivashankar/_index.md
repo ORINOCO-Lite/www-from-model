@@ -1,5 +1,7 @@
 ---
 title: Venkatesh Hariharapura Shivashankar
+persons:
+- venkatesh-hariharapura-shivashankar
 params:
   graphRootNodePID: xyzrins:persons/venkatesh-hariharapura-shivashankar
   given_name: Venkatesh

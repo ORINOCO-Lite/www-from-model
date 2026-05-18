@@ -1,5 +1,7 @@
 ---
 title: "Connected Research Information through Semantic Provenance"
+projects:
+- crisp
 objectives:
 - 97ded4aa-108d-4b84-8195-d6076dce63ce
 - self-hosted-it

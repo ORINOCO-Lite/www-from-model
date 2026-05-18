@@ -1,5 +1,7 @@
 ---
 title: "The DataLad Handbook Project"
+projects:
+- 18b8a19e-5e7b-425d-be04-f16c0cc15b01
 objectives:
 - 87be5fa3-80fb-4221-8406-2ddd40fb1fd1
 - 97ded4aa-108d-4b84-8195-d6076dce63ce

@@ -1,5 +1,7 @@
 ---
 title: "Distribits 2025"
+projects:
+- e2a8b1eb-40b0-4763-9a34-ed864817f00e
 persons:
 - adina-wagner
 - alex-waite

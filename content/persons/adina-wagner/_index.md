@@ -1,5 +1,7 @@
 ---
 title: Adina Wagner
+persons:
+- adina-wagner
 params:
   graphRootNodePID: xyzrins:persons/adina-wagner
   given_name: Adina

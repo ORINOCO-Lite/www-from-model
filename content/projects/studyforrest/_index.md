@@ -2,6 +2,7 @@
 title: "Study Forrest"
 projects:
 - 14419ccc-b340-45ea-b0f4-bccc25c9e34d
+- studyforrest
 objectives:
 - 87be5fa3-80fb-4221-8406-2ddd40fb1fd1
 - 99a7e9fe-f8d8-46b8-aa97-44571b0eb3ba
