@@ -39,10 +39,13 @@ jobs:
           )"
           if [[ -n "$depiction_urls" ]]; then
             while IFS=$'\t' read -r curie ext url; do
-              git annex addurl --file="content/${curie}/portrait.${ext}" "$url" || \
+              export targetfile="content/${curie}/portrait.${ext}"; \
+                echo "Register $targetfile" ; \
+                test -e "$targetfile" && git rm -f "$targetfile"; \
+                (git annex addurl --raw --relaxed --file="$targetfile" "$url" && git annex get "$targetfile") || \
                 echo "addurl failed for $url, continuing..."
             done <<< "$depiction_urls"
-            git annex push --no-content
+            git annex push
             git annex push --cleanup
           fi
       - name: Deposit changes
