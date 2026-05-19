@@ -1,5 +1,6 @@
     <section>
       {{ range (.Pages.GroupBy "Type") }}
+      {{ if eq .Key "page" }}{{ else }}
         <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
           {{ .Key | title }}
         </h2>
@@ -17,5 +18,6 @@
           </li>
         {{end}}
         </ul>
+      {{ end }}
       {{ end }}
     </section>
