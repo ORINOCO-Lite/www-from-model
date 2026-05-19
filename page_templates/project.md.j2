@@ -1,4 +1,9 @@
 {% extends "page.md.j2" %}
+
+{%- set objectives = influenced_by | selectattr("object.schema_type", "eq", "xyzri:XYZObjective") | selectattr("ended", "undefined") | list -%}
+{%- set curr_associated = associated_with | selectattr("object.schema_type", "eq", "xyzri:XYZPerson") | selectattr("ended", "undefined") | list -%}
+{%- set prev_associated = associated_with | selectattr("object.schema_type", "eq", "xyzri:XYZPerson") | selectattr("ended", "defined") | list -%}
+
 {% block frontmatter -%}
 title: "{{ title }}"
 {{ taxonomy_terms('projects', 'xyzri:XYZProject', parts, typeattr='schema_type', pidattr='pid') -}}
@@ -16,31 +21,35 @@ title: "{{ title }}"
 {% endfor %}
 {% endif -%}
 
+{% if objectives -%}
 ## Objectives
 
-{% for inf in influenced_by if inf.object.schema_type == "xyzri:XYZObjective" and not inf.ended -%}
+{% for inf in objectives -%}
 - [{{ inf.object.title }}](/{{ inf.object.pid|replace('xyzrins:', '') }}) ({%for role in inf.roles %}{{ ', ' if not loop.first }}{{ role.display_label|default(role.name) }}{% endfor -%})
 {% endfor -%}
+{% endif -%}
 
+{% if curr_associated or prev_associated -%}
 ## People
 
+{% if curr_associated -%}
 ### Currently associated
 
-{% for ass in associated_with if ass.object.schema_type == "xyzri:XYZPerson" and not ass.ended -%}
+{% for ass in curr_associated -%}
 - [{{ ass.object.given_name }}&nbsp;{{ ass.object.family_name }}](/{{ ass.object.pid|replace('xyzrins:', '') }}) ({% for role in ass.roles %}{{ ', ' if not loop.first }}{{ role.display_label|default(role.name) }}{% endfor -%}){{ ("  \n  " ~ ass.description).rstrip() }}
 {% endfor -%}
-
-{% with prev_associated = associated_with | selectattr("object.schema_type", "eq", "xyzri:XYZPerson") | selectattr("ended", "defined") -%}
-{% for ass in prev_associated | sort(attribute="ended.at_time", reverse=True) -%}
-{% if loop.first %}
-### Previously associated
-
 {% endif -%}
+
+{% if prev_associated -%}
+### Previously associated
+{% for ass in prev_associated -%}
+
 - [{{ ass.object.given_name }}&nbsp;{{ ass.object.family_name }}](/{{ ass.object.pid|replace('xyzrins:', '') }}) ({% for role in ass.roles %}{{ ', ' if not loop.first }}{{ role.display_label|default(role.name) }}{% endfor -%} {{ assoc_period(ass, "; ") }}){{ ("  \n  " ~ ass.description).rstrip() }}
 {% endfor -%}
-{% endwith -%}
+{% endif -%}
+{% endif -%}
 
-{% if generated|length -%}
+{% if generated -%}
 ## Outputs
 
 {% for gen in generated -%}
