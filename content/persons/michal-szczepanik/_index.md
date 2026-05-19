@@ -1,7 +1,5 @@
 ---
 title: Michał Szczepanik
-persons:
-- michal-szczepanik
 params:
   graphRootNodePID: xyzrins:persons/michal-szczepanik
   given_name: "Micha\u0142"

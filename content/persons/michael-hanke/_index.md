@@ -1,7 +1,5 @@
 ---
 title: Michael Hanke
-persons:
-- michael-hanke
 params:
   graphRootNodePID: xyzrins:persons/michael-hanke
   given_name: Michael

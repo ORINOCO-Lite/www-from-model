@@ -1,7 +1,5 @@
 ---
 title: Laura Waite
-persons:
-- laura-waite
 params:
   graphRootNodePID: xyzrins:persons/laura-waite
   given_name: Laura

@@ -1,7 +1,5 @@
 ---
 title: Christian Mönch
-persons:
-- christian-moench
 params:
   graphRootNodePID: xyzrins:persons/christian-moench
   given_name: Christian

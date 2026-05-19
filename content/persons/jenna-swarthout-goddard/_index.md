@@ -1,7 +1,5 @@
 ---
 title: Jenna Swarthout Goddard
-persons:
-- jenna-swarthout-goddard
 params:
   graphRootNodePID: xyzrins:persons/jenna-swarthout-goddard
   given_name: Jenna

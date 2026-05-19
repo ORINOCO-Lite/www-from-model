@@ -1,7 +1,5 @@
 ---
 title: Stephan Heunis
-persons:
-- stephan-heunis
 params:
   graphRootNodePID: xyzrins:persons/stephan-heunis
   given_name: Stephan

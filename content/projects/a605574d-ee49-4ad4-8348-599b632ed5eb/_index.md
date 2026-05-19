@@ -3,7 +3,6 @@ title: "Distribits"
 projects:
 - 84f62566-abea-47fe-8bd8-994cb92a295c
 - e2a8b1eb-40b0-4763-9a34-ed864817f00e
-- a605574d-ee49-4ad4-8348-599b632ed5eb
 objectives:
 - 87be5fa3-80fb-4221-8406-2ddd40fb1fd1
 - 97ded4aa-108d-4b84-8195-d6076dce63ce

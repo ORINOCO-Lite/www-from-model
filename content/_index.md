@@ -1,5 +1,51 @@
 ---
 title: "Psychoinformatics"
+projects:
+- 587d32df-6b26-40c8-bc16-3db364622874
+- a605574d-ee49-4ad4-8348-599b632ed5eb
+- abcd-j
+- datalad
+- orinoco
+- sfb1451
+- studyforrest
+- trr379_q02
+objectives:
+- 87be5fa3-80fb-4221-8406-2ddd40fb1fd1
+- 97ded4aa-108d-4b84-8195-d6076dce63ce
+- 99a7e9fe-f8d8-46b8-aa97-44571b0eb3ba
+- b6e7dfb2-3534-487e-bd8a-d2f58ec47e47
+- self-hosted-it
+persons:
+- adina-wagner
+- alex-waite
+- ayan-sengupta
+- benjamin-poldrack
+- christian-haeusler
+- christian-moench
+- daniel-kottke
+- emanuele-porcu
+- falko-kaule
+- jenna-swarthout-goddard
+- laura-waite
+- leonardo-muller-rodriguez
+- malgorzata-wierzba
+- manuel-bayer
+- michael-burgardt
+- michael-hanke
+- michael-notter
+- michal-szczepanik
+- moritz-boos
+- odelfa-songong
+- pierre-ibe
+- richard-dinga
+- stephan-heunis
+- sven-buchholz
+- tosca-heunis
+- venkatesh-hariharapura-shivashankar
+- vittorio-iacovella
+instruments:
+- 03300e25-6c5f-40bd-9ed8-a12d8ec22817
+- 50fd4fb2-2e98-4beb-aa48-41dd26781fd9
 params:
   graphRootNodePID: xyzrins:.
 ---
