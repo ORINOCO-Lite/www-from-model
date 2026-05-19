@@ -27,19 +27,22 @@ jobs:
           git annex init
       - name: Fetch python script
         run: |
-          wget https://hub.psychoinformatics.de/orinoco/knowledge-enrichment/raw/branch/main/.forgejo/tools/get-person-depiction-urls.py
+          wget https://hub.psychoinformatics.de/orinoco/knowledge-enrichment/raw/branch/main/.forgejo/tools/get-depiction-urls.py
       - name: Register depiction files
         run: |
-          depiction_urls="$(
+          depiction_urls="$({
             dtc get-records ${DUMPTHINGS_APIURL} public -C XYZPerson \
-            | qri filter-linked-pid --api-url ${DUMPTHINGS_APIURL} public xyzrins:. associated_with \
+            | qri filter-linked-pid --api-url ${DUMPTHINGS_APIURL} public xyzrins:. associated_with
+
+            dtc get-records ${DUMPTHINGS_APIURL} public -C XYZInstrument
+            } \
             | qri inject-links-pid --link about depictions --class XYZDepiction \
             | qri inline-records --api-url ${DUMPTHINGS_APIURL} -c public -p depictions::distributions \
-            | uv run get-person-depiction-urls.py
+            | uv run get-depiction-urls.py
           )"
           if [[ -n "$depiction_urls" ]]; then
-            while IFS=$'\t' read -r curie ext url; do
-              export targetfile="content/${curie}/portrait.${ext}"; \
+            while IFS=$'\t' read -r depiction_type curie ext url; do
+              export targetfile="content/${curie}/${depiction_type}.${ext}"; \
                 echo "Register $targetfile" ; \
                 test -e "$targetfile" && git rm -f "$targetfile"; \
                 (git annex addurl --raw --relaxed --file="$targetfile" "$url" && git annex get "$targetfile") || \
