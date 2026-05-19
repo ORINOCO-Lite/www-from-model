@@ -4,7 +4,7 @@ languageDirection = "ltr"
 weight = 1
 
 title = "Psychoinformatics"
-copyright = "&copy; 2025 Psychoinformatics group"
+copyright = "&copy; 2025-2026 Psychoinformatics group"
 
 [params]
   dateFormat = "2 January 2006"
