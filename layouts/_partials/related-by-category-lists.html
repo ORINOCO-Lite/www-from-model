@@ -1,9 +1,9 @@
     <section>
       {{ range (.Pages.GroupBy "Type") }}
       {{ if eq .Key "page" }}{{ else }}
-        <h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
+        <h3 class="mt-12 text-xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">
           {{ .Key | title }}
-        </h2>
+        </h3>
         <hr class="w-36 border-dotted border-neutral-400 mb-2" />
         <ul class="text-base list-disc list-outside">
         {{ $linkpartial := printf "related-%s-list-item.html" .Key }}
