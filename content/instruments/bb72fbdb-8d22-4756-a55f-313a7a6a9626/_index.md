@@ -18,7 +18,7 @@ params:
     \ computational reproducibility by coupling analysis code, data, and the exact container\
     \ runtime used to run analyses.\n\nInstallable as a separate Python package and\
     \ used to make DataLad-managed analyses reproducible and portable."
-  kind: null
+  kind: Software
   author: []
   topic: []
   license: []
