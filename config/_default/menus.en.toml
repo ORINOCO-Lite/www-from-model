@@ -51,6 +51,14 @@
     showName = false
 
 [[main]]
+  name = "Topics"
+  pageRef = "topics"
+  weight = 38
+  [main.params]
+    icon = "pound-box-outline"
+    showName = false
+
+[[main]]
   title = "Collaboration hub"
   url = "https://hub.psychoinformatics.de"
   weight = 40

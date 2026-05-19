@@ -2,4 +2,4 @@
 title: Topics
 ---
 
-This is a list:
+Domains and use cases related to the Psychoinformatics activities.
