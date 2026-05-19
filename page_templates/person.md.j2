@@ -1,13 +1,7 @@
 {% extends "page.md.j2" %}
-{%- set selfname = pid.replace('xyzrins:persons/', '') if pid.startswith('xyzrins:persons/') else none -%}
 
 {% block frontmatter -%}
 title: {{ given_name }} {{ family_name }}
-{{ taxonomy_terms('objectives', 'xyzri:XYZObjective', influenced_by) -}}
-{% if selfname -%}
-persons:
-- {{ selfname }}
-{% endif -%}
 {% endblock -%}
 
 {%- block frontmatter_params -%}

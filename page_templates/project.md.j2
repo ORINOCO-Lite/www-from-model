@@ -1,8 +1,7 @@
 {% extends "page.md.j2" %}
-{%- set selfname = pid.replace('xyzrins:projects/', '') if pid.startswith('xyzrins:projects/') else none -%}
 {% block frontmatter -%}
 title: "{{ title }}"
-{{ taxonomy_terms('projects', 'xyzri:XYZProject', parts, typeattr='schema_type', pidattr='pid', addterm=selfname) -}}
+{{ taxonomy_terms('projects', 'xyzri:XYZProject', parts, typeattr='schema_type', pidattr='pid') -}}
 {{ taxonomy_terms('objectives', 'xyzri:XYZObjective', influenced_by) -}}
 {{ taxonomy_terms('persons', 'xyzri:XYZPerson', associated_with) -}}
 {{ taxonomy_terms('instruments', 'xyzri:XYZInstrument', generated, typeattr='schema_type', pidattr='pid') -}}
