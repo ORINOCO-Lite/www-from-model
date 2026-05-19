@@ -23,10 +23,6 @@ In this project, we explore free and open-source software solutions regarding th
 ## Objectives
 
 - [Self-hosted research IT infrastructure](/objectives/self-hosted-it) (Deliverable)
-## People
-
-### Currently associated
-
 ## Outputs
 
 - [Lab-in-a-box deployments](/instruments/ff94c3f9-ce37-43f0-b87c-5ee0f776d845)

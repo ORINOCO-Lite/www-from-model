@@ -15,8 +15,6 @@ This project provides an integrated and comprehensive view of the neurobiologica
 ## Part of
 - [Psychoinformatics](/.)
 
-## Objectives
-
 ## People
 
 ### Currently associated

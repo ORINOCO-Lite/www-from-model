@@ -20,8 +20,6 @@ The distribits 2025 meeting was the second of its kind. It, again, took place in
 ## Part of
 - [Distribits](/projects/a605574d-ee49-4ad4-8348-599b632ed5eb)
 
-## Objectives
-
 ## People
 
 ### Currently associated

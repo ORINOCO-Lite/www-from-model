@@ -17,8 +17,6 @@ This first distribits meeting took place in 2024 in Düsseldorf (Germany) at Hau
 ## Part of
 - [Distribits](/projects/a605574d-ee49-4ad4-8348-599b632ed5eb)
 
-## Objectives
-
 ## People
 
 ### Currently associated
