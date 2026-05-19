@@ -39,7 +39,7 @@
   pageRef = "publications"
   weight = 35
   [main.params]
-    icon = "list"
+    icon = "cast-education"
     showName = false
 
 [[main]]
