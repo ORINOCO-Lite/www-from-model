@@ -2,4 +2,4 @@
 title: Projects
 ---
 
-This is a list:
+Here are current or past Psychoinformatics projects.
