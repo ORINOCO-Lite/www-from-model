@@ -16,6 +16,7 @@ wanted_node_types = {
     "xyzri:XYZPublication": 'publication',
     "xyzri:XYZTopic": 'topic',
     "xyzri:XYZObjective": 'objective',
+    "xyzri:XYZDataset": 'dataset',
 }
 
 wanted_edge_types = {
