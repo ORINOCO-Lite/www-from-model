@@ -14,7 +14,7 @@
                     stroke-width="2" d="M19 9l-7 7-7-7"></path>
             </svg>
           </label>
-          <div class="pl-8 max-h-0 overflow-hidden transition-all duration-300 peer-checked:max-h-screen">
+          <div class="pl-8 max-h-0 overflow-hidden transition-all duration-300 peer-checked:max-h-full">
             <ul class="mb-4 text-base list-disc list-outside">
             {{ $linkpartial := printf "related-%s-list-item.html" .Key }}
             {{ $linktmpl := printf "_partials/%s" $linkpartial }}
