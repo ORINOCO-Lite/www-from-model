@@ -78,6 +78,12 @@ jobs:
           | qri inline-records -p about -p attributed_to -p kind -p rules -c public \
           | qri render-record page_templates/instrument.md.j2 \
             'content/{__pid_curie_reference}/_index.md'
+      - name: Update datasets
+        run: |
+          qri list --class xyzri:XYZDataset \
+          | qri inline-records -p about -p attributed_to -p kind -p rules -c public \
+          | qri render-record page_templates/dataset.md.j2 \
+            'content/{__pid_curie_reference}/_index.md'
       - name: Update frontpage
         run: |
           qri list --pid xyzrins:. \
