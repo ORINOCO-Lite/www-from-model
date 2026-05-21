@@ -1,14 +1,4 @@
 {% extends "page.md.j2" %}
-{% macro pub_taxonomy_terms(taxonomy, terms_list) -%}
-{% if terms_list -%}
-{{ taxonomy }}:
-{% for el in terms_list -%}
-{% if el.pid -%}
-  - {{ el.pid.split('/')[-1] }}
-{% endif -%}
-{% endfor -%}
-{% endif -%}
-{%- endmacro -%}
 
 {%- set doi = (
     __rec.identifiers
@@ -55,8 +45,8 @@
 
 {% block frontmatter -%}
 title: {{ publication.title | toyaml | replace('...\n','') | trim }}
-{{ pub_taxonomy_terms('persons', authors) -}}
-{{ pub_taxonomy_terms('topics', topics) -}}
+{{ taxonomy_terms('persons', 'xyzri:XYZPerson', attributed_to) -}}
+{{ taxonomy_terms('topics', 'xyzri:XYZTopic', about, typeattr='schema_type', pidattr='pid') -}}
 {% endblock -%}
 
 {% block frontmatter_params %}
