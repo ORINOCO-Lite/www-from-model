@@ -43,11 +43,11 @@
     showName = false
 
 [[main]]
-  name = "Instruments"
-  pageRef = "instruments"
+  name = "Outputs"
+  pageRef = "outputs"
   weight = 37
   [main.params]
-    icon = "mdi-microscope"
+    icon = "export"
     showName = false
 
 [[main]]
