@@ -1,10 +1,10 @@
 ---
 title: 'DataLad: Our Introduction, Your Usecases'
 persons:
+- adina-wagner
 - michael-hanke
 - michal-szczepanik
 - stephan-heunis
-- adina-wagner
 topics:
 - education
 params:

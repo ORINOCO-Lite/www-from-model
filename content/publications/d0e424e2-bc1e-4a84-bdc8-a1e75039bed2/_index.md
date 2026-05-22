@@ -1,9 +1,9 @@
 ---
 title: Data Management with DataLad
 persons:
+- adina-wagner
 - alex-waite
 - laura-waite
-- adina-wagner
 - michael-hanke
 topics:
 - education

@@ -3,8 +3,8 @@ title: 'DataLad: Data Management for Open & Reproducible Science'
 persons:
 - adina-wagner
 topics:
-- research-data-management
 - data-management
+- research-data-management
 params:
   graphRootNodePID: xyzrins:publications/496be9bd-b68f-4dbd-a9fb-53cf7e7b77bd
   sortkey: "2021-11-15DataLad: Data Management for Open &amp; Reproducible Science"

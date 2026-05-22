@@ -2,18 +2,18 @@
 title: 'DataLad: distributed system for joint management of code, data, and their relationship'
 persons:
 - adina-wagner
-- orcid:0000-0003-3456-2493
+- alex-waite
 - benjamin-poldrack
-- simon-eickhoff
 - christian-haeusler
+- christian-moench
 - laura-waite
 - michael-hanke
-- christian-moench
-- alex-waite
+- orcid:0000-0003-3456-2493
+- simon-eickhoff
 topics:
-- research-software-engineering
-- research-data-management
 - distributed-systems
+- research-data-management
+- research-software-engineering
 params:
   graphRootNodePID: xyzrins:publications/59d214f8-29a8-4df6-a563-450e46d329cc
   sortkey: "2021-07-01DataLad: distributed system for joint management of code, data, and their relationship"

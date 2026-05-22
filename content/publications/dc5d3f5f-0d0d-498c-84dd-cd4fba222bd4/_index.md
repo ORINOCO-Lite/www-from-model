@@ -2,11 +2,11 @@
 title: "High-resolution 7-Tesla fMRI data on the perception of musical genres \u2013 an extension\
   \ to the studyforrest dataset"
 persons:
+- a7087531-9bed-4ad3-9a0a-f048510ade2e
+- christian-haeusler
 - falko-kaule
 - michael-hanke
 - richard-dinga
-- christian-haeusler
-- a7087531-9bed-4ad3-9a0a-f048510ade2e
 topics:
 - naturalistic-neuroimaging
 params:

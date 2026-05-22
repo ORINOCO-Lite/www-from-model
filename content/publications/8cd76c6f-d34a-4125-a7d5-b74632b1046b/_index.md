@@ -1,11 +1,11 @@
 ---
 title: A communication hub for a decentralized collaboration on studying real-life cognition
 persons:
-- orcid:0000-0003-3456-2493
 - michael-hanke
+- orcid:0000-0003-3456-2493
 topics:
-- research
 - naturalistic-neuroimaging
+- research
 params:
   graphRootNodePID: xyzrins:publications/8cd76c6f-d34a-4125-a7d5-b74632b1046b
   sortkey: "2015-03-10A communication hub for a decentralized collaboration on studying real-life cognition"

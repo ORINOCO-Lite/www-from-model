@@ -1,10 +1,10 @@
 ---
 title: 'Statistical learning analysis in neuroscience: aiming for transparency'
 persons:
-- orcid:0000-0001-5840-5658
 - michael-hanke
-- orcid:0000-0003-3456-2493
+- orcid:0000-0001-5840-5658
 - orcid:0000-0002-6558-3118
+- orcid:0000-0003-3456-2493
 topics:
 - neuroimaging
 - predictive-data-analysis

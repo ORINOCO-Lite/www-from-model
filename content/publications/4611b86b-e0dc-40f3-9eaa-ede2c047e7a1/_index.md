@@ -2,9 +2,9 @@
 title: Task relevance modulates the representation of features and feature dimensions in
   the target template
 persons:
+- michael-hanke
 - orcid:0000-0001-5840-5658
 - reshanne-reeder
-- michael-hanke
 topics:
 - neuroimaging
 - predictive-data-analysis

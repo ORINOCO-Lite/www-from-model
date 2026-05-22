@@ -2,9 +2,9 @@
 title: Pattern classification precedes region-average hemodynamic response in early visual
   cortex
 persons:
+- michael-hanke
 - orcid:0000-0002-6558-3118
 - orcid:0000-0003-3456-2493
-- michael-hanke
 topics:
 - neuroimaging
 - predictive-data-analysis

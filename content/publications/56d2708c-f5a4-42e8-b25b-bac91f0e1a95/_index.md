@@ -3,8 +3,8 @@ title: Data + Code + Software = PDF How to write a reproducible research article
 persons:
 - adina-wagner
 topics:
-- research-data-management
 - provenance
+- research-data-management
 params:
   graphRootNodePID: xyzrins:publications/56d2708c-f5a4-42e8-b25b-bac91f0e1a95
   sortkey: "2021-09-15Data + Code + Software = PDF How to write a reproducible research article"

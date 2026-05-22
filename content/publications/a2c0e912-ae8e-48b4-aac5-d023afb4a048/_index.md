@@ -2,15 +2,15 @@
 title: A reproducible and generalizable software workflow for analysis of large-scale neuroimaging
   data collections using BIDS Apps
 persons:
+- michael-hanke
 - orcid:0000-0003-3456-2493
 - simon-eickhoff
-- michael-hanke
 topics:
-- research-software-engineering
-- neuroimaging
-- research-data-management
 - distributed-systems
 - high-throughput-computing
+- neuroimaging
+- research-data-management
+- research-software-engineering
 params:
   graphRootNodePID: xyzrins:publications/a2c0e912-ae8e-48b4-aac5-d023afb4a048
   sortkey: "2024-01A reproducible and generalizable software workflow for analysis of large-scale neuroimaging data collections using BIDS Apps"

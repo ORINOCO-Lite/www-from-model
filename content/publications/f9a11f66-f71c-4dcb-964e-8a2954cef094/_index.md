@@ -2,11 +2,11 @@
 title: A high-resolution 7-Tesla fMRI dataset from complex natural stimulation with an audio
   movie
 persons:
-- orcid:0000-0001-5840-5658
 - a7087531-9bed-4ad3-9a0a-f048510ade2e
-- michael-hanke
-- pierre-ibe
 - falko-kaule
+- michael-hanke
+- orcid:0000-0001-5840-5658
+- pierre-ibe
 topics:
 - naturalistic-neuroimaging
 params:

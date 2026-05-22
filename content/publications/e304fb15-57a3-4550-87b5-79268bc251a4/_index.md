@@ -1,13 +1,13 @@
 ---
 title: 'PyBIDS: Python tools for BIDS datasets'
 persons:
-- orcid:0000-0003-3456-2493
-- michael-notter
 - adina-wagner
 - michael-hanke
+- michael-notter
+- orcid:0000-0003-3456-2493
 topics:
-- research-software-engineering
 - research-data-management
+- research-software-engineering
 params:
   graphRootNodePID: xyzrins:publications/e304fb15-57a3-4550-87b5-79268bc251a4
   sortkey: "2019-08-12PyBIDS: Python tools for BIDS datasets"

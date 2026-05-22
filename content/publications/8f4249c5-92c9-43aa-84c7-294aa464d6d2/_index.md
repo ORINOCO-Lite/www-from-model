@@ -1,8 +1,8 @@
 ---
 title: Advancing Neuroimaging Research with Predictive Multivariate Pattern Analysis (MVPA)
 persons:
-- orcid:0000-0003-3456-2493
 - michael-hanke
+- orcid:0000-0003-3456-2493
 topics:
 - neuroimaging
 - predictive-data-analysis

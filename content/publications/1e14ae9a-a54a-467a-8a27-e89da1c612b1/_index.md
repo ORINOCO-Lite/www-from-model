@@ -1,14 +1,14 @@
 ---
 title: Documentation of the TRR379
 persons:
+- adina-wagner
+- jenna-swarthout-goddard
 - michael-hanke
 - michal-szczepanik
 - stephan-heunis
-- jenna-swarthout-goddard
-- adina-wagner
 topics:
-- research-data-management
 - education
+- research-data-management
 params:
   graphRootNodePID: xyzrins:publications/1e14ae9a-a54a-467a-8a27-e89da1c612b1
   sortkey: "NoneDocumentation of the TRR379"

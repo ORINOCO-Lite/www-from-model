@@ -2,19 +2,19 @@
 title: 'FAIRly big: A framework for computationally reproducible processing of large-scale
   data'
 persons:
+- adina-wagner
+- alex-waite
+- benjamin-poldrack
+- laura-waite
 - malgorzata-wierzba
 - michael-hanke
 - simon-eickhoff
-- adina-wagner
-- alex-waite
-- laura-waite
-- benjamin-poldrack
 topics:
-- research-software-engineering
-- neuroimaging
-- research-data-management
 - distributed-systems
 - high-throughput-computing
+- neuroimaging
+- research-data-management
+- research-software-engineering
 params:
   graphRootNodePID: xyzrins:publications/a2de1888-b547-4587-938c-ef9e7ecc8c67
   sortkey: "2022-03-11FAIRly big: A framework for computationally reproducible processing of large-scale data"

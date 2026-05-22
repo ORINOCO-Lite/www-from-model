@@ -1,8 +1,8 @@
 ---
 title: Spatial band-pass filtering aids decoding musical genres from auditory cortex 7T fMRI.
 persons:
-- michael-hanke
 - ayan-sengupta
+- michael-hanke
 - orcid:0000-0001-5840-5658
 topics:
 - neuroimaging

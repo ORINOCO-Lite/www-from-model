@@ -1,9 +1,9 @@
 ---
 title: datalad-core
 persons:
-- michael-hanke
-- christian-moench
 - adina-wagner
+- christian-moench
+- michael-hanke
 params:
   graphRootNodePID: xyzrins:instruments/8b75c829-479e-4bc4-8354-2fdf29a7d213
   pid: xyzrins:instruments/8b75c829-479e-4bc4-8354-2fdf29a7d213

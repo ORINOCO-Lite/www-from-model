@@ -1,8 +1,8 @@
 ---
 title: Evidence for feature binding in the superior parietal lobule
 persons:
-- orcid:0000-0001-5840-5658
 - michael-hanke
+- orcid:0000-0001-5840-5658
 topics:
 - neuroimaging
 - predictive-data-analysis

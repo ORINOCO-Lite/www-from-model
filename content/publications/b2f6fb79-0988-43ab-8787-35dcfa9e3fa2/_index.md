@@ -4,8 +4,8 @@ persons:
 - michael-hanke
 - orcid:0000-0003-3456-2493
 topics:
-- research-software-engineering
 - research-data-management
+- research-software-engineering
 - standards
 params:
   graphRootNodePID: xyzrins:publications/b2f6fb79-0988-43ab-8787-35dcfa9e3fa2

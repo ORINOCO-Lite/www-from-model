@@ -1,14 +1,14 @@
 ---
 title: How to establish and maintain a multimodal animal research dataset using DataLad
 persons:
+- christian-moench
+- michael-hanke
 - michal-szczepanik
 - stephan-heunis
-- michael-hanke
-- christian-moench
 topics:
+- education
 - neuroimaging
 - research-data-management
-- education
 params:
   graphRootNodePID: xyzrins:publications/9103ab93-a2ae-45c2-b2b0-e922bbb4e94a
   sortkey: "2023-06-05How to establish and maintain a multimodal animal research dataset using DataLad"

@@ -2,12 +2,12 @@
 title: Processing of visual and non-visual naturalistic spatial information in the "parahippocampal
   place area"
 persons:
-- simon-eickhoff
-- michael-hanke
 - christian-haeusler
+- michael-hanke
+- simon-eickhoff
 topics:
-- neuroimaging
 - naturalistic-neuroimaging
+- neuroimaging
 params:
   graphRootNodePID: xyzrins:publications/c456d465-8f51-41e8-b5c5-a03a46bde8a3
   sortkey: "2022-04-01Processing of visual and non-visual naturalistic spatial information in the &#34;parahippocampal place area&#34;"

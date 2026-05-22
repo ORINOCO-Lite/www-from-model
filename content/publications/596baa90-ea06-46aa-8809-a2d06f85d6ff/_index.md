@@ -2,8 +2,8 @@
 title: No evidence for enhanced distractor template representation in early visual cortex
 persons:
 - michael-hanke
-- reshanne-reeder
 - orcid:0000-0001-5840-5658
+- reshanne-reeder
 topics:
 - neuroimaging
 - predictive-data-analysis

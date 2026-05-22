@@ -1,8 +1,8 @@
 ---
 title: "DataLad workshop for IMPRS-MMFD in T\xFCbingen 2024"
 persons:
-- stephan-heunis
 - michal-szczepanik
+- stephan-heunis
 topics:
 - research-data-management
 - research-software-engineering

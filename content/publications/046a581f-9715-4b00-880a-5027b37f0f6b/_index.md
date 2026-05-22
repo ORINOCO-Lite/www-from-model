@@ -1,9 +1,9 @@
 ---
 title: Ultra high-field multi-resolution fMRI data for orientation decoding in visual cortex
 persons:
+- ayan-sengupta
 - michael-hanke
 - orcid:0000-0001-5840-5658
-- ayan-sengupta
 topics:
 - neuroimaging
 - predictive-data-analysis

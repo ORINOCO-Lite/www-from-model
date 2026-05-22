@@ -1,11 +1,11 @@
 ---
 title: DataLad Concepts
 persons:
-- michael-hanke
-- stephan-heunis
-- michal-szczepanik
 - adina-wagner
+- michael-hanke
+- michal-szczepanik
 - orcid:0000-0003-3456-2493
+- stephan-heunis
 - venkatesh-hariharapura-shivashankar
 params:
   graphRootNodePID: xyzrins:instruments/f92a09a8-1579-4e3a-a205-8459524ca802

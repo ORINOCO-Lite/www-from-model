@@ -2,8 +2,8 @@
 title: "A studyforrest extension, an annotation of spoken language in the German dubbed movie\
   \ \u201CForrest Gump\u201D and its audio-description"
 persons:
-- michael-hanke
 - christian-haeusler
+- michael-hanke
 topics:
 - naturalistic-neuroimaging
 - representational-brain-spaces

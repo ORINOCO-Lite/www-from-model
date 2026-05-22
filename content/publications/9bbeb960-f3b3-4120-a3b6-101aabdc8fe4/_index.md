@@ -3,8 +3,8 @@ title: Ultra high-field (7 T) multi-resolution fMRI data for orientation decodin
   cortex
 persons:
 - ayan-sengupta
-- orcid:0000-0001-5840-5658
 - michael-hanke
+- orcid:0000-0001-5840-5658
 topics:
 - naturalistic-stimulation
 params:

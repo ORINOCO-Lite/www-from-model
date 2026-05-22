@@ -3,8 +3,8 @@ title: RDM for neuroimagers
 persons:
 - adina-wagner
 topics:
-- research-data-management
 - education
+- research-data-management
 params:
   graphRootNodePID: xyzrins:publications/d64a3468-434b-4f95-953f-533bb0942974
   sortkey: "2023-01-18RDM for neuroimagers"

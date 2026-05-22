@@ -2,8 +2,8 @@
 title: Individual face and house-related eye movement patterns distinctively activate FFA
   and PPA in the absence of faces and houses.
 persons:
-- michael-hanke
 - falko-kaule
+- michael-hanke
 - orcid:0000-0001-5840-5658
 topics:
 - neuroimaging

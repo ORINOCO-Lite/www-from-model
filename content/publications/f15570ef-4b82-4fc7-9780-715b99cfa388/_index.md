@@ -6,9 +6,9 @@ persons:
 - orcid:0000-0002-6558-3118
 - orcid:0000-0003-3456-2493
 topics:
-- research-software-engineering
 - neuroimaging
 - predictive-data-analysis
+- research-software-engineering
 params:
   graphRootNodePID: xyzrins:publications/f15570ef-4b82-4fc7-9780-715b99cfa388
   sortkey: "2009PyMVPA: a unifying approach to the analysis of neuroscientific data"

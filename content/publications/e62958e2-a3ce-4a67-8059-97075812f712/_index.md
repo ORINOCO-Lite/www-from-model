@@ -2,12 +2,12 @@
 title: "ESMRMB annual meeting roundtable discussion: \u201CChallenges and solutions in data\
   \ sharing\u2014an MRI perspective\u201D"
 persons:
-- stephan-heunis
 - adina-wagner
+- stephan-heunis
 topics:
-- research-data-management
-- research-data
 - distributed-systems
+- research-data
+- research-data-management
 params:
   graphRootNodePID: xyzrins:publications/e62958e2-a3ce-4a67-8059-97075812f712
   sortkey: "2021-07-31ESMRMB annual meeting roundtable discussion: “Challenges and solutions in data sharing—an MRI perspective”"

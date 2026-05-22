@@ -1,9 +1,9 @@
 ---
 title: 'Everything Matters: The ReproNim Perspective on Reproducible Neuroimaging'
 persons:
-- orcid:0000-0003-3456-2493
-- michael-hanke
 - adina-wagner
+- michael-hanke
+- orcid:0000-0003-3456-2493
 topics:
 - neuroimaging
 - research-data-management

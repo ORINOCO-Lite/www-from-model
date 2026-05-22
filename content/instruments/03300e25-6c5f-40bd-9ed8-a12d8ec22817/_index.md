@@ -1,9 +1,9 @@
 ---
 title: REMODNAV
 persons:
-- michael-hanke
-- adina-wagner
 - 10847cce-cba3-415e-aa84-e681e9727697
+- adina-wagner
+- michael-hanke
 params:
   graphRootNodePID: xyzrins:instruments/03300e25-6c5f-40bd-9ed8-a12d8ec22817
   pid: xyzrins:instruments/03300e25-6c5f-40bd-9ed8-a12d8ec22817

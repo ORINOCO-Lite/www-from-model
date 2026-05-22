@@ -1,9 +1,9 @@
 ---
 title: datalad-remake
 persons:
-- michal-szczepanik
 - christian-moench
 - malgorzata-wierzba
+- michal-szczepanik
 params:
   graphRootNodePID: xyzrins:instruments/51b93f1f-b7aa-4422-8b36-1ec499bdde14
   pid: xyzrins:instruments/51b93f1f-b7aa-4422-8b36-1ec499bdde14

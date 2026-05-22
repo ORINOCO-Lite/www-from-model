@@ -1,8 +1,8 @@
 ---
 title: "Datalad \u2014 An Introduction to Research Data Management"
 topics:
-- research-data-management
 - distributed-systems
+- research-data-management
 params:
   graphRootNodePID: xyzrins:publications/c6d96776-4be0-43a5-862f-1cc6d8b16385
   sortkey: "NoneDatalad — An Introduction to Research Data Management"

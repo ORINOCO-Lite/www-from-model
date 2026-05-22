@@ -3,8 +3,8 @@ title: The effect of acquisition resolution on orientation decoding from V1 BOLD
   7 Tesla
 persons:
 - ayan-sengupta
-- orcid:0000-0001-5840-5658
 - michael-hanke
+- orcid:0000-0001-5840-5658
 topics:
 - neuroimaging
 - predictive-data-analysis

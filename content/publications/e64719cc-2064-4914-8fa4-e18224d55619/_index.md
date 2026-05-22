@@ -1,8 +1,8 @@
 ---
 title: Neuroscience runs on GNU/Linux
 persons:
-- orcid:0000-0003-3456-2493
 - michael-hanke
+- orcid:0000-0003-3456-2493
 topics:
 - research-software-engineering
 params:

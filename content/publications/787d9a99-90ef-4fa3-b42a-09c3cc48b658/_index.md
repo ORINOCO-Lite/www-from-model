@@ -2,18 +2,18 @@
 title: The DataLad Handbook
 persons:
 - adina-wagner
-- michael-hanke
-- stephan-heunis
-- michal-szczepanik
-- laura-waite
 - alex-waite
-- malgorzata-wierzba
 - christian-moench
+- laura-waite
+- malgorzata-wierzba
+- michael-hanke
+- michal-szczepanik
+- stephan-heunis
 topics:
 - data-management
+- distributed-systems
 - education
 - free-and-open-culture
-- distributed-systems
 params:
   graphRootNodePID: xyzrins:publications/787d9a99-90ef-4fa3-b42a-09c3cc48b658
   sortkey: "2023-02-14The DataLad Handbook"

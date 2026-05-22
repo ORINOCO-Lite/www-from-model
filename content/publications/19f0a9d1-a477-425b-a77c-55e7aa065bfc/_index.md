@@ -5,9 +5,9 @@ persons:
 - michael-hanke
 - orcid:0000-0003-3456-2493
 topics:
+- distributed-systems
 - research-data-management
 - standards
-- distributed-systems
 params:
   graphRootNodePID: xyzrins:publications/19f0a9d1-a477-425b-a77c-55e7aa065bfc
   sortkey: "2021-01-11In defense of decentralized research data management"

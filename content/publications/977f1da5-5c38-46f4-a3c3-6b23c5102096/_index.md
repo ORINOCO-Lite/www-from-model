@@ -3,8 +3,8 @@ title: Version control and RDM with DataLad
 persons:
 - adina-wagner
 topics:
-- research-data-management
 - education
+- research-data-management
 params:
   graphRootNodePID: xyzrins:publications/977f1da5-5c38-46f4-a3c3-6b23c5102096
   sortkey: "2022-03-21Version control and RDM with DataLad"

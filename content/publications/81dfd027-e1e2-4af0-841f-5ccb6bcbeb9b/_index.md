@@ -1,9 +1,9 @@
 ---
 title: Representation of Biological Classes in the Human Brain
 persons:
-- orcid:0000-0003-3456-2493
-- orcid:0000-0002-6558-3118
 - michael-hanke
+- orcid:0000-0002-6558-3118
+- orcid:0000-0003-3456-2493
 topics:
 - neuroimaging
 - predictive-data-analysis

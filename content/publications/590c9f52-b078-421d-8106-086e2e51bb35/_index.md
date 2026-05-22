@@ -2,8 +2,8 @@
 title: A Python-based Algorithm for Robust Event Detection for Eye Movements During Natural
   Viewing
 persons:
-- adina-wagner
 - 10847cce-cba3-415e-aa84-e681e9727697
+- adina-wagner
 - michael-hanke
 topics:
 - naturalistic-stimulation

@@ -1,14 +1,14 @@
 ---
 title: 'PyMVPA: A Python toolbox for multivariate pattern analysis of fMRI data'
 persons:
-- orcid:0000-0003-3456-2493
-- orcid:0000-0002-6558-3118
-- orcid:0000-0001-5840-5658
 - michael-hanke
+- orcid:0000-0001-5840-5658
+- orcid:0000-0002-6558-3118
+- orcid:0000-0003-3456-2493
 topics:
-- research-software-engineering
 - neuroimaging
 - predictive-data-analysis
+- research-software-engineering
 params:
   graphRootNodePID: xyzrins:publications/6ab9f41d-bc91-47a1-97d7-44b52282d6b7
   sortkey: "2009-01-28PyMVPA: A Python toolbox for multivariate pattern analysis of fMRI data"

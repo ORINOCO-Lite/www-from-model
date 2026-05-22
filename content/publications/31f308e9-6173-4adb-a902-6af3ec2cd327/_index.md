@@ -1,10 +1,10 @@
 ---
 title: An extension of the studyforrest dataset for vision research
 persons:
-- ayan-sengupta
-- falko-kaule
-- christian-haeusler
 - a7087531-9bed-4ad3-9a0a-f048510ade2e
+- ayan-sengupta
+- christian-haeusler
+- falko-kaule
 - michael-hanke
 topics:
 - naturalistic-stimulation

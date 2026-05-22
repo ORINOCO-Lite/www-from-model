@@ -1,15 +1,15 @@
 ---
 title: Proceedings of the OHBM Brainhack 2022
 persons:
-- christian-moench
 - adina-wagner
+- alex-waite
+- benjamin-poldrack
+- christian-moench
+- laura-waite
+- leonardo-muller-rodriguez
 - michael-hanke
 - michal-szczepanik
-- benjamin-poldrack
-- alex-waite
-- laura-waite
 - orcid:0000-0003-3456-2493
-- leonardo-muller-rodriguez
 topics:
 - free-and-open-culture
 params:

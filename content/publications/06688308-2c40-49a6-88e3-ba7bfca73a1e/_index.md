@@ -2,13 +2,13 @@
 title: A studyforrest extension, simultaneous fMRI and eye gaze recordings during prolonged
   natural stimulation
 persons:
-- alex-waite
 - a7087531-9bed-4ad3-9a0a-f048510ade2e
+- alex-waite
 - ayan-sengupta
-- falko-kaule
-- vittorio-iacovella
 - daniel-kottke
+- falko-kaule
 - michael-hanke
+- vittorio-iacovella
 topics:
 - naturalistic-neuroimaging
 params:

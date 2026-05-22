@@ -3,13 +3,13 @@ title: 'Teaching research data management with DataLad: a multi-year, multi-doma
 persons:
 - adina-wagner
 - laura-waite
+- michael-hanke
 - michal-szczepanik
 - simon-eickhoff
 - stephan-heunis
-- michael-hanke
 topics:
-- research-data-management
 - education
+- research-data-management
 params:
   graphRootNodePID: xyzrins:publications/212e3bce-22fa-4cf6-bd1d-fedd33428d65
   sortkey: "2024-05-07Teaching research data management with DataLad: a multi-year, multi-domain effort"

@@ -2,9 +2,9 @@
 title: A studyforrest extension, retinotopic mapping and localization of higher visual areas
 persons:
 - ayan-sengupta
-- michael-hanke
 - christian-haeusler
 - falko-kaule
+- michael-hanke
 topics:
 - naturalistic-neuroimaging
 params:

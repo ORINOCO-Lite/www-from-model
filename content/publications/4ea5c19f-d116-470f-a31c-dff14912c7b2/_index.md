@@ -1,9 +1,9 @@
 ---
 title: 'REMoDNaV: Robust Eye-Movement Classification for Dynamic Stimulation'
 persons:
-- michael-hanke
-- adina-wagner
 - 10847cce-cba3-415e-aa84-e681e9727697
+- adina-wagner
+- michael-hanke
 topics:
 - naturalistic-neuroimaging
 - research-software-engineering

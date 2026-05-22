@@ -1,8 +1,8 @@
 ---
 title: Standards for Best Practices in Data Analysis and Sharing in Neuroimaging using MRI
 persons:
-- simon-eickhoff
 - michael-hanke
+- simon-eickhoff
 topics:
 - neuroimaging
 - research-data-management

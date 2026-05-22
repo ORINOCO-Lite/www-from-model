@@ -2,8 +2,8 @@
 title: "Centering inclusivity in the design of online conferences\u2014An OHBM\u2013Open\
   \ Science perspective"
 persons:
-- stephan-heunis
 - adina-wagner
+- stephan-heunis
 topics:
 - free-and-open-culture
 params:

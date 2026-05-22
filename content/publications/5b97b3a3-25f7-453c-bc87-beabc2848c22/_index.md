@@ -3,8 +3,8 @@ title: 'Wissenschaft Online: Thema Forschungsdatenmanagement'
 persons:
 - adina-wagner
 topics:
-- research-data-management
 - data-management
+- research-data-management
 params:
   graphRootNodePID: xyzrins:publications/5b97b3a3-25f7-453c-bc87-beabc2848c22
   sortkey: "2022-10-07Wissenschaft Online: Thema Forschungsdatenmanagement"

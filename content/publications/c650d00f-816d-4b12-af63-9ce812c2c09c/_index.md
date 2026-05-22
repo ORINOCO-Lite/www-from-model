@@ -1,12 +1,12 @@
 ---
 title: "HeuDiConv \u2014 flexible DICOM conversion into structured directory layouts"
 persons:
-- orcid:0000-0003-3456-2493
 - michael-hanke
+- orcid:0000-0003-3456-2493
 topics:
-- research-software-engineering
 - neuroimaging
 - research-data-management
+- research-software-engineering
 params:
   graphRootNodePID: xyzrins:publications/c650d00f-816d-4b12-af63-9ce812c2c09c
   sortkey: "2024-07-03HeuDiConv — flexible DICOM conversion into structured directory layouts"

@@ -1,8 +1,8 @@
 ---
 title: Research Data Management with DataLad - Workshop for the Max Planck School of Cognition
 persons:
-- michael-hanke
 - adina-wagner
+- michael-hanke
 topics:
 - education
 params:

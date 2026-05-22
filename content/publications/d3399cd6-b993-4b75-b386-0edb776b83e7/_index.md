@@ -1,8 +1,8 @@
 ---
 title: Reproducible Processing of 41.180 brain images
 persons:
-- michael-hanke
 - adina-wagner
+- michael-hanke
 topics:
 - data-management
 - high-throughput-computing

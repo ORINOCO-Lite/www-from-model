@@ -1,8 +1,8 @@
 ---
 title: Encoding of auditory temporal Gestalt in the human brain.
 persons:
-- michael-notter
 - michael-hanke
+- michael-notter
 topics:
 - neuroimaging
 - predictive-data-analysis

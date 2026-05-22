@@ -1,8 +1,8 @@
 ---
 title: The right temporo-parietal junction contributes to visual feature binding
 persons:
-- orcid:0000-0001-5840-5658
 - michael-hanke
+- orcid:0000-0001-5840-5658
 topics:
 - neuroimaging
 - predictive-data-analysis
