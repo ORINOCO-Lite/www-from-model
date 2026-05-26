@@ -3,6 +3,8 @@ title: null
 persons:
 - ayan-sengupta
 - michael-hanke
+topics:
+- cognitive-science
 params:
   graphRootNodePID: xyzrins:datasets/1d8ec87e-a9f6-42ea-b181-c3025ee26a9f
   pid: xyzrins:datasets/1d8ec87e-a9f6-42ea-b181-c3025ee26a9f
@@ -20,13 +22,15 @@ params:
     \ with the BIDS data description standard (http://bids.neuroimaging.io). "
   kind: null
   author:
-  - pid: xyzrins:persons/michael-hanke
-    given_name: Michael
-    family_name: Hanke
   - pid: xyzrins:persons/ayan-sengupta
     given_name: Ayan
     family_name: Sengupta
-  topic: []
+  - pid: xyzrins:persons/michael-hanke
+    given_name: Michael
+    family_name: Hanke
+  topic:
+  - pid: xyzrins:topics/cognitive-science
+    display_label: Cognitive science
   license: []
 
 ---

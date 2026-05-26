@@ -2,6 +2,11 @@
 title: null
 persons:
 - michael-hanke
+topics:
+- cognitive-science
+- naturalistic-neuroimaging
+- naturalistic-stimulation
+- neuroimaging
 params:
   graphRootNodePID: xyzrins:datasets/studyforrest
   pid: xyzrins:datasets/studyforrest
@@ -23,7 +28,15 @@ params:
   - pid: xyzrins:persons/michael-hanke
     given_name: Michael
     family_name: Hanke
-  topic: []
+  topic:
+  - pid: xyzrins:topics/cognitive-science
+    display_label: Cognitive science
+  - pid: xyzrins:topics/naturalistic-neuroimaging
+    display_label: Naturalistic neuroimaging
+  - pid: xyzrins:topics/neuroimaging
+    display_label: Neuroimaging
+  - pid: xyzrins:topics/naturalistic-stimulation
+    display_label: Naturalistic stimulation
   license: []
 
 ---

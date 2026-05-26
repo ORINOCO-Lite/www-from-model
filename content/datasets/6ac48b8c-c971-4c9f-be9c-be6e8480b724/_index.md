@@ -3,6 +3,8 @@ title: null
 persons:
 - christian-haeusler
 - michael-hanke
+topics:
+- naturalistic-stimulation
 params:
   graphRootNodePID: xyzrins:datasets/6ac48b8c-c971-4c9f-be9c-be6e8480b724
   pid: xyzrins:datasets/6ac48b8c-c971-4c9f-be9c-be6e8480b724
@@ -22,13 +24,15 @@ params:
     properties of an event.'
   kind: null
   author:
-  - pid: xyzrins:persons/michael-hanke
-    given_name: Michael
-    family_name: Hanke
   - pid: xyzrins:persons/christian-haeusler
     given_name: Christian
     family_name: "H\xE4usler"
-  topic: []
+  - pid: xyzrins:persons/michael-hanke
+    given_name: Michael
+    family_name: Hanke
+  topic:
+  - pid: xyzrins:topics/naturalistic-stimulation
+    display_label: Naturalistic stimulation
   license:
   - pid: spdxlic:CC-PDM-1.0
     label: Creative    Commons Public Domain Mark 1.0 Universal

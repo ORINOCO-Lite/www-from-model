@@ -3,6 +3,8 @@ title: null
 persons:
 - christian-haeusler
 - christian-haeusler
+topics:
+- naturalistic-stimulation
 params:
   graphRootNodePID: xyzrins:datasets/7bc5fde2-a4c8-4ece-92fe-f071b1cd299b
   pid: xyzrins:datasets/7bc5fde2-a4c8-4ece-92fe-f071b1cd299b
@@ -23,7 +25,9 @@ params:
   - pid: xyzrins:persons/christian-haeusler
     given_name: Christian
     family_name: "H\xE4usler"
-  topic: []
+  topic:
+  - pid: xyzrins:topics/naturalistic-stimulation
+    display_label: Naturalistic stimulation
   license:
   - pid: spdxlic:CC-BY-4.0
     label: Creative Commons Attribution 4.0 International

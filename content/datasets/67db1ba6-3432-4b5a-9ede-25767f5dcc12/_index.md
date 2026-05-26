@@ -2,6 +2,8 @@
 title: null
 persons:
 - michael-hanke
+topics:
+- neuroimaging
 params:
   graphRootNodePID: xyzrins:datasets/67db1ba6-3432-4b5a-9ede-25767f5dcc12
   pid: xyzrins:datasets/67db1ba6-3432-4b5a-9ede-25767f5dcc12
@@ -17,7 +19,9 @@ params:
   - pid: xyzrins:persons/michael-hanke
     given_name: Michael
     family_name: Hanke
-  topic: []
+  topic:
+  - pid: xyzrins:topics/neuroimaging
+    display_label: Neuroimaging
   license:
   - pid: spdxlic:PDDL-1.0
     label: Open Data Commons Public Domain Dedication & License 1.0

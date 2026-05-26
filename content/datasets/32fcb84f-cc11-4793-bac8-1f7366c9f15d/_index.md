@@ -3,6 +3,8 @@ title: null
 persons:
 - falko-kaule
 - michael-hanke
+topics:
+- neuroimaging
 params:
   graphRootNodePID: xyzrins:datasets/32fcb84f-cc11-4793-bac8-1f7366c9f15d
   pid: xyzrins:datasets/32fcb84f-cc11-4793-bac8-1f7366c9f15d
@@ -27,7 +29,9 @@ params:
   - pid: xyzrins:persons/falko-kaule
     given_name: Falko
     family_name: Kaule
-  topic: []
+  topic:
+  - pid: xyzrins:topics/neuroimaging
+    display_label: Neuroimaging
   license:
   - pid: spdxlic:PDDL-1.0
     label: Open Data Commons Public Domain Dedication & License 1.0

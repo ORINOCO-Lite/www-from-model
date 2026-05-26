@@ -1,5 +1,7 @@
 ---
 title: null
+topics:
+- naturalistic-stimulation
 params:
   graphRootNodePID: xyzrins:datasets/935fe44d-4ab1-4838-891f-6fc1fa81de42
   pid: xyzrins:datasets/935fe44d-4ab1-4838-891f-6fc1fa81de42
@@ -15,7 +17,9 @@ params:
     anger and disgust).
   kind: null
   author: []
-  topic: []
+  topic:
+  - pid: xyzrins:topics/naturalistic-stimulation
+    display_label: Naturalistic stimulation
   license:
   - pid: spdxlic:PDDL-1.0
     label: Open Data Commons Public Domain Dedication & License 1.0

@@ -6,6 +6,10 @@ persons:
 - christian-haeusler
 - falko-kaule
 - michael-hanke
+topics:
+- cognitive-science
+- naturalistic-neuroimaging
+- neuroimaging
 params:
   graphRootNodePID: xyzrins:datasets/a5b1159c-97c9-4916-9a25-7fb3ac6f4c6b
   pid: xyzrins:datasets/a5b1159c-97c9-4916-9a25-7fb3ac6f4c6b
@@ -36,7 +40,13 @@ params:
   - pid: xyzrins:persons/ayan-sengupta
     given_name: Ayan
     family_name: Sengupta
-  topic: []
+  topic:
+  - pid: xyzrins:topics/cognitive-science
+    display_label: Cognitive science
+  - pid: xyzrins:topics/naturalistic-neuroimaging
+    display_label: Naturalistic neuroimaging
+  - pid: xyzrins:topics/neuroimaging
+    display_label: Neuroimaging
   license:
   - pid: spdxlic:PDDL-1.0
     label: Open Data Commons Public Domain Dedication & License 1.0

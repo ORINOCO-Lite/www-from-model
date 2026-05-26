@@ -1,5 +1,7 @@
 ---
 title: null
+topics:
+- naturalistic-stimulation
 params:
   graphRootNodePID: xyzrins:datasets/1646e2e6-0d08-49ee-a1d3-4ebc342c73f6
   pid: xyzrins:datasets/1646e2e6-0d08-49ee-a1d3-4ebc342c73f6
@@ -11,7 +13,9 @@ params:
   description: null
   kind: null
   author: []
-  topic: []
+  topic:
+  - pid: xyzrins:topics/naturalistic-stimulation
+    display_label: Naturalistic stimulation
   license: []
 
 ---

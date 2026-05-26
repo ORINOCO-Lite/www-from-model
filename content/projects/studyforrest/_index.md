@@ -39,7 +39,7 @@ Beyond the original movie-viewing dataset, StudyForrest expanded to include task
 
 - [Studyforrest: Eye movement events ](/datasets/1646e2e6-0d08-49ee-a1d3-4ebc342c73f6)
 - [Studyforrest: Multiresolution 7T fMRI data on the representation of visual orientation](/datasets/1d8ec87e-a9f6-42ea-b181-c3025ee26a9f)
-- [Studyforrest: Template miages and image transformations](/datasets/32fcb84f-cc11-4793-bac8-1f7366c9f15d)
+- [Studyforrest: Template images and image transformations](/datasets/32fcb84f-cc11-4793-bac8-1f7366c9f15d)
 - [Studyforrest: Freesurfer surface reconstructions](/datasets/3c0a0936-4edd-4f3b-b456-10cb519cfb82)
 - [Studyforrest: Retinotopic Mapping](/datasets/53c9a7f9-316d-4ea5-ab97-fd49936bf6b0)
 - [Studyforrest: Pre-aligned MRI data](/datasets/67db1ba6-3432-4b5a-9ede-25767f5dcc12)
