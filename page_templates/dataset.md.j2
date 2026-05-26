@@ -60,7 +60,7 @@
   "date_created": generation.at_time | default(none) if generation else none,
   "source_code_url": source_code.value | default(none) if source_code else none,
   "documentation_url": documentation.value | default(none) if documentation else none,
-  "title": __rec.name | default(none),
+  "title": __rec.title | default(none),
   "description": __rec.description | default(none),
   "kind": __rec.kind.display_label | default(none) if __rec.kind else none,
   "author": authors | default(none),
