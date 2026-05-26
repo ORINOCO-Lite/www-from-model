@@ -1,5 +1,5 @@
 ---
-title: null
+title: studyforrest-data-confoundsannotation
 persons:
 - christian-haeusler
 topics:
@@ -13,7 +13,7 @@ params:
   date_created: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/studyforrest-data-confoundsannotation
   documentation_url: null
-  title: null
+  title: studyforrest-data-confoundsannotation
   description: Annotations of low-level perceptual confounds in the research cut of
     the audio-visual movie "Forrest Gump" and its audio-description
   kind: null

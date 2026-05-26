@@ -1,5 +1,5 @@
 ---
-title: null
+title: studyforrest-data-structural
 persons:
 - michael-hanke
 topics:
@@ -12,7 +12,7 @@ params:
   date_created: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/data-structural/src/branch/master
   documentation_url: null
-  title: null
+  title: studyforrest-data-structural
   description: This dataset contains T1 and T2 weighted MRI scans, susceptibility weighted
     images, and diffusion imaging scans. These data are suitable for analyses of brain
     structure.

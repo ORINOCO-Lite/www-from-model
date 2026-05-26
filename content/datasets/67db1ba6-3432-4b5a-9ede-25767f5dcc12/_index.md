@@ -1,5 +1,5 @@
 ---
-title: null
+title: studyforrest-data-aligned
 persons:
 - michael-hanke
 topics:
@@ -11,7 +11,7 @@ params:
   date_created: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/studyforrest-data-aligned
   documentation_url: null
-  title: null
+  title: studyforrest-data-aligned
   description: BOLD (f)MRI images  aligned to subject-specific template images and using
     transformations available from https://github.com/psychoinformatics-de/studyforrest-data-templatetransforms
   kind: null

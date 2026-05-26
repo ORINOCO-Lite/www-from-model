@@ -1,5 +1,5 @@
 ---
-title: null
+title: Studyforrest-data-multires7t
 persons:
 - ayan-sengupta
 - michael-hanke
@@ -12,7 +12,7 @@ params:
   date_created: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/data-multires7t
   documentation_url: null
-  title: null
+  title: Studyforrest-data-multires7t
   description: "This dataset consists of empirical ultra high-field fMRI data recorded\
     \ at four spatial resolutions (0.8 mm, 1.4 mm, 2 mm, and 3 mm isotropic voxel size)\
     \ for orientation decoding in visual cortex \u2014 in order to test hypotheses on\

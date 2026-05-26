@@ -1,5 +1,5 @@
 ---
-title: null
+title: Studyforrest-data-perceivedemotions
 topics:
 - naturalistic-stimulation
 params:
@@ -9,7 +9,7 @@ params:
   date_created: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/studyforrest-data-perceivedemotions
   documentation_url: null
-  title: null
+  title: Studyforrest-data-perceivedemotions
   description: Emotion ratings collected in twelve italian participants while watching
     the Forrest Gump movie (edited version adopted in studyforrest.org project). Subjects
     continuously reported the intensity of their own emotional experience on a scale

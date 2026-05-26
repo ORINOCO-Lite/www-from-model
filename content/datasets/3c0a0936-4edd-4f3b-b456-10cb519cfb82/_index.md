@@ -1,5 +1,5 @@
 ---
-title: null
+title: Studyforrest-data-freessurfer
 persons:
 - michael-hanke
 topics:
@@ -12,7 +12,7 @@ params:
   date_created: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/data-freesurfer
   documentation_url: null
-  title: null
+  title: Studyforrest-data-freessurfer
   description: Reconstruction of cortical surfaces. High-resolution structural images
     were used to generate the cortical surfaces using FreeSurfer (v5.3.0, freely available
     at http://surfer.nmr.mgh.harvard.edu, [Dale et al., 1999]). Additional high-resolution

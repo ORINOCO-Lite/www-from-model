@@ -1,5 +1,5 @@
 ---
-title: null
+title: studyforrest-data-annotations
 persons:
 - christian-haeusler
 - michael-hanke
@@ -12,7 +12,7 @@ params:
   date_created: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/studyforrest-data-annotations
   documentation_url: null
-  title: null
+  title: studyforrest-data-annotations
   description: 'Movie stimulus annotations for the research cut of the "Forrest Gump"
     movie used in the studyforrest.org project. Annotations are collected from various
     contributors and publications.

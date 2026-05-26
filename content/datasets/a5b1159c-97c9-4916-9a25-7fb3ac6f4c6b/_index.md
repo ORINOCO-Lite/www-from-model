@@ -1,5 +1,5 @@
 ---
-title: null
+title: Studyforrest-data-visualrois
 persons:
 - a7087531-9bed-4ad3-9a0a-f048510ade2e
 - ayan-sengupta
@@ -17,7 +17,7 @@ params:
   date_created: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/data-visualrois
   documentation_url: null
-  title: null
+  title: Studyforrest-data-visualrois
   description: "For all participants in the phase2 extension of the studyforrest dataset,\
     \ the following visual areas were localized:\n\n    fusiform face area (FFA)\n \
     \   occipital face area (OFA)\n    parahippocampal place area (PPA)\n    extrastriate\

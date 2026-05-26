@@ -1,5 +1,5 @@
 ---
-title: null
+title: studyforrest-data-multires3t
 persons:
 - ayan-sengupta
 - michael-hanke
@@ -13,7 +13,7 @@ params:
   date_created: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/data-multires3t
   documentation_url: null
-  title: null
+  title: studyforrest-data-multires3t
   description: "This dataset consists of empirical 3T fMRI data recorded at three spatial\
     \ resolutions (1.4 mm, 2 mm, and 3 mm isotropic voxel size) for orientation decoding\
     \ in visual cortex \u2014 in order to test hypotheses on the strength and spatial\

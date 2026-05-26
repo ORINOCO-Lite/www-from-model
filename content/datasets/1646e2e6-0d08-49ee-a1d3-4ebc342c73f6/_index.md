@@ -1,5 +1,5 @@
 ---
-title: null
+title: studyforrest-data-eyemovementlabels
 topics:
 - naturalistic-stimulation
 params:
@@ -9,7 +9,7 @@ params:
   date_created: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/data-eyemovementlabels
   documentation_url: null
-  title: null
+  title: studyforrest-data-eyemovementlabels
   description: null
   kind: null
   author: []

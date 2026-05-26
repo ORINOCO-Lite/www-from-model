@@ -1,5 +1,5 @@
 ---
-title: null
+title: Studyforrest-data-retinopy
 persons:
 - a7087531-9bed-4ad3-9a0a-f048510ade2e
 - ayan-sengupta
@@ -15,7 +15,7 @@ params:
   date_created: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/data-retinotopy
   documentation_url: null
-  title: null
+  title: Studyforrest-data-retinopy
   description: 'All participants in the phase2 extension of the studyforrest dataset
     underwent retinotopic mapping with standard flickering checkerboard stimulus (ring
     and wedges). More information on the procedure and the results can be found in:

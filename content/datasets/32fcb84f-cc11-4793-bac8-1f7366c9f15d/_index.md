@@ -1,5 +1,5 @@
 ---
-title: null
+title: Studyforrest-data-templatetransforms
 persons:
 - falko-kaule
 - michael-hanke
@@ -12,7 +12,7 @@ params:
   date_created: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/data-templatetransforms
   documentation_url: null
-  title: null
+  title: Studyforrest-data-templatetransforms
   description: 'This repository contains data derived from the raw data releases of
     the studyforrest.org project. In particular these are:
 

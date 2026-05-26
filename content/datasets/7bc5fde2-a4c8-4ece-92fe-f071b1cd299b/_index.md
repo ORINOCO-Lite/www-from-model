@@ -1,5 +1,5 @@
 ---
-title: null
+title: studyforrest-data-speechannotation
 persons:
 - christian-haeusler
 - christian-haeusler
@@ -12,7 +12,7 @@ params:
   date_created: null
   source_code_url: null
   documentation_url: null
-  title: null
+  title: studyforrest-data-speechannotation
   description: The exact timing of each of the more than 2,500 spoken sentences, 16,000
     words (including 202 non-speech vocalizations), 66,000 phonemes, and their corresponding
     speaker. Additionally, every word is associated with a grammatical category, and

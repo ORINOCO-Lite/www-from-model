@@ -1,5 +1,5 @@
 ---
-title: null
+title: studyforrest-data-phase2
 persons:
 - a7087531-9bed-4ad3-9a0a-f048510ade2e
 - a7087531-9bed-4ad3-9a0a-f048510ade2e
@@ -23,7 +23,7 @@ params:
   date_created: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/data-phase2
   documentation_url: null
-  title: null
+  title: studyforrest-data-phase2
   description: "Here we present an update of the studyforrest (http://studyforrest.org)\
     \ dataset that complements the previously released functional magnetic resonance\
     \ imaging (fMRI) data for natural language processing with a new two-hour 3 Tesla\

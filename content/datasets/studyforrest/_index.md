@@ -1,5 +1,5 @@
 ---
-title: null
+title: Studyforrest
 persons:
 - michael-hanke
 topics:
@@ -14,7 +14,7 @@ params:
   date_created: null
   source_code_url: null
   documentation_url: null
-  title: null
+  title: Studyforrest
   description: 'The StudyForrest project centers around the use of the movie Forrest
     Gump, which provides complex sensory input that is both reproducible and is also
     richly laden with real-life-like content and contexts.Out of this project, a versatile
