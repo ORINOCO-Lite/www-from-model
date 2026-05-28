@@ -1,5 +1,5 @@
 ---
-title: Dataset
+title: Datasets
 params:
   filter: true
   filter_fields:

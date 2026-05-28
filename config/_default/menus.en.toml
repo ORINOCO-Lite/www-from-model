@@ -29,7 +29,7 @@
 [[main]]
   name = "Projects"
   pageRef = "projects"
-  weight = 30
+  weight = 25
   [main.params]
     icon = "human-dolly"
     showName = false
@@ -37,17 +37,35 @@
 [[main]]
   name = "Publications"
   pageRef = "publications"
-  weight = 35
+  weight = 30
   [main.params]
     icon = "cast-education"
     showName = false
 
 [[main]]
   name = "Outputs"
-  pageRef = "outputs"
-  weight = 37
+  identifier = "outputs"
+  weight = 32
   [main.params]
     icon = "export"
+    showName = false
+
+[[main]]
+  name = "Datasets"
+  pageRef = "datasets"
+  parent = "outputs"
+  weight = 34
+  [main.params]
+    icon = "mdi-database-outline"
+    showName = false
+
+[[main]]
+  name = "Instruments"
+  pageRef = "instruments"
+  parent = "outputs"
+  weight = 36
+  [main.params]
+    icon = "mdi-microscope"
     showName = false
 
 [[main]]
