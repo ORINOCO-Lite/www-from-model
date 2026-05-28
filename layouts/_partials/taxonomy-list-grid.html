@@ -1,0 +1,29 @@
+{{ $includeItems := .Params.items | default "generated" }}
+<section class="items-grid">
+  {{ range .Pages }}
+    {{ if or (ne $includeItems "generated") .Params.title }}
+      {{ $count := 0 }}
+      {{ $key := .Data.Term }}
+      {{ with index $.Data.Terms $key }}
+        {{ $count = .Count }}
+      {{ end }}
+      {{ $portrait := .Resources.GetMatch "*portrait*" }}
+      <a class="item-card"
+        href="{{ .Permalink }}">
+        <div class="item-depiction">
+            {{ with $portrait }}
+            <img src="{{ (.Fill "300x300 Top").RelPermalink }}" alt="{{ .Title }}">
+            {{ else }}
+            <div class="item-placeholder">
+                <span>{{ substr .Title 0 1 }}</span>
+            </div>
+            {{ end }}
+        </div>
+        <div class="item-title">
+          {{ .Title }} ({{ $count }})
+        </div>
+      </a>
+    {{ end }}
+  {{ end }}
+</section>
+<link rel="stylesheet" href="/grid-list.css">

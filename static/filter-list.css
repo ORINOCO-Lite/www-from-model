@@ -59,6 +59,10 @@
     border: 1px solid grey;
 }
 
+.topic-chip {
+  cursor: pointer
+}
+
 .topic-chip.active {
   background-color: rgb(59 130 246 / 0.15);
   color: rgb(59 130 246);

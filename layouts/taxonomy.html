@@ -12,25 +12,15 @@
       </div>
     </section>
   {{ end }}
-  <section class="-mx-2 flex flex-wrap overflow-hidden">
-    {{ range .Data.Terms }}
-      {{ if .Page.Params.title }}
-      <article class="my-3 w-full overflow-hidden px-2 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5">
-        <h2 class="flex items-center">
-          <a
-            class="text-xl font-medium decoration-primary-500 hover:underline hover:underline-offset-2"
-            href="{{ .Page.Permalink }}"
-            >{{ .Page.Title }}</a
-          >
-          {{ if $.Site.Params.taxonomy.showTermCount | default true }}
-            <span class="px-2 text-base text-primary-500">&middot;</span>
-            <span class="text-base text-neutral-400">
-              {{ .Count }}
-            </span>
-          {{ end }}
-        </h2>
-      </article>
+  <article class="prose max-w-full dark:prose-invert">
+    {{ if and (isset .Params "filter") (eq .Params.filter true) }}
+      {{ partial "taxonomy-list-filter.html" . }}
+    {{ else }}
+      {{ if and (isset .Params "list_variant") (eq .Params.list_variant "vertical") }}
+        {{ partial "taxonomy-list-vertical.html" . }}
+      {{ else }}
+        {{ partial "taxonomy-list-grid.html" . }}
       {{ end }}
     {{ end }}
-  </section>
+  </article>
 {{ end }}
