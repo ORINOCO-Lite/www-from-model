@@ -10,7 +10,7 @@ params:
   graphRootNodePID: xyzrins:datasets/a411cf09-a111-4cf0-b3ae-e3dba11d37d6
   pid: xyzrins:datasets/a411cf09-a111-4cf0-b3ae-e3dba11d37d6
   doi: null
-  date_created: null
+  date: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/studyforrest-data-confoundsannotation
   documentation_url: null
   title: studyforrest-data-confoundsannotation

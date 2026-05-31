@@ -6,7 +6,7 @@ params:
   graphRootNodePID: xyzrins:instruments/datalad-next
   pid: xyzrins:instruments/datalad-next
   doi: null
-  date_created: '2022-03-31'
+  date: '2022-03-31'
   source_code_url: null
   documentation_url: null
   title: datalad-next

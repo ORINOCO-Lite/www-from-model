@@ -10,7 +10,7 @@ params:
   graphRootNodePID: xyzrins:datasets/913f61f2-0197-4b16-98b7-6d0080df3bf9
   pid: xyzrins:datasets/913f61f2-0197-4b16-98b7-6d0080df3bf9
   doi: null
-  date_created: null
+  date: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/data-multires3t
   documentation_url: null
   title: studyforrest-data-multires3t

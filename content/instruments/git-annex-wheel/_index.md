@@ -6,7 +6,7 @@ params:
   graphRootNodePID: xyzrins:instruments/git-annex-wheel
   pid: xyzrins:instruments/git-annex-wheel
   doi: null
-  date_created: null
+  date: null
   source_code_url: null
   documentation_url: null
   title: git-annex wheel

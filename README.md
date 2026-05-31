@@ -68,3 +68,39 @@ params:
     - title
 ---
 ```
+
+The term template is also customizable in the same taxonomy's `_index.md` page front matter.
+Current customization options are:
+- `person_display`: When a list of persons are rendered for a given term, what should those people be called?
+  This is a string value that defaults to `Contributors`.
+- `depiction_type`: The type of depiction that should be rendered for the given term page (and taxonomy list page list item),
+  if such a file exists in the term bundle. This expects a string that will be matched against image files in
+  the term bundle, and will default to `depiction`. This option is necessary because the depiction registration
+  workflow saves depiction files with names representing their types, e.g. `portrait`, `logo`, etc.
+- `show_relations`: In which format should term relations be displayed at the bottom of the term page, if at all. The default is
+  to display no relations (explicitly: `none`). Other options include `expandable`, which will show list of
+  expandable taxonomy groups, each group containing all terms of that taxonomy that relate to the current term;
+  and `congo`, which will render the Congo-theme default list of related terms.
+
+Here are two example configurations for the term options:
+
+`content/persons/_index.md`:
+```yaml
+---
+title: Persons
+params:
+  term:
+    depiction_type: portrait # portrait | logo | depiction (default)
+    show_relations: expandable # expandable | congo | none (default)
+---
+```
+
+`content/publications/_index.md`:
+```yaml
+---
+title: Publications
+params:
+  term:
+    person_display: Authors # defaults to 'Contributors'
+---
+```

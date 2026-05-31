@@ -9,7 +9,7 @@ params:
   graphRootNodePID: xyzrins:datasets/3c0a0936-4edd-4f3b-b456-10cb519cfb82
   pid: xyzrins:datasets/3c0a0936-4edd-4f3b-b456-10cb519cfb82
   doi: null
-  date_created: null
+  date: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/data-freesurfer
   documentation_url: null
   title: Studyforrest-data-freesurfer

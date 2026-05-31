@@ -8,7 +8,7 @@ params:
   graphRootNodePID: xyzrins:instruments/case-e
   pid: xyzrins:instruments/case-e
   doi: null
-  date_created: 2026-02
+  date: 2026-02
   source_code_url: null
   documentation_url: null
   title: Case-e

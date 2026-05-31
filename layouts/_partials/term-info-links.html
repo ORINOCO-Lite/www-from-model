@@ -1,0 +1,13 @@
+{{ if or .Params.source_code_url .Params.documentation_url}}
+  <div class="mb-2">
+    <span class="ms-1 border-primary-400 px-1 py-[1px] text-xs font-normal dark:border-primary-600">
+      <em>Links:</em>
+    </span>
+    {{ with .Params.source_code_url }}
+    <a style="text-decoration: none; cursor:pointer;" target="_blank" href="{{ . }}" title="Source code">{{ partial "icon.html" "mdi-code-not-equal-variant"}}</a>
+    {{ end }}
+    {{ with .Params.documentation_url }}
+    <a style="text-decoration: none; cursor:pointer;" target="_blank" href="{{ . }}" title="Documentation">{{ partial "icon.html" "mdi-file-document"}}</a>
+    {{ end }}
+  </div>
+{{ end }}

@@ -1,0 +1,15 @@
+{{ $term := .term }}
+{{ $taxonomy := .taxonomy }}
+{{ $display := .display }}
+{{ with $term.GetTerms $taxonomy }}
+  <div class="mb-2 flex flex-wrap gap-1">
+    <span class="ms-1 border-primary-400 px-1 py-[1px] text-xs font-normal dark:border-primary-600">
+      <em>{{ $display }}:</em>
+    </span>
+    {{ range . }}
+      <span class="ms-1 rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+        <a style="text-decoration: none;" href="{{ .Permalink }}">{{ .Title }}</a>
+      </span>
+    {{ end }}
+  </div>
+{{ end }}

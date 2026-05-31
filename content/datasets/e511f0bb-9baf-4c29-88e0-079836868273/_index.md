@@ -20,7 +20,7 @@ params:
   graphRootNodePID: xyzrins:datasets/e511f0bb-9baf-4c29-88e0-079836868273
   pid: xyzrins:datasets/e511f0bb-9baf-4c29-88e0-079836868273
   doi: null
-  date_created: null
+  date: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/data-phase2
   documentation_url: null
   title: studyforrest-data-phase2

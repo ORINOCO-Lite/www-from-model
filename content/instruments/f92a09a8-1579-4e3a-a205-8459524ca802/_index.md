@@ -11,7 +11,7 @@ params:
   graphRootNodePID: xyzrins:instruments/f92a09a8-1579-4e3a-a205-8459524ca802
   pid: xyzrins:instruments/f92a09a8-1579-4e3a-a205-8459524ca802
   doi: null
-  date_created: null
+  date: null
   source_code_url: https://hub.psychoinformatics.de/orinoco/datalad-concepts
   documentation_url: null
   title: DataLad Concepts

@@ -4,7 +4,7 @@ params:
   graphRootNodePID: xyzrins:instruments/794b80ba-cae1-4fc1-b6d2-8b56c0ff4644
   pid: xyzrins:instruments/794b80ba-cae1-4fc1-b6d2-8b56c0ff4644
   doi: null
-  date_created: '2021-09-30'
+  date: '2021-09-30'
   source_code_url: null
   documentation_url: null
   title: datalad-xnat

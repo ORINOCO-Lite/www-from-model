@@ -4,7 +4,7 @@ params:
   graphRootNodePID: xyzrins:instruments/datalad
   pid: xyzrins:instruments/datalad
   doi: null
-  date_created: '2015-10-14'
+  date: '2015-10-14'
   source_code_url: null
   documentation_url: null
   title: DataLad

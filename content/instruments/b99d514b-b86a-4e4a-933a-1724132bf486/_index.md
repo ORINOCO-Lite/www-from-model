@@ -6,7 +6,7 @@ params:
   graphRootNodePID: xyzrins:instruments/b99d514b-b86a-4e4a-933a-1724132bf486
   pid: xyzrins:instruments/b99d514b-b86a-4e4a-933a-1724132bf486
   doi: null
-  date_created: null
+  date: null
   source_code_url: https://hub.psychoinformatics.de/orinoco/shacl-tulip
   documentation_url: null
   title: shacl-tulip

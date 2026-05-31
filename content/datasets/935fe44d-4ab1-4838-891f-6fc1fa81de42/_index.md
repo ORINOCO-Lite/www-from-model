@@ -6,7 +6,7 @@ params:
   graphRootNodePID: xyzrins:datasets/935fe44d-4ab1-4838-891f-6fc1fa81de42
   pid: xyzrins:datasets/935fe44d-4ab1-4838-891f-6fc1fa81de42
   doi: null
-  date_created: null
+  date: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/studyforrest-data-perceivedemotions
   documentation_url: null
   title: Studyforrest-data-perceivedemotions

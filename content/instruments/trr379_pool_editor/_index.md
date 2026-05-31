@@ -6,7 +6,7 @@ params:
   graphRootNodePID: xyzrins:instruments/trr379_pool_editor
   pid: xyzrins:instruments/trr379_pool_editor
   doi: null
-  date_created: null
+  date: null
   source_code_url: null
   documentation_url: null
   title: Metadata Editor of the TRR379

@@ -9,7 +9,7 @@ params:
   graphRootNodePID: xyzrins:datasets/edfbe285-a991-4abc-9c87-4b8c41b65b8a
   pid: xyzrins:datasets/edfbe285-a991-4abc-9c87-4b8c41b65b8a
   doi: null
-  date_created: null
+  date: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/data-structural/src/branch/master
   documentation_url: null
   title: studyforrest-data-structural

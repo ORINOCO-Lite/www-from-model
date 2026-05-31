@@ -8,7 +8,7 @@ params:
   graphRootNodePID: xyzrins:instruments/03300e25-6c5f-40bd-9ed8-a12d8ec22817
   pid: xyzrins:instruments/03300e25-6c5f-40bd-9ed8-a12d8ec22817
   doi: null
-  date_created: null
+  date: null
   source_code_url: https://hub.psychoinformatics.de/remodnav/remodnav
   documentation_url: null
   title: REMODNAV

@@ -6,7 +6,7 @@ params:
   graphRootNodePID: xyzrins:instruments/dump-things
   pid: xyzrins:instruments/dump-things
   doi: null
-  date_created: null
+  date: null
   source_code_url: null
   documentation_url: null
   title: Dump Things Service

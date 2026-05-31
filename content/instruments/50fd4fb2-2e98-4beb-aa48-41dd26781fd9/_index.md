@@ -9,7 +9,7 @@ params:
   graphRootNodePID: xyzrins:instruments/50fd4fb2-2e98-4beb-aa48-41dd26781fd9
   pid: xyzrins:instruments/50fd4fb2-2e98-4beb-aa48-41dd26781fd9
   doi: null
-  date_created: null
+  date: null
   source_code_url: https://hub.psychoinformatics.de/datalad/fairly-big-processing-workflow
   documentation_url: null
   title: FAIRly big processing workflow

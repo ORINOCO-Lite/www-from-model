@@ -9,7 +9,7 @@ params:
   graphRootNodePID: xyzrins:datasets/6ac48b8c-c971-4c9f-be9c-be6e8480b724
   pid: xyzrins:datasets/6ac48b8c-c971-4c9f-be9c-be6e8480b724
   doi: null
-  date_created: null
+  date: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/studyforrest-data-annotations
   documentation_url: null
   title: studyforrest-data-annotations

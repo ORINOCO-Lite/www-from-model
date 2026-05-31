@@ -11,7 +11,7 @@ params:
   graphRootNodePID: xyzrins:datasets/studyforrest
   pid: xyzrins:datasets/studyforrest
   doi: null
-  date_created: null
+  date: null
   source_code_url: null
   documentation_url: null
   title: Studyforrest

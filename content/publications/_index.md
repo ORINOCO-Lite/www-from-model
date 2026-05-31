@@ -14,4 +14,6 @@ params:
     - year
     - author
     - title
+  term:
+    person_display: Authors
 ---

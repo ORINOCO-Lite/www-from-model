@@ -4,7 +4,7 @@ params:
   graphRootNodePID: xyzrins:instruments/bb72fbdb-8d22-4756-a55f-313a7a6a9626
   pid: xyzrins:instruments/bb72fbdb-8d22-4756-a55f-313a7a6a9626
   doi: null
-  date_created: '2018-05-19'
+  date: '2018-05-19'
   source_code_url: null
   documentation_url: null
   title: datalad-container

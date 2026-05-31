@@ -4,7 +4,7 @@ params:
   graphRootNodePID: xyzrins:instruments/ff94c3f9-ce37-43f0-b87c-5ee0f776d845
   pid: xyzrins:instruments/ff94c3f9-ce37-43f0-b87c-5ee0f776d845
   doi: null
-  date_created: null
+  date: null
   source_code_url: null
   documentation_url: null
   title: Lab-in-a-box deployments

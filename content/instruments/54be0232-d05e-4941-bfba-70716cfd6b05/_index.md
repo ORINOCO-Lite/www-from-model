@@ -4,7 +4,7 @@ params:
   graphRootNodePID: xyzrins:instruments/54be0232-d05e-4941-bfba-70716cfd6b05
   pid: xyzrins:instruments/54be0232-d05e-4941-bfba-70716cfd6b05
   doi: null
-  date_created: null
+  date: null
   source_code_url: null
   documentation_url: null
   title: Funding calendar scraping script

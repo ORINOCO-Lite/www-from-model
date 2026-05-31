@@ -7,7 +7,7 @@ params:
   graphRootNodePID: xyzrins:instruments/7b23e72f-3fa5-4aad-b421-a3c1eaea9718
   pid: xyzrins:instruments/7b23e72f-3fa5-4aad-b421-a3c1eaea9718
   doi: null
-  date_created: null
+  date: null
   source_code_url: https://hub.psychoinformatics.de/datalad/datalad-handbook
   documentation_url: null
   title: DataLad Handbook

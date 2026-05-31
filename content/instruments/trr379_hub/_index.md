@@ -4,7 +4,7 @@ params:
   graphRootNodePID: xyzrins:instruments/trr379_hub
   pid: xyzrins:instruments/trr379_hub
   doi: null
-  date_created: null
+  date: null
   source_code_url: null
   documentation_url: null
   title: Collaboration Platform of the TRR379

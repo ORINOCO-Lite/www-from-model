@@ -12,7 +12,7 @@ params:
   graphRootNodePID: xyzrins:datasets/53c9a7f9-316d-4ea5-ab97-fd49936bf6b0
   pid: xyzrins:datasets/53c9a7f9-316d-4ea5-ab97-fd49936bf6b0
   doi: null
-  date_created: null
+  date: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/data-retinotopy
   documentation_url: null
   title: Studyforrest-data-retinopy

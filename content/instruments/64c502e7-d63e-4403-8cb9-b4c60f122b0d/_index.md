@@ -6,7 +6,7 @@ params:
   graphRootNodePID: xyzrins:instruments/64c502e7-d63e-4403-8cb9-b4c60f122b0d
   pid: xyzrins:instruments/64c502e7-d63e-4403-8cb9-b4c60f122b0d
   doi: null
-  date_created: null
+  date: null
   source_code_url: https://github.com/datalad/datalad-catalog
   documentation_url: null
   title: datalad-catalog

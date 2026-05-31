@@ -6,7 +6,7 @@ params:
   graphRootNodePID: xyzrins:instruments/b8dc8b0a-4408-46f4-9f47-c1d3ae747fac
   pid: xyzrins:instruments/b8dc8b0a-4408-46f4-9f47-c1d3ae747fac
   doi: null
-  date_created: null
+  date: null
   source_code_url: https://hub.psychoinformatics.de/orinoco/shacl-vue
   documentation_url: https://shacl-vue.psychoinformatics.de/
   title: shacl-vue

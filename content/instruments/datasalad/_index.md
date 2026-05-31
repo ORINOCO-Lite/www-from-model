@@ -6,7 +6,7 @@ params:
   graphRootNodePID: xyzrins:instruments/datasalad
   pid: xyzrins:instruments/datasalad
   doi: null
-  date_created: '2024-06-14'
+  date: '2024-06-14'
   source_code_url: null
   documentation_url: null
   title: datasalad

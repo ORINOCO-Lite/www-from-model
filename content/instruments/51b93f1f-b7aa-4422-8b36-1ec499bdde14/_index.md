@@ -8,7 +8,7 @@ params:
   graphRootNodePID: xyzrins:instruments/51b93f1f-b7aa-4422-8b36-1ec499bdde14
   pid: xyzrins:instruments/51b93f1f-b7aa-4422-8b36-1ec499bdde14
   doi: null
-  date_created: null
+  date: null
   source_code_url: https://github.com/datalad/datalad-remake
   documentation_url: null
   title: datalad-remake

@@ -8,7 +8,7 @@ params:
   graphRootNodePID: xyzrins:instruments/8b75c829-479e-4bc4-8354-2fdf29a7d213
   pid: xyzrins:instruments/8b75c829-479e-4bc4-8354-2fdf29a7d213
   doi: null
-  date_created: null
+  date: null
   source_code_url: hub.datalad.org/datalad/datalad-core
   documentation_url: null
   title: datalad-core

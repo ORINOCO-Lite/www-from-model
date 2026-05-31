@@ -8,7 +8,7 @@ params:
   graphRootNodePID: xyzrins:datasets/67db1ba6-3432-4b5a-9ede-25767f5dcc12
   pid: xyzrins:datasets/67db1ba6-3432-4b5a-9ede-25767f5dcc12
   doi: null
-  date_created: null
+  date: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/studyforrest-data-aligned
   documentation_url: null
   title: studyforrest-data-aligned

@@ -14,7 +14,7 @@ params:
   graphRootNodePID: xyzrins:datasets/a5b1159c-97c9-4916-9a25-7fb3ac6f4c6b
   pid: xyzrins:datasets/a5b1159c-97c9-4916-9a25-7fb3ac6f4c6b
   doi: null
-  date_created: null
+  date: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/data-visualrois
   documentation_url: null
   title: Studyforrest-data-visualrois

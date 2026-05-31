@@ -9,7 +9,7 @@ params:
   graphRootNodePID: xyzrins:datasets/7bc5fde2-a4c8-4ece-92fe-f071b1cd299b
   pid: xyzrins:datasets/7bc5fde2-a4c8-4ece-92fe-f071b1cd299b
   doi: null
-  date_created: null
+  date: null
   source_code_url: null
   documentation_url: null
   title: studyforrest-data-speechannotation

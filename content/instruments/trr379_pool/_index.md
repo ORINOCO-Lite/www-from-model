@@ -4,7 +4,7 @@ params:
   graphRootNodePID: xyzrins:instruments/trr379_pool
   pid: xyzrins:instruments/trr379_pool
   doi: null
-  date_created: null
+  date: null
   source_code_url: null
   documentation_url: null
   title: Knowledge Pooling Tool of the TRR379

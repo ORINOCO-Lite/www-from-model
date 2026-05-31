@@ -6,7 +6,7 @@ params:
   graphRootNodePID: xyzrins:instruments/35ca6b36-38a4-4caf-98bf-e696d4c7a319
   pid: xyzrins:instruments/35ca6b36-38a4-4caf-98bf-e696d4c7a319
   doi: null
-  date_created: null
+  date: null
   source_code_url: https://hub.psychoinformatics.de/orinoco/dump-things-pyclient
   documentation_url: null
   title: dump-things-pyclient

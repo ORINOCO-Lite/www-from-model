@@ -9,7 +9,7 @@ params:
   graphRootNodePID: xyzrins:datasets/32fcb84f-cc11-4793-bac8-1f7366c9f15d
   pid: xyzrins:datasets/32fcb84f-cc11-4793-bac8-1f7366c9f15d
   doi: null
-  date_created: null
+  date: null
   source_code_url: https://hub.psychoinformatics.de/studyforrest/data-templatetransforms
   documentation_url: null
   title: Studyforrest-data-templatetransforms

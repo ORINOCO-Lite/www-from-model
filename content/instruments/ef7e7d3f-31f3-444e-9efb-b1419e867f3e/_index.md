@@ -6,7 +6,7 @@ params:
   graphRootNodePID: xyzrins:instruments/ef7e7d3f-31f3-444e-9efb-b1419e867f3e
   pid: xyzrins:instruments/ef7e7d3f-31f3-444e-9efb-b1419e867f3e
   doi: null
-  date_created: null
+  date: null
   source_code_url: https://hub.datalad.org/datalad/git-lad
   documentation_url: null
   title: git-lad
