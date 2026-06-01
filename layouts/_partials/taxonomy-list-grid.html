@@ -13,7 +13,11 @@
         href="{{ .Permalink }}">
         <div class="item-depiction">
             {{ with index $depictions 0 }}
-            <img src="{{ (.Fill "300x300 Top").RelPermalink }}" alt="{{ .Title }}">
+              {{ if eq .MediaType.SubType "svg" }}
+                <img src="{{ .RelPermalink }}" style="margin: 0;" alt="{{ .Title }}">  
+              {{ else }}
+                <img src="{{ (.Fill "300x300 Top").RelPermalink }}" alt="{{ .Title }}">
+              {{ end }}
             {{ else }}
             <div class="item-placeholder">
                 <span>{{ substr .Title 0 1 }}</span>
