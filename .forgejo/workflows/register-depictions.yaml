@@ -56,7 +56,7 @@ jobs:
                 echo "Register $targetfile" ; \
                 test -e "$targetfile" && git rm -f "$targetfile"; \
                 (git annex addurl --raw --relaxed --file="$targetfile" "$url" && git annex get "$targetfile") || \
-                echo "addurl failed for $url, continuing..."
+                echo "addurl failed for $url, continuing..." && git restore --staged $targetfile && rm -f $targetfile
             done <<< "$depiction_urls"
             git annex push
             git annex push --cleanup
