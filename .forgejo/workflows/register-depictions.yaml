@@ -1,4 +1,4 @@
-name: Register person depictions
+name: Register depictions
 
 on:
   schedule:
@@ -36,7 +36,8 @@ jobs:
             dtc get-records ${DUMPTHINGS_APIURL} public -C XYZDataset
             dtc get-records ${DUMPTHINGS_APIURL} public -C XYZInstrument
             dtc get-records ${DUMPTHINGS_APIURL} public -C XYZObjective
-            dtc get-records ${DUMPTHINGS_APIURL} public -C XYZProject
+            dtc get-records ${DUMPTHINGS_APIURL} public -C XYZProject \
+            | qri filter-links-pid --link part_of xyzrins:. --recursive --collection public
             dtc get-records ${DUMPTHINGS_APIURL} public -C XYZPublication
             dtc get-records ${DUMPTHINGS_APIURL} public -C XYZTopic
             } \
