@@ -1,8 +1,0 @@
----
-title: "Research"
----
-
-Part of
-
-
-

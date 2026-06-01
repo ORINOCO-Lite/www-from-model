@@ -1,8 +1,0 @@
----
-title: "Provenance"
----
-
-Part of
-
-
-
