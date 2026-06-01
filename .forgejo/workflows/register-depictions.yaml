@@ -33,12 +33,22 @@ jobs:
           depiction_urls="$({
             dtc get-records ${DUMPTHINGS_APIURL} public -C XYZPerson \
             | qri filter-linked-pid --api-url ${DUMPTHINGS_APIURL} public xyzrins:. associated_with
-
+            dtc get-records ${DUMPTHINGS_APIURL} public -C XYZDataset
             dtc get-records ${DUMPTHINGS_APIURL} public -C XYZInstrument
+            dtc get-records ${DUMPTHINGS_APIURL} public -C XYZObjective
+            dtc get-records ${DUMPTHINGS_APIURL} public -C XYZProject
+            dtc get-records ${DUMPTHINGS_APIURL} public -C XYZPublication
+            dtc get-records ${DUMPTHINGS_APIURL} public -C XYZTopic
             } \
             | qri inject-links-pid --link about depictions --class XYZDepiction \
             | qri inline-records --api-url ${DUMPTHINGS_APIURL} -c public -p depictions::distributions \
-            | uv run get-depiction-urls.py
+            | uv run get-depiction-urls.py \
+              -t xyzri:XYZDataset \
+              -t xyzri:XYZInstrument \
+              -t xyzri:XYZObjective \
+              -t xyzri:XYZProject \
+              -t xyzri:XYZPublication \
+              -t xyzri:XYZTopic
           )"
           if [[ -n "$depiction_urls" ]]; then
             while IFS=$'\t' read -r depiction_type curie ext url; do
