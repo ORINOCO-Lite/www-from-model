@@ -44,6 +44,7 @@ jobs:
             | qri inject-links-pid --link about depictions --class XYZDepiction \
             | qri inline-records --api-url ${DUMPTHINGS_APIURL} -c public -p depictions::distributions \
             | uv run get-depiction-urls.py \
+              -t xyzri:XYZPerson \
               -t xyzri:XYZDataset \
               -t xyzri:XYZInstrument \
               -t xyzri:XYZObjective \
