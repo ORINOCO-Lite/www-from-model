@@ -5,7 +5,14 @@ params:
   given_name: Laura
   family_name: Waite
   identifiers:
-  - creator:
+  - schema_type: dlthings:Identifier
+    creator:
+      schema_type: xyzri:XYZOrganization
+      pid: rrid:SCR_002630
+      name: GitHub
+    notation: loj
+  - schema_type: xyzri:ORCID
+    creator:
       annotations:
         obo:NCIT_C54269: m.szczepanik@fz-juelich.de
         sio:SIO_001083: '2026-01-19T17:44:59.765383'
@@ -19,13 +26,6 @@ params:
       name: ORCID
       at_location: geodata:4348599
     notation: 0000-0003-2213-7465
-    schema_type: xyzri:ORCID
-  - creator:
-      schema_type: xyzri:XYZOrganization
-      pid: rrid:SCR_002630
-      name: GitHub
-    notation: loj
-    schema_type: dlthings:Identifier
 
 ---
 

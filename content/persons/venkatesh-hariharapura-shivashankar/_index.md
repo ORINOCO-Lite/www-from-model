@@ -8,15 +8,15 @@ params:
   - schema_type: dlthings:Identifier
     creator:
       schema_type: xyzri:XYZOrganization
-      pid: rrid:SCR_002630
-      name: GitHub
-    notation: venkateshhs
-  - schema_type: dlthings:Identifier
-    creator:
-      schema_type: xyzri:XYZOrganization
       pid: ror:02fyxhe35
       name: LinkedIn
     notation: venkatesh-hariharapura-shivashankar
+  - schema_type: dlthings:Identifier
+    creator:
+      schema_type: xyzri:XYZOrganization
+      pid: rrid:SCR_002630
+      name: GitHub
+    notation: venkateshhs
   - schema_type: xyzri:ORCID
     creator:
       annotations:
