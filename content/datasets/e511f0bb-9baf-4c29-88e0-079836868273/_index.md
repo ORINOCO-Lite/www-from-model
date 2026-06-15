@@ -2,14 +2,9 @@
 title: studyforrest-data-phase2
 persons:
 - a7087531-9bed-4ad3-9a0a-f048510ade2e
-- a7087531-9bed-4ad3-9a0a-f048510ade2e
-- ayan-sengupta
 - ayan-sengupta
 - daniel-kottke
-- daniel-kottke
 - falko-kaule
-- falko-kaule
-- michael-hanke
 - michael-hanke
 topics:
 - cognitive-science
@@ -55,21 +50,6 @@ params:
   - pid: xyzrins:persons/a7087531-9bed-4ad3-9a0a-f048510ade2e
     given_name: "J\xF6rg"
     family_name: Stadler
-  - pid: xyzrins:persons/michael-hanke
-    given_name: Michael
-    family_name: Hanke
-  - pid: xyzrins:persons/a7087531-9bed-4ad3-9a0a-f048510ade2e
-    given_name: "J\xF6rg"
-    family_name: Stadler
-  - pid: xyzrins:persons/falko-kaule
-    given_name: Falko
-    family_name: Kaule
-  - pid: xyzrins:persons/daniel-kottke
-    given_name: Daniel
-    family_name: Kottke
-  - pid: xyzrins:persons/ayan-sengupta
-    given_name: Ayan
-    family_name: Sengupta
   topic:
   - pid: xyzrins:topics/cognitive-science
     display_label: Cognitive science

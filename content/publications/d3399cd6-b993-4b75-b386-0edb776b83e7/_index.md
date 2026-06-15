@@ -19,12 +19,12 @@ params:
     of this kind, the UKBiobank. '
   kind: bibo:AudioVisualDocument
   author:
-  - pid: xyzrins:persons/michael-hanke
-    given_name: Michael
-    family_name: Hanke
   - pid: xyzrins:persons/adina-wagner
     given_name: Adina
     family_name: Wagner
+  - pid: xyzrins:persons/michael-hanke
+    given_name: Michael
+    family_name: Hanke
   topic:
   - pid: xyzrins:topics/data-management
     display_label: Data management
