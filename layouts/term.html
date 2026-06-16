@@ -118,6 +118,11 @@
       {{ .Content | emojify }}
     </div>
   </section>
+
+  {{ with .Params.distributions }}
+    {{ partial "term-distributions.html" . }}
+  {{ end }}
+
   <!-- Relations -->
   {{ if .Data.Pages }}
     {{ if eq $relationsDisplay "congo" }}
