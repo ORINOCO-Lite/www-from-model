@@ -81,7 +81,7 @@ jobs:
       - name: Update datasets
         run: |
           qri list --class xyzri:XYZDataset \
-          | qri inline-records -p about -p attributed_to -p kind -p rules -c public \
+          | qri inline-records -p about -p attributed_to -p kind -p rules -p characterized_by -c public \
           | qri render-record page_templates/dataset.md.j2 \
             'content/{__pid_curie_reference}/_index.md'
       - name: Update frontpage

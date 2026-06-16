@@ -54,6 +54,22 @@
   }) -%}
 {%- endfor -%}
 
+{%- set dists = (
+    __rec.characterized_by
+    | selectattr('predicate', 'equalto', 'dcat:distribution')
+    | list
+) if __rec.characterized_by is defined and __rec.characterized_by is sequence else [] -%}
+
+{%- set distributions = [] -%}
+{%- for d in dists -%}
+    {%- set commit =  d.object.pid | replace("dldi:","") | replace("/datalad/commit","") | default(none) -%}
+    {%- set _ = distributions.append({
+      "pid": d.object.pid | default(none),
+      "display_label": d.object.display_label | default(commit),
+      "commit": commit,
+    }) -%}
+{%- endfor -%}
+
 {%- set dataset = {
   "pid": __rec.pid | default(none),
   "doi": doi.notation | default(none) if doi else none,
@@ -67,6 +83,10 @@
   "topic": topics | default(none),
   "license": rules | default(none)
 } -%}
+
+{%- if distributions -%}
+  {%- set _ = dataset.update({"distributions": distributions}) -%}
+{%- endif -%}
 
 
 {% block frontmatter -%}

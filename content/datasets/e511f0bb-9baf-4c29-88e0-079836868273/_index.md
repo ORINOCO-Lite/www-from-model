@@ -35,21 +35,21 @@ params:
     \ the stimulation setting on these processes."
   kind: null
   author:
-  - pid: xyzrins:persons/michael-hanke
-    given_name: Michael
-    family_name: Hanke
-  - pid: xyzrins:persons/falko-kaule
-    given_name: Falko
-    family_name: Kaule
   - pid: xyzrins:persons/ayan-sengupta
     given_name: Ayan
     family_name: Sengupta
+  - pid: xyzrins:persons/falko-kaule
+    given_name: Falko
+    family_name: Kaule
   - pid: xyzrins:persons/daniel-kottke
     given_name: Daniel
     family_name: Kottke
   - pid: xyzrins:persons/a7087531-9bed-4ad3-9a0a-f048510ade2e
     given_name: "J\xF6rg"
     family_name: Stadler
+  - pid: xyzrins:persons/michael-hanke
+    given_name: Michael
+    family_name: Hanke
   topic:
   - pid: xyzrins:topics/cognitive-science
     display_label: Cognitive science
@@ -63,6 +63,13 @@ params:
   - pid: spdxlic:PDDL-1.0
     label: Open Data Commons Public Domain Dedication & License 1.0
     url: https://spdx.org/licenses/PDDL-1.0
+  distributions:
+  - pid: dldi:1bb62beb9580f3a0088accda41242b1abcc1a24e/datalad/commit
+    display_label: Studyforrest Phase 2 Data v1.0
+    commit: 1bb62beb9580f3a0088accda41242b1abcc1a24e
+  - pid: dldi:01ed46012d5a6bcb384e8a5e6b0be62824cb09a3/datalad/commit
+    display_label: 01ed46012d5a6bcb384e8a5e6b0be62824cb09a3
+    commit: 01ed46012d5a6bcb384e8a5e6b0be62824cb09a3
 
 ---
 
