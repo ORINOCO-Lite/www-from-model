@@ -4,10 +4,14 @@
       <em>Links:</em>
     </span>
     {{ with .Params.source_code_url }}
-    <a style="text-decoration: none; cursor:pointer;" target="_blank" href="{{ . }}" title="Source code">{{ partial "icon.html" "mdi-code-not-equal-variant"}}</a>
+    <span class="ms-1 rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+        <a class="inline-flex items-center gap-1" style="text-decoration: none; cursor:pointer;" target="_blank" href="{{ . }}" title="Source code"><span style="position: relative; bottom: 1px;">{{ partial "icon.html" "mdi-code-not-equal-variant" }}</span> Source</a>
+    </span>
     {{ end }}
     {{ with .Params.documentation_url }}
-    <a style="text-decoration: none; cursor:pointer;" target="_blank" href="{{ . }}" title="Documentation">{{ partial "icon.html" "mdi-file-document"}}</a>
+    <span class="ms-1 rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+        <a style="text-decoration: none; cursor:pointer;" target="_blank" href="{{ . }}" title="Documentation"><span style="position: relative; bottom: 1px;">{{ partial "icon.html" "mdi-file-document" }}</span> Documentation</a>
+    </span>
     {{ end }}
   </div>
 {{ end }}
