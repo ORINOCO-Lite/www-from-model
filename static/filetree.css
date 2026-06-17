@@ -78,20 +78,15 @@
     border-radius: 5px;
 }
 
-.tab-headers {
-    display: flex;
-    gap: 0.5rem;
+.distribution-selector {
+    margin-bottom: 1rem;
 }
 
-.tab-btn {
-    cursor: pointer;
-    padding: 1px 6px;
+#distribution-select {
+    padding: 4px 8px;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
-}
-
-.tab-btn:hover {
-    background: #919191;
+    background-color: inherit;
 }

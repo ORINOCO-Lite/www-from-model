@@ -1,14 +1,11 @@
 // Keep track of first click on a given distribution tab
 const distributionsRendered = [];
 
-// Add tab event listerners and styling
-document.querySelectorAll(".tab-btn").forEach(btn => {
-    btn.addEventListener("click", (e) => {
-        const target = e.currentTarget.dataset.target;
-        onTabClick(target);
-    });
-    btn.classList.add("text-neutral-900")
-    btn.classList.add("dark:text-neutral")
+// Add dropdown select event listerners
+document.getElementById("distribution-select")
+.addEventListener("change", (e) => {
+    const target = e.target.value;
+    if (target) onTabClick(target);
 });
 
 async function onTabClick(targetId) {
@@ -18,12 +15,6 @@ async function onTabClick(targetId) {
     });
     const pane = document.getElementById(targetId);
     if (pane) pane.style.display = "block";
-    // Set selected tab border color
-    document.querySelectorAll(".tab-btn").forEach(p => {
-        p.style.borderColor = '#ddd';
-    });
-    const btn = document.getElementById(`tab-btn-${targetId}`);
-    if (btn) btn.style.borderColor = "#ea580c";
     // Only render new root for the first click
     if (!distributionsRendered.includes(targetId)) {
         distributionsRendered.push(targetId)

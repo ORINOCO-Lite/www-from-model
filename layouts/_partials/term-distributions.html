@@ -10,10 +10,13 @@
     Distributions
   </h1>
   <div class="distribution-tabs">
-    <div class="distribution-tab-headers">
-      {{ range $index, $items := . }}
-        <button id="tab-btn-{{ .commit }}" class="tab-btn" data-target="{{ .commit }}">{{ .display_label }}</button>
-      {{ end }}
+    <div class="distribution-selector">
+      <select id="distribution-select" class="text-neutral-900 dark:text-neutral">
+        <option value="">Select a distribution...</option>
+        {{ range $index, $items := . }}
+          <option value="{{ .commit }}">{{ .display_label }}</option>
+        {{ end }}
+      </select>
     </div>
     <div class="tab-content">
       {{ range $index, $items := . }}
