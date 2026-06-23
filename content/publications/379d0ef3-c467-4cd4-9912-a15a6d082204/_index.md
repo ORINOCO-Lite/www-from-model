@@ -9,6 +9,9 @@ persons:
 - michael-hanke
 - stephan-heunis
 - venkatesh-hariharapura-shivashankar
+topics:
+- research-data-management
+- research-software-engineering
 params:
   graphRootNodePID: xyzrins:publications/379d0ef3-c467-4cd4-9912-a15a6d082204
   sortkey: "NoneLab in a box: A build-your- own-open-lab software toolkit"
@@ -64,31 +67,35 @@ params:
     \ \u21A9\uFE0E"
   kind: null
   author:
-  - pid: xyzrins:persons/michael-hanke
-    given_name: Michael
-    family_name: Hanke
   - pid: xyzrins:persons/stephan-heunis
     given_name: Stephan
     family_name: Heunis
-  - pid: xyzrins:persons/christian-moench
-    given_name: Christian
-    family_name: "M\xF6nch"
-  - pid: xyzrins:persons/alex-waite
-    given_name: Alex
-    family_name: Waite
-  - pid: xyzrins:persons/venkatesh-hariharapura-shivashankar
-    given_name: Venkatesh
-    family_name: Hariharapura Shivashankar
   - pid: xyzrins:persons/laura-waite
     given_name: Laura
     family_name: Waite
+  - pid: xyzrins:persons/alex-waite
+    given_name: Alex
+    family_name: Waite
+  - pid: xyzrins:persons/michael-hanke
+    given_name: Michael
+    family_name: Hanke
   - pid: xyzrins:persons/adina-wagner
     given_name: Adina
     family_name: Wagner
+  - pid: xyzrins:persons/venkatesh-hariharapura-shivashankar
+    given_name: Venkatesh
+    family_name: Hariharapura Shivashankar
+  - pid: xyzrins:persons/christian-moench
+    given_name: Christian
+    family_name: "M\xF6nch"
   - pid: xyzrins:persons/dac706d9-2188-4a84-91bd-a49c5e63c19c
     given_name: Matthias
     family_name: "Ri\xDFe"
-  topic: []
+  topic:
+  - pid: xyzrins:topics/research-data-management
+    display_label: Research data management (RDM)
+  - pid: xyzrins:topics/research-software-engineering
+    display_label: Research software engineering (RSE)
 
 ---
 
