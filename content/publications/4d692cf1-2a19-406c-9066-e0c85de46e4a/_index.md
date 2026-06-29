@@ -1,5 +1,5 @@
 ---
-title: "Datalad \u2014 An Introduction to Research Data Management"
+title: An Introduction to Research Data Management with DataLad
 persons:
 - adina-wagner
 - michael-hanke
@@ -9,11 +9,11 @@ topics:
 - education
 params:
   graphRootNodePID: xyzrins:publications/4d692cf1-2a19-406c-9066-e0c85de46e4a
-  sortkey: "2023-12-01Datalad — An Introduction to Research Data Management"
+  sortkey: "2023-12-01An Introduction to Research Data Management with DataLad"
   pid: xyzrins:publications/4d692cf1-2a19-406c-9066-e0c85de46e4a
   doi: null
   date: '2023-12-01'
-  title: "Datalad \u2014 An Introduction to Research Data Management"
+  title: An Introduction to Research Data Management with DataLad
   description: "The goal of this book is to teach universal research data management\
     \ skills that require nothing but a standard computer and free software, yet scale\
     \ from working with a few tables up to wrangling terabytes on high performance computing\
@@ -37,12 +37,12 @@ params:
     \ and for building reproducible and reusable data projects."
   kind: bibo:Book
   author:
-  - pid: xyzrins:persons/adina-wagner
-    given_name: Adina
-    family_name: Wagner
   - pid: xyzrins:persons/michael-hanke
     given_name: Michael
     family_name: Hanke
+  - pid: xyzrins:persons/adina-wagner
+    given_name: Adina
+    family_name: Wagner
   topic:
   - pid: xyzrins:topics/data-management
     display_label: Data management
