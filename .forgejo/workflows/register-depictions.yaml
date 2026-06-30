@@ -27,7 +27,7 @@ jobs:
           git annex init
       - name: Fetch python script
         run: |
-          wget https://hub.psychoinformatics.de/orinoco/knowledge-enrichment/raw/branch/main/.forgejo/tools/get-depiction-urls.py
+          wget https://hub.psychoinformatics.de/orinoco/knowledge-enrichment/raw/branch/main/tools/get-depiction-urls.py
       - name: Register depiction files
         run: |
           depiction_urls="$({
