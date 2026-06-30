@@ -1,4 +1,5 @@
 ---
+url: instruments/shacl-vue
 title: shacl-vue
 persons:
 - stephan-heunis

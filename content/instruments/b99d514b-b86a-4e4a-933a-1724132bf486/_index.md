@@ -1,4 +1,5 @@
 ---
+url: instruments/shacl-tulip
 title: shacl-tulip
 persons:
 - stephan-heunis

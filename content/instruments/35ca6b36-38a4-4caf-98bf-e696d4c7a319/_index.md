@@ -1,4 +1,5 @@
 ---
+url: instruments/dump-things-pyclient
 title: dump-things-pyclient
 persons:
 - christian-moench
