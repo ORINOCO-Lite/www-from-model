@@ -33,12 +33,12 @@ The ABCD-J platform provides an integrated collection and analysis environment f
 
 ### Currently associated
 
-- [Jenna&nbsp;Swarthout Goddard](/persons/jenna-swarthout-goddard) (Research team member)
-- [Stephan&nbsp;Heunis](/persons/stephan-heunis) (Research team member)
-- [Adina&nbsp;Wagner](/persons/adina-wagner) (Research team member)
 - [Simon&nbsp;Eickhoff](/persons/simon-eickhoff) (Lead, Principal investigator (PI))
-- [Michael&nbsp;Hanke](/persons/michael-hanke) (Principal investigator (PI))
 - [Tosca&nbsp;Heunis](/persons/tosca-heunis) (Research team member)
+- [Adina&nbsp;Wagner](/persons/adina-wagner) (Research team member)
+- [Jenna&nbsp;Swarthout Goddard](/persons/jenna-swarthout-goddard) (Research team member)
+- [Michael&nbsp;Hanke](/persons/michael-hanke) (Principal investigator (PI))
+- [Stephan&nbsp;Heunis](/persons/stephan-heunis) (Research team member)
 ## Outputs
 
 - [ABCD-J logo](/depictions/logo_abcd-j)
