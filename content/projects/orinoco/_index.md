@@ -14,6 +14,7 @@ instruments:
 - 54be0232-d05e-4941-bfba-70716cfd6b05
 - b8dc8b0a-4408-46f4-9f47-c1d3ae747fac
 - b99d514b-b86a-4e4a-933a-1724132bf486
+- d3126ff5-623c-48af-ac48-4d921ef9b80d
 - dump-things
 params:
   graphRootNodePID: xyzrins:projects/orinoco
@@ -43,5 +44,6 @@ This comprehensive approach to project-related metadata capture, spanning the co
 - [Funding calendar scraping script](/instruments/54be0232-d05e-4941-bfba-70716cfd6b05)
 - [shacl-vue](/instruments/b8dc8b0a-4408-46f4-9f47-c1d3ae747fac)
 - [shacl-tulip](/instruments/b99d514b-b86a-4e4a-933a-1724132bf486)
+- [Juser scraping script](/instruments/d3126ff5-623c-48af-ac48-4d921ef9b80d)
 - [Dump Things Service](/instruments/dump-things)
 
