@@ -18,15 +18,15 @@ This project will provide expertise for access, description, and modelling of th
 
 ## Objectives
 
-- [Promote open science through shared data and collaboration](/objectives/87be5fa3-80fb-4221-8406-2ddd40fb1fd1) (Long-term goal)
 - [Build tools for reproducible, shareable science](/objectives/97ded4aa-108d-4b84-8195-d6076dce63ce) (Long-term goal)
+- [Promote open science through shared data and collaboration](/objectives/87be5fa3-80fb-4221-8406-2ddd40fb1fd1) (Long-term goal)
 ## People
 
 ### Currently associated
 
+- [Simon&nbsp;Eickhoff](/persons/simon-eickhoff) (Expert)
 - [Michał&nbsp;Szczepanik](/persons/michal-szczepanik) (Researcher)
 - [Michael&nbsp;Hanke](/persons/michael-hanke) (Principal investigator (PI))
-- [Simon&nbsp;Eickhoff](/persons/simon-eickhoff) (Expert)
 ## Outputs
 
 - [Teaching research data management with DataLad: a multi-year, multi-domain effort](/publications/212e3bce-22fa-4cf6-bd1d-fedd33428d65)
