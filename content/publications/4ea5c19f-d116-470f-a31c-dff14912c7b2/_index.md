@@ -38,15 +38,15 @@ params:
     \ and open-source software from public sources."
   kind: bibo:AcademicArticle
   author:
-  - pid: xyzrins:persons/michael-hanke
-    given_name: Michael
-    family_name: Hanke
-  - pid: xyzrins:persons/adina-wagner
-    given_name: Adina
-    family_name: Wagner
   - pid: xyzrins:persons/10847cce-cba3-415e-aa84-e681e9727697
     given_name: Asim
     family_name: Dar
+  - pid: xyzrins:persons/adina-wagner
+    given_name: Adina
+    family_name: Wagner
+  - pid: xyzrins:persons/michael-hanke
+    given_name: Michael
+    family_name: Hanke
   topic:
   - pid: xyzrins:topics/naturalistic-neuroimaging
     display_label: Naturalistic neuroimaging
