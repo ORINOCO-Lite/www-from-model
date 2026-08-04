@@ -52,6 +52,9 @@ params:
   - pid: xyzrins:persons/michael-hanke
     given_name: Michael
     family_name: Hanke
+  - pid: null
+    given_name: null
+    family_name: null
   topic:
   - pid: xyzrins:topics/research-software-engineering
     display_label: Research software engineering (RSE)

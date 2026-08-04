@@ -44,6 +44,9 @@ params:
   - pid: xyzrins:persons/christian-moench
     given_name: Christian
     family_name: "M\xF6nch"
+  - pid: null
+    given_name: null
+    family_name: null
   topic:
   - pid: xyzrins:topics/neuroimaging
     display_label: Neuroimaging

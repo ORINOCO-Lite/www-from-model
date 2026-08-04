@@ -32,6 +32,15 @@ params:
   - pid: xyzrins:persons/michael-hanke
     given_name: Michael
     family_name: Hanke
+  - pid: null
+    given_name: null
+    family_name: null
+  - pid: null
+    given_name: null
+    family_name: null
+  - pid: null
+    given_name: null
+    family_name: null
   topic:
   - pid: xyzrins:topics/research-data-management
     display_label: Research data management (RDM)

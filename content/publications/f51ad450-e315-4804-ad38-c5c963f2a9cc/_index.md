@@ -1,0 +1,49 @@
+---
+title: "K\xFCnstliche Intelligenz in der Gesundheitsvorsorge von Kindern und Jugendlichen\_\
+  \u2013 Anwendungsm\xF6glichkeiten und Akzeptanz - Artificial intelligence in preventive\
+  \ medicine for children and adolescents\u2014applications and acceptance"
+persons:
+- 3cf923ff-969d-4224-bb7b-9f319f0b1564
+- 60feb346-954c-4625-93d6-1b8bd1ca0dfa
+params:
+  graphRootNodePID: xyzrins:publications/f51ad450-e315-4804-ad38-c5c963f2a9cc
+  sortkey: "2025Künstliche Intelligenz in der Gesundheitsvorsorge von Kindern und Jugendlichen – Anwendungsmöglichkeiten und Akzeptanz - Artificial intelligence in preventive medicine for children and adolescents—applications and acceptance"
+  pid: xyzrins:publications/f51ad450-e315-4804-ad38-c5c963f2a9cc
+  doi: 10.1007/s00103-025-04096-4
+  date: '2025'
+  title: "K\xFCnstliche Intelligenz in der Gesundheitsvorsorge von Kindern und Jugendlichen\_\
+    \u2013 Anwendungsm\xF6glichkeiten und Akzeptanz - Artificial intelligence in preventive\
+    \ medicine for children and adolescents\u2014applications and acceptance"
+  description: The use of artificial intelligence (AI) in pediatric and adolescent medicine
+    offers numerous possibilities, particularly in the prevention of chronic diseases.
+    AI-powered applications such as machine learning for the analysis of speech or movement
+    patterns can, for example, help in the early diagnosis of autism spectrum disorders
+    or motor development delays. In addition, AI-based systems support the treatment
+    of children with type 1 diabetes through automated insulin dosing (AID) systems.AI
+    enables more accurate diagnoses and personalized therapeutic approaches and helps
+    relieve the burden on medical personnel. At the same time, there are challenges
+    associated with the use of AI, which is why only a few applications have so far
+    become part of routine clinical practice. These challenges include the protection
+    of sensitive data and the respect for informational self-determination, ensuring
+    freedom from discrimination, algorithmic transparency, and the acceptance of AI
+    by all involved groups such as children, adolescents, parents, and medical professionals.
+    All stakeholders express concerns about potential misjudgments, the loss of personal
+    interactions, and the possible commercial use of data. Parents and professionals
+    emphasize the importance of clear communication, shared decision-making, and training
+    to promote better understanding. Moreover, there is often a lack of structured,
+    high-quality, large datasets in compatible formats to effectively train AI systems.A
+    sustainable integration of AI in pediatric and adolescent medicine requires large-scale
+    clinical studies, access to high-quality datasets, and a nuanced analysis of the
+    ethical and social implications.
+  kind: bibo:AcademicArticle
+  author:
+  - pid: xyzrins:persons/3cf923ff-969d-4224-bb7b-9f319f0b1564
+    given_name: Kerstin
+    family_name: Konrad
+  - pid: xyzrins:persons/60feb346-954c-4625-93d6-1b8bd1ca0dfa
+    given_name: Bert
+    family_name: Heinrichs
+  topic: []
+
+---
+

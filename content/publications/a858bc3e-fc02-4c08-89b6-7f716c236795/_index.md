@@ -1,6 +1,7 @@
 ---
 title: Open research software infrastructure in Neuro-Medicine
 persons:
+- 719c0f2c-1d1b-4d2f-8320-101230f855fa
 - adina-wagner
 topics:
 - distributed-systems
@@ -33,6 +34,12 @@ params:
   - pid: xyzrins:persons/adina-wagner
     given_name: Adina
     family_name: Wagner
+  - pid: xyzrins:persons/719c0f2c-1d1b-4d2f-8320-101230f855fa
+    given_name: "J\xFCrgen"
+    family_name: Dukart
+  - pid: null
+    given_name: null
+    family_name: null
   topic:
   - pid: xyzrins:topics/distributed-systems
     display_label: Distributed systems

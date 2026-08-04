@@ -1,0 +1,46 @@
+---
+title: Cortical microstructural gradients capture memory network reorganization in temporal
+  lobe epilepsy
+params:
+  graphRootNodePID: xyzrins:publications/d66d62fc-8846-4130-8fd6-80f4a44a05c4
+  sortkey: "2023Cortical microstructural gradients capture memory network reorganization in temporal lobe epilepsy"
+  pid: xyzrins:publications/d66d62fc-8846-4130-8fd6-80f4a44a05c4
+  doi: 10.1093/brain/awad125
+  date: '2023'
+  title: Cortical microstructural gradients capture memory network reorganization in
+    temporal lobe epilepsy
+  description: Temporal lobe epilepsy (TLE), one of the most common pharmaco-resistant
+    epilepsies, is associated with pathology of paralimbic brain regions, particularly
+    in the mesiotemporal lobe. Cognitive dysfunction in TLE is frequent, and particularly
+    affects episodic memory. Crucially, these difficulties challenge the quality of
+    life of patients, sometimes more than seizures, underscoring the need to assess
+    neural processes of cognitive dysfunction in TLE to improve patient management.Our
+    work harnessed a novel conceptual and analytical approach to assess spatial gradients
+    of microstructural differentiation between cortical areas based on high-resolution
+    MRI analysis. Gradients track region-to-region variations in intracortical lamination
+    and myeloarchitecture, serving as a system-level measure of structural and functional
+    reorganization.Comparing cortex-wide microstructural gradients between 21 patients
+    and 35 healthy controls, we observed a reorganization of this gradient in TLE driven
+    by reduced microstructural differentiation between paralimbic cortices and the remaining
+    cortex with marked abnormalities in ipsilateral temporopolar and dorsolateral prefrontal
+    regions. Findings were replicated in an independent cohort. Using an independent
+    post-mortem dataset, we observed that in vivo findings reflected topographical variations
+    in cortical cytoarchitecture. We indeed found that macroscale changes in microstructural
+    differentiation in TLE reflected increased similarity of paralimbic and primary
+    sensory/motor regions. Disease-related transcriptomics could furthermore show specificity
+    of our findings to TLE over other common epilepsy syndromes. Finally, microstructural
+    dedifferentiation was associated with cognitive network reorganization seen during
+    an episodic memory functional MRI paradigm and correlated with interindividual differences
+    in task accuracy.Collectively, our findings showing a pattern of reduced microarchitectural
+    differentiation between paralimbic regions and the remaining cortex provide a structurally-grounded
+    explanation for large-scale functional network reorganization and cognitive dysfunction
+    characteristic of TLE.
+  kind: bibo:AcademicArticle
+  author:
+  - pid: null
+    given_name: null
+    family_name: null
+  topic: []
+
+---
+

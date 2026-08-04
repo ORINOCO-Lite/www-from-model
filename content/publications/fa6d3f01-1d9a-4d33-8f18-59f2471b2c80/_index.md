@@ -1,0 +1,46 @@
+---
+title: "Vorhersage und fr\xFChzeitige Identifikation einer postpartalen Depression: Ergebnisse\
+  \ der longitudinalen RiPoD-Studie im Kontext der LiteraturPrediction and timely\
+  \ identification of postpartum depression: results of the longitudinal RiPoD study\
+  \ in the context of the literature"
+persons:
+- 719c0f2c-1d1b-4d2f-8320-101230f855fa
+- simon-eickhoff
+params:
+  graphRootNodePID: xyzrins:publications/fa6d3f01-1d9a-4d33-8f18-59f2471b2c80
+  sortkey: "2025Vorhersage und frühzeitige Identifikation einer postpartalen Depression: Ergebnisse der longitudinalen RiPoD-Studie im Kontext der LiteraturPrediction and timely identification of postpartum depression: results of the longitudinal RiPoD study in the context of the literature"
+  pid: xyzrins:publications/fa6d3f01-1d9a-4d33-8f18-59f2471b2c80
+  doi: 10.1007/s00115-024-01726-1
+  date: '2025'
+  title: "Vorhersage und fr\xFChzeitige Identifikation einer postpartalen Depression:\
+    \ Ergebnisse der longitudinalen RiPoD-Studie im Kontext der LiteraturPrediction\
+    \ and timely identification of postpartum depression: results of the longitudinal\
+    \ RiPoD study in the context of the literature"
+  description: The first 4-6 weeks after childbirth are defined as the onset time for
+    postpartum depression (PPD). Despite this known time frame there are significant
+    gaps in the identification and treatment of PPD. The risk for postpartum depression
+    (RiPoD) study investigated specific risk factors and predictors of postpartum psychological
+    adjustment processes and the results are presented within the framework of a state
+    of the art review of research. The dynamic neuroplastic changes in the maternal
+    brain during pregnancy and the postpartum period appear to be closely linked to
+    peripartum hormone fluctuations, which jointly influence the development of postpartum
+    mood disorders. Hormonal risk factors such as baby blues and premenstrual syndrome
+    have been found to have a bearing on PPD. The combination of these two factors predicts
+    the risk of PPD with 83% sensitivity within the first week postpartum. Follow-up
+    digital monitoring of symptom development in the first 6 weeks postpartum has enabled
+    an accurate identification of women with PPD. Understanding the interaction between
+    hormone fluctuations, neuroplasticity and psychiatric disorders should be an important
+    target for future research. Early identification and diagnosis of PPD can be easily
+    integrated into the clinical routine and everyday life.
+  kind: bibo:AcademicArticle
+  author:
+  - pid: xyzrins:persons/719c0f2c-1d1b-4d2f-8320-101230f855fa
+    given_name: "J\xFCrgen"
+    family_name: Dukart
+  - pid: xyzrins:persons/simon-eickhoff
+    given_name: Simon
+    family_name: Eickhoff
+  topic: []
+
+---
+

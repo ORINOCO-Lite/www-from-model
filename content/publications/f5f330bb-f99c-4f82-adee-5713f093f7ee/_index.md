@@ -3,6 +3,7 @@ title: "Centering inclusivity in the design of online conferences\u2014An OHBM\u
   \ Science perspective"
 persons:
 - adina-wagner
+- simon-eickhoff
 - stephan-heunis
 topics:
 - free-and-open-culture
@@ -48,6 +49,12 @@ params:
   - pid: xyzrins:persons/adina-wagner
     given_name: Adina
     family_name: Wagner
+  - pid: xyzrins:persons/simon-eickhoff
+    given_name: Simon
+    family_name: Eickhoff
+  - pid: null
+    given_name: null
+    family_name: null
   topic:
   - pid: xyzrins:topics/free-and-open-culture
     display_label: Free and open culture

@@ -1,0 +1,63 @@
+---
+title: Association of Fetal Catecholamines With Neonatal Hypoglycemia
+persons:
+- 719c0f2c-1d1b-4d2f-8320-101230f855fa
+params:
+  graphRootNodePID: xyzrins:publications/8ef534f7-de23-4891-ab74-06e3a1a66722
+  sortkey: "2024Association of Fetal Catecholamines With Neonatal Hypoglycemia"
+  pid: xyzrins:publications/8ef534f7-de23-4891-ab74-06e3a1a66722
+  doi: 10.1001/jamapediatrics.2024.0304
+  date: '2024'
+  title: Association of Fetal Catecholamines With Neonatal Hypoglycemia
+  description: "Importance: Perinatal stress and fetal growth restriction increase the\
+    \ risk of neonatal hypoglycemia. The underlying pathomechanism is poorly understood.\
+    \ In a sheep model, elevated catecholamine concentrations were found to suppress\
+    \ intrauterine insulin secretion, followed by hyperresponsive insulin secretion\
+    \ once the adrenergic stimulus subsided.Objective: To determine whether neonates\
+    \ with risk factors for hypoglycemia have higher catecholamine concentrations in\
+    \ umbilical cord blood (UCB) and/or amniotic fluid (AF) and whether catecholamines\
+    \ are correlated with postnatal glycemia.Design, setting, and participants: In a\
+    \ prospective cohort study of 328 neonates at a tertiary perinatal center from September\
+    \ 2020 through May 2022 in which AF and UCB were collected immediately during and\
+    \ after delivery, catecholamines and metanephrines were analyzed using liquid chromatography\
+    \ with tandem mass spectrometry. Participants received postnatal blood glucose (BG)\
+    \ screenings.Exposure: Risk factor for neonatal hypoglycemia.Main outcomes and measures:\
+    \ Comparison of catecholamine and metanephrine concentrations between at-risk neonates\
+    \ and control participants, and correlation of concentrations of catecholamines\
+    \ and metanephrines with the number and severity of postnatal hypoglycemic episodes.Results:\
+    \ In this study of 328 neonates (234 in the risk group: median [IQR] gestational\
+    \ age, 270 [261-277] days; and 94 in the control group: median [IQR] gestational\
+    \ age, 273 [270-278] days), growth-restricted neonates showed increased UCB median\
+    \ (IQR) concentrations of norepinephrine (21.10 [9.15-42.33] vs 10.88 [5.78-18.03]\
+    \ nmol/L; P < .001), metanephrine (0.37 [0.13-1.36] vs 0.12 [0.08-0.28] nmol/L;\
+    \ P < .001), and 3-methoxytyramine (0.149 [0.098-0.208] vs 0.091 [0.063-0.149] nmol/L;\
+    \ P = .001). Neonates with perinatal stress had increased UCB median (IQR) concentrations\
+    \ of norepinephrine (22.55 [8.99-131.66] vs 10.88 [5.78-18.03] nmol/L; P = .001),\
+    \ normetanephrine (1.75 [1.16-4.93] vs 1.25 [0.86-2.56] nmol/L; P = .004), and 3-methoxytyramine\
+    \ (0.120 [0.085-0.228] vs 0.091 [0.063-0.149] nmol/L; P = .008) (P < .0083 was considered\
+    \ statistically significant). Concentrations of UCB norepinephrine, metanephrine,\
+    \ and 3-methoxytyramine were negatively correlated with AF C-peptide concentration\
+    \ (rs = -0.212, P = .005; rs = -0.182, P = .016; and rs = -0.183, P = .016, respectively\
+    \ [P < .017 was considered statistically significant]). Concentrations of UCB norepinephrine,\
+    \ metanephrine, and 3-methoxytyramine were positively correlated with the number\
+    \ of hypoglycemic episodes (BG concentration of 30-45 mg/dL) (rs = 0.146, P = .01;\
+    \ rs = 0.151, P = .009; and rs = 0.180, P = .002, respectively). Concentrations\
+    \ of UCB metanephrine and 3-methoxytyramine were negatively correlated with the\
+    \ lowest measured BG concentration (rs = -0.149, P = .01; and rs = -0.153, P = .008,\
+    \ respectively).Conclusions and relevance: Neonates at risk for hypoglycemia displayed\
+    \ increased catecholamine and metanephrine concentrations that were correlated with\
+    \ postnatal hypoglycemic episodes and lower BG levels; these results are consistent\
+    \ with findings in a sheep model that fetal catecholamines are associated with neonatal\
+    \ \u03B2-cell physiology and that perinatal stress or growth restriction is associated\
+    \ with subsequent neonatal hyperinsulinemic hypoglycemia. Improving the pathomechanistic\
+    \ understanding of neonatal hypoglycemia may help to guide management of newborns\
+    \ at risk for hypoglycemia."
+  kind: bibo:AcademicArticle
+  author:
+  - pid: xyzrins:persons/719c0f2c-1d1b-4d2f-8320-101230f855fa
+    given_name: "J\xFCrgen"
+    family_name: Dukart
+  topic: []
+
+---
+

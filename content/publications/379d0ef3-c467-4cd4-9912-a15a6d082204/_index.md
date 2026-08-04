@@ -65,7 +65,7 @@ params:
     \n\n\n\n\nhttps://github.com/christian-monch/dump-things-server \u21A9\uFE0E\n\n\
     \n\n\nhttps://concepts.datalad.org/ \u21A9\uFE0E\n\n\n\n\nhttps://hub.datalad.org/infra/deployments\
     \ \u21A9\uFE0E"
-  kind: null
+  kind: bibo:Proceedings
   author:
   - pid: xyzrins:persons/stephan-heunis
     given_name: Stephan

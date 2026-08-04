@@ -22,7 +22,23 @@ params:
   date: '2021-07-01'
   title: 'DataLad: distributed system for joint management of code, data, and their
     relationship'
-  description: null
+  description: DataLad is a Python-based tool for the joint management of code, data,
+    and their relationship,built on top of a versatile system for data logistics (git-annex)
+    and the most popular distributedversion control system (Git). It adapts principles
+    of open-source software development anddistribution to address the technical challenges
+    of data management, data sharing, and digitalprovenance collection across the life
+    cycle of digital objects. DataLad aims to make datamanagement as easy as managing
+    code. It streamlines procedures to consume, publish, andupdate data, for data of
+    any size or type, and to link them as precisely versioned, lightweightdependencies.
+    DataLad helps to make science more reproducible and FAIR (Wilkinson et al.,2016).
+    It can capture complete and actionable process provenance of data transformations
+    toenable automatic re-computation. The DataLad project (datalad.org) delivers a
+    completelyopen, pioneering platform for flexible decentralized research data management
+    (RDM) (Hanke,Pestilli, et al., 2021).  It features a Python and a command-line interface,
+    an extensiblearchitecture, and does not depend on any centralized services but facilitates
+    interoperabilitywith a plurality of existing tools and services. In order to maximize
+    its utility and target audience, DataLad is available for all major operating systems,
+    and can be integrated intoestablished workflows and environments with minimal friction.
   kind: bibo:AcademicArticle
   author:
   - pid: xyzrins:persons/adina-wagner
@@ -52,6 +68,9 @@ params:
   - pid: xyzrins:persons/alex-waite
     given_name: Alex
     family_name: Waite
+  - pid: null
+    given_name: null
+    family_name: null
   topic:
   - pid: xyzrins:topics/research-software-engineering
     display_label: Research software engineering (RSE)
