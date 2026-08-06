@@ -19,7 +19,7 @@ jobs:
       - name: Checkout project
         uses: actions/checkout@v4
       - name: Prepare environment
-        uses: ./.forgejo/actions/prep-metadata-query
+        uses: https://hub.psychoinformatics.de/orinoco/flow/forgejo/actions/prep-metadata-query@main
       - name: git-annex init
         run: |
           git fetch --depth 1 origin git-annex:git-annex
