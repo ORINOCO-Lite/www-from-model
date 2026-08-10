@@ -64,4 +64,4 @@ jobs:
             git annex push --cleanup
           fi
       - name: Deposit changes
-        uses: ./.forgejo/actions/deposit-changes
+        uses: https://hub.psychoinformatics.de/orinoco/flow/forgejo/actions/deposit-changes@main
