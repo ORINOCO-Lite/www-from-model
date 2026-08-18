@@ -24,9 +24,9 @@ This project will provide expertise for access, description, and modelling of th
 
 ### Currently associated
 
-- [Simon&nbsp;Eickhoff](/persons/simon-eickhoff) (Expert)
 - [Michał&nbsp;Szczepanik](/persons/michal-szczepanik) (Researcher)
 - [Michael&nbsp;Hanke](/persons/michael-hanke) (Principal investigator (PI))
+- [Simon&nbsp;Eickhoff](/persons/simon-eickhoff) (Expert)
 ## Outputs
 
 - [Teaching research data management with DataLad: a multi-year, multi-domain effort](/publications/212e3bce-22fa-4cf6-bd1d-fedd33428d65)
