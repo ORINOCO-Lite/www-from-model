@@ -1,0 +1,53 @@
+---
+title: Topographic Axes of Wiring Space Converge to Genetic Topography in Shaping Human Cortical
+  Layout
+persons:
+- simon-eickhoff
+params:
+  graphRootNodePID: xyzrins:publications/bb496ece-3869-4c51-8acc-defe96c7fb23
+  sortkey: "2025Topographic Axes of Wiring Space Converge to Genetic Topography in Shaping Human Cortical Layout"
+  pid: xyzrins:publications/bb496ece-3869-4c51-8acc-defe96c7fb23
+  doi: 10.1523/JNEUROSCI.1510-24.2024
+  date: '2025'
+  title: Topographic Axes of Wiring Space Converge to Genetic Topography in Shaping
+    Human Cortical Layout
+  description: Genetic information is involved in the gradual emergence of cortical
+    areas since the neural tube begins to form, shaping the heterogeneous functions
+    of neural circuits in the human brain. Informed by invasive tract-tracing measurements,
+    the cortex exhibits marked interareal variation in connectivity profiles, revealing
+    the heterogeneity across cortical areas. However, it remains unclear about the organizing
+    principles possibly shared by genetics and cortical wiring to manifest the spatial
+    heterogeneity across cortex. Instead of considering a complex one-to-one mapping
+    between genetic coding and interareal connectivity, we hypothesized the existence
+    of a more efficient way that the organizing principles are embedded in genetic profiles
+    to underpin the cortical wiring space. Leveraging vertex-wise tractography in diffusion-weighted
+    MRI, we derived the global connectopies in both female and male to reliably index
+    the organizing principles of interareal connectivity variation in a low-dimensional
+    space, which captured three dominant topographic patterns along the dorsoventral,
+    rostrocaudal, and mediolateral axes of the cortex. More importantly, we demonstrated
+    that the global connectopies converge with the gradients of a vertex-by-vertex genetic
+    correlation matrix on the phenotype of cortical morphology and the cortex-wide spatiomolecular
+    gradients. By diving into the genetic profiles, we found that the critical role
+    of genes scaffolding the global connectopies was related to brain morphogenesis
+    and enriched in radial glial cells before birth and excitatory neurons after birth.
+    Taken together, our findings demonstrated the existence of a genetically determined
+    space that encodes the interareal connectivity variation, which may give new insights
+    into the links between cortical connections and arealization.Significance Statement
+    Genetic factors have involved the gradual emergence of cortical areas since the
+    neural tube begins to form, shaping the specialization of neural circuitry in the
+    human brain. However, the mechanisms through which genetics encode the complex interareal
+    connectivity remain a pivotal and unanswered question in the field of neuroscience.
+    Here, we hypothesized that a genetically determined space encoding the interareal
+    connectivity variation exists, which may give new insights into the links between
+    cortical connections and arealization. We combined diffusion tractography with a
+    dimension reduction framework to unravel the underlying global topographic principle
+    revealed by the anatomical connections.
+  kind: bibo:AcademicArticle
+  author:
+  - pid: xyzrins:persons/simon-eickhoff
+    given_name: Simon
+    family_name: Eickhoff
+  topic: []
+
+---
+
