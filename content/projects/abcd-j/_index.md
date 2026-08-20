@@ -25,20 +25,20 @@ The ABCD-J platform provides an integrated collection and analysis environment f
 
 ## Objectives
 
+- [Self-hosted research IT infrastructure](/objectives/self-hosted-it) (Deliverable)
 - [Promote open science through shared data and collaboration](/objectives/87be5fa3-80fb-4221-8406-2ddd40fb1fd1) (Long-term goal)
 - [Build tools for reproducible, shareable science](/objectives/97ded4aa-108d-4b84-8195-d6076dce63ce) (Deliverable)
-- [Self-hosted research IT infrastructure](/objectives/self-hosted-it) (Deliverable)
 - [Integrate psychology with informatics](/objectives/99a7e9fe-f8d8-46b8-aa97-44571b0eb3ba) (Long-term goal)
 ## People
 
 ### Currently associated
 
 - [Tosca&nbsp;Heunis](/persons/tosca-heunis) (Research team member)
-- [Simon&nbsp;Eickhoff](/persons/simon-eickhoff) (Lead, Principal investigator (PI))
-- [Michael&nbsp;Hanke](/persons/michael-hanke) (Principal investigator (PI))
 - [Adina&nbsp;Wagner](/persons/adina-wagner) (Research team member)
-- [Jenna&nbsp;Swarthout Goddard](/persons/jenna-swarthout-goddard) (Research team member)
+- [Simon&nbsp;Eickhoff](/persons/simon-eickhoff) (Lead, Principal investigator (PI))
 - [Stephan&nbsp;Heunis](/persons/stephan-heunis) (Research team member)
+- [Jenna&nbsp;Swarthout Goddard](/persons/jenna-swarthout-goddard) (Research team member)
+- [Michael&nbsp;Hanke](/persons/michael-hanke) (Research team head)
 ## Outputs
 
 - [ABCD-J logo](/depictions/logo_abcd-j)

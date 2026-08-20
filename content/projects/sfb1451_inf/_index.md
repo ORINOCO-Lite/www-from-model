@@ -24,7 +24,7 @@ This project will provide expertise for access, description, and modelling of th
 
 ### Currently associated
 
-- [Michał&nbsp;Szczepanik](/persons/michal-szczepanik) (Researcher)
 - [Michael&nbsp;Hanke](/persons/michael-hanke) (Principal investigator (PI))
+- [Michał&nbsp;Szczepanik](/persons/michal-szczepanik) (Researcher)
 - [Simon&nbsp;Eickhoff](/persons/simon-eickhoff) (Expert)
 
