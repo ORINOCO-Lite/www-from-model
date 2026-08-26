@@ -8,7 +8,7 @@ on:
 
 env:
   DUMPTHINGS_APIURL: https://pool.psychoinformatics.de/api
-  QRI_RECORD_CACHE: /tmp/qri-cache
+  QRI_RECORD_CACHE: /tmp/query-things-cache
 
 jobs:
   create_pages:
@@ -36,61 +36,61 @@ jobs:
       - name: Update navigation graph
         run: |
           dtc get-records ${DUMPTHINGS_APIURL} public \
-          | qri cache \
+          | query-things cache \
           | python3 code/pool2graph.py > static/graph.json_new \
           && mv static/graph.json_new static/graph.json \
           && git annex add static
       - name: Update objectives
         run: |
-          qri list --class xyzri:XYZObjective \
-          | qri inline-things -p part_of -c public \
-          | qri inline-things -p depends_on -c public \
-          | qri render-record page_templates/objective.md.j2 'content/{__pid_curie_reference}/_index.md'
+          query-things list --class xyzri:XYZObjective \
+          | query-things inline-things -p part_of -c public \
+          | query-things inline-things -p depends_on -c public \
+          | query-things render-record page_templates/objective.md.j2 'content/{__pid_curie_reference}/_index.md'
       - name: Update topics
         run: |
-          qri list --class xyzri:XYZTopic \
-          | qri inline-things -p part_of -c public \
-          | qri render-record page_templates/topic.md.j2 'content/{__pid_curie_reference}/_index.md'
+          query-things list --class xyzri:XYZTopic \
+          | query-things inline-things -p part_of -c public \
+          | query-things render-record page_templates/topic.md.j2 'content/{__pid_curie_reference}/_index.md'
       - name: Update persons
         run: |
-          qri list --class xyzri:XYZPerson \
-          | qri filter-linked-pid public  xyzrins:. associated_with  \
-          | qri inline-things -c public -p delegated_by::object -p delegated_by::roles -p identifiers::creator \
-          | qri render-record page_templates/person.md.j2 \
+          query-things list --class xyzri:XYZPerson \
+          | query-things filter-linked-pid public  xyzrins:. associated_with  \
+          | query-things inline-things -c public -p delegated_by::object -p delegated_by::roles -p identifiers::creator \
+          | query-things render-record page_templates/person.md.j2 \
             'content/{__pid_curie_reference}/_index.md'
       - name: Update projects
         run: |
-          qri list --class xyzri:XYZProject \
-          | qri filter-links-pid --link part_of xyzrins:. --recursive --collection public \
-          | qri inject-links-pid --link generated_by generated \
-          | qri inject-links-pid --link part_of parts \
-          | qri inline-things -c public -p associated_with::object -p associated_with::roles -p influenced_by::object -p influenced_by::roles -p identifiers::creator -p part_of \
-          | qri render-record page_templates/project.md.j2 'content/{__pid_curie_reference}/_index.md'
+          query-things list --class xyzri:XYZProject \
+          | query-things filter-links-pid --link part_of xyzrins:. --recursive --collection public \
+          | query-things inject-links-pid --link generated_by generated \
+          | query-things inject-links-pid --link part_of parts \
+          | query-things inline-things -c public -p associated_with::object -p associated_with::roles -p influenced_by::object -p influenced_by::roles -p identifiers::creator -p part_of \
+          | query-things render-record page_templates/project.md.j2 'content/{__pid_curie_reference}/_index.md'
       - name: Update publications
         run: |
-          qri list --class xyzri:XYZPublication \
-          | qri inline-things -p about -p attributed_to::object -c public \
-          | qri render-record page_templates/publication.md.j2 \
+          query-things list --class xyzri:XYZPublication \
+          | query-things inline-things -p about -p attributed_to::object -c public \
+          | query-things render-record page_templates/publication.md.j2 \
             'content/{__pid_curie_reference}/_index.md'
       - name: Update instruments
         run: |
-          qri list --class xyzri:XYZInstrument \
-          | qri inline-things -p about -p attributed_to::object -p kind -p rules -c public \
-          | qri render-record page_templates/instrument.md.j2 \
+          query-things list --class xyzri:XYZInstrument \
+          | query-things inline-things -p about -p attributed_to::object -p kind -p rules -c public \
+          | query-things render-record page_templates/instrument.md.j2 \
             'content/{__pid_curie_reference}/_index.md'
       - name: Update datasets
         run: |
-          qri list --class xyzri:XYZDataset \
-          | qri inline-things -p about -p attributed_to::object -p kind -p rules -p characterized_by::object -c public \
-          | qri render-record page_templates/dataset.md.j2 \
+          query-things list --class xyzri:XYZDataset \
+          | query-things inline-things -p about -p attributed_to::object -p kind -p rules -p characterized_by::object -c public \
+          | query-things render-record page_templates/dataset.md.j2 \
             'content/{__pid_curie_reference}/_index.md'
       - name: Update frontpage
         run: |
-          qri list --pid xyzrins:. \
-          | qri inject-links-pid --link generated_by generated \
-          | qri inject-links-pid --link part_of parts \
-          | qri inline-things -c public -p associated_with::object -p associated_with::roles -p influenced_by::object -p influenced_by::roles -p identifiers::creator -p part_of \
-          | qri render-record page_templates/homepage.md.j2 'content/{__pid_curie_reference}/_index.md'
+          query-things list --pid xyzrins:. \
+          | query-things inject-links-pid --link generated_by generated \
+          | query-things inject-links-pid --link part_of parts \
+          | query-things inline-things -c public -p associated_with::object -p associated_with::roles -p influenced_by::object -p influenced_by::roles -p identifiers::creator -p part_of \
+          | query-things render-record page_templates/homepage.md.j2 'content/{__pid_curie_reference}/_index.md'
       - name: Deposit changes
         uses: https://hub.psychoinformatics.de/orinoco/flow/forgejo/actions/deposit-changes@main
       - name: Deposit annex keys

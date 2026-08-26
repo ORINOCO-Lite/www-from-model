@@ -32,17 +32,17 @@ jobs:
         run: |
           depiction_urls="$({
             dtc get-records ${DUMPTHINGS_APIURL} public -C XYZPerson \
-            | qri filter-linked-pid --api-url ${DUMPTHINGS_APIURL} public xyzrins:. associated_with
+            | query-things filter-linked-pid --api-url ${DUMPTHINGS_APIURL} public xyzrins:. associated_with
             dtc get-records ${DUMPTHINGS_APIURL} public -C XYZDataset
             dtc get-records ${DUMPTHINGS_APIURL} public -C XYZInstrument
             dtc get-records ${DUMPTHINGS_APIURL} public -C XYZObjective
             dtc get-records ${DUMPTHINGS_APIURL} public -C XYZProject \
-            | qri filter-links-pid --link part_of xyzrins:. --recursive --collection public
+            | query-things filter-links-pid --link part_of xyzrins:. --recursive --collection public
             dtc get-records ${DUMPTHINGS_APIURL} public -C XYZPublication
             dtc get-records ${DUMPTHINGS_APIURL} public -C XYZTopic
             } \
-            | qri inject-links-pid --link about depictions --class XYZDepiction \
-            | qri inline-things --api-url ${DUMPTHINGS_APIURL} -c public -p depictions::distributions \
+            | query-things inject-links-pid --link about depictions --class XYZDepiction \
+            | query-things inline-things --api-url ${DUMPTHINGS_APIURL} -c public -p depictions::distributions \
             | uv run get-depiction-urls.py \
               -t xyzri:XYZPerson \
               -t xyzri:XYZDataset \
