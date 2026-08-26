@@ -42,7 +42,7 @@ jobs:
             dtc get-records ${DUMPTHINGS_APIURL} public -C XYZTopic
             } \
             | qri inject-links-pid --link about depictions --class XYZDepiction \
-            | qri inline-records --api-url ${DUMPTHINGS_APIURL} -c public -p depictions::distributions \
+            | qri inline-things --api-url ${DUMPTHINGS_APIURL} -c public -p depictions::distributions \
             | uv run get-depiction-urls.py \
               -t xyzri:XYZPerson \
               -t xyzri:XYZDataset \

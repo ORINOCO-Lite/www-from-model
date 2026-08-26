@@ -43,19 +43,19 @@ jobs:
       - name: Update objectives
         run: |
           qri list --class xyzri:XYZObjective \
-          | qri inline-records -p part_of -c public \
-          | qri inline-records -p depends_on -c public \
+          | qri inline-things -p part_of -c public \
+          | qri inline-things -p depends_on -c public \
           | qri render-record page_templates/objective.md.j2 'content/{__pid_curie_reference}/_index.md'
       - name: Update topics
         run: |
           qri list --class xyzri:XYZTopic \
-          | qri inline-records -p part_of -c public \
+          | qri inline-things -p part_of -c public \
           | qri render-record page_templates/topic.md.j2 'content/{__pid_curie_reference}/_index.md'
       - name: Update persons
         run: |
           qri list --class xyzri:XYZPerson \
           | qri filter-linked-pid public  xyzrins:. associated_with  \
-          | qri inline-records -c public -p delegated_by -p delegated_by::roles -p identifiers::creator \
+          | qri inline-things -c public -p delegated_by::object -p delegated_by::roles -p identifiers::creator \
           | qri render-record page_templates/person.md.j2 \
             'content/{__pid_curie_reference}/_index.md'
       - name: Update projects
@@ -64,24 +64,24 @@ jobs:
           | qri filter-links-pid --link part_of xyzrins:. --recursive --collection public \
           | qri inject-links-pid --link generated_by generated \
           | qri inject-links-pid --link part_of parts \
-          | qri inline-records -c public -p associated_with -p associated_with::roles -p influenced_by -p influenced_by::roles -p identifiers::creator -p part_of \
+          | qri inline-things -c public -p associated_with::object -p associated_with::roles -p influenced_by::object -p influenced_by::roles -p identifiers::creator -p part_of \
           | qri render-record page_templates/project.md.j2 'content/{__pid_curie_reference}/_index.md'
       - name: Update publications
         run: |
           qri list --class xyzri:XYZPublication \
-          | qri inline-records -p about -p attributed_to -c public \
+          | qri inline-things -p about -p attributed_to::object -c public \
           | qri render-record page_templates/publication.md.j2 \
             'content/{__pid_curie_reference}/_index.md'
       - name: Update instruments
         run: |
           qri list --class xyzri:XYZInstrument \
-          | qri inline-records -p about -p attributed_to -p kind -p rules -c public \
+          | qri inline-things -p about -p attributed_to::object -p kind -p rules -c public \
           | qri render-record page_templates/instrument.md.j2 \
             'content/{__pid_curie_reference}/_index.md'
       - name: Update datasets
         run: |
           qri list --class xyzri:XYZDataset \
-          | qri inline-records -p about -p attributed_to -p kind -p rules -p characterized_by -c public \
+          | qri inline-things -p about -p attributed_to::object -p kind -p rules -p characterized_by::object -c public \
           | qri render-record page_templates/dataset.md.j2 \
             'content/{__pid_curie_reference}/_index.md'
       - name: Update frontpage
@@ -89,7 +89,7 @@ jobs:
           qri list --pid xyzrins:. \
           | qri inject-links-pid --link generated_by generated \
           | qri inject-links-pid --link part_of parts \
-          | qri inline-records -c public -p associated_with -p associated_with::roles -p influenced_by -p influenced_by::roles -p identifiers::creator -p part_of \
+          | qri inline-things -c public -p associated_with::object -p associated_with::roles -p influenced_by::object -p influenced_by::roles -p identifiers::creator -p part_of \
           | qri render-record page_templates/homepage.md.j2 'content/{__pid_curie_reference}/_index.md'
       - name: Deposit changes
         uses: https://hub.psychoinformatics.de/orinoco/flow/forgejo/actions/deposit-changes@main
