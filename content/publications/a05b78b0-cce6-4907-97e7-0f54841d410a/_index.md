@@ -1,6 +1,7 @@
 ---
 title: Microstructural asymmetry in the human cortex
 persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/a05b78b0-cce6-4907-97e7-0f54841d410a
@@ -31,9 +32,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   - pid: null
     given_name: null
     family_name: null

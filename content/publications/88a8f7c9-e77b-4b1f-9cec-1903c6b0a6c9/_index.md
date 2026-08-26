@@ -1,6 +1,7 @@
 ---
 title: The many-to-many problem of endophenotypes in psychiatry - a biological perspective
 persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/88a8f7c9-e77b-4b1f-9cec-1903c6b0a6c9
@@ -29,9 +30,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff

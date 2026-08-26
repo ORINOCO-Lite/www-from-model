@@ -1,5 +1,7 @@
 ---
 title: Multimodal precision MRI of the individual human brain at ultra-high fields
+persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 params:
   graphRootNodePID: xyzrins:publications/066f2457-545b-4720-bd5e-1ad858c1fb12
   sortkey: "2025Multimodal precision MRI of the individual human brain at ultra-high fields"
@@ -25,9 +27,9 @@ params:
     \ available via the Open Science Framework."
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   topic: []
 
 ---

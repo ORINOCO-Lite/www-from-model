@@ -2,6 +2,7 @@
 title: Age differences in predicting working memory performance from network-based functional
   connectivity
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/a36e5b15-0ffc-4ba2-a8b2-39a98742a57c
@@ -35,9 +36,9 @@ params:
     capacity to brain network integrity.'
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: null
     given_name: null
     family_name: null

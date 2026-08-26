@@ -1,5 +1,7 @@
 ---
 title: MULTIMODAL GRADIENTS UNIFY LOCAL AND GLOBAL CORTICAL ORGANIZATION
+persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 params:
   graphRootNodePID: xyzrins:publications/a307524a-6a0b-4ac1-80e2-f971adfb0a75
   sortkey: "NoneMULTIMODAL GRADIENTS UNIFY LOCAL AND GLOBAL CORTICAL ORGANIZATION"
@@ -31,9 +33,9 @@ params:
     motifs in shaping specialized versus integrative human brain function.
   kind: bibo:Manuscript
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   - pid: null
     given_name: null
     family_name: null

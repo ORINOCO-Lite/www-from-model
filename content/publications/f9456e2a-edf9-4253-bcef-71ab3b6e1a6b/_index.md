@@ -1,6 +1,7 @@
 ---
 title: 'Brain-age prediction: A systematic comparison of machine learning workflows'
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/f9456e2a-edf9-4253-bcef-71ab3b6e1a6b
@@ -45,9 +46,9 @@ params:
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

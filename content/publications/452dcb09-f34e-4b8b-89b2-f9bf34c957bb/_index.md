@@ -2,6 +2,7 @@
 title: Human cortex development is shaped by molecular and cellular brain systems
 persons:
 - 719c0f2c-1d1b-4d2f-8320-101230f855fa
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/452dcb09-f34e-4b8b-89b2-f9bf34c957bb
@@ -30,9 +31,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff

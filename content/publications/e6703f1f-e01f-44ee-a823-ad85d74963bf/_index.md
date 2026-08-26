@@ -2,6 +2,7 @@
 title: Naturalistic viewing increases individual identifiability based on connectivity within
   functional brain networks
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - laura-waite
 - simon-eickhoff
 params:
@@ -34,9 +35,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: null
     given_name: null
     family_name: null

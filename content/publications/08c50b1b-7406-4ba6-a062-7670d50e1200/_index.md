@@ -2,6 +2,8 @@
 title: 'Prediction of depressive symptoms severity based on sleep quality, anxiety, and gray
   matter volume: a generalizable machine learning approach across three datasets'
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/08c50b1b-7406-4ba6-a062-7670d50e1200
@@ -42,12 +44,12 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff

@@ -2,6 +2,7 @@
 title: Is it left or is it right? A classification approach for investigating hemispheric
   differences in low and high dimensionality
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/53e58232-935a-4eb4-8208-1d4949d9b80c
@@ -45,9 +46,9 @@ params:
     to our understanding of what makes each hemisphere special.'
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: null
     given_name: null
     family_name: null

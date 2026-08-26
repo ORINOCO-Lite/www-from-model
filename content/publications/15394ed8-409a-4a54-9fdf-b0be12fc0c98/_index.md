@@ -1,6 +1,7 @@
 ---
 title: Lifetime exposure to depression and neuroimaging measures of brain structure and function
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/15394ed8-409a-4a54-9fdf-b0be12fc0c98
@@ -59,9 +60,9 @@ params:
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

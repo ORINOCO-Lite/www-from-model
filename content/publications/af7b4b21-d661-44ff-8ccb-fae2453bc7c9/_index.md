@@ -2,6 +2,7 @@
 title: Region-wise stacking ensembles for estimating brain-age using structural MRI
 persons:
 - 02217afa-9a22-4c51-a3cf-d23c6ca568bf
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/af7b4b21-d661-44ff-8ccb-fae2453bc7c9
@@ -43,9 +44,9 @@ params:
   - pid: xyzrins:persons/02217afa-9a22-4c51-a3cf-d23c6ca568bf
     given_name: Fede
     family_name: Raimondo
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

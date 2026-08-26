@@ -1,6 +1,7 @@
 ---
 title: How measurement noise limits the accuracy of brain-behaviour predictions
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/881b4552-151b-45ce-8345-741a0d345017
@@ -35,9 +36,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: null
     given_name: null
     family_name: null

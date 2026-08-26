@@ -2,6 +2,7 @@
 title: A systematic comparison of VBM pipelines and their application to age prediction
 persons:
 - 02217afa-9a22-4c51-a3cf-d23c6ca568bf
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/89982c46-9ef2-4c25-b2be-1b0a25b79ff7
@@ -44,9 +45,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

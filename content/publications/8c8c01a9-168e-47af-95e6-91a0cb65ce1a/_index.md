@@ -2,6 +2,7 @@
 title: Prenatal and early postnatal periods differentially shape the maturation of human
   cortical microstructure and myelin
 persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/8c8c01a9-168e-47af-95e6-91a0cb65ce1a
@@ -36,9 +37,9 @@ params:
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   topic: []
 
 ---

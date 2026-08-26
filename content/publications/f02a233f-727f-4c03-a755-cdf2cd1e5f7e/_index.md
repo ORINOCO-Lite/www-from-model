@@ -2,6 +2,7 @@
 title: 'Beyond Volume: Unraveling the Genetics of Human Brain Geometry'
 persons:
 - 02217afa-9a22-4c51-a3cf-d23c6ca568bf
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/f02a233f-727f-4c03-a755-cdf2cd1e5f7e
@@ -35,9 +36,9 @@ params:
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

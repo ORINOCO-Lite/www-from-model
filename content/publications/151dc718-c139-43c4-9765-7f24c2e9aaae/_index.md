@@ -1,6 +1,8 @@
 ---
 title: Human cortical dynamics reflect graded contributions of local geometry and network
   topography
+persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 params:
   graphRootNodePID: xyzrins:publications/151dc718-c139-43c4-9765-7f24c2e9aaae
   sortkey: "2026Human cortical dynamics reflect graded contributions of local geometry and network topography"
@@ -28,9 +30,9 @@ params:
     in inter-regional cortical coordination.
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   topic: []
 
 ---

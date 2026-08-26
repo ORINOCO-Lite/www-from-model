@@ -2,6 +2,8 @@
 title: Multimodal Parcellations and Extensive Behavioral Profiling Tackling the Hippocampus
   Gradient
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/c1c30a1e-3029-42d5-b3b3-beb75d4e4efa
@@ -38,15 +40,15 @@ params:
   - pid: null
     given_name: null
     family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   topic: []
 
 ---

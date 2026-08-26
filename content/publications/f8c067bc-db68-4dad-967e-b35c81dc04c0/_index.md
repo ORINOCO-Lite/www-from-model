@@ -2,6 +2,7 @@
 title: Enhancing cognitive performance prediction by white matter hyperintensity connectivity
   assessment
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/f8c067bc-db68-4dad-967e-b35c81dc04c0
@@ -43,9 +44,9 @@ params:
     and facilitate the identification of subgroups at risk of cognitive disorders.'
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff

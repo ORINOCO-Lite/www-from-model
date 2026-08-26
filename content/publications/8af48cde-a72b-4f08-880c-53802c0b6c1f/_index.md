@@ -1,6 +1,7 @@
 ---
 title: 'The Burden of Reliability: How Measurement Noise Limits Brain-Behaviour Predictions'
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/8af48cde-a72b-4f08-880c-53802c0b6c1f
@@ -34,9 +35,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: null
     given_name: null
     family_name: null

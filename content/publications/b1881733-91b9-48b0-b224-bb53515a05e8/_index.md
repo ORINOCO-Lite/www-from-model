@@ -2,6 +2,7 @@
 title: 'Biological brain aging, cognitive-motor decline and vascular risk: a multivariate
   imaging analysis of 40,579 individuals'
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/b1881733-91b9-48b0-b224-bb53515a05e8
@@ -40,9 +41,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff

@@ -2,6 +2,7 @@
 title: Hippocampus co-atrophy pattern in dementia deviates from covariance patterns across
   the lifespan
 persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/da45ac29-37d3-46fa-8bea-a263ff2a1f58
@@ -56,9 +57,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   topic: []
 
 ---

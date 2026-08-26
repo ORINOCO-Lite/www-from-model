@@ -1,6 +1,7 @@
 ---
 title: Hippocampal anterior- posterior shift in childhood and adolescence
 persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/1eac9360-20e2-4154-80d8-9d5eb3f0d7f0
@@ -36,9 +37,9 @@ params:
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   topic: []
 
 ---

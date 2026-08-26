@@ -3,6 +3,8 @@ title: 'Individual identifiability following Procrustes alignment of functional 
   effect of subspace dimensionality'
 persons:
 - 719c0f2c-1d1b-4d2f-8320-101230f855fa
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/15e70971-a310-4683-84c3-6d08f088dde5
@@ -29,9 +31,9 @@ params:
     for the interpretation of individual-level analyses.
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   - pid: xyzrins:persons/719c0f2c-1d1b-4d2f-8320-101230f855fa
     given_name: "J\xFCrgen"
     family_name: Dukart
@@ -41,9 +43,9 @@ params:
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

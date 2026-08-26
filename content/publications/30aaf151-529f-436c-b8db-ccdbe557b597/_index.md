@@ -1,6 +1,8 @@
 ---
 title: ' Individual Brain Charting dataset extension, second release of high-resolution fMRI
   data for cognitive mapping'
+persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 params:
   graphRootNodePID: xyzrins:publications/30aaf151-529f-436c-b8db-ccdbe557b597
   sortkey: "2020 Individual Brain Charting dataset extension, second release of high-resolution fMRI data for cognitive mapping"
@@ -109,9 +111,9 @@ params:
     \ protocols can be found in theIBC documentation available online: https://project.inria.fr/IBC/data/"
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   topic: []
 
 ---

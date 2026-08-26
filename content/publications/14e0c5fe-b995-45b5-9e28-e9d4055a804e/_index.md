@@ -1,5 +1,7 @@
 ---
 title: From histology to macroscale function in the human amygdala
+persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 params:
   graphRootNodePID: xyzrins:publications/14e0c5fe-b995-45b5-9e28-e9d4055a804e
   sortkey: "2025From histology to macroscale function in the human amygdala"
@@ -29,9 +31,9 @@ params:
     techniques.
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   - pid: null
     given_name: null
     family_name: null

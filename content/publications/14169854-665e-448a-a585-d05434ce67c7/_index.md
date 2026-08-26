@@ -1,6 +1,7 @@
 ---
 title: "Whole-brain dynamical modelling for classification of Parkinson\u2019s disease"
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/14169854-665e-448a-a585-d05434ce67c7
@@ -33,9 +34,9 @@ params:
     \ data is effective for inter-individual research and its clinical application."
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff

@@ -1,5 +1,7 @@
 ---
 title: How hype and hyperbole distort the neuroscience of sex differences
+persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 params:
   graphRootNodePID: xyzrins:publications/93a5f51d-4840-491c-b743-0d3b8cf41bae
   sortkey: "2021How hype and hyperbole distort the neuroscience of sex differences"
@@ -103,9 +105,9 @@ params:
     \ about the neural basis of such differences."
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   topic: []
 
 ---

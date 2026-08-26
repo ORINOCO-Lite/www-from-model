@@ -2,6 +2,7 @@
 title: Linking cerebellar functional gradients to transdiagnostic behavioral dimensions of
   psychopathology
 persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/8bdd482a-7688-4b1b-bb6e-ff82c4fe3e98
@@ -38,9 +39,9 @@ params:
     within the cerebral cortex.'
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   - pid: null
     given_name: null
     family_name: null

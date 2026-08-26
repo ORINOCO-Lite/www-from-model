@@ -1,6 +1,8 @@
 ---
 title: 'Common alterations of whole and subregion-specific amygdala intrinsic functional
   connectivity across psychiatric disorders: a meta-analysis'
+persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 params:
   graphRootNodePID: xyzrins:publications/f889c4de-c036-4ee6-8c00-a2b47c739bba
   sortkey: "2026Common alterations of whole and subregion-specific amygdala intrinsic functional connectivity across psychiatric disorders: a meta-analysis"
@@ -33,9 +35,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   topic: []
 
 ---

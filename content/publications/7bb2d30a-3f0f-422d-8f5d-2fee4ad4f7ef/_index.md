@@ -2,6 +2,7 @@
 title: Socioeconomic and lifestyle factors predict the association between sleep health and
   depression
 persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/7bb2d30a-3f0f-422d-8f5d-2fee4ad4f7ef
@@ -59,9 +60,9 @@ params:
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   - pid: null
     given_name: null
     family_name: null

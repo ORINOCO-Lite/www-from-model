@@ -1,6 +1,7 @@
 ---
 title: Multimodal Covariance Network Reflects Individual Cognitive Flexibility
 persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/638539ce-8023-480f-88f7-d8b661ca98f4
@@ -34,9 +35,9 @@ params:
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   - pid: null
     given_name: null
     family_name: null

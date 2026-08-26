@@ -1,5 +1,7 @@
 ---
 title: Multimodal gradients unify local and global cortical organization
+persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 params:
   graphRootNodePID: xyzrins:publications/87fd1ce4-f9ef-4d81-918f-2779d9fd2e25
   sortkey: "2025Multimodal gradients unify local and global cortical organization"
@@ -24,9 +26,9 @@ params:
     \ shape human brain function."
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   - pid: null
     given_name: null
     family_name: null

@@ -2,6 +2,7 @@
 title: The regional variation of laminar thickness in the human isocortex is related to cortical
   hierarchy and interregional connectivity
 persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/65f493a8-d75a-4529-8c7b-0f692a482be2
@@ -32,9 +33,9 @@ params:
     of cortical function.
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   - pid: null
     given_name: null
     family_name: null

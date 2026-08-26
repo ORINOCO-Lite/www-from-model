@@ -2,6 +2,7 @@
 title: "Evolving complex yet interpretable representations: application to Alzheimer\u2019\
   s diagnosis and prognosis"
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/fe7e9905-1848-41d1-b444-0bfde2dc7658
@@ -33,9 +34,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

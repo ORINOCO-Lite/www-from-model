@@ -2,6 +2,7 @@
 title: 'Hippocampal metabolic subregions and networks: Behavioral, molecular, and pathological
   aging profiles'
 persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 - laura-waite
 - simon-eickhoff
 params:
@@ -47,9 +48,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   topic: []
 
 ---

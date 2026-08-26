@@ -1,6 +1,8 @@
 ---
 title: "Sender\u2013receiver subdivisions of the default mode network in perceptual and memory-guided\
   \ cognition"
+persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 params:
   graphRootNodePID: xyzrins:publications/b3d9c72c-837b-4b0f-8bab-f6d7302ab8a1
   sortkey: "2026Sender–receiver subdivisions of the default mode network in perceptual and memory-guided cognition"
@@ -31,9 +33,9 @@ params:
     \ relates to flexible human thought."
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   topic: []
 
 ---

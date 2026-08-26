@@ -1,5 +1,7 @@
 ---
 title: Connectivity alterations in autism reflect functional idiosyncrasy
+persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 params:
   graphRootNodePID: xyzrins:publications/48d5aa18-fc17-42ca-ae51-6b26b9846078
   sortkey: "2021Connectivity alterations in autism reflect functional idiosyncrasy"
@@ -27,9 +29,9 @@ params:
     on the variable nature of connectome level anomalies in autism.
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   - pid: null
     given_name: null
     family_name: null

@@ -4,6 +4,7 @@ title: Individual characteristics outperform resting-state fMRI for the predicti
 persons:
 - 02217afa-9a22-4c51-a3cf-d23c6ca568bf
 - 719c0f2c-1d1b-4d2f-8320-101230f855fa
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/6a26526a-72ed-433c-bdb7-ad128c2c6e37
@@ -52,9 +53,9 @@ params:
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

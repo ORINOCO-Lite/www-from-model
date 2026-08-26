@@ -1,6 +1,8 @@
 ---
 title: 'Gradients of Brain Organization: Smooth Sailing from Methods Development to User
   Community'
+persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 params:
   graphRootNodePID: xyzrins:publications/198b4498-44eb-470c-b008-941912173378
   sortkey: "2024Gradients of Brain Organization: Smooth Sailing from Methods Development to User Community"
@@ -30,9 +32,9 @@ params:
     \ collective progress towards integrated models of brain organization."
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   - pid: null
     given_name: null
     family_name: null

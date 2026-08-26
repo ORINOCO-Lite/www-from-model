@@ -2,6 +2,7 @@
 title: 'Predicting executive functioning from functional brain connectivity: network specificity
   and age effects'
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/d8c0ccbd-9c3f-4153-9ee4-3b1e5ce87547
@@ -34,9 +35,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: null
     given_name: null
     family_name: null

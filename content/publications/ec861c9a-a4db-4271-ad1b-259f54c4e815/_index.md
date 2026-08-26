@@ -4,6 +4,7 @@ title: Intrinsic connectivity patterns of striatal subfields predict individual 
   in schizophrenia
 persons:
 - 719c0f2c-1d1b-4d2f-8320-101230f855fa
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/ec861c9a-a4db-4271-ad1b-259f54c4e815
@@ -42,9 +43,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff

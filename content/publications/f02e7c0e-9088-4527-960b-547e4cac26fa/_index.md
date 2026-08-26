@@ -1,5 +1,7 @@
 ---
 title: Multimodal Precision Neuroimaging of the Individual Human Brain at Ultra-high fields
+persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 params:
   graphRootNodePID: xyzrins:publications/f02e7c0e-9088-4527-960b-547e4cac26fa
   sortkey: "2024Multimodal Precision Neuroimaging of the Individual Human Brain at Ultra-high fields"
@@ -27,9 +29,9 @@ params:
     \ Open Neuroscience Platform data portal (https://portal.conp.ca)."
   kind: bibo:Manuscript
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   topic: []
 
 ---

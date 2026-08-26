@@ -2,6 +2,7 @@
 title: Cardiometabolic health and physical robustness map onto distinct patterns of brain
   structure and neurotransmitter systems
 persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/5f12a0bd-4e5b-40bf-83fd-4b8c8f5033a3
@@ -70,9 +71,9 @@ params:
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   topic: []
 
 ---

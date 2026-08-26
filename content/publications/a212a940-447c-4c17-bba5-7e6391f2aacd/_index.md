@@ -1,6 +1,7 @@
 ---
 title: Compressed sensorimotor-to-transmodal hierarchical organization in schizophrenia
 persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/a212a940-447c-4c17-bba5-7e6391f2aacd
@@ -36,9 +37,9 @@ params:
     characteristic of schizophrenia.'
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   - pid: null
     given_name: null
     family_name: null

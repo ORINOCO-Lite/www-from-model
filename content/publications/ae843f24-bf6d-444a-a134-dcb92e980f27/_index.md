@@ -2,6 +2,7 @@
 title: "Sleep disturbances and Alzheimer\u2019s disease: a multiscale approach from exposome\
   \ to neurobiology and precision medicine"
 persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/ae843f24-bf6d-444a-a134-dcb92e980f27
@@ -35,9 +36,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff

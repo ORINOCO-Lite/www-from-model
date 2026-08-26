@@ -1,6 +1,8 @@
 ---
 title: Label-based meta-analysis of functional brain dysconnectivity across mood and psychotic
   disorders
+persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 params:
   graphRootNodePID: xyzrins:publications/f8494ab4-687e-4868-a09d-c43679bb6fee
   sortkey: "2022Label-based meta-analysis of functional brain dysconnectivity across mood and psychotic disorders"
@@ -36,9 +38,9 @@ params:
     relevance of motor and sensory networks to psychiatric neuroscience.
   kind: bibo:Manuscript
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   topic: []
 
 ---

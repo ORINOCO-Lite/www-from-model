@@ -1,6 +1,7 @@
 ---
 title: Unveiling the Multifaceted Networks of the Left DLPFC for Precision TMS Targeting
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/860628d6-d764-4d0e-8cd6-1ddf4d5d062a
@@ -40,9 +41,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: null
     given_name: null
     family_name: null

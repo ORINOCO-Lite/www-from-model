@@ -1,5 +1,7 @@
 ---
 title: 'Idiopathic and acquired pedophilia as two distinct disorders: an insight from neuroimaging'
+persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 params:
   graphRootNodePID: xyzrins:publications/22683ecd-6c51-4cc9-8e9e-cdd36b28797f
   sortkey: "2021Idiopathic and acquired pedophilia as two distinct disorders: an insight from neuroimaging"
@@ -32,9 +34,9 @@ params:
     strategies.
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   topic: []
 
 ---

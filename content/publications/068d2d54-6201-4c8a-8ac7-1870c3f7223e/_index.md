@@ -1,6 +1,8 @@
 ---
 title: Bioactivity assessment of natural compounds using machine learning models trained
   on target similarity between drugs
+persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 params:
   graphRootNodePID: xyzrins:publications/068d2d54-6201-4c8a-8ac7-1870c3f7223e
   sortkey: "2022Bioactivity assessment of natural compounds using machine learning models trained on target similarity between drugs"
@@ -32,9 +34,9 @@ params:
     \ chemical features for uncovering protein binding potential of natural compounds."
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

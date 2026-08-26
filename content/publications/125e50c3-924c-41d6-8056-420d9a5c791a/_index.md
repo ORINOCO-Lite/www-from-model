@@ -2,6 +2,7 @@
 title: 'MRI or 18 F-FDG PET for Brain Age Gap Estimation: Links to Cognition, Pathology,
   and Alzheimer Disease Progression'
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/125e50c3-924c-41d6-8056-420d9a5c791a
@@ -48,9 +49,9 @@ params:
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: null
     given_name: null
     family_name: null

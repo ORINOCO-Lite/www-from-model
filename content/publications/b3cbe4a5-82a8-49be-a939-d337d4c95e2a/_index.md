@@ -2,6 +2,7 @@
 title: 'What predicts individual brain health?: a machine learning study spanning the exposome'
 persons:
 - 02217afa-9a22-4c51-a3cf-d23c6ca568bf
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/b3cbe4a5-82a8-49be-a939-d337d4c95e2a
@@ -47,9 +48,9 @@ params:
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   topic: []
 
 ---

@@ -3,6 +3,7 @@ title: 'Enhancing Cognitive Performance Prediction through White Matter Hyperint
   Assessment: A Multicenter Lesion Network Mapping Analysis of 3,485 Memory Clinic
   Patients'
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/6b25538d-d47b-4434-8ee1-863e059656dc
@@ -46,9 +47,9 @@ params:
     of subgroups at risk of cognitive disorders.'
   kind: bibo:Manuscript
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff

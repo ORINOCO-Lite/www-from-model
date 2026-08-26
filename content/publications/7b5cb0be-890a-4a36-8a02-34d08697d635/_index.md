@@ -3,6 +3,7 @@ title: 'Machine Learning-Driven Correction of Handgrip Strength: A Novel Biomark
   and Health Outcomes in the UK Biobank'
 persons:
 - 02217afa-9a22-4c51-a3cf-d23c6ca568bf
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/7b5cb0be-890a-4a36-8a02-34d08697d635
@@ -57,9 +58,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

@@ -1,5 +1,7 @@
 ---
 title: Neuroanatomical correlates of genetic risk for obesity in children
+persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 params:
   graphRootNodePID: xyzrins:publications/084925e5-6cb6-40e7-b5da-158c400781b1
   sortkey: "2023Neuroanatomical correlates of genetic risk for obesity in children"
@@ -25,9 +27,9 @@ params:
     \ areas, and changes in impulsivity."
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   topic: []
 
 ---

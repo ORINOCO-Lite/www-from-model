@@ -1,5 +1,7 @@
 ---
 title: IXI_VBM-GM-Cat12.8.1_Schaefer-Tian_parcellation
+persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 params:
   graphRootNodePID: xyzrins:publications/b912b741-a802-447b-a8ea-a284f1753b67
   sortkey: "NoneIXI_VBM-GM-Cat12.8.1_Schaefer-Tian_parcellation"
@@ -17,9 +19,9 @@ params:
     STUDY_DATE, AGE)."
   kind: null
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: null
     given_name: null
     family_name: null

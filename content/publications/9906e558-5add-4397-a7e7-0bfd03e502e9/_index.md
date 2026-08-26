@@ -2,6 +2,7 @@
 title: Longitudinal trajectories of resilient psychosocial functioning link to ongoing cortical
   myelination and functional reorganization during adolescence
 persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/9906e558-5add-4397-a7e7-0bfd03e502e9
@@ -29,9 +30,9 @@ params:
     processes at the local and system-level.
   kind: bibo:Manuscript
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff

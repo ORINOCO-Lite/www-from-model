@@ -3,6 +3,8 @@ title: Functional parcellation of human and macaque striatum reveals human-speci
   in the dorsal caudate
 persons:
 - 086e45ca-472d-4419-ad35-9082b142c638
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/4a1c0aa9-f80c-4c48-846e-828c6f0d8fcc
@@ -51,9 +53,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   - pid: null
     given_name: null
     family_name: null
@@ -66,9 +68,9 @@ params:
   - pid: xyzrins:persons/086e45ca-472d-4419-ad35-9082b142c638
     given_name: Kathrin
     family_name: Reetz
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

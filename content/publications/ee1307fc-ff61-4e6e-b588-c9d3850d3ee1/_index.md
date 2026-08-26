@@ -1,6 +1,8 @@
 ---
 title: "Einfluss von Kohorte, Ger\xE4tehersteller, Magnetfeldst\xE4rke und Bildbeschleunigung\
   \ auf die Brain Age Gap Estimation (BrainAGE)"
+persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 params:
   graphRootNodePID: xyzrins:publications/ee1307fc-ff61-4e6e-b588-c9d3850d3ee1
   sortkey: "NoneEinfluss von Kohorte, Gerätehersteller, Magnetfeldstärke und Bildbeschleunigung auf die Brain Age Gap Estimation (BrainAGE)"
@@ -37,9 +39,9 @@ params:
     \ (BrainAGE). Direkte Vergleiche zwischen Kohorten sollten vermieden werden."
   kind: bibo:Proceedings
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

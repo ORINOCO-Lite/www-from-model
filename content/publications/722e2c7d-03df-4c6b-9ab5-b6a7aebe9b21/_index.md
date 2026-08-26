@@ -1,5 +1,7 @@
 ---
 title: "A convergent structure\u2013function substrate of cognitive imbalances in autism"
+persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 params:
   graphRootNodePID: xyzrins:publications/722e2c7d-03df-4c6b-9ab5-b6a7aebe9b21
   sortkey: "2023A convergent structure–function substrate of cognitive imbalances in autism"
@@ -31,9 +33,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   topic: []
 
 ---

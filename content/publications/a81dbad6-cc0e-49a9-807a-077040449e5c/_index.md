@@ -1,6 +1,7 @@
 ---
 title: A topography-based predictive framework for naturalistic viewing fMRI
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/a81dbad6-cc0e-49a9-807a-077040449e5c
@@ -30,9 +31,9 @@ params:
     potential for clinical applications.
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff

@@ -1,5 +1,7 @@
 ---
 title: Large language models surpass human experts in predicting neuroscience results
+persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 params:
   graphRootNodePID: xyzrins:publications/5f902222-b8f1-4763-a937-9bbf9c6de34e
   sortkey: "2025Large language models surpass human experts in predicting neuroscience results"
@@ -21,9 +23,9 @@ params:
     endeavours.
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

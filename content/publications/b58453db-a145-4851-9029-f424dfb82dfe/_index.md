@@ -1,6 +1,8 @@
 ---
 title: In vivo cartography of state-dependent signal flow hierarchy in the human cerebral
   cortex
+persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 params:
   graphRootNodePID: xyzrins:publications/b58453db-a145-4851-9029-f424dfb82dfe
   sortkey: "NoneIn vivo cartography of state-dependent signal flow hierarchy in the human cerebral cortex"
@@ -27,9 +29,9 @@ params:
     \ flow hierarchy."
   kind: bibo:Manuscript
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   topic: []
 
 ---

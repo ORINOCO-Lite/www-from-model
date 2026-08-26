@@ -1,5 +1,7 @@
 ---
 title: Empirical Comparison between Cross-Validation and Mutation-Validation in Model Selection
+persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 params:
   graphRootNodePID: xyzrins:publications/ecd9f93f-4f60-4c07-bfa0-0fcb7c9ff2ba
   sortkey: "NoneEmpirical Comparison between Cross-Validation and Mutation-Validation in Model Selection"
@@ -33,9 +35,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

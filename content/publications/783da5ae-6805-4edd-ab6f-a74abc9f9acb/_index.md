@@ -1,6 +1,8 @@
 ---
 title: Structural Connectivity Gradients of the Temporal Lobe Serve as Multiscale Axes of
   Brain Organization and Cortical Evolution
+persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 params:
   graphRootNodePID: xyzrins:publications/783da5ae-6805-4edd-ab6f-a74abc9f9acb
   sortkey: "2021Structural Connectivity Gradients of the Temporal Lobe Serve as Multiscale Axes of Brain Organization and Cortical Evolution"
@@ -27,9 +29,9 @@ params:
     to large-scale brain network function.
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   - pid: null
     given_name: null
     family_name: null

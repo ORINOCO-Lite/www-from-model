@@ -2,6 +2,7 @@
 title: Open research software infrastructure in Neuro-Medicine
 persons:
 - 719c0f2c-1d1b-4d2f-8320-101230f855fa
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 params:
   graphRootNodePID: xyzrins:publications/ee3eb81b-64ab-4556-9ea0-db3f293d6cb3
   sortkey: "NoneOpen research software infrastructure in Neuro-Medicine"
@@ -31,9 +32,9 @@ params:
   - pid: xyzrins:persons/719c0f2c-1d1b-4d2f-8320-101230f855fa
     given_name: "J\xFCrgen"
     family_name: Dukart
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

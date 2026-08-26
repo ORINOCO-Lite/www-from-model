@@ -1,6 +1,8 @@
 ---
 title: Neural correlates of impaired cognitive processes underlying self-unawareness in Alzheimer's
   disease
+persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 params:
   graphRootNodePID: xyzrins:publications/7578515a-e050-4bb5-a0f2-8933ee34d89e
   sortkey: "2024Neural correlates of impaired cognitive processes underlying self-unawareness in Alzheimer&#39;s disease"
@@ -29,9 +31,9 @@ params:
     between specific cognitive processes and contents.
   kind: null
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   topic: []
 
 ---

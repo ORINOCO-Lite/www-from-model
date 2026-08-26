@@ -2,6 +2,7 @@
 title: Predictive modeling of significance thresholding in activation likelihood estimation
   meta-analysis
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/e2c3d99a-6d5a-4eff-95e7-09b39be81448
@@ -38,9 +39,9 @@ params:
     \ of multi-analysis set-ups like leave-one-out sensitivity analysis or subsampling."
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff

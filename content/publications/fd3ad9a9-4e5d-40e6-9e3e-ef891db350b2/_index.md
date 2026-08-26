@@ -1,6 +1,8 @@
 ---
 title: 'Multiscale characterization of cortical signatures in positive and negative schizotypy:
   A worldwide ENIGMA study'
+persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 params:
   graphRootNodePID: xyzrins:publications/fd3ad9a9-4e5d-40e6-9e3e-ef891db350b2
   sortkey: "NoneMultiscale characterization of cortical signatures in positive and negative schizotypy: A worldwide ENIGMA study"
@@ -27,9 +29,9 @@ params:
     features of cortical organization.
   kind: bibo:Manuscript
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   - pid: null
     given_name: null
     family_name: null

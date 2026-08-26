@@ -3,6 +3,7 @@ title: "Smartphone-Based Digital Biomarkers for Parkinson\u2019s Disease in a Re
   \ Setting"
 persons:
 - 719c0f2c-1d1b-4d2f-8320-101230f855fa
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - ff23ec7a-70b5-4e55-a552-9437e362add2
 - simon-eickhoff
 params:
@@ -40,9 +41,9 @@ params:
   - pid: xyzrins:persons/ff23ec7a-70b5-4e55-a552-9437e362add2
     given_name: Mehran
     family_name: Turna
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: xyzrins:persons/719c0f2c-1d1b-4d2f-8320-101230f855fa
     given_name: "J\xFCrgen"
     family_name: Dukart

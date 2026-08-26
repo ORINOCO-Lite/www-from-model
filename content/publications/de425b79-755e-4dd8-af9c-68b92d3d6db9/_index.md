@@ -2,6 +2,7 @@
 title: Intermediately Synchronised Brain States optimise trade-off between Subject Identifiability
   and Predictive Capacity
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/de425b79-755e-4dd8-af9c-68b92d3d6db9
@@ -40,9 +41,9 @@ params:
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

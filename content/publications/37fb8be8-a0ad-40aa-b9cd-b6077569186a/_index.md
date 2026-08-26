@@ -1,5 +1,7 @@
 ---
 title: Associations between epilepsy-related polygenic risk and brain morphology in childhood
+persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 params:
   graphRootNodePID: xyzrins:publications/37fb8be8-a0ad-40aa-b9cd-b6077569186a
   sortkey: "2026Associations between epilepsy-related polygenic risk and brain morphology in childhood"
@@ -38,9 +40,9 @@ params:
     in epilepsy.
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   topic: []
 
 ---

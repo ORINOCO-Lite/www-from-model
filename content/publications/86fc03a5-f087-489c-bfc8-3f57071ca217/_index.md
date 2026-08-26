@@ -1,6 +1,7 @@
 ---
 title: Sex Classification by Resting State Brain Connectivity
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/86fc03a5-f087-489c-bfc8-3f57071ca217
@@ -28,9 +29,9 @@ params:
     \ in functional brain organization that is driven by sex alone."
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: null
     given_name: null
     family_name: null

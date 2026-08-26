@@ -2,6 +2,7 @@
 title: Cross-cohort replicability and generalizability of connectivity-based psychometric
   prediction patterns
 persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 - michael-hanke
 - simon-eickhoff
 params:
@@ -46,9 +47,9 @@ params:
   - pid: xyzrins:persons/michael-hanke
     given_name: Michael
     family_name: Hanke
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   topic: []
 
 ---

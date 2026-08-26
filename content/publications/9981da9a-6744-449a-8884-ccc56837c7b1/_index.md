@@ -1,6 +1,8 @@
 ---
 title: Multiscale neural gradients reflect transdiagnostic effects of major psychiatric conditions
   on cortical morphology
+persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 params:
   graphRootNodePID: xyzrins:publications/9981da9a-6744-449a-8884-ccc56837c7b1
   sortkey: "2022Multiscale neural gradients reflect transdiagnostic effects of major psychiatric conditions on cortical morphology"
@@ -33,9 +35,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   - pid: null
     given_name: null
     family_name: null

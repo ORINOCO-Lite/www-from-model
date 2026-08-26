@@ -1,5 +1,7 @@
 ---
 title: Data harmonizing via interpolation applied to brain age prediction
+persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 params:
   graphRootNodePID: xyzrins:publications/5b1db6d4-7c87-41de-9257-e94392307390
   sortkey: "2026Data harmonizing via interpolation applied to brain age prediction"
@@ -29,9 +31,9 @@ params:
     \ prediction models."
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

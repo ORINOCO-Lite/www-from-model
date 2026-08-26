@@ -2,6 +2,7 @@
 title: "The Link between Brain age and Alzheimer\u2019s Disease development using different\
   \ neuroimaging modalities"
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/c6c6d484-84f1-43d7-8f41-0c3af1ff8c29
@@ -29,9 +30,9 @@ params:
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: null
     given_name: null
     family_name: null

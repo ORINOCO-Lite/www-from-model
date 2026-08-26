@@ -2,6 +2,7 @@
 title: Gene transcription, neurotransmitter, and neurocognition signatures of brain structural-functional
   coupling variability
 persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/45116ce6-8a81-42a4-9719-eff35afdb70d
@@ -28,9 +29,9 @@ params:
     \ specialization."
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff

@@ -1,5 +1,7 @@
 ---
 title: Polarization of microbial communities between competitive and cooperative metabolism
+persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 params:
   graphRootNodePID: xyzrins:publications/45b1ce9d-6d40-49d6-8fc5-32b90a152a9b
   sortkey: "2021Polarization of microbial communities between competitive and cooperative metabolism"
@@ -29,9 +31,9 @@ params:
     for community modulation.
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

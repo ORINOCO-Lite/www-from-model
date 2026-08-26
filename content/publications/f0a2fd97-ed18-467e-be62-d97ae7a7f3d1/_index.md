@@ -2,6 +2,7 @@
 title: 'Julearn: an easy-touse library for leakage-free evaluation and inspection of ML models'
 persons:
 - 02217afa-9a22-4c51-a3cf-d23c6ca568bf
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 params:
   graphRootNodePID: xyzrins:publications/f0a2fd97-ed18-467e-be62-d97ae7a7f3d1
   sortkey: "2024Julearn: an easy-touse library for leakage-free evaluation and inspection of ML models"
@@ -36,9 +37,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: xyzrins:persons/02217afa-9a22-4c51-a3cf-d23c6ca568bf
     given_name: Fede
     family_name: Raimondo

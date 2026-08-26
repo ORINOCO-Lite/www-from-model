@@ -1,6 +1,8 @@
 ---
 title: ERP-based interbrain causal model reveals closed-loop information interaction in interpersonal
   negotiations
+persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 params:
   graphRootNodePID: xyzrins:publications/d009830b-0388-48e4-a5f5-515d2d4dbe6f
   sortkey: "2025ERP-based interbrain causal model reveals closed-loop information interaction in interpersonal negotiations"
@@ -33,9 +35,9 @@ params:
     \ in enhancing cooperative decision-making processes."
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   topic: []
 
 ---

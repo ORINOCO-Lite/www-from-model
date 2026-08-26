@@ -2,6 +2,7 @@
 title: "Discovery, Replicability, and Generalizability of a Left Anterior Hippocampus' Morphological\
   \ Network Linked to\_Self\u2010Regulation"
 persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/7e14abdb-8cd0-47dc-9cde-c94ca4805d9c
@@ -48,9 +49,9 @@ params:
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   topic: []
 
 ---

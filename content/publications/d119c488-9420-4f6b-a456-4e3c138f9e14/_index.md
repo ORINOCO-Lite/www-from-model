@@ -2,6 +2,7 @@
 title: Empirical facts from search for replicable associations between cortical thickness
   and psychometric variables in healthy adults
 persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/d119c488-9420-4f6b-a456-4e3c138f9e14
@@ -40,9 +41,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   topic: []
 
 ---

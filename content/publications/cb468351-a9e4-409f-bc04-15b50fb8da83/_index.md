@@ -1,6 +1,8 @@
 ---
 title: 'Neural bases of inhibitory control: Combining transcranial magnetic stimulation and
   magnetic resonance imaging in alcohol-use disorder patients'
+persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 params:
   graphRootNodePID: xyzrins:publications/cb468351-a9e4-409f-bc04-15b50fb8da83
   sortkey: "2021Neural bases of inhibitory control: Combining transcranial magnetic stimulation and magnetic resonance imaging in alcohol-use disorder patients"
@@ -34,9 +36,9 @@ params:
     cognitive processes.
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   topic: []
 
 ---

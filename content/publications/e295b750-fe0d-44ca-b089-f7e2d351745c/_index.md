@@ -1,5 +1,7 @@
 ---
 title: A too-good-to-be-true prior to reduce shortcut reliance
+persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 params:
   graphRootNodePID: xyzrins:publications/e295b750-fe0d-44ca-b089-f7e2d351745c
   sortkey: "2023A too-good-to-be-true prior to reduce shortcut reliance"
@@ -27,9 +29,9 @@ params:
     \ LCN-HCN approach reduced reliance on shortcuts and facilitated o.o.d. generalization."
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

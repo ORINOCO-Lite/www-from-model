@@ -3,6 +3,7 @@ title: Intrinsic connectivity patterns of task-defined brain networks allow indi
   of cognitive symptom dimension of schizophrenia and are linked to molecular architecture
 persons:
 - 719c0f2c-1d1b-4d2f-8320-101230f855fa
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/4fd77237-361c-4caa-83db-7901e7ff6b8e
@@ -53,9 +54,9 @@ params:
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

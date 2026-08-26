@@ -1,6 +1,8 @@
 ---
 title: Machine learning based identification of structural brain alterations underlying suicide
   risk in adolescents
+persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 params:
   graphRootNodePID: xyzrins:publications/ab7f26f2-b66f-4205-a26e-d3020b25369f
   sortkey: "2023Machine learning based identification of structural brain alterations underlying suicide risk in adolescents"
@@ -34,9 +36,9 @@ params:
     \ are needed to confirm our findings."
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

@@ -1,6 +1,8 @@
 ---
 title: Cellular signatures underlying functional resilience in presymptomatic frontotemporal
   dementia
+persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 params:
   graphRootNodePID: xyzrins:publications/d0a8f96b-707a-4b38-9ffc-7fa6e1f3ac9d
   sortkey: "2026Cellular signatures underlying functional resilience in presymptomatic frontotemporal dementia"
@@ -47,9 +49,9 @@ params:
     function despite the presence of genetically determined neuropathology.
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   topic: []
 
 ---

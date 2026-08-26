@@ -2,6 +2,7 @@
 title: Leveraging Machine Learning for Gaining Neurobiological and Nosological Insights in
   Psychiatric Research
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/35fbc810-3025-42c6-bf21-07f8e3e0a270
@@ -34,9 +35,9 @@ params:
     \ likely lead to unreliable outputs."
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff

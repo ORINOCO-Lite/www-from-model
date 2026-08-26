@@ -3,6 +3,7 @@ title: Impact of leakage on data harmonization in machine learning pipelines in 
   across sites
 persons:
 - 02217afa-9a22-4c51-a3cf-d23c6ca568bf
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/8d83aff3-eba7-4991-9838-90480406b2f3
@@ -33,9 +34,9 @@ params:
   - pid: xyzrins:persons/02217afa-9a22-4c51-a3cf-d23c6ca568bf
     given_name: Fede
     family_name: Raimondo
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

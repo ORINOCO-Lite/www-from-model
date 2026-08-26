@@ -1,6 +1,7 @@
 ---
 title: 'Imaging evolution of the primate brain: the next frontier?'
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/3ef82eb2-0401-463c-a36c-0b9427ed39c2
@@ -27,9 +28,9 @@ params:
     \ of brain evolution derived from comparative neuroimaging."
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: null
     given_name: null
     family_name: null

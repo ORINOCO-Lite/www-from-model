@@ -1,6 +1,8 @@
 ---
 title: Long-range functional connections mirror and link microarchitectural and cognitive
   hierarchies in the human brain
+persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 params:
   graphRootNodePID: xyzrins:publications/8a65c755-6f4c-483b-b41f-f0110837f2c3
   sortkey: "2023Long-range functional connections mirror and link microarchitectural and cognitive hierarchies in the human brain"
@@ -12,9 +14,9 @@ params:
   description: null
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   - pid: null
     given_name: null
     family_name: null

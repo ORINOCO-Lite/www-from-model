@@ -1,6 +1,8 @@
 ---
 title: Schizophrenia polygenic risk during typical development reflects multiscale cortical
   organization
+persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 params:
   graphRootNodePID: xyzrins:publications/a9d9c3ac-66dd-4f53-ac46-574648f29c14
   sortkey: "2023Schizophrenia polygenic risk during typical development reflects multiscale cortical organization"
@@ -33,9 +35,9 @@ params:
     \ in early life."
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   topic: []
 
 ---

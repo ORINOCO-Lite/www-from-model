@@ -1,6 +1,8 @@
 ---
 title: 'GAN-MAT: Generative adversarial network-based microstructural profile covariance
   analysis toolbox'
+persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 params:
   graphRootNodePID: xyzrins:publications/fd0224db-5241-4ea0-a2a9-282c52777090
   sortkey: "2024GAN-MAT: Generative adversarial network-based microstructural profile covariance analysis toolbox"
@@ -30,9 +32,9 @@ params:
     community.
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   topic: []
 
 ---

@@ -1,6 +1,8 @@
 ---
 title: Cortical microstructural gradients capture memory network reorganization in temporal
   lobe epilepsy
+persons:
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 params:
   graphRootNodePID: xyzrins:publications/c9d89416-51e5-4465-9818-51c2fcc739b3
   sortkey: "2023Cortical microstructural gradients capture memory network reorganization in temporal lobe epilepsy"
@@ -37,9 +39,9 @@ params:
     characteristic of TLE.
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   topic: []
 
 ---

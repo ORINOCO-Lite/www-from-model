@@ -3,6 +3,7 @@ title: 'Neurobiological divergence of the positive and negative schizophrenia su
   upon a new factor-structure of psychopathology using non-negative factorization:
   An international machine-learning study'
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - d4e23096-f9d8-47e0-bb48-a25ba181f202
 - simon-eickhoff
 params:
@@ -41,9 +42,9 @@ params:
     \ disentangles the heterogeneity in schizophrenia."
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   - pid: null
     given_name: null
     family_name: null

@@ -2,6 +2,8 @@
 title: "A Connectivity-Based Psychometric Prediction Framework for Brain\u2013Behavior Relationship\
   \ Studies"
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/1cd64301-2d6e-46e7-997c-73f249102394
@@ -33,12 +35,12 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   topic: []
 
 ---

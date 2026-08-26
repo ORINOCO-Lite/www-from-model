@@ -1,5 +1,7 @@
 ---
 title: Anosognosia and default mode subnetwork dysfunction in Alzheimer's disease
+persons:
+- d2d8d235-90de-4919-b0b9-f0de82d7b07f
 params:
   graphRootNodePID: xyzrins:publications/86b04435-3643-4c73-b857-683e848c2ef2
   sortkey: "2019Anosognosia and default mode subnetwork dysfunction in Alzheimer&#39;s disease"
@@ -29,9 +31,9 @@ params:
     may reflect impaired functioning of pathways in cognitive models of awareness.'
   kind: bibo:AcademicArticle
   author:
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/d2d8d235-90de-4919-b0b9-f0de82d7b07f
+    given_name: Sarah
+    family_name: Genon
   topic: []
 
 ---

@@ -2,6 +2,7 @@
 title: Can we predict sleep health based on brain features? A large-scale machine learning
   study using UK Biobank
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - laura-waite
 - simon-eickhoff
 params:
@@ -61,9 +62,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

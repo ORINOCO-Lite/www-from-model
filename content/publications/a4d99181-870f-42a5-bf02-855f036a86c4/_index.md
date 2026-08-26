@@ -2,6 +2,7 @@
 title: Regional patterns of human cortex development correlate with underlying neurobiology
 persons:
 - 719c0f2c-1d1b-4d2f-8320-101230f855fa
+- 91ab411e-a46f-4ec2-a280-0dcc5d6083aa
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/a4d99181-870f-42a5-bf02-855f036a86c4
@@ -31,9 +32,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/91ab411e-a46f-4ec2-a280-0dcc5d6083aa
+    given_name: Casey
+    family_name: Paquola
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff

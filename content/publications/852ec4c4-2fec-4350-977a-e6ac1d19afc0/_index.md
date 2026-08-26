@@ -2,6 +2,7 @@
 title: "Voxel\u2010Wise or Region\u2010Wise Nuisance Regression for Functional Connectivity\
   \ Analyses: Does It Matter?"
 persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 - simon-eickhoff
 params:
   graphRootNodePID: xyzrins:publications/852ec4c4-2fec-4350-977a-e6ac1d19afc0
@@ -53,9 +54,9 @@ params:
   - pid: xyzrins:persons/simon-eickhoff
     given_name: Simon
     family_name: Eickhoff
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---

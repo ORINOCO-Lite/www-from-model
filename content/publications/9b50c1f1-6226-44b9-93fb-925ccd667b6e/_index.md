@@ -1,6 +1,8 @@
 ---
 title: When to Harmonize? Evaluating Stage-Specific Harmonization in Federated Brain Age
   Estimation
+persons:
+- ae7f5e91-61dc-47cb-945c-9d248dfe58f0
 params:
   graphRootNodePID: xyzrins:publications/9b50c1f1-6226-44b9-93fb-925ccd667b6e
   sortkey: "NoneWhen to Harmonize? Evaluating Stage-Specific Harmonization in Federated Brain Age Estimation"
@@ -35,9 +37,9 @@ params:
   - pid: null
     given_name: null
     family_name: null
-  - pid: null
-    given_name: null
-    family_name: null
+  - pid: xyzrins:persons/ae7f5e91-61dc-47cb-945c-9d248dfe58f0
+    given_name: Kaustubh
+    family_name: Patil
   topic: []
 
 ---
