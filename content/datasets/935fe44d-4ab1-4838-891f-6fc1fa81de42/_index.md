@@ -1,5 +1,7 @@
 ---
 title: Studyforrest-data-perceivedemotions
+persons:
+- michael-hanke
 topics:
 - naturalistic-stimulation
 params:
@@ -16,7 +18,10 @@ params:
     ranging from 0 to 100 for the six basic emotions (happiness, surprise, fear, sadness,
     anger and disgust).
   kind: null
-  author: []
+  author:
+  - pid: xyzrins:persons/michael-hanke
+    given_name: Michael
+    family_name: Hanke
   topic:
   - pid: xyzrins:topics/naturalistic-stimulation
     display_label: Naturalistic stimulation
