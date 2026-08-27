@@ -40,6 +40,8 @@ jobs:
           | python3 code/pool2graph.py > static/graph.json_new \
           && mv static/graph.json_new static/graph.json \
           && git annex add static
+      - name: Install jq
+        run: apt update && apt install --no-install-recommends -y jq
       - name: Identify project members
         run: |
           query-things list --class xyzri:XYZPerson \
