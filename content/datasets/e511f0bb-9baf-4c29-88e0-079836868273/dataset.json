@@ -16,7 +16,9 @@
   "license": [
     "http://spdx.org/licenses/PDDL-1.0"
   ],
-  "citation": "https://doi.org/10.1038/sdata.2016.92",
+  "citation": {
+    "@id": "https://doi.org/10.1038/sdata.2016.92"
+  },
   "creator": [
       {
          "@type": "Person",
