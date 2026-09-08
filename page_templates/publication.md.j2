@@ -14,6 +14,10 @@
     | first
 ) if __rec.generated_by is defined and __rec.generated_by is sequence else none -%}
 
+{%- set issued = (__rec.attributes | default([])
+    | selectattr('predicate', 'equalto', 'dcterms:issued')
+    | map(attribute='value') | first) | default(none) -%}
+
 {%- set authors = [] -%}
 {%- for auth in __rec.attributed_to -%}
   {%- set _ = authors.append({
@@ -34,7 +38,7 @@
 {%- set publication = {
   "pid": __rec.pid | default(none),
   "doi": doi.notation | default(none) if doi else none,
-  "date": generation.at_time | default(none) if generation else none,
+  "date": generation.at_time | default(issued) if generation else issued,
   "title": __rec.title | default(none),
   "description": __rec.description | default(none),
   "kind": __rec.kind | default(none),
