@@ -44,7 +44,7 @@
                           >
                             {{- partial "icon.html" . -}}
                           </span>
-                        {{- end -}}{{- if .Params.showName | default true -}}
+                        {{- end -}}{{- if .Name -}}
                           <span
                             class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
                             >{{ .Name | markdownify | emojify }}</span
@@ -70,7 +70,7 @@
                             >
                               {{- partial "icon.html" . -}}
                             </span>
-                          {{- end -}}{{- if .Params.showName | default true -}}
+                          {{- end -}}{{- if .Name -}}
                             <span
                               class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
                               >{{ .Name | markdownify | emojify }}</span
@@ -92,7 +92,7 @@
                           {{ with .Params.icon | default "moon" }}
                             {{- partial "icon.html" . -}}
                           {{- end -}}
-                          {{- if .Params.showName | default true -}}
+                          {{- if .Name -}}
                             <span
                               class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
                               >{{ .Name | markdownify | emojify }}</span
@@ -106,7 +106,7 @@
                           {{ with .Params.icon | default "sun" }}
                             {{- partial "icon.html" . -}}
                           {{- end -}}
-                          {{- if .Params.showName | default true -}}
+                          {{- if .Name -}}
                             <span
                               class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
                               >{{ .Name | markdownify | emojify }}</span
@@ -130,7 +130,7 @@
                           >
                             {{- partial "icon.html" . -}}
                           </span>
-                        {{- end -}}{{- if .Params.showName | default true -}}
+                        {{- end -}}{{- if .Name -}}
                           <span
                             class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
                             >{{ .Name | markdownify | emojify }}</span
