@@ -1,0 +1,44 @@
+{# Attribute links supplement typed identifiers rendered in the page heading. #}
+{% macro _attribute_links(record, labels, excluded_urls=[]) -%}
+{%- set contacts = [] -%}
+{%- set seen = [] -%}
+{%- set named_identifiers = record.identifiers|default([])|selectattr('creator', 'defined')|list -%}
+{%- set github_identifiers = named_identifiers|selectattr('creator.name', 'defined')|selectattr('creator.name', 'equalto', 'GitHub')|list -%}
+{%- set github_urls = [] -%}
+{%- for identifier in github_identifiers -%}
+  {%- set _ = github_urls.append(('https://github.com/' ~ identifier.notation).lower()) -%}
+{%- endfor -%}
+{%- set explicit_email = record.attributes|default([])|selectattr('predicate', 'equalto', 'vcard:hasEmail')|list -%}
+{%- for attribute in record.attributes|default([]) -%}
+  {%- set pred = attribute.predicate -%}
+  {%- set value = attribute.value -%}
+  {%- set label = labels.get(pred) -%}
+  {%- if pred == 'foaf:account' and label -%}
+    {%- set host = value.split('/')[2] if '://' in value else '' -%}
+    {%- set label = {'www.linkedin.com': 'LinkedIn', 'linkedin.com': 'LinkedIn',
+      'twitter.com': 'Twitter', 'x.com': 'Twitter', 'fosstodon.org': 'Mastodon',
+      'www.facebook.com': 'Facebook'}.get(host, 'Profile') -%}
+  {%- endif -%}
+  {%- if pred == 'vcard:Email' -%}
+    {%- set value = 'mailto:' ~ value -%}
+  {%- endif -%}
+  {%- if label and value not in seen
+      and not (pred == 'vcard:Email' and explicit_email)
+      and not (pred == 'dlthings:github' and value.lower() in github_urls)
+      and value.rstrip('/') not in excluded_urls
+      and 'plus.google.com/' not in value -%}
+    {%- set _ = contacts.append('[' ~ label ~ '](<' ~ value.replace(' ', '%20').replace('<', '%3C').replace('>', '%3E') ~ '>)') -%}
+    {%- set _ = seen.append(value) -%}
+  {%- endif -%}
+{%- endfor -%}
+{{ contacts|join(' · ') }}
+{%- endmacro %}
+
+{% macro profile_links(record, excluded_urls=[]) -%}
+{{ _attribute_links(record, {'foaf:homepage': 'Research page', 'dlthings:home_page': 'Home page', 'vcard:hasURL': 'CV', 'foaf:weblog': 'Blog', 'dlthings:scholar': 'Google Scholar', 'dlthings:github': 'GitHub', 'foaf:account': 'Profile'}, excluded_urls) }}
+{%- endmacro %}
+
+{# Deliberate opt-in: the default person template does not call this macro. #}
+{% macro contact_links(record) -%}
+{{ _attribute_links(record, {'vcard:hasEmail': 'Email', 'vcard:Email': 'Email', 'vcard:hasTelephone': 'Phone'}) }}
+{%- endmacro %}
