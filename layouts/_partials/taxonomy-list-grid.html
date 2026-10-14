@@ -2,6 +2,9 @@
 {{ $singleTerm := .Data.Singular }}
 {{ $includeItems := .Params.items | default "generated" }}
 {{ $depictionType := default "depiction" (index .Params "term" "depiction_type") }}
+{{ $imageFit := .Params.grid_image_fit | default "fill" }}
+{{ $showCount := true }}
+{{ if isset .Params "grid_show_count" }}{{ $showCount = .Params.grid_show_count }}{{ end }}
 {{ $meerkatPath := (print "img/meerkat_" $singleTerm ".png")}}
 <section class="items-grid">
   {{ range .Pages }}
@@ -14,12 +17,18 @@
       {{ $depictions := .Resources.Match (print $depictionType ".*") }}
       <a class="item-card"
         href="{{ .Permalink }}">
-        <div class="item-depiction">
+        <div class="item-depiction item-depiction-{{ $depictionType | anchorize }}">
             {{ with index $depictions 0 }}
               {{ if eq .MediaType.SubType "svg" }}
                 <img src="{{ .RelPermalink }}" style="margin: 0;" alt="{{ .Title }}">  
               {{ else }}
-                <img src="{{ (.Fill "300x300 Top").RelPermalink }}" alt="{{ .Title }}">
+                {{ $img := . }}
+                {{ if eq $imageFit "fit" }}
+                  {{ $img = .Fit "600x600" }}
+                {{ else }}
+                  {{ $img = .Fill "300x300 Top" }}
+                {{ end }}
+                <img src="{{ $img.RelPermalink }}" alt="{{ .Title }}">
               {{ end }}
             {{ else }}
               {{ with resources.Get $meerkatPath }}
@@ -33,7 +42,7 @@
             {{ end }}
         </div>
         <div class="item-title">
-          {{ .Title }} ({{ $count }})
+          {{ .Title }}{{ if $showCount }} ({{ $count }}){{ end }}
         </div>
       </a>
     {{ end }}

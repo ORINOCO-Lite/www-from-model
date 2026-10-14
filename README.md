@@ -44,7 +44,24 @@ Any given taxonomy list page can be customized to do the following:
 - list items in a grid (with a depiction if available) vs list items vertically
 - include vs exclude filtering functionality (inclusion assumes the vertical list layout)
 - specify which filter fields to use (e.g. `kind`, `topic`, `year`), if filtering functionality is active
-- specify which fields to include in the text search functionality, if filtering functionality is active
+- specify which fields to include in the text search functionality, if filtering
+  functionality is active
+
+For a custom list body, set `params.list_partial` to a partial name.
+The partial receives the taxonomy Page; the upstream layout still renders the
+heading and authored content.
+The default `taxonomy-list.html` partial retains the filter/vertical/grid
+selection and can also be called from a custom partial.
+
+Grid lists accept `params.grid_image_fit: fit` to fit raster depictions within
+600×600 pixels instead of the default 300×300 top crop (`fill`), and
+`params.grid_show_count: false` to omit relation counts (default: true).
+Depiction containers include `item-depiction-<depiction_type>` for site CSS; the
+type is normalized with Hugo's `anchorize` function.
+SVGs and placeholder images retain their existing behavior.
+
+Term pages call the empty `term-intro.html` partial before their details.
+Override that partial to add introductory content; it receives the term Page.
 
 An example configuration for the `publications` taxonomy list (including defaults),
 specified in `content/publications/_index.md`, is:

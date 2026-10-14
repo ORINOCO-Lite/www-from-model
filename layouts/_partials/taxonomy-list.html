@@ -1,0 +1,9 @@
+    {{ if and (isset .Params "filter") (eq .Params.filter true) }}
+      {{ partial "taxonomy-list-filter.html" . }}
+    {{ else }}
+      {{ if and (isset .Params "list_variant") (eq .Params.list_variant "vertical") }}
+        {{ partial "taxonomy-list-vertical.html" . }}
+      {{ else }}
+        {{ partial "taxonomy-list-grid.html" . }}
+      {{ end }}
+    {{ end }}
