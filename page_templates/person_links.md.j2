@@ -13,7 +13,7 @@
   {%- set pred = attribute.predicate -%}
   {%- set value = attribute.value -%}
   {%- set label = labels.get(pred) -%}
-  {%- if pred == 'foaf:account' -%}
+  {%- if pred == 'foaf:account' and label -%}
     {%- set host = value.split('/')[2] if '://' in value else '' -%}
     {%- set label = {'www.linkedin.com': 'LinkedIn', 'linkedin.com': 'LinkedIn',
       'twitter.com': 'Twitter', 'x.com': 'Twitter', 'fosstodon.org': 'Mastodon',
@@ -36,4 +36,9 @@
 
 {% macro profile_links(record, excluded_urls=[]) -%}
 {{ _attribute_links(record, {'foaf:homepage': 'Research page', 'dlthings:home_page': 'Home page', 'vcard:hasURL': 'CV', 'foaf:weblog': 'Blog', 'dlthings:scholar': 'Google Scholar', 'dlthings:github': 'GitHub', 'foaf:account': 'Profile'}, excluded_urls) }}
+{%- endmacro %}
+
+{# Deliberate opt-in: the default person template does not call this macro. #}
+{% macro contact_links(record) -%}
+{{ _attribute_links(record, {'vcard:hasEmail': 'Email', 'vcard:Email': 'Email', 'vcard:hasTelephone': 'Phone'}) }}
 {%- endmacro %}
