@@ -73,12 +73,10 @@ The term template is also customizable in the same taxonomy's `_index.md` page f
 Current customization options are:
 - `person_display`: When a list of persons are rendered for a given term, what should those people be called?
   This is a string value that defaults to `Contributors`.
-- `depiction_type`: The type of depiction that should be rendered for the given term page (and taxonomy list page list item), defaulting to `depiction`.
-  Store images beside the taxonomy's `_index.md`, named `<term-directory>_<depiction_type>.<extension>`, for example `content/persons/adina-wagner_portrait.png` or `content/projects/studyforrest_logo.png`.
-  The term's directory name identifies the image even when its title or URL differs.
-  The depiction registration workflow writes this layout.
-  When updating an existing site, move `content/<taxonomy>/<term>/<type>.<extension>` to the flat path; keep the term's `_index.md` and other page resources in its directory.
-  Published image URLs change; update any direct links to the old image URLs.
+- `depiction_type`: The type of depiction that should be rendered for the given term page (and taxonomy list page list item),
+  if such a file exists in the term bundle. This expects a string that will be matched against image files in
+  the term bundle, and will default to `depiction`. This option is necessary because the depiction registration
+  workflow saves depiction files with names representing their types, e.g. `portrait`, `logo`, etc.
 - `show_relations`: In which format should term relations be displayed at the bottom of the term page, if at all. The default is
   to display no relations (explicitly: `none`). Other options include `expandable`, which will show list of
   expandable taxonomy groups, each group containing all terms of that taxonomy that relate to the current term;
