@@ -1,0 +1,6 @@
+{{/* Depictions belong to the taxonomy bundle and use the term's source name. */}}
+{{ $depictions := slice }}
+{{ with .page.File }}
+  {{ $depictions = $.page.Parent.Resources.Match (printf "%s_%s.*" .ContentBaseName $.kind) }}
+{{ end }}
+{{ return $depictions }}

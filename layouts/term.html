@@ -46,7 +46,7 @@
   <!-- Licenses -->
   {{ partial "term-info-licenses.html" . }}
   <!-- Depiction and Graph -->
-  {{ $depictions := .Resources.Match (print $depictionType ".*") }}
+  {{ $depictions := partial "term-depictions.html" (dict "page" . "kind" $depictionType) }}
   {{ $hasDepiction := gt (len $depictions) 0 }}
   <table class="not-prose w-full">
     <tr>

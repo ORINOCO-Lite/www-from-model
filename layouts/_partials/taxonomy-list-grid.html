@@ -11,7 +11,7 @@
       {{ with index $.Data.Terms $key }}
         {{ $count = .Count }}
       {{ end }}
-      {{ $depictions := .Resources.Match (print $depictionType ".*") }}
+      {{ $depictions := partial "term-depictions.html" (dict "page" . "kind" $depictionType) }}
       <a class="item-card"
         href="{{ .Permalink }}">
         <div class="item-depiction">
