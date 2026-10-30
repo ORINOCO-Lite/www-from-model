@@ -1,7 +1,7 @@
 {{ $term := .page }}
 {{ $taxonomy := .parent }}
 {{ $depictionType := default "depiction" (index $taxonomy.Params "term" "depiction_type") }}
-{{ $depictions := $term.Resources.Match (print $depictionType ".*") }}
+{{ $depictions := partial "term-depictions.html" (dict "page" $term "kind" $depictionType) }}
 {{ $hasDepiction := gt (len $depictions) 0 }}
 {{ $personDisplay := default "Contributors" (index $taxonomy.Params "term" "person_display") }}
   
